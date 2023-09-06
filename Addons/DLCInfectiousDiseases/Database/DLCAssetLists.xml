@@ -1,0 +1,15 @@
+﻿<Database>
+    <GameDBAsset ID="ASSET_TEX_DLC_OBJECTS">           <Type>TEXTURE_OBJECTS</Type>       <File>MOD_ROOT/DLCobjects_tall_atlas.png</File> </GameDBAsset>
+    
+    <GameDBAsset ID="ASSET_PREFAB_ICON_OUTPATIENT_DID_OFFICE_SMALL">                  <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>Textures/prefabs/did_gp_office_small.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_OUTPATIENT_DID_OFFICE_LARGE">                  <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>Textures/prefabs/did_gp_office_large.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_INPATIENT_DID_OFFICE_SMALL">                   <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>Textures/prefabs/did_inpatient_office_small.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_INPATIENT_DID_OFFICE">                         <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>Textures/prefabs/did_inpatient_office_large.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_CARDIOVASCULAR_UNIT_DID">                      <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>Textures/prefabs/cardiography_unit_did.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_ON_CALL_ROOM_SMALL_DID">                       <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>Textures/prefabs/did_oncall_room_small.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_ON_CALL_ROOM_LARGE_DID">                       <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>Textures/prefabs/did_oncall_room_large.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_NURSES_STATION_SMALL_DID">                     <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>Textures/prefabs/did_nurses_station_small.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_NURSES_STATION_LARGE_DID">                     <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>Textures/prefabs/did_nurses_station_large.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_ISOLATION_INPATIENT_WARD_SMALL">               <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>Textures/prefabs/did_isolation_unit_small.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_ISOLATION_INPATIENT_WARD_LARGE">               <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>Textures/prefabs/did_isolation_unit_large.png</File> </GameDBAsset>
+</Database>

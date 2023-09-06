@@ -1,0 +1,21 @@
+﻿<!--  
+    MORE_PATIENTS_FOR_A_RANDOM_DEPARTMENT_PERCENT,
+    MODIFIED_PATIENT_NUMBERS_PERCENT,
+    MODIFIED_INSURANCE_PAYMENTS_PERCENT,
+    MODIFIED_DIAGNOSIS_TYPES, // trauma/disease 
+    MODIFIED_STAFF_EFFICIENCY, // Infectious dpt -->
+
+
+<Database>
+    <GameDBWorldEvent ID="DLC_WORLD_EVENT_DISEASE_OUTBREAK">
+        <DescriptionID>DLC_WORLD_EVENT_DISEASE_OUTBREAK_TEXT</DescriptionID>
+        <Type>MODIFIED_STAFF_EFFICIENCY</Type>
+        <ModifierMin>20</ModifierMin>
+        <ModifierMax>80</ModifierMax>
+        <DurationDaysMin>1</DurationDaysMin>
+        <DurationDaysMin>3</DurationDaysMin>
+        <IconIndex>466</IconIndex>
+        <SkipRandomSelection>true</SkipRandomSelection>
+        <ForceBiohazardClothes>true</ForceBiohazardClothes>
+    </GameDBWorldEvent>
+</Database>

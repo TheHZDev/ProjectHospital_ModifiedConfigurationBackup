@@ -1,0 +1,6 @@
+﻿<Database>
+    <GameDBAddon ID="DLC_INFECTIOUS_DISEASES">
+        <Author>Oxymoron Games</Author>
+        <MinRequiredGameVersion>21996</MinRequiredGameVersion>
+    </GameDBAddon>
+</Database>

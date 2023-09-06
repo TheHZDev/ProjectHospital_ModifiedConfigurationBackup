@@ -1,0 +1,152 @@
+﻿<Database>
+
+    <GameDBDepartment ID="DPT_INFECTIOUS_DISEASES_DEPARTMENT">
+        <LockedByDefault>false</LockedByDefault>
+        <HospitalizationLockedByDefault>false</HospitalizationLockedByDefault>
+
+        <MinDoctorLevel>2</MinDoctorLevel>
+
+        <PatientGenerationWeight>50</PatientGenerationWeight>
+
+        <FirstDoctorSpecialization>SKILL_DOC_SPEC_EPIDEMIOLOGY</FirstDoctorSpecialization>
+
+        <SecondDoctorSpecializations>
+            <SkillRef>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS</SkillRef>
+            <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
+        </SecondDoctorSpecializations>
+
+        <RequiredRoomsClinic>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE</RoomDatabaseEntryRef>
+                <MinCount>1</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_WAITING</RoomDatabaseEntryRef>
+                <MinCount>1</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_RECEPTION</RoomDatabaseEntryRef>
+                <MinCount>0</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_CLEANING_CLOSET</RoomDatabaseEntryRef>
+                <MinCount>0</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+        </RequiredRoomsClinic>
+
+        <SharedRoomsClinic>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_WC</RoomDatabaseEntryRef>
+                <MinCount>0</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_COMMON_ROOM</RoomDatabaseEntryRef>
+                <MinCount>0</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_CORRIDOR</RoomDatabaseEntryRef>
+                <MinCount>0</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_ELEVATOR_MARKER</RoomDatabaseEntryRef>
+                <MinCount>0</MinCount>
+                <MaxCount>2</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+        </SharedRoomsClinic>
+
+        <RequiredRoomsHospitalization>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_INPATIENT_DID_OFFICE</RoomDatabaseEntryRef>
+                <MinCount>1</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_ON_CALL_ROOM</RoomDatabaseEntryRef>
+                <MinCount>1</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_NURSES_STATION</RoomDatabaseEntryRef>
+                <MinCount>1</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_INPATIENT_WARD</RoomDatabaseEntryRef>
+                <MinCount>1</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_ISOLATION_INPATIENT_WARD</RoomDatabaseEntryRef>
+                <MinCount>1</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_DID</RoomDatabaseEntryRef>
+                <MinCount>0</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_HEMATOLOGY_LAB_DID</RoomDatabaseEntryRef>
+                <MinCount>0</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+        </RequiredRoomsHospitalization>
+
+        <!--<MaxDoctors>10</MaxDoctors>
+        <MaxNurses>10</MaxNurses>
+        <MaxLabSpecialists>5</MaxLabSpecialists>
+        <MaxJanitors>5</MaxJanitors>-->
+
+        <MinClinicnDoctorsDay>1</MinClinicnDoctorsDay>
+
+        <MinStretchers>1</MinStretchers>
+
+        <MinHospitalizationDoctorsDay>1</MinHospitalizationDoctorsDay>
+        <MinHospitalizationDoctorNight>1</MinHospitalizationDoctorNight>
+        <MinHospitalizationNursesDay>1</MinHospitalizationNursesDay>
+        <MinHospitalizationNursesNight>1</MinHospitalizationNursesNight>
+
+        <MinSurgeonsDay>0</MinSurgeonsDay>
+        <MinAnestezilogistDay>0</MinAnestezilogistDay>
+        <MinSurgeryNurseDay>0</MinSurgeryNurseDay>
+
+        <HospitalizationWithoutSurgeons>true</HospitalizationWithoutSurgeons>
+        
+        <RecommendedCardiologist>true</RecommendedCardiologist>
+
+        <IconID>465</IconID>
+
+        <ForcedMobilityHDU>IMOBILE</ForcedMobilityHDU>
+        
+        <PatientRounds>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
+        </PatientRounds>
+
+        <PrefabTag>ui_prefab_infectious_diseases</PrefabTag>
+        <PrefabButtonIndex>12</PrefabButtonIndex>
+
+        <PrestigeModifierStaff>1.0</PrestigeModifierStaff>
+        <PrestigeModifierPatients>1.0</PrestigeModifierPatients>
+        <PrestigeModifierTreated>1.0</PrestigeModifierTreated>
+        <PrestigeModifierDead>1.0</PrestigeModifierDead>
+
+        <DisplayIndex>81</DisplayIndex>
+        <DiagnosisRoleIcon>466</DiagnosisRoleIcon>
+
+        <!-- Not supported in mods -->
+        <ShowInPrefabs>true</ShowInPrefabs>
+        <PrefabsTooltipId>TOOLTIP_BUILDING_PREFAB_INFECTIOUS_DISEASES</PrefabsTooltipId>
+        <PrefabsTag>ui_prefab_infectious_diseases</PrefabsTag>
+    </GameDBDepartment>
+
+</Database>

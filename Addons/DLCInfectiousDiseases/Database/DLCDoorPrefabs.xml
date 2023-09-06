@@ -1,0 +1,29 @@
+﻿<Database>
+    <GameDBPrefabObject ID="DOOR_BIOHAZARD_DOUBLE">
+        <AbbreviationLocID>DOOR_BIOHAZARD_DOUBLE</AbbreviationLocID>
+        <PrefabNW>double_door_biohazard.xml</PrefabNW>
+
+        <Cost>100</Cost>
+        <IconIndex>2838</IconIndex>
+        <Tags>
+            <Tag>ui_door</Tag>
+        </Tags>
+
+        <LayerDoors>true</LayerDoors>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_DEFAULT</ColorSetRef>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="DOOR_OVAL_WINDOW_DOUBLE">
+        <AbbreviationLocID>DOOR_OVAL_WINDOW_DOUBLE</AbbreviationLocID>
+        <PrefabNW>double_door_oval_window.xml</PrefabNW>
+
+        <Cost>100</Cost>
+        <IconIndex>2840</IconIndex>
+        <Tags>
+            <Tag>ui_door</Tag>
+        </Tags>
+
+        <LayerDoors>true</LayerDoors>
+        <ColorSetRef>COLOR_SET_DOOR_LINE</ColorSetRef>
+    </GameDBPrefabObject>
+</Database>

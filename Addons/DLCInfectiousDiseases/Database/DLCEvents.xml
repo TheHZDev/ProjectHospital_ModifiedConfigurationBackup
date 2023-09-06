@@ -1,0 +1,271 @@
+﻿<Database>
+    <!--
+    <GameDBEvent ID="EVENT_TEST">
+        <EventScriptName>EventScriptTest</EventScriptName>
+        <IconIndex>1023</IconIndex>
+        <PatientCount>5</PatientCount>
+
+        <MedicalConditions>
+            <MedicalConditionRef>DIA_CLD</MedicalConditionRef>
+            <MedicalConditionRef>DIA_046</MedicalConditionRef>
+        </MedicalConditions>
+    </GameDBEvent>
+    -->
+    
+    <!--<OCUPATIONS--><!--TODO add the ones that will be needed for easier access-->
+    <!--
+        OCCUPATION_OFFICE_JOB
+        OCCUPATION_MANAGER
+        OCCUPATION_ACCOUNTANT
+        OCCUPATION_ATHLETE
+        OCCUPATION_ACROBAT
+        OCCUPATION_FACTORY_WORKER
+    -->
+
+    <!--<HOW TO FILL-->
+    <!--
+        <PatientCount>3</PatientCount>
+        <DurationHours>13</DurationHours>
+        <PatientPercentage>40</PatientPercentage>
+        <PatientOccupation>OCCUPATION_ACCOUNTANT</PatientOccupation>
+        
+        <PatientCount>10</PatientCount>
+        <PatientCountDisaster>5</PatientCountDisaster>
+        <DurationHours>20</DurationHours>
+        <PatientPercentage>40</PatientPercentage> -> One or the other or both
+        <PatientOccupation>OCCUPATION_ACROBAT</PatientOccupation>
+        <PatientDisasterPercentage>100</PatientDisasterPercentage>-> One or the other or both
+        <PatientDisasterOccupation>OCCUPATION_FACTORY_WORKER</PatientDisasterOccupation>
+    -->
+    
+    <!--LAUNCHING WORLD EVENTS-->
+    <!--HOW TO FILL for pandemic only-->
+    <!--
+         Create new pandemic event
+         
+         <RequiredDepartmentTypeList>
+            <RequiredDepartmentTypeRef>DPT_INFECTIOUS</RequiredDepartmentTypeRef> only this one
+         </RequiredDepartmentTypeList>
+
+        <LaunchWorldEvent>true</LaunchWorldEvent>
+        <WorldEventType>DLC_WORLD_EVENT_DISEASE_OUTBREAK</WorldEventType>
+    -->
+
+    <!-- Crash variations -->
+    <!--TODO Fill crash event-->
+    
+    <!-- epidemic variations -->
+    <GameDBEventVariation ID="DLC_EVENT_PANDEMIC_LAB_1">
+        <DescriptionLocID>DLC_EVENT_PANDEMIC_LAB_DESC</DescriptionLocID>
+        <EventRef>EVENT_PANDEMIC</EventRef>
+        <PatientCount>5</PatientCount>
+        <DurationHours>10</DurationHours>
+
+        <RequiredDepartmentTypeList>
+            <RequiredDepartmentTypeRef>DPT_INFECTIOUS_DISEASES_DEPARTMENT</RequiredDepartmentTypeRef>
+        </RequiredDepartmentTypeList>
+
+        <LaunchWorldEvent>true</LaunchWorldEvent>
+        <WorldEventType>DLC_WORLD_EVENT_DISEASE_OUTBREAK</WorldEventType>
+
+        <MedicalConditions>
+            <MedicalConditionRef>DIA_TBCX</MedicalConditionRef>
+            <MedicalConditionRef>DIA_PNAX</MedicalConditionRef>
+            <MedicalConditionRef>DIA_016</MedicalConditionRef>
+            <MedicalConditionRef>DIA_018</MedicalConditionRef>
+            <MedicalConditionRef>DIA_023</MedicalConditionRef>
+            <MedicalConditionRef>DIA_028</MedicalConditionRef>
+            <MedicalConditionRef>DIA_029</MedicalConditionRef>
+            <MedicalConditionRef>DIA_032</MedicalConditionRef>
+            <MedicalConditionRef>DIA_038</MedicalConditionRef>
+            <MedicalConditionRef>DIA_039</MedicalConditionRef>
+            <MedicalConditionRef>DIA_040</MedicalConditionRef>
+            <MedicalConditionRef>DIA_041</MedicalConditionRef>
+            <MedicalConditionRef>DIA_045</MedicalConditionRef>
+        </MedicalConditions>
+        
+    </GameDBEventVariation>
+    
+    <GameDBEventVariation ID="DLC_EVENT_PANDEMIC_TOURISTS_1"><!--america-->
+        <DescriptionLocID>DLC_EVENT_PANDEMIC_TOURISTS_DESC</DescriptionLocID>
+        <EventRef>EVENT_PANDEMIC</EventRef>
+        <PatientCount>10</PatientCount>
+        <DurationHours>13</DurationHours>
+
+        <RequiredDepartmentTypeList>
+            <RequiredDepartmentTypeRef>DPT_INFECTIOUS_DISEASES_DEPARTMENT</RequiredDepartmentTypeRef>
+        </RequiredDepartmentTypeList>
+
+        <LaunchWorldEvent>true</LaunchWorldEvent>
+        <WorldEventType>DLC_WORLD_EVENT_DISEASE_OUTBREAK</WorldEventType>
+
+        <MedicalConditions>
+            <MedicalConditionRef>DIA_ATSX</MedicalConditionRef>
+            <MedicalConditionRef>DIA_004</MedicalConditionRef>
+            <MedicalConditionRef>DIA_005</MedicalConditionRef>
+            <MedicalConditionRef>DIA_017</MedicalConditionRef>
+            <MedicalConditionRef>DIA_017</MedicalConditionRef>
+            <MedicalConditionRef>DIA_017</MedicalConditionRef>
+            <MedicalConditionRef>DIA_017</MedicalConditionRef>
+            <MedicalConditionRef>DIA_017</MedicalConditionRef>
+            <MedicalConditionRef>DIA_017</MedicalConditionRef>
+            <MedicalConditionRef>DIA_024</MedicalConditionRef>
+            <MedicalConditionRef>DIA_026</MedicalConditionRef>
+            <MedicalConditionRef>DIA_037</MedicalConditionRef>
+            <MedicalConditionRef>DIA_INFX</MedicalConditionRef>
+            <MedicalConditionRef>DIA_CLD</MedicalConditionRef>
+            <MedicalConditionRef>DIA_ASN</MedicalConditionRef>
+            <MedicalConditionRef>DIA_APH</MedicalConditionRef>
+            <MedicalConditionRef>DIA_ANG</MedicalConditionRef>
+            <MedicalConditionRef>DIA_ANV</MedicalConditionRef>
+            <MedicalConditionRef>DIA_LAR</MedicalConditionRef>
+            <MedicalConditionRef>DIA_BRN</MedicalConditionRef>
+        </MedicalConditions>
+        
+    </GameDBEventVariation>
+    
+    <GameDBEventVariation ID="DLC_EVENT_PANDEMIC_TOURISTS_2"><!--asia-->
+        <DescriptionLocID>DLC_EVENT_PANDEMIC_TOURISTS_DESC</DescriptionLocID>
+        <EventRef>EVENT_PANDEMIC</EventRef>
+        <PatientCount>12</PatientCount>
+        <DurationHours>15</DurationHours>
+
+        <RequiredDepartmentTypeList>
+            <RequiredDepartmentTypeRef>DPT_INFECTIOUS_DISEASES_DEPARTMENT</RequiredDepartmentTypeRef>
+        </RequiredDepartmentTypeList>
+
+        <LaunchWorldEvent>true</LaunchWorldEvent>
+        <WorldEventType>DLC_WORLD_EVENT_DISEASE_OUTBREAK</WorldEventType>
+
+        <MedicalConditions>
+            <MedicalConditionRef>DIA_CLCX</MedicalConditionRef>
+            <MedicalConditionRef>DIA_006</MedicalConditionRef>
+            <MedicalConditionRef>DIA_010</MedicalConditionRef>
+            <MedicalConditionRef>DIA_013</MedicalConditionRef>
+            <MedicalConditionRef>DIA_016</MedicalConditionRef>
+            <MedicalConditionRef>DIA_016</MedicalConditionRef>
+            <MedicalConditionRef>DIA_016</MedicalConditionRef>
+            <MedicalConditionRef>DIA_016</MedicalConditionRef>
+            <MedicalConditionRef>DIA_016</MedicalConditionRef>
+            <MedicalConditionRef>DIA_016</MedicalConditionRef>
+            <MedicalConditionRef>DIA_019</MedicalConditionRef>
+            <MedicalConditionRef>DIA_019</MedicalConditionRef>
+            <MedicalConditionRef>DIA_019</MedicalConditionRef>
+            <MedicalConditionRef>DIA_029</MedicalConditionRef>
+            <MedicalConditionRef>DIA_INFX</MedicalConditionRef>
+            <MedicalConditionRef>DIA_CLD</MedicalConditionRef>
+            <MedicalConditionRef>DIA_ASN</MedicalConditionRef>
+            <MedicalConditionRef>DIA_APH</MedicalConditionRef>
+            <MedicalConditionRef>DIA_ANG</MedicalConditionRef>
+            <MedicalConditionRef>DIA_ANV</MedicalConditionRef>
+            <MedicalConditionRef>DIA_LAR</MedicalConditionRef>
+            <MedicalConditionRef>DIA_BRN</MedicalConditionRef>
+        </MedicalConditions>
+        
+    </GameDBEventVariation>
+    
+    <GameDBEventVariation ID="DLC_EVENT_PANDEMIC_TOURISTS_3"><!--africa-->
+        <DescriptionLocID>DLC_EVENT_PANDEMIC_TOURISTS_DESC</DescriptionLocID>
+        <EventRef>EVENT_PANDEMIC</EventRef>
+        <PatientCount>8</PatientCount>
+        <DurationHours>12</DurationHours>
+
+        <RequiredDepartmentTypeList>
+            <RequiredDepartmentTypeRef>DPT_INFECTIOUS_DISEASES_DEPARTMENT</RequiredDepartmentTypeRef>
+        </RequiredDepartmentTypeList>
+
+        <LaunchWorldEvent>true</LaunchWorldEvent>
+        <WorldEventType>DLC_WORLD_EVENT_DISEASE_OUTBREAK</WorldEventType>
+
+        <MedicalConditions>
+            <MedicalConditionRef>DIA_CLCX</MedicalConditionRef>
+            <MedicalConditionRef>DIA_007</MedicalConditionRef>
+            <MedicalConditionRef>DIA_014</MedicalConditionRef>
+            <MedicalConditionRef>DIA_018</MedicalConditionRef>
+            <MedicalConditionRef>DIA_018</MedicalConditionRef>
+            <MedicalConditionRef>DIA_018</MedicalConditionRef>
+            <MedicalConditionRef>DIA_018</MedicalConditionRef>
+            <MedicalConditionRef>DIA_018</MedicalConditionRef>
+            <MedicalConditionRef>DIA_018</MedicalConditionRef>
+            <MedicalConditionRef>DIA_018</MedicalConditionRef>
+            <MedicalConditionRef>DIA_018</MedicalConditionRef>
+            <MedicalConditionRef>DIA_020</MedicalConditionRef>
+            <MedicalConditionRef>DIA_021</MedicalConditionRef>
+            <MedicalConditionRef>DIA_022</MedicalConditionRef>
+            <MedicalConditionRef>DIA_INFX</MedicalConditionRef>
+            <MedicalConditionRef>DIA_CLD</MedicalConditionRef>
+            <MedicalConditionRef>DIA_ASN</MedicalConditionRef>
+            <MedicalConditionRef>DIA_APH</MedicalConditionRef>
+            <MedicalConditionRef>DIA_ANG</MedicalConditionRef>
+            <MedicalConditionRef>DIA_ANV</MedicalConditionRef>
+            <MedicalConditionRef>DIA_LAR</MedicalConditionRef>
+            <MedicalConditionRef>DIA_BRN</MedicalConditionRef>
+        </MedicalConditions>
+        
+    </GameDBEventVariation>
+
+    <GameDBEventVariation ID="DLC_EVENT_PANDEMIC_CLIMATE_1">
+        <DescriptionLocID>DLC_EVENT_PANDEMIC_CLIMATE_DESC</DescriptionLocID>
+        <EventRef>EVENT_PANDEMIC</EventRef>
+        <PatientCount>5</PatientCount>
+        <DurationHours>10</DurationHours>
+
+        <RequiredDepartmentTypeList>
+            <RequiredDepartmentTypeRef>DPT_INFECTIOUS_DISEASES_DEPARTMENT</RequiredDepartmentTypeRef>
+        </RequiredDepartmentTypeList>
+
+        <LaunchWorldEvent>true</LaunchWorldEvent>
+        <WorldEventType>DLC_WORLD_EVENT_DISEASE_OUTBREAK</WorldEventType>
+
+        <MedicalConditions>
+            <MedicalConditionRef>DIA_PNAX</MedicalConditionRef>
+            <MedicalConditionRef>DIA_RBFX</MedicalConditionRef>
+            <MedicalConditionRef>DIA_CSDX</MedicalConditionRef>
+            <MedicalConditionRef>DIA_TXMX</MedicalConditionRef>
+            <MedicalConditionRef>DIA_LYDX</MedicalConditionRef>
+            <MedicalConditionRef>DIA_TBEX</MedicalConditionRef>
+            <MedicalConditionRef>DIA_001</MedicalConditionRef>
+            <MedicalConditionRef>DIA_004</MedicalConditionRef>
+            <MedicalConditionRef>DIA_005</MedicalConditionRef>
+            <MedicalConditionRef>DIA_011</MedicalConditionRef>
+            <MedicalConditionRef>DIA_042</MedicalConditionRef>
+        </MedicalConditions>
+        
+    </GameDBEventVariation>
+
+    <GameDBEventVariation ID="DLC_EVENT_PANDEMIC_CORONA">
+        <DescriptionLocID>DLC_EVENT_PANDEMIC_CORONA_DESC</DescriptionLocID>
+        <EventRef>EVENT_PANDEMIC</EventRef>
+        <PatientCount>30</PatientCount>
+        <DurationHours>22</DurationHours>
+
+        <RequiredDepartmentTypeList>
+            <RequiredDepartmentTypeRef>DPT_INFECTIOUS_DISEASES_DEPARTMENT</RequiredDepartmentTypeRef>
+        </RequiredDepartmentTypeList>
+
+        <LaunchWorldEvent>true</LaunchWorldEvent>
+        <WorldEventType>DLC_WORLD_EVENT_DISEASE_OUTBREAK</WorldEventType>
+
+        <MedicalConditions>
+            <MedicalConditionRef>DIA_027</MedicalConditionRef>
+            <MedicalConditionRef>DIA_027</MedicalConditionRef>
+            <MedicalConditionRef>DIA_027</MedicalConditionRef>
+            <MedicalConditionRef>DIA_027</MedicalConditionRef>
+            <MedicalConditionRef>DIA_027</MedicalConditionRef>
+            <MedicalConditionRef>DIA_027</MedicalConditionRef>
+            <MedicalConditionRef>DIA_027</MedicalConditionRef>
+            <MedicalConditionRef>DIA_INFX</MedicalConditionRef>
+            <MedicalConditionRef>DIA_CLD</MedicalConditionRef>
+            <MedicalConditionRef>DIA_ASN</MedicalConditionRef>
+            <MedicalConditionRef>DIA_APH</MedicalConditionRef>
+            <MedicalConditionRef>DIA_ANG</MedicalConditionRef>
+            <MedicalConditionRef>DIA_ANV</MedicalConditionRef>
+            <MedicalConditionRef>DIA_LAR</MedicalConditionRef>
+            <MedicalConditionRef>DIA_BRN</MedicalConditionRef>
+        </MedicalConditions>
+        
+    </GameDBEventVariation>
+
+
+</Database>
+    

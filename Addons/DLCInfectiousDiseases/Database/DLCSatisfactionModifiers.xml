@@ -1,0 +1,13 @@
+<Database>
+    <!-- Negative -->
+
+    <GameDBSatisfactionModifier ID="DLC_INFECTED">
+        <Value>-50</Value>
+    </GameDBSatisfactionModifier>    
+
+    <!-- Positive //////////////////////////////////////////////////////////////////////////// -->
+
+</Database>
+
+
+

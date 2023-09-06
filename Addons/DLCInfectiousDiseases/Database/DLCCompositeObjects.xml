@@ -1,0 +1,71 @@
+﻿<Database>
+
+    <GameDBCompositeObject ID="OBJECT_ISOLATION_WALL_CABINET">       
+		<AbbreviationLocID>OBJECT_ISOLATION_WALL_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_ISOLATION_WALL_CABINET_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+             <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_ISOLATION_WALL_CABINET_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+       </Parts>
+
+       <Tags>
+            <Tag>ui_furniture</Tag>
+            <Tag>ui_isolation_ward</Tag>
+        </Tags>
+
+        <Cost>259</Cost>
+        <IconIndex>2581</IconIndex>
+    </GameDBCompositeObject>
+
+    <GameDBCompositeObject ID="OBJECT_ISOLATION_AIR_DOOR">       
+		<AbbreviationLocID>OBJECT_ISOLATION_AIR_DOOR_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>-1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_ISOLATION_AIR_DOOR_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_ISOLATION_AIR_DOOR_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_ISOLATION_AIR_DOOR_C</ObjectRef>
+            </GameDBCompositeObjectPart>
+       </Parts>
+
+       <Tags>
+            <Tag>ui_furniture</Tag>
+            <Tag>ui_isolation_ward</Tag>
+        </Tags>
+
+        <Cost>1899</Cost>
+        <IconIndex>2584</IconIndex>
+    </GameDBCompositeObject>
+
+</Database>

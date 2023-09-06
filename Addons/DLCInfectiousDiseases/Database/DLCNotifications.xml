@@ -1,0 +1,20 @@
+﻿<Database>
+    <GameDBNotification ID="NOTIF_GLOBAL_EVENT_DISEASE_OUTBREAK_ENDED">
+        <TextLocID>NOTIF_GLOBAL_EVENT_DISEASE_OUTBREAK_ENDED_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <!-- Slight hack, reusing existing text -->
+    <GameDBNotification ID="DLC_WORLD_EVENT_DISEASE_OUTBREAK">
+        <TextLocID>NOTIF_GLOBAL_EVENT_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+</Database>

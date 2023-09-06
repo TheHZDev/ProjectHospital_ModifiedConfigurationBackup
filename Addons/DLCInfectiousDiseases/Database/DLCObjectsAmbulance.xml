@@ -1,0 +1,539 @@
+<Database>
+    <GameDBObject ID="OBJECT_AMBULANCE_X_1_1">
+        <AbbreviationLocID>OBJECT_AMBULANCE_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>50</TextureIDNW>
+        <TextureIDNE>53</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>79</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <SoundEventUseStartRef>SFX_AMBULANCE_START</SoundEventUseStartRef>
+        <SoundEventUseEndRef>SFX_AMBULANCE_STOP</SoundEventUseEndRef>
+        <SoundEventUseLoopRef>SFX_AMBULANCE_LOOP</SoundEventUseLoopRef>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <ColorSetRef>COLOR_SET_AMBULANCE_YELLOW</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_AMBULANCE_X_1_2">
+        <AbbreviationLocID>OBJECT_AMBULANCE_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>51</TextureIDNW>
+        <TextureIDNE>54</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_AMBULANCE_X_1_3">
+        <AbbreviationLocID>OBJECT_AMBULANCE_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>52</TextureIDNW>
+        <TextureIDNE>55</TextureIDNE>
+        <TextureIDSE>64</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_AMBULANCE_X_2_1">
+        <AbbreviationLocID>OBJECT_AMBULANCE_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>49</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>78</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_AMBULANCE_X_2_3">
+        <AbbreviationLocID>OBJECT_AMBULANCE_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>56</TextureIDNE>
+        <TextureIDSE>65</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_AMBULANCE_X_3_1">
+        <AbbreviationLocID>OBJECT_AMBULANCE_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>48</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>77</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <!-- Right front -->
+        <LensflareHeightOffsetNW>2.7</LensflareHeightOffsetNW>
+        <LensflareXOffsetNW>0.2</LensflareXOffsetNW>
+        <LensflareIDNW>240</LensflareIDNW> <!-- red -->
+        
+        <LensflareHeightOffsetNE>2.8</LensflareHeightOffsetNE>
+        <LensflareXOffsetNE>-0.6</LensflareXOffsetNE>
+        <LensflareIDNE>240</LensflareIDNE> <!-- red -->
+
+        <LensflareHeightOffsetSE>3.0</LensflareHeightOffsetSE>
+        <LensflareXOffsetSE>0</LensflareXOffsetSE>
+        <LensflareIDSE>241</LensflareIDSE> <!-- blue -->
+        
+        <LensflareHeightOffsetSW>2.9</LensflareHeightOffsetSW>
+        <LensflareXOffsetSW>0.5</LensflareXOffsetSW>
+        <LensflareIDSW>240</LensflareIDSW> <!-- red -->
+        
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_AMBULANCE_X_3_3">
+        <AbbreviationLocID>OBJECT_AMBULANCE_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>57</TextureIDNE>
+        <TextureIDSE>66</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <!-- Left front -->
+        <LensflareHeightOffsetNW>2.9</LensflareHeightOffsetNW>
+        <LensflareXOffsetNW>-0.35</LensflareXOffsetNW>
+        <LensflareIDNW>241</LensflareIDNW> <!-- blue -->
+       
+        <LensflareHeightOffsetNE>3.0</LensflareHeightOffsetNE>
+        <LensflareXOffsetNE>0</LensflareXOffsetNE>
+        <LensflareIDNE>241</LensflareIDNE> <!-- blue -->
+
+        <LensflareHeightOffsetSE>2.8</LensflareHeightOffsetSE>
+        <LensflareXOffsetSE>0.6</LensflareXOffsetSE>
+        <LensflareIDSE>240</LensflareIDSE> <!-- red -->
+
+        <LensflareHeightOffsetSW>2.6</LensflareHeightOffsetSW>
+        <LensflareXOffsetSW>-0.1</LensflareXOffsetSW>
+        <LensflareIDSW>241</LensflareIDSW> <!-- blue -->
+
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_AMBULANCE_X_4_1">
+        <AbbreviationLocID>OBJECT_AMBULANCE_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>47</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>76</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_AMBULANCE_X_4_3">
+        <AbbreviationLocID>OBJECT_AMBULANCE_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>58</TextureIDNE>
+        <TextureIDSE>67</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_AMBULANCE_X_5_1">
+        <AbbreviationLocID>OBJECT_AMBULANCE_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>45</TextureIDNW><!-- Far door -->
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>75</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_AMBULANCE_X_5_3">
+        <AbbreviationLocID>OBJECT_AMBULANCE_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>60</TextureIDNE>
+        <TextureIDSE>68</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <AnimationFramesNW>1</AnimationFramesNW>
+        <AnimationFramesNE>1</AnimationFramesNE> <!-- this was animated -->
+        <AnimationFramesSE>1</AnimationFramesSE>
+        <AnimationFramesSW>1</AnimationFramesSW>
+        <AnimationOnlyForceFrame>true</AnimationOnlyForceFrame>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_AMBULANCE_X_6_1">
+        <AbbreviationLocID>OBJECT_AMBULANCE_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>43</TextureIDNW><!-- Close door -->
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>71</TextureIDSE>
+        <TextureIDSW>74</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <!-- Right back -->
+        <LensflareHeightOffsetNW>2.85</LensflareHeightOffsetNW>
+        <LensflareXOffsetNW>0.65</LensflareXOffsetNW>
+        <LensflareIDNW>241</LensflareIDNW> <!-- blue -->
+
+        <LensflareHeightOffsetNE>2.4</LensflareHeightOffsetNE>
+        <LensflareXOffsetNE>-0.2</LensflareXOffsetNE>
+        <LensflareIDNE>241</LensflareIDNE> <!-- blue -->
+
+        <LensflareHeightOffsetSE>2.75</LensflareHeightOffsetSE>
+        <LensflareXOffsetSE>-0.6</LensflareXOffsetSE>
+        <LensflareIDSE>241</LensflareIDSE> <!-- blue -->
+        
+        <LensflareHeightOffsetSW>3.1</LensflareHeightOffsetSW>
+        <LensflareXOffsetSW>0.1</LensflareXOffsetSW>
+        <LensflareIDSW>241</LensflareIDSW> <!-- blue -->
+
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_AMBULANCE_X_6_2">
+        <AbbreviationLocID>OBJECT_AMBULANCE_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW><!-- Back middle -->
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>70</TextureIDSE>
+        <TextureIDSW>73</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_AMBULANCE_X_6_3">
+        <AbbreviationLocID>OBJECT_AMBULANCE_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>62</TextureIDNE>
+        <TextureIDSE>69</TextureIDSE>
+        <TextureIDSW>72</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <AnimationFramesNW>1</AnimationFramesNW>
+        <AnimationFramesNE>1</AnimationFramesNE> <!-- this was animated -->
+        <AnimationFramesSE>1</AnimationFramesSE>
+        <AnimationFramesSW>1</AnimationFramesSW>
+        <AnimationOnlyForceFrame>true</AnimationOnlyForceFrame>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <!-- Left back -->
+        <LensflareHeightOffsetNW>3.2</LensflareHeightOffsetNW>
+        <LensflareXOffsetNW>-0.1</LensflareXOffsetNW>
+        <LensflareIDNW>241</LensflareIDNW> <!-- blue -->
+
+        <LensflareHeightOffsetNE>2.9</LensflareHeightOffsetNE>
+        <LensflareXOffsetNE>0.6</LensflareXOffsetNE>
+        <LensflareIDNE>241</LensflareIDNE> <!-- blue -->
+
+        <LensflareHeightOffsetSE>2.45</LensflareHeightOffsetSE>
+        <LensflareXOffsetSE>0.3</LensflareXOffsetSE>
+        <LensflareIDSE>241</LensflareIDSE> <!-- blue -->
+
+        <LensflareHeightOffsetSW>2.7</LensflareHeightOffsetSW>
+        <LensflareXOffsetSW>-0.65</LensflareXOffsetSW>
+        <LensflareIDSW>241</LensflareIDSW> <!-- blue -->
+        
+    </GameDBObject>
+
+
+
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_AMBULANCE_X_01">
+        <AbbreviationLocID>COMPOSITE_OBJECT_AMBULANCE_X_01_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_AMBULANCE_X_1_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_AMBULANCE_X_1_2</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>2</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_AMBULANCE_X_1_3</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>1</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_AMBULANCE_X_2_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>1</m_x>
+                    <m_y>2</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_AMBULANCE_X_2_3</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>2</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_AMBULANCE_X_3_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>2</m_x>
+                    <m_y>2</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_AMBULANCE_X_3_3</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>3</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_AMBULANCE_X_4_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>3</m_x>
+                    <m_y>2</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_AMBULANCE_X_4_3</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>4</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_AMBULANCE_X_5_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>4</m_x>
+                    <m_y>2</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_AMBULANCE_X_5_3</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>5</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_AMBULANCE_X_6_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>5</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_AMBULANCE_X_6_2</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>5</m_x>
+                    <m_y>2</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_AMBULANCE_X_6_3</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+        </Parts>
+
+        <Tags>
+            <Tag>ui_ambulances</Tag>
+            <Tag>ambulance</Tag>
+            <Tag>automatic_transparency</Tag>
+            <Tag>short_ambulance</Tag>
+        </Tags>
+
+        <Cost>34999</Cost>
+        <IconIndex>2850</IconIndex>
+
+        <ForceRefundPercent>100</ForceRefundPercent>
+
+    </GameDBCompositeObject>
+    
+</Database>    
