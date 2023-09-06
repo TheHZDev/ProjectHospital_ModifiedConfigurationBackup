@@ -1,0 +1,28 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_CZ_DLC_ADMIN_PATHOLOGY_PATCH_1_1_27">
+    
+        <LanguageCode>cz</LanguageCode>
+        <LanguageNameLocalized>Čeština</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+
+            <GameDBLocalizedString>    <LocID>DLC_PHARMACOLOGIST</LocID>                                     <Text>Lékárník</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>DLC_PHARMACOLOGIST_UI</LocID>                                  <Text>Lékárník</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY</LocID>             <Text>Farmakologie</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY_DESCRIPTION</LocID> <Text>Lékárnící prodávají léky pacientům a zajišťují, aby k nim dostali správné dávky a pokyny.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>DLC_ROOM_TYPE_PHARMACY_DESCRIPTION</LocID>                     <Text>Nemocniční lékárna prodává léky vašim pacientům. \ nPotřebný personál: 1x Lékárník</Text></GameDBLocalizedString>
+
+            <!--NEW SCENARIO-->
+            <GameDBLocalizedString>    <LocID>LEVEL_SANDBOX_HOSPITAL_H</LocID>                               <Text>Nemocniční služby DLC: VELKÁ NEMOCNICE</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

@@ -1,0 +1,21 @@
+<Database>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_ON_CALL_ROOM_LARGE_DLC">            <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>      <File>Textures/prefabs/on_call_room_large_path.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_ON_CALL_ROOM_SMALL_DLC">            <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>      <File>Textures/prefabs/on_call_room_small_path.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_NURSES_STATION_SMALL_DLC">          <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>      <File>Textures/prefabs/nurses_station_small_path.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_NURSES_STATION_LARGE_DLC">          <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>      <File>Textures/prefabs/nurses_station_large_path.png</File> </GameDBAsset>
+    
+    <GameDBAsset ID="ASSET_PREFAB_ICON_PATHOLOGY_AUTOPSY_ROOM">             <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>      <File>Textures/prefabs/autopsy_room.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_PATHOLOGY_COLD_ROOM">                <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>      <File>Textures/prefabs/cold_room.png</File> </GameDBAsset>
+    
+    <GameDBAsset ID="ASSET_PREFAB_ICON_PHARMACY_SMALL">                <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>      <File>Textures/prefabs/pharmacy_small.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_PHARMACY_LARGE">                <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>      <File>Textures/prefabs/pharmacy_large.png</File> </GameDBAsset>
+    
+    <GameDBAsset ID="ASSET_PREFAB_ICON_SERVICE_OFFICE">                 <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>      <File>Textures/prefabs/service_office.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_GIFT_SHOP">                      <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>      <File>Textures/prefabs/gift_shop.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_CAFETERIA_SMALL">                <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>      <File>Textures/prefabs/cafeteria_small.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_CAFETERIA_LARGE">                <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>      <File>Textures/prefabs/cafeteria_large.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_STUDY_ROOM">                     <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>      <File>Textures/prefabs/study_room.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_LOUNGE">                         <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>      <File>Textures/prefabs/lounge.png</File> </GameDBAsset>
+
+
+</Database>

@@ -1,0 +1,556 @@
+﻿<Database>
+    <GameDBColorSet ID="COLOR_SET_BUILDING_WALLS">
+        <Colors>
+            <GameDBColor> <R>212</R>  <G>95</G>  <B>93</B>    </GameDBColor> <!-- red -->
+            <GameDBColor> <R>230</R>  <G>147</G>  <B>115</B>  </GameDBColor> <!-- orange -->
+            <GameDBColor> <R>251</R>  <G>201</G>  <B>123</B>  </GameDBColor> <!-- yellow -->
+            <GameDBColor> <R>245</R>  <G>138</G>  <B>148</B>  </GameDBColor> <!-- pink -->
+            <GameDBColor> <R>216</R>  <G>188</G>  <B>166</B>  </GameDBColor> <!-- brown -->
+            <GameDBColor> <R>141</R>  <G>194</G>  <B>138</B>  </GameDBColor> <!-- green -->
+            <GameDBColor> <R>154</R>  <G>209</G>  <B>189</B>  </GameDBColor> <!-- pale -->
+            <GameDBColor> <R>139</R>  <G>172</G>  <B>214</B>  </GameDBColor> <!-- blue -->
+            <GameDBColor> <R>168</R>  <G>174</G>  <B>216</B>  </GameDBColor> <!-- violet -->
+            <GameDBColor> <R>110</R>  <G>110</G>  <B>110</B>  </GameDBColor> <!-- grey -->
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_DECALS">
+        <Colors>
+        	<GameDBColor> <R>255</R>  <G>255</G>  <B>255</B>    </GameDBColor> <!-- white -->
+            <GameDBColor> <R>212</R>  <G>95</G>  <B>93</B>    </GameDBColor> <!-- red -->
+            <GameDBColor> <R>141</R>  <G>194</G>  <B>138</B>  </GameDBColor> <!-- green -->
+            <GameDBColor> <R>139</R>  <G>172</G>  <B>214</B>  </GameDBColor> <!-- blue -->
+            <GameDBColor> <R>20</R>  <G>20</G>  <B>20</B>  </GameDBColor> <!-- grey -->
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_DECALS_WITH_ORANGE">
+        <Colors>
+            <GameDBColor> <R>255</R>  <G>255</G>  <B>255</B>    </GameDBColor> <!-- white -->
+            <GameDBColor> <R>230</R>  <G>170</G>  <B>130</B>    </GameDBColor> <!-- ORANGE, Red Cross won't sue us -->
+            <GameDBColor> <R>141</R>  <G>194</G>  <B>138</B>  </GameDBColor> <!-- green -->
+            <GameDBColor> <R>139</R>  <G>172</G>  <B>214</B>  </GameDBColor> <!-- blue -->
+            <GameDBColor> <R>20</R>  <G>20</G>  <B>20</B>  </GameDBColor> <!-- grey -->
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_DOORS">
+        <Colors>
+            <GameDBColor> <R>222</R>  <G>189</G>  <B>128</B>  </GameDBColor> <!-- yellow -->
+           	<GameDBColor> <R>148</R>  <G>148</G>  <B>148</B>  </GameDBColor>
+            <GameDBColor> <R>255</R>  <G>255</G>  <B>255</B>  </GameDBColor>
+            <GameDBColor> <R>155</R>  <G>173</G>  <B>168</B>  </GameDBColor>
+            <GameDBColor> <R>192</R>  <G>205</G>  <B>221</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_DOORS_TEST">
+        <Colors>
+            <GameDBColor> <R>255</R>  <G>255</G>  <B>255</B>    </GameDBColor> <!-- white -->
+            <GameDBColor> <R>230</R>  <G>170</G>  <B>130</B>    </GameDBColor> <!--  -->
+            <GameDBColor> <R>141</R>  <G>194</G>  <B>138</B>  </GameDBColor> <!-- green -->
+            <GameDBColor> <R>139</R>  <G>172</G>  <B>214</B>  </GameDBColor> <!-- blue -->
+            <GameDBColor> <R>20</R>  <G>20</G>  <B>20</B>  </GameDBColor> <!-- grey -->
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_FLOORS">
+        <Colors>
+            <GameDBColor> <R>219</R>  <G>124</G>  <B>119</B>  </GameDBColor> <!-- red -->
+            <GameDBColor> <R>240</R>  <G>167</G>  <B>139</B>  </GameDBColor> <!-- orange -->
+            <GameDBColor> <R>255</R>  <G>213</G>  <B>148</B>  </GameDBColor> <!-- yellow -->
+            <GameDBColor> <R>255</R>  <G>168</G>  <B>177</B>  </GameDBColor> <!-- pink -->
+            <GameDBColor> <R>235</R>  <G>211</G>  <B>192</B>  </GameDBColor> <!-- brown -->
+            <GameDBColor> <R>164</R>  <G>209</G>  <B>161</B>  </GameDBColor> <!-- green -->
+            <GameDBColor> <R>185</R>  <G>230</G>  <B>213</B>  </GameDBColor> <!-- pale -->
+            <GameDBColor> <R>170</R>  <G>198</G>  <B>232</B>  </GameDBColor> <!-- blue -->
+            <GameDBColor> <R>188</R>  <G>193</G>  <B>222</B>  </GameDBColor> <!-- violet -->
+            <GameDBColor> <R>135</R>  <G>135</G>  <B>135</B>  </GameDBColor> <!-- grey -->
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECTS_DEFAULT">
+        <Colors>
+            <GameDBColor> <R>192</R>  <G>192</G>  <B>192</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECTS_WARM">
+        <Colors>
+            <GameDBColor> <R>212</R>  <G>87</G>  <B>91</B>  </GameDBColor>
+            <GameDBColor> <R>212</R>  <G>132</G>  <B>93</B>  </GameDBColor>
+            <GameDBColor> <R>212</R>  <G>186</G>  <B>106</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECTS_BED">
+        <Colors>
+            <GameDBColor> <R>173</R>  <G>199</G>  <B>232</B>  </GameDBColor>
+            <GameDBColor> <R>238</R>  <G>233</G>  <B>243</B>  </GameDBColor>
+            <GameDBColor> <R>209</R>  <G>189</G>  <B>169</B>  </GameDBColor>
+            <GameDBColor> <R>179</R>  <G>122</G>  <B>132</B>  </GameDBColor>
+            <GameDBColor> <R>148</R>  <G>163</G>  <B>160</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECTS_BED_MODERN">
+        <Colors>
+            <GameDBColor> <R>40</R>  <G>111</G>  <B>158</B>  </GameDBColor>
+            <GameDBColor> <R>43</R>  <G>133</G>  <B>86</B>  </GameDBColor>
+            <GameDBColor> <R>163</R>  <G>62</G>  <B>66</B>  </GameDBColor>
+            <GameDBColor> <R>18</R>  <G>18</G>  <B>18</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_PRIVACY_SCREEN">
+        <Colors>
+            <GameDBColor> <R>94</R>  <G>122</G>  <B>157</B>  </GameDBColor>
+            <GameDBColor> <R>173</R>  <G>104</G>  <B>106</B>  </GameDBColor>
+            <GameDBColor> <R>114</R>  <G>150</G>  <B>107</B>  </GameDBColor>
+            <GameDBColor> <R>92</R>  <G>153</G>  <B>148</B>  </GameDBColor>
+            <GameDBColor> <R>170</R>  <G>153</G>  <B>136</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_PRIVACY_SCREEN2">
+        <Colors>
+            <GameDBColor> <R>131</R>  <G>174</G>  <B>212</B>  </GameDBColor>
+            <GameDBColor> <R>191</R>  <G>105</G>  <B>105</B>  </GameDBColor>
+            <GameDBColor> <R>255</R>  <G>255</G>  <B>255</B>  </GameDBColor>
+            <GameDBColor> <R>174</R>  <G>199</G>  <B>151</B>  </GameDBColor>
+            <GameDBColor> <R>167</R>  <G>207</G>  <B>207</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_DEFAULT_CABINETS">
+        <Colors>
+            <GameDBColor> <R>38</R>  <G>38</G>  <B>38</B>  </GameDBColor>
+            <GameDBColor> <R>115</R>  <G>99</G>  <B>87</B>  </GameDBColor>
+            <GameDBColor> <R>163</R>  <G>133</G>  <B>105</B>  </GameDBColor>
+            <GameDBColor> <R>160</R>  <G>98</G>  <B>98</B>  </GameDBColor>
+            <GameDBColor> <R>98</R>  <G>127</G>  <B>160</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_ICU_EQUIPMENT">
+        <Colors>
+            <GameDBColor> <R>85</R>  <G>105</G>  <B>132</B>  </GameDBColor>
+            <GameDBColor> <R>132</R>  <G>85</G>  <B>85</B>  </GameDBColor>
+            <GameDBColor> <R>94</R>  <G>132</G>  <B>85</B>  </GameDBColor>
+            <GameDBColor> <R>85</R>  <G>127</G>  <B>132</B>  </GameDBColor>
+            <GameDBColor> <R>38</R>  <G>38</G>  <B>38</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_OXYGEN_TANK">
+        <Colors>
+            <GameDBColor> <R>70</R>  <G>128</G>  <B>106</B>  </GameDBColor>
+            <GameDBColor> <R>128</R>  <G>70</G>  <B>70</B>  </GameDBColor>
+            <GameDBColor> <R>70</R>  <G>95</G>  <B>128</B>  </GameDBColor>
+            <GameDBColor> <R>209</R>  <G>209</G>  <B>73</B>  </GameDBColor>
+            <GameDBColor> <R>38</R>  <G>38</G>  <B>38</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_OFFICE_DESK2">
+        <Colors>
+            <GameDBColor> <R>98</R>  <G>105</G>  <B>120</B>  </GameDBColor>
+            <GameDBColor> <R>120</R>  <G>98</G>  <B>98</B>  </GameDBColor>
+            <GameDBColor> <R>102</R>  <G>120</G>  <B>98</B>  </GameDBColor>
+            <GameDBColor> <R>108</R>  <G>98</G>  <B>120</B>  </GameDBColor>
+            <GameDBColor> <R>120</R>  <G>120</G>  <B>120</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_RADIOLOGY">
+        <Colors>
+            <GameDBColor> <R>181</R>  <G>100</G>  <B>100</B>  </GameDBColor>
+            <GameDBColor> <R>87</R>  <G>115</G>  <B>92</B>  </GameDBColor>
+            <GameDBColor> <R>104</R>  <G>158</G>  <B>157</B>  </GameDBColor>
+            <GameDBColor> <R>104</R>  <G>135</G>  <B>173</B>  </GameDBColor>
+            <GameDBColor> <R>201</R>  <G>178</G>  <B>86</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_CHAIRS_BLACK">
+        <Colors>
+            <GameDBColor> <R>195</R>  <G>76</G>  <B>81</B>  </GameDBColor>
+            <GameDBColor> <R>121</R>  <G>171</G>  <B>207</B>  </GameDBColor>
+            <GameDBColor> <R>130</R>  <G>195</G>  <B>127</B>  </GameDBColor>
+            <GameDBColor> <R>111</R>  <G>128</G>  <B>182</B>  </GameDBColor>
+            <GameDBColor> <R>38</R>  <G>38</G>  <B>38</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_CHAIRS_WHITE">
+        <Colors>
+        	<GameDBColor> <R>111</R>  <G>128</G>  <B>182</B>  </GameDBColor>
+            <GameDBColor> <R>195</R>  <G>92</G>  <B>95</B>  </GameDBColor>
+            <GameDBColor> <R>147</R>  <G>188</G>  <B>216</B>  </GameDBColor>
+            <GameDBColor> <R>143</R>  <G>195</G>  <B>140</B>  </GameDBColor>
+            <GameDBColor> <R>255</R>  <G>255</G>  <B>255</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_EQUIPMENT_DEFAULT">
+        <Colors>
+            <GameDBColor> <R>195</R>  <G>92</G>  <B>95</B>  </GameDBColor>
+            <GameDBColor> <R>147</R>  <G>188</G>  <B>216</B>  </GameDBColor>
+            <GameDBColor> <R>143</R>  <G>195</G>  <B>140</B>  </GameDBColor>
+            <GameDBColor> <R>111</R>  <G>128</G>  <B>182</B>  </GameDBColor>
+            <GameDBColor> <R>38</R>  <G>38</G>  <B>38</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+     <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_EQUIPMENT_CABINETS">
+        <Colors>
+            <GameDBColor> <R>234</R>  <G>232</G>  <B>214</B>  </GameDBColor>
+            <GameDBColor> <R>148</R>  <G>148</G>  <B>148</B>  </GameDBColor>
+            <GameDBColor> <R>255</R>  <G>255</G>  <B>255</B>  </GameDBColor>
+            <GameDBColor> <R>155</R>  <G>173</G>  <B>168</B>  </GameDBColor>
+            <GameDBColor> <R>192</R>  <G>205</G>  <B>221</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_OFFICE_DESK1">
+        <Colors>
+        	<GameDBColor> <R>38</R>  <G>38</G>  <B>38</B>  </GameDBColor>
+            <GameDBColor> <R>115</R>  <G>99</G>  <B>87</B>  </GameDBColor>
+            <GameDBColor> <R>184</R>  <G>150</G>  <B>118</B>  </GameDBColor>
+            <GameDBColor> <R>98</R>  <G>127</G>  <B>160</B>  </GameDBColor>
+            <GameDBColor> <R>160</R>  <G>98</G>  <B>98</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_DESK_LAMP">
+        <Colors>
+        	<GameDBColor> <R>215</R>  <G>135</G>  <B>100</B>  </GameDBColor>
+            <GameDBColor> <R>162</R>  <G>209</G>  <B>171</B>  </GameDBColor>
+            <GameDBColor> <R>215</R>  <G>205</G>  <B>118</B>  </GameDBColor>
+            <GameDBColor> <R>168</R>  <G>212</G>  <B>255</B>  </GameDBColor>
+            <GameDBColor> <R>255</R>  <G>255</G>  <B>255</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_CARDFILE">
+        <Colors>
+        	<GameDBColor> <R>173</R>  <G>181</G>  <B>153</B>  </GameDBColor>
+            <GameDBColor> <R>255</R>  <G>255</G>  <B>255</B>  </GameDBColor>
+            <GameDBColor> <R>148</R>  <G>148</G>  <B>148</B>  </GameDBColor>
+            <GameDBColor> <R>155</R>  <G>173</G>  <B>168</B>  </GameDBColor>
+            <GameDBColor> <R>192</R>  <G>205</G>  <B>221</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_XRAY">
+        <Colors>
+        	<GameDBColor> <R>122</R>  <G>161</G>  <B>153</B>  </GameDBColor>
+            <GameDBColor> <R>161</R>  <G>122</G>  <B>122</B>  </GameDBColor>
+            <GameDBColor> <R>122</R>  <G>142</G>  <B>161</B>  </GameDBColor>
+            <GameDBColor> <R>122</R>  <G>161</G>  <B>130</B>  </GameDBColor>
+            <GameDBColor> <R>126</R>  <G>122</G>  <B>161</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_FLOWERPOT">
+        <Colors>
+        	<GameDBColor> <R>145</R>  <G>76</G>  <B>66</B>  </GameDBColor>
+            <GameDBColor> <R>215</R>  <G>211</G>  <B>118</B>  </GameDBColor>
+            <GameDBColor> <R>83</R>  <G>105</G>  <B>145</B>  </GameDBColor>
+            <GameDBColor> <R>176</R>  <G>69</G>  <B>69</B>  </GameDBColor>
+            <GameDBColor> <R>176</R>  <G>143</G>  <B>95</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_WENDING_MACHINE">
+        <Colors>
+        	<GameDBColor> <R>97</R>  <G>128</G>  <B>58</B>  </GameDBColor>
+            <GameDBColor> <R>166</R>  <G>70</G>  <B>70</B>  </GameDBColor>
+            <GameDBColor> <R>81</R>  <G>121</G>  <B>161</B>  </GameDBColor>
+            <GameDBColor> <R>186</R>  <G>137</G>  <B>74</B>  </GameDBColor>
+            <GameDBColor> <R>38</R>  <G>38</G>  <B>38</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_SOFA">
+        <Colors>
+        	<GameDBColor> <R>128</R>  <G>109</G>  <B>92</B>  </GameDBColor>
+            <GameDBColor> <R>92</R>  <G>113</G>  <B>128</B>  </GameDBColor>
+            <GameDBColor> <R>92</R>  <G>128</G>  <B>99</B>  </GameDBColor>
+            <GameDBColor> <R>128</R>  <G>92</G>  <B>92</B>  </GameDBColor>
+            <GameDBColor> <R>128</R>  <G>128</G>  <B>128</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_WORKSTATION">
+        <Colors>
+        	<GameDBColor> <R>26</R>  <G>178</G>  <B>117</B>  </GameDBColor>
+            <GameDBColor> <R>178</R>  <G>68</G>  <B>68</B>  </GameDBColor>
+            <GameDBColor> <R>94</R>  <G>150</G>  <B>219</B>  </GameDBColor>
+            <GameDBColor> <R>68</R>  <G>152</G>  <B>178</B>  </GameDBColor>
+            <GameDBColor> <R>194</R>  <G>122</G>  <B>72</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_OP_TABLE">
+        <Colors>
+        	<GameDBColor> <R>138</R>  <G>180</G>  <B>209</B>  </GameDBColor>
+            <GameDBColor> <R>127</R>  <G>194</G>  <B>198</B>  </GameDBColor>
+            <GameDBColor> <R>255</R>  <G>255</G>  <B>255</B>  </GameDBColor>
+            <GameDBColor> <R>156</R>  <G>105</G>  <B>134</B>  </GameDBColor>
+            <GameDBColor> <R>148</R>  <G>136</G>  <B>186</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_FLOWERS">
+        <Colors>
+            <GameDBColor> <R>0</R>  <G>135</G>  <B>212</B>  </GameDBColor>
+            <GameDBColor> <R>255</R>  <G>255</G>  <B>255</B>  </GameDBColor>
+            <GameDBColor> <R>227</R>  <G>73</G>  <B>73</B>  </GameDBColor>
+            <GameDBColor> <R>205</R>  <G>130</G>  <B>255</B>  </GameDBColor>
+            <GameDBColor> <R>227</R>  <G>159</G>  <B>0</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+    <GameDBColorSet ID="COLOR_SET_AMBULANCES">
+        <Colors>
+            <GameDBColor> <R>201</R>  <G>74</G>  <B>74</B>  </GameDBColor>
+            <GameDBColor> <R>201</R>  <G>142</G>  <B>74</B>  </GameDBColor>
+            <GameDBColor> <R>65</R>  <G>163</G>  <B>138</B>  </GameDBColor>
+            <GameDBColor> <R>69</R>  <G>131</G>  <B>186</B>  </GameDBColor>
+            <GameDBColor> <R>123</R>  <G>119</G>  <B>201</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_DRESS_CODES">
+        <Colors>
+            <GameDBColor> <R>235</R>  <G>235</G>  <B>235</B>  </GameDBColor> <!-- white -->
+            <GameDBColor> <R>103</R>  <G>145</G>  <B>143</B>    </GameDBColor> 
+            <GameDBColor> <R>112</R>  <G>146</G>  <B>196</B>  </GameDBColor> 
+            <GameDBColor> <R>191</R>  <G>143</G>  <B>175</B>  </GameDBColor> 
+            <GameDBColor> <R>150</R>  <G>143</G>  <B>191</B>  </GameDBColor> 
+            <GameDBColor> <R>191</R>  <G>127</G>  <B>95</B>  </GameDBColor> 
+            <GameDBColor> <R>156</R>  <G>83</G>  <B>83</B>  </GameDBColor> 
+            <GameDBColor> <R>110</R>  <G>145</G>  <B>104</B>  </GameDBColor> 
+            <GameDBColor> <R>50</R>  <G>50</G>  <B>50</B>  </GameDBColor>             
+            <GameDBColor> <R>165</R>  <G>210</G>  <B>223</B>  </GameDBColor> <!-- TODO ROMAN NEW COLORS -->
+            <GameDBColor> <R>156</R>  <G>89</G>  <B>134</B>    </GameDBColor> 
+            <GameDBColor> <R>233</R>  <G>201</G>  <B>112</B>  </GameDBColor> 
+            <GameDBColor> <R>163</R>  <G>110</G>  <B>62</B>  </GameDBColor> 
+            <GameDBColor> <R>155</R>  <G>209</G>  <B>167</B>  </GameDBColor> 
+            <GameDBColor> <R>227</R>  <G>143</G>  <B>163</B>  </GameDBColor> 
+            <GameDBColor> <R>195</R>  <G>207</G>  <B>135</B>  </GameDBColor> 
+            <GameDBColor> <R>216</R>  <G>122</G>  <B>108</B>  </GameDBColor> 
+            <GameDBColor> <R>123</R>  <G>121</G>  <B>138</B>  </GameDBColor> 
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_WC">
+        <Colors>
+            <GameDBColor> <R>212</R>  <G>95</G>  <B>93</B>    </GameDBColor> <!-- red -->
+            <GameDBColor> <R>230</R>  <G>147</G>  <B>115</B>  </GameDBColor> <!-- orange -->
+            <GameDBColor> <R>251</R>  <G>201</G>  <B>123</B>  </GameDBColor> <!-- yellow -->
+            <GameDBColor> <R>245</R>  <G>138</G>  <B>148</B>  </GameDBColor> <!-- pink -->
+            <GameDBColor> <R>216</R>  <G>188</G>  <B>166</B>  </GameDBColor> <!-- brown -->
+            <GameDBColor> <R>141</R>  <G>194</G>  <B>138</B>  </GameDBColor> <!-- green -->
+            <GameDBColor> <R>154</R>  <G>209</G>  <B>189</B>  </GameDBColor> <!-- pale -->
+            <GameDBColor> <R>139</R>  <G>172</G>  <B>214</B>  </GameDBColor> <!-- blue -->
+            <GameDBColor> <R>168</R>  <G>174</G>  <B>216</B>  </GameDBColor> <!-- violet -->
+            <GameDBColor> <R>110</R>  <G>110</G>  <B>110</B>  </GameDBColor> <!-- grey -->
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_DOOR_FULL">
+        <Colors>
+            <GameDBColor> <R>223</R>  <G>131</G>  <B>131</B>  </GameDBColor> <!-- *red -->
+            <GameDBColor> <R>230</R>  <G>147</G>  <B>115</B>  </GameDBColor> <!-- orange -->
+            <GameDBColor> <R>222</R>  <G>189</G>  <B>128</B>  </GameDBColor> <!-- *yellow -->
+            <GameDBColor> <R>245</R>  <G>138</G>  <B>148</B>  </GameDBColor> <!-- pink -->
+            <GameDBColor> <R>216</R>  <G>188</G>  <B>166</B>  </GameDBColor> <!-- brown -->
+            <GameDBColor> <R>126</R>  <G>191</G>  <B>130</B>  </GameDBColor> <!-- *green -->
+            <GameDBColor> <R>154</R>  <G>209</G>  <B>189</B>  </GameDBColor> <!-- pale -->
+            <GameDBColor> <R>132</R>  <G>162</G>  <B>194</B>  </GameDBColor> <!-- *blue -->
+            <GameDBColor> <R>168</R>  <G>174</G>  <B>216</B>  </GameDBColor> <!-- violet -->
+            <GameDBColor> <R>110</R>  <G>110</G>  <B>110</B>  </GameDBColor> <!-- grey -->
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_DOOR_LINE">
+        <Colors>
+            <GameDBColor> <R>212</R>  <G>95</G>  <B>93</B>    </GameDBColor> <!-- red -->
+            <GameDBColor> <R>230</R>  <G>147</G>  <B>115</B>  </GameDBColor> <!-- orange -->
+            <GameDBColor> <R>251</R>  <G>201</G>  <B>123</B>  </GameDBColor> <!-- yellow -->
+            <GameDBColor> <R>245</R>  <G>138</G>  <B>148</B>  </GameDBColor> <!-- pink -->
+            <GameDBColor> <R>216</R>  <G>188</G>  <B>166</B>  </GameDBColor> <!-- brown -->
+            <GameDBColor> <R>141</R>  <G>194</G>  <B>138</B>  </GameDBColor> <!-- green -->
+            <GameDBColor> <R>154</R>  <G>209</G>  <B>189</B>  </GameDBColor> <!-- pale -->
+            <GameDBColor> <R>139</R>  <G>172</G>  <B>214</B>  </GameDBColor> <!-- blue -->
+            <GameDBColor> <R>168</R>  <G>174</G>  <B>216</B>  </GameDBColor> <!-- violet -->
+            <GameDBColor> <R>110</R>  <G>110</G>  <B>110</B>  </GameDBColor> <!-- grey -->
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_DOOR_GLASS">
+        <Colors>
+        	<GameDBColor> <R>255</R>  <G>255</G>  <B>255</B>  </GameDBColor> <!-- white -->
+            <GameDBColor> <R>212</R>  <G>95</G>  <B>93</B>    </GameDBColor> <!-- red -->
+            <GameDBColor> <R>230</R>  <G>147</G>  <B>115</B>  </GameDBColor> <!-- orange -->
+            <GameDBColor> <R>251</R>  <G>201</G>  <B>123</B>  </GameDBColor> <!-- yellow -->
+            <GameDBColor> <R>245</R>  <G>138</G>  <B>148</B>  </GameDBColor> <!-- pink -->
+            <GameDBColor> <R>216</R>  <G>188</G>  <B>166</B>  </GameDBColor> <!-- brown -->
+            <GameDBColor> <R>141</R>  <G>194</G>  <B>138</B>  </GameDBColor> <!-- green -->
+            <GameDBColor> <R>154</R>  <G>209</G>  <B>189</B>  </GameDBColor> <!-- pale -->
+            <GameDBColor> <R>139</R>  <G>172</G>  <B>214</B>  </GameDBColor> <!-- blue -->
+            <GameDBColor> <R>168</R>  <G>174</G>  <B>216</B>  </GameDBColor> <!-- violet -->
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_SKIN_TONES">
+        <Colors>
+            
+            <GameDBColor> <R>245</R>  <G>224</G>  <B>205</B>    </GameDBColor>
+            <GameDBColor> <R>245</R>  <G>212</G>  <B>181</B>  </GameDBColor>
+            <GameDBColor> <R>241</R>  <G>225</G>  <B>202</B>  </GameDBColor>
+            <GameDBColor> <R>237</R>  <G>213</G>  <B>188</B>  </GameDBColor>
+            <GameDBColor> <R>230</R>  <G>184</G>  <B>173</B>  </GameDBColor>
+            <GameDBColor> <R>225</R>  <G>197</G>  <B>182</B>  </GameDBColor>
+            <GameDBColor> <R>222</R>  <G>184</G>  <B>178</B>  </GameDBColor>
+            <GameDBColor> <R>209</R>  <G>183</G>  <B>159</B>  </GameDBColor>
+            <GameDBColor> <R>202</R>  <G>164</G>  <B>125</B>  </GameDBColor>
+            <GameDBColor> <R>192</R>  <G>165</G>  <B>141</B>  </GameDBColor>
+            <GameDBColor> <R>177</R>  <G>149</G>  <B>127</B>  </GameDBColor>
+            <GameDBColor> <R>156</R>  <G>119</G>  <B>97</B>  </GameDBColor>
+            <GameDBColor> <R>148</R>  <G>113</G>  <B>92</B>  </GameDBColor>
+            <GameDBColor> <R>147</R>  <G>104</G>  <B>87</B>  </GameDBColor>
+            <GameDBColor> <R>140</R>  <G>113</G>  <B>93</B>  </GameDBColor>
+            <GameDBColor> <R>136</R>  <G>98</G>  <B>69</B>  </GameDBColor>
+            <GameDBColor> <R>120</R>  <G>97</G>  <B>80</B>  </GameDBColor>
+            <GameDBColor> <R>114</R>  <G>89</G>  <B>75</B>  </GameDBColor>
+            <GameDBColor> <R>87</R>  <G>67</G>  <B>53</B>  </GameDBColor>
+            <GameDBColor> <R>82</R>  <G>68</G>  <B>58</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_HAIR_TONES">
+        <Colors>
+            <GameDBColor> <R>255</R>  <G>245</G>  <B>225</B>  </GameDBColor>
+            <GameDBColor> <R>255</R>  <G>244</G>  <B>201</B>  </GameDBColor>
+            <GameDBColor> <R>226</R>  <G>203</G>  <B>112</B>  </GameDBColor>
+            <GameDBColor> <R>222</R>  <G>188</G>  <B>153</B>  </GameDBColor>
+            <GameDBColor> <R>184</R>  <G>151</G>  <B>120</B>  </GameDBColor>
+            <GameDBColor> <R>145</R>  <G>85</G>  <B>61</B>  </GameDBColor>
+            <GameDBColor> <R>224</R>  <G>124</G>  <B>73</B>  </GameDBColor>
+            <GameDBColor> <R>246</R>  <G>183</G>  <B>151</B>  </GameDBColor>
+            <GameDBColor> <R>182</R>  <G>82</G>  <B>58</B>  </GameDBColor>
+            <GameDBColor> <R>141</R>  <G>74</G>  <B>66</B>  </GameDBColor>
+            <GameDBColor> <R>165</R>  <G>107</G>  <B>70</B>  </GameDBColor>
+            <GameDBColor> <R>147</R>  <G>93</G>  <B>64</B>  </GameDBColor>
+            <GameDBColor> <R>113</R>  <G>99</G>  <B>90</B>  </GameDBColor>
+            <GameDBColor> <R>78</R>  <G>67</G>  <B>63</B>  </GameDBColor>
+            <GameDBColor> <R>60</R>  <G>51</G>  <B>50</B>  </GameDBColor>
+            <GameDBColor> <R>177</R>  <G>192</G>  <B>201</B>  </GameDBColor>
+            <GameDBColor> <R>77</R>  <G>162</G>  <B>187</B>  </GameDBColor>
+            <GameDBColor> <R>194</R>  <G>139</G>  <B>154</B>  </GameDBColor>
+            <GameDBColor> <R>136</R>  <G>126</G>  <B>167</B>  </GameDBColor>
+            <GameDBColor> <R>98</R>  <G>171</G>  <B>136</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_DLC_COFFEE_MACHINE">
+        <Colors>
+            <GameDBColor> <R>51</R>  <G>51</G>  <B>51</B>    </GameDBColor> <!-- black -->
+            <GameDBColor> <R>194</R>  <G>129</G>  <B>58</B>  </GameDBColor> <!-- orange -->
+            <GameDBColor> <R>70</R>  <G>105</G>  <B>138</B>  </GameDBColor> <!-- blue -->
+            <GameDBColor> <R>85</R>  <G>138</G>  <B>70</B>  </GameDBColor> <!-- green -->
+            <GameDBColor> <R>189</R>  <G>70</G>  <B>70</B>  </GameDBColor> <!-- red -->
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_DLC_OFFICE_CHAIR">
+        <Colors>
+            <GameDBColor> <R>226</R>  <G>80</G>  <B>54</B>    </GameDBColor> <!-- orange -->
+            <GameDBColor> <R>226</R>  <G>192</G>  <B>54</B>  </GameDBColor> <!-- yellow -->
+            <GameDBColor> <R>242</R>  <G>242</G>  <B>242</B>  </GameDBColor> <!-- white -->
+            <GameDBColor> <R>79</R>  <G>160</G>  <B>226</B>  </GameDBColor> <!-- blue -->
+            <GameDBColor> <R>108</R>  <G>204</G>  <B>94</B>  </GameDBColor> <!-- green -->
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_DLC_MUG">
+        <Colors>
+            <GameDBColor> <R>231</R>  <G>226</G>  <B>216</B>    </GameDBColor> <!-- butter -->
+            <GameDBColor> <R>102</R>  <G>153</G>  <B>189</B>  </GameDBColor> <!-- blue -->
+            <GameDBColor> <R>214</R>  <G>154</G>  <B>71</B>  </GameDBColor> <!-- orange -->
+            <GameDBColor> <R>189</R>  <G>102</G>  <B>102</B>  </GameDBColor> <!-- red -->
+            <GameDBColor> <R>102</R>  <G>189</G>  <B>102</B>  </GameDBColor> <!-- green -->
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_DLC_PHARMACY_LOGO">
+        <Colors>
+            <GameDBColor> <R>138</R>  <G>203</G>  <B>47</B>    </GameDBColor> 
+            <GameDBColor> <R>85</R>  <G>176</G>  <B>219</B>  </GameDBColor> 
+            <GameDBColor> <R>201</R>  <G>68</G>  <B>50</B>  </GameDBColor> 
+            <GameDBColor> <R>205</R>  <G>122</G>  <B>0</B>  </GameDBColor>
+            <GameDBColor> <R>74</R>  <G>204</G>  <B>187</B>  </GameDBColor> 
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_DLC_PHARMACY_SHELF">
+        <Colors>
+            <GameDBColor> <R>255</R>  <G>255</G>  <B>255</B>    </GameDBColor> 
+            <GameDBColor> <R>236</R>  <G>255</G>  <B>212</B>  </GameDBColor> 
+            <GameDBColor> <R>255</R>  <G>227</G>  <B>227</B>  </GameDBColor> 
+            <GameDBColor> <R>255</R>  <G>250</G>  <B>227</B>  </GameDBColor>
+            <GameDBColor> <R>227</R>  <G>248</G>  <B>255</B>  </GameDBColor> 
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_DLC_RECEPTION_DESK">
+        <Colors>
+            <GameDBColor> <R>135</R>  <G>181</G>  <B>72</B>    </GameDBColor> 
+            <GameDBColor> <R>110</R>  <G>184</G>  <B>219</B>  </GameDBColor> 
+            <GameDBColor> <R>201</R>  <G>88</G>  <B>72</B>  </GameDBColor> 
+            <GameDBColor> <R>205</R>  <G>129</G>  <B>18</B>  </GameDBColor>
+            <GameDBColor> <R>94</R>  <G>204</G>  <B>190</B>  </GameDBColor> 
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_PTH_BLANKETS">
+        <Colors>
+        	<GameDBColor> <R>255</R>  <G>255</G>  <B>255</B>  </GameDBColor>
+        	<GameDBColor> <R>138</R>  <G>180</G>  <B>209</B>  </GameDBColor>
+            <GameDBColor> <R>127</R>  <G>194</G>  <B>198</B>  </GameDBColor>
+            <GameDBColor> <R>156</R>  <G>105</G>  <B>134</B>  </GameDBColor>
+            <GameDBColor> <R>148</R>  <G>136</G>  <B>186</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_DLC_WHEELCHAIR">
+        <Colors>
+            <GameDBColor> <R>206</R>  <G>213</G>  <B>97</B>    </GameDBColor> <!-- green -->
+            <GameDBColor> <R>255</R>  <G>173</G>  <B>115</B>  </GameDBColor> <!-- orange -->
+            <GameDBColor> <R>255</R>  <G>248</G>  <B>156</B>  </GameDBColor> <!-- yellow -->
+            <GameDBColor> <R>165</R>  <G>219</G>  <B>232</B>  </GameDBColor> <!-- blue -->
+            <GameDBColor> <R>255</R>  <G>255</G>  <B>255</B>  </GameDBColor> <!-- white -->
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_BUILDING_OBJECT_DLC_VENTILATOR">
+        <Colors>
+            <GameDBColor> <R>193</R>  <G>120</G>  <B>77</B>    </GameDBColor> 
+            <GameDBColor> <R>77</R>  <G>193</G>  <B>152</B>  </GameDBColor> 
+            <GameDBColor> <R>77</R>  <G>166</G>  <B>193</B>  </GameDBColor> 
+            <GameDBColor> <R>193</R>  <G>77</G>  <B>131</B>  </GameDBColor> 
+            <GameDBColor> <R>77</R>  <G>77</G>  <B>77</B>  </GameDBColor> 
+        </Colors>
+    </GameDBColorSet>
+
+    <GameDBColorSet ID="COLOR_SET_AMBULANCE_YELLOW">
+        <Colors>
+            <GameDBColor> <R>201</R>  <G>74</G>  <B>74</B>  </GameDBColor>
+            <GameDBColor> <R>179</R>  <G>88</G>  <B>136</B>  </GameDBColor>
+            <GameDBColor> <R>65</R>  <G>163</G>  <B>138</B>  </GameDBColor>
+            <GameDBColor> <R>69</R>  <G>131</G>  <B>186</B>  </GameDBColor>
+            <GameDBColor> <R>123</R>  <G>119</G>  <B>201</B>  </GameDBColor>
+        </Colors>
+    </GameDBColorSet>
+    
+</Database>

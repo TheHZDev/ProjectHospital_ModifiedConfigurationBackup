@@ -1,0 +1,14 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_TEST_LOC_IDS">
+        
+        <LanguageCode>test</LanguageCode>
+        <LanguageNameLocalized>Show LOC IDs</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+        </LocalizedStrings>
+    </GameDBStringTable>
+﻿</Database>

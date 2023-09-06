@@ -1,0 +1,7 @@
+<Database>
+    <GameDBSchedule ID="DLC_SCHEDULE_VISITING_HOURS">
+        <StartTime>8</StartTime>
+        <EndTime>18</EndTime>
+    </GameDBSchedule>
+    
+</Database>

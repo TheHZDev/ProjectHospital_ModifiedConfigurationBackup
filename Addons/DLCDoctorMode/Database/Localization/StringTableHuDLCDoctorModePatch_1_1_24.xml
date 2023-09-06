@@ -1,0 +1,17 @@
+<Database>
+    <GameDBStringTable ID="LOC_HU_DLC_DOCTOR_MODE_PATCH_1_1_24">
+    
+        <LanguageCode>hu</LanguageCode>
+        <LanguageNameLocalized>Magyar</LanguageNameLocalized>
+    
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+    
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSURANCE_OBJ_RESET</LocID>            <Text>Biztosítók által adott feladat visszaállítása</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSURANCE_OBJ_RESET_TEXT</LocID>       <Text>Az Orvosmód nehézségi szint megváltoztatása miatt a biztosítók által adott feladat(ok) visszaállnak.</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

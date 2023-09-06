@@ -1,0 +1,28 @@
+<Database>
+    <GameDBStringTable ID="LOC_HU_DLC_ADMIN_PATHOLOGY_PATCH_1_1_27">
+    
+        <LanguageCode>hu</LanguageCode>
+        <LanguageNameLocalized>Magyar</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+
+            <GameDBLocalizedString>    <LocID>DLC_PHARMACOLOGIST</LocID>                                     <Text>Gyógyszerész</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>DLC_PHARMACOLOGIST_UI</LocID>                                  <Text>Gyógyszerész</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY</LocID>             <Text>Gyógyszertár</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY_DESCRIPTION</LocID> <Text>A gyógyszerészek gyógyszert adnak el a betegeknek és gondoskodnak a megfelelő adagolásról és tudnivalókról.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>DLC_ROOM_TYPE_PHARMACY_DESCRIPTION</LocID>                     <Text>A kórházi gyógyszertár gyógyszert árul pácienseidnek. \nMin. személyzeti követelmény: 1 gyógyszerész</Text></GameDBLocalizedString>
+
+            <!--NEW SCENARIO-->
+            <GameDBLocalizedString>    <LocID>LEVEL_SANDBOX_HOSPITAL_H</LocID>                               <Text>Hospital services: Big hospital</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

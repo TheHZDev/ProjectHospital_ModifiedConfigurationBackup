@@ -1,0 +1,127 @@
+﻿<Database>
+    <GameDBObject ID="OBJECT_MARKER_SPAWN">
+        <AbbreviationLocID>OBJECT_MARKER_SPAWN_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>1022</TextureIDNW>
+        <TextureIDNE>1022</TextureIDNE>
+        <TextureIDSE>1022</TextureIDSE>
+        <TextureIDSW>1022</TextureIDSW>
+        <IconIndex>101</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <AccessPositions></AccessPositions><!-- No limit -->
+
+        <Tags>
+            <Tag>ui_developer</Tag>
+            <Tag>marker_spawn</Tag>
+            <Tag>hidden_in_build</Tag>
+        </Tags>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_MARKER_AMBULANCE_PARKING">
+        <AbbreviationLocID>OBJECT_MARKER_AMBULANCE_PARKING_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>1022</TextureIDNW>
+        <TextureIDNE>1022</TextureIDNE>
+        <TextureIDSE>1022</TextureIDSE>
+        <TextureIDSW>1022</TextureIDSW>
+        <IconIndex>77</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <AccessPositions></AccessPositions><!-- No limit -->
+
+        <Tags>
+            <Tag>ui_developer</Tag>
+            <Tag>marker_ambulance_parking</Tag>
+            <Tag>hidden_in_build</Tag>
+        </Tags>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_MARKER_AMBULANCE_PARKING_ENTRANCE">
+        <AbbreviationLocID>OBJECT_MARKER_AMBULANCE_PARKING_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>1022</TextureIDNW>
+        <TextureIDNE>1022</TextureIDNE>
+        <TextureIDSE>1022</TextureIDSE>
+        <TextureIDSW>1022</TextureIDSW>
+        <IconIndex>77</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <AccessPositions></AccessPositions><!-- No limit -->
+
+        <Tags>
+            <Tag>ui_developer</Tag>
+            <Tag>marker_ambulance_parking_entrance</Tag>
+            <Tag>hidden_in_build</Tag>
+        </Tags>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_MARKER_AMBULANCE_PARKING_BOTTOM">
+        <AbbreviationLocID>OBJECT_MARKER_AMBULANCE_PARKING_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>1022</TextureIDNW>
+        <TextureIDNE>1022</TextureIDNE>
+        <TextureIDSE>1022</TextureIDSE>
+        <TextureIDSW>1022</TextureIDSW>
+        <IconIndex>77</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <AccessPositions></AccessPositions><!-- No limit -->
+
+        <Tags>
+            <Tag>ui_developer</Tag>
+            <Tag>marker_ambulance_parking_bottom</Tag>
+            <Tag>hidden_in_build</Tag>
+        </Tags>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_MARKER_AMBULANCE_PARKING_TOP">
+        <AbbreviationLocID>OBJECT_MARKER_AMBULANCE_PARKING_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>1022</TextureIDNW>
+        <TextureIDNE>1022</TextureIDNE>
+        <TextureIDSE>1022</TextureIDSE>
+        <TextureIDSW>1022</TextureIDSW>
+        <IconIndex>77</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <AccessPositions></AccessPositions><!-- No limit -->
+
+        <Tags>
+            <Tag>ui_developer</Tag>
+            <Tag>marker_ambulance_parking_top</Tag>
+            <Tag>hidden_in_build</Tag>
+        </Tags>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_MARKER_AMBULANCE_UNLOADING">
+        <AbbreviationLocID>OBJECT_MARKER_AMBULANCE_UNLOADING_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>1022</TextureIDNW>
+        <TextureIDNE>1022</TextureIDNE>
+        <TextureIDSE>1022</TextureIDSE>
+        <TextureIDSW>1022</TextureIDSW>
+        <IconIndex>77</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <AccessPositions></AccessPositions><!-- No limit -->
+
+        <Tags>
+            <Tag>ui_developer</Tag>
+            <Tag>marker_ambulance_unloading</Tag>
+            <Tag>hidden_in_build</Tag>
+        </Tags>
+    </GameDBObject>
+</Database>

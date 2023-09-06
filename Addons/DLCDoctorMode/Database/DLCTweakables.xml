@@ -1,0 +1,8 @@
+﻿<Database>
+    <GameDBTweakableInt ID="DLC_DOC_MODE_MODE_ENABLED"> <Value>1</Value>   </GameDBTweakableInt>
+    
+    <GameDBTweakableInt ID="DLC_DOC_CHAR_EDITOR_POSITIVE_PERKS"> <Value>2</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="DLC_DOC_CHAR_EDITOR_NEGATIVE_PERKS"> <Value>1</Value>   </GameDBTweakableInt>
+    
+    <GameDBTweakableInt ID="DLC_DOC_CHAR_EDITOR_PRICE"> <Value>10000</Value>   </GameDBTweakableInt>
+</Database>

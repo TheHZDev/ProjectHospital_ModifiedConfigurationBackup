@@ -1,0 +1,3035 @@
+<Database>
+    <GameDBAnimatedModel8DirController ID="FEMALE_DEFAULT">
+        <AnimationFilenamePrefix>f_</AnimationFilenamePrefix>
+        <Scale>4.8</Scale>
+
+        <ModelS>female_sw_model.xml</ModelS>
+        <ModelSW>female_sw_model.xml</ModelSW>
+        <ModelW>female_sw_model.xml</ModelW>
+        <ModelNW>female_ne_model.xml</ModelNW>
+        <ModelN>female_ne_model.xml</ModelN>
+        <ModelNE>female_ne_model.xml</ModelNE>
+        <ModelE>female_sw_model.xml</ModelE>
+        <ModelSE>female_sw_model.xml</ModelSE>
+
+        <ModelLyingSW>female_sw_model.xml</ModelLyingSW>
+        <ModelLyingNW>female_bed_model.xml</ModelLyingNW>
+        <ModelLyingNE>female_bed_model.xml</ModelLyingNE>
+        <ModelLyingSE>female_sw_model.xml</ModelLyingSE>
+
+        <MirrorS>false</MirrorS>
+        <MirrorSW>false</MirrorSW>
+        <MirrorW>true</MirrorW>
+        <MirrorNW>true</MirrorNW>
+        <MirrorN>true</MirrorN>
+        <MirrorNE>false</MirrorNE>
+        <MirrorE>false</MirrorE>
+        <MirrorSE>true</MirrorSE>
+
+        <MirrorLyingSW>true</MirrorLyingSW>
+        <MirrorLyingNW>true</MirrorLyingNW>
+        <MirrorLyingNE>false</MirrorLyingNE>
+        <MirrorLyingSE>false</MirrorLyingSE>
+
+        <AnimationSets>
+            <!-- <AnimationSet> -->
+            <!--This is the default one -->
+            <!--Configuration>FOUR_DIR_MIRRORED</Configuration-->
+            <!-- <Folder>FemaleWalk</Folder> -->
+            <!-- </AnimationSet> -->
+
+            <!--______-->
+            <!-- WALK -->
+            <!--______-->
+            <AnimationSet>
+                <Name>walk</Name>
+                <Folder>anim_walk</Folder>
+                <!--Configuration>EIGHT_DIR_MIRRORED</Configuration-->
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>walk_slow</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>walk_sick</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>walk_limp</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>walk_hold_phone</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>walk_push_cart</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>walk_push_stretcher</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>walk_fast_push_stretcher</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>walk_push_wheelchair</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>walk_braindead</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>run</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>walk_mask</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>walk_crutch</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <!--_______-->
+            <!-- STAND -->
+            <!--_______-->
+
+            <AnimationSet>
+                <Name>stand_idle</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_wait</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_look</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_bookcase_take</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_type_in</Name>
+                <Folder>anim_stand_equipment</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_type_idle</Name>
+                <Folder>anim_stand_equipment</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_type_out</Name>
+                <Folder>anim_stand_equipment</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_use_in</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_use_idle</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_use_out</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_mop</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_take_from_fridge</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_consult_on_phone</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_use_thermometer</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+            <AnimationSet>
+                <Name>stand_use_thermometer_low</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_neck_palpation_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_neck_palpation_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_neck_palpation_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_abdominal_palpation_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_abdominal_palpation_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_abdominal_palpation_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_use_trash</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_blood_sampling_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_blood_sampling_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_blood_sampling_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ear_examination_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ear_examination_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ear_examination_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_laryngoscopy_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_laryngoscopy_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_laryngoscopy_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_nasal_cavity_inspection_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_nasal_cavity_inspection_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_nasal_cavity_inspection_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_oral_cavity_inspection_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_oral_cavity_inspection_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_oral_cavity_inspection_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_head_lamp_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_head_lamp_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_head_lamp_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_physical_visual_exam_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_physical_visual_exam_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_physical_visual_exam_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_skin_injection_test_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_skin_injection_test_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_skin_injection_test_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_bacteria_antibodies_proof_sampling_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_bacteria_antibodies_proof_sampling_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_bacteria_antibodies_proof_sampling_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_bacteria_cultivation_sampling_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_bacteria_cultivation_sampling_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_bacteria_cultivation_sampling_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_fungal_cultivation_sampling_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_fungal_cultivation_sampling_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_fungal_cultivation_sampling_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_urine_sampling</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_stethoscope_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_stethoscope_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_stethoscope_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>step_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>step_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_eye_test</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_examination_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+            <AnimationSet>
+                <Name>stand_examination_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+            <AnimationSet>
+                <Name>stand_examination_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_microscope_use_in</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_microscope_use_idle</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_microscope_use_out</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ultracentrifuge_use_in</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ultracentrifuge_use_idle</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ultracentrifuge_use_out</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_glassware_use_in</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_glassware_use_idle</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_glassware_use_out</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ria_use_in</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ria_use_idle</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ria_use_out</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_doc_give_receipt</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_print_receipt</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_write_receipt_in</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_write_receipt_idle</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_write_receipt_out</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_press_bandage_hand_in</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_press_bandage_hand_idle</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_press_bandage_hand_out</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_fix_arm_in</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_fix_arm_idle</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_fix_arm_out</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_treatment_in</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+            <AnimationSet>
+                <Name>stand_treatment_idle</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+            <AnimationSet>
+                <Name>stand_treatment_out</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_look_in</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_look_idle</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_look_out</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_queue_machine</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_xray_viewer_in</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_xray_viewer_idle</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_xray_viewer_out</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_xray_control_in</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_xray_control_idle</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_xray_control_out</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>use_equipment_low</Name>
+                <Folder>anim_stand_equipment</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>use_equipment_high</Name>
+                <Folder>anim_stand_equipment</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>chest_compressions_in</Name>
+                <Folder>anim_collapse</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>chest_compressions_idle</Name>
+                <Folder>anim_collapse</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>chest_compressions_out</Name>
+                <Folder>anim_collapse</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>collapse_support_in</Name>
+                <Folder>anim_collapse</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>collapse_support_idle</Name>
+                <Folder>anim_collapse</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>collapse_support_out</Name>
+                <Folder>anim_collapse</Folder>
+            </AnimationSet>
+
+            <!--_____-->
+            <!-- SIT -->
+            <!--_____-->
+            <AnimationSet>
+                <Name>sit_in</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_in_sick</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_idle</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_idle_hold_phone</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_idle_sick</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_out</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_exam_bed_in</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_exam_bed_in_ac</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_exam_bed_idle</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_exam_bed_out</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_read_in</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_read_idle</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_read_out</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_type_in</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_type_idle</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_type_out</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_anesthetic_machine_in</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_anesthetic_machine_idle</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_anesthetic_machine_out</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_doc_recommendation_in</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_doc_recommendation_idle</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_doc_recommendation_out</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_wc_in</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_wc_idle</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_wc_out</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_sit_and_eat_in</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_sit_and_eat_idle</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_sit_and_eat_out</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_relax_pc_in</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_relax_pc_idle</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_relax_pc_out</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_wheelchair_idle</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <!--_______-->
+            <!-- LYING -->
+            <!--_______-->
+            <AnimationSet>
+                <Name>lay_bed_in</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>lay_bed_idle</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>lay_bed_out</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_bed_idle</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_bed_idle_head</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_bed_idle_head_wound_head</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>CUSTOM</Configuration>
+                <Name>lie_bed_idle_head_respirator</Name>
+                <Folder>anim_lay</Folder>
+
+                <AnimLyingSW>f_sw_lie_bed_idle_head_respirator.xml</AnimLyingSW>
+                <AnimLyingSE>f_se_lie_bed_idle_head_respirator.xml</AnimLyingSE>
+                <AnimLyingNW>f_nw_lie_bed_idle_head_respirator.xml</AnimLyingNW>
+                <AnimLyingNE>f_ne_lie_bed_idle_head_respirator.xml</AnimLyingNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_bed_idle_head_bubble</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_bed_idle_head_oxygen</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_stretcher_idle</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_stretcher_idle_head</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_stretcher_idle_head_wound_head</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_stretcher_x_idle</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_stretcher_x_idle_wound_head</Name>
+                <Folder>anim_lay</Folder>
+             </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_stretcher_x_idle_wound_chest</Name>
+                <Folder>anim_lay</Folder>
+             </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_stretcher_x_idle_wound_abdomen</Name>
+                <Folder>anim_lay</Folder>
+             </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_stretcher_x_idle_wound_leg</Name>
+                <Folder>anim_lay</Folder>
+             </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_stretcher_x_idle_wound_arm</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_stretcher_x_idle_head</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_stretcher_x_idle_head_wound_head</Name>
+                <Folder>anim_lay</Folder>
+           </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_collapsed_idle</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_idle</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_idle_wound_head</Name>
+                <Folder>anim_lay</Folder>
+             </AnimationSet>
+
+             <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_idle_wound_chest</Name>
+                <Folder>anim_lay</Folder>
+             </AnimationSet>
+
+             <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_idle_wound_abdomen</Name>
+                <Folder>anim_lay</Folder>
+             </AnimationSet>
+
+             <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_idle_wound_leg</Name>
+                <Folder>anim_lay</Folder>
+             </AnimationSet>
+
+             <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_idle_wound_arm</Name>
+                <Folder>anim_lay</Folder>
+             </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_oxygen</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_oxygen_wound_head</Name>
+                <Folder>anim_lay</Folder>
+             </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_oxygen_wound_chest</Name>
+                <Folder>anim_lay</Folder>
+             </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_oxygen_wound_abdomen</Name>
+                <Folder>anim_lay</Folder>
+             </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_oxygen_wound_leg</Name>
+                <Folder>anim_lay</Folder>
+             </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_oxygen_wound_arm</Name>
+                <Folder>anim_lay</Folder>
+             </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_head</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_head_respirator</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_bed_defibrillator</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_hidden</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_autopsy_table_idle</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_autopsy_table_autopsy</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_bed_idle_wound_head</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+          <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_bed_idle_wound_chest</Name>
+                <Folder>anim_lay</Folder>
+          </AnimationSet>
+
+          <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_bed_idle_wound_abdomen</Name>
+                <Folder>anim_lay</Folder>
+          </AnimationSet>
+
+          <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_bed_idle_wound_leg</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_bed_idle_wound_arm</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <!--______-->
+            <!-- TAKE -->
+            <!--______-->
+            <AnimationSet>
+                <Name>take_vending_machine_in</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_vending_machine_idle</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_vending_machine_out</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_vending_machine_coffee_in</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_vending_machine_coffee_idle</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_vending_machine_coffee_out</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_water_machine</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_shelf</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_cabinet</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_cabinet_up</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <!--______-->
+            <!-- WASH -->
+            <!--______-->
+            <AnimationSet>
+                <Name>wash_in</Name>
+                <Folder>anim_wash</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>wash_idle</Name>
+                <Folder>anim_wash</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>wash_out</Name>
+                <Folder>anim_wash</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>wash_lab_sink_in</Name>
+                <Folder>anim_wash</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>wash_lab_sink_idle</Name>
+                <Folder>anim_wash</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>wash_lab_sink_out</Name>
+                <Folder>anim_wash</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>wash_sink_hands</Name>
+                <Folder>anim_wash</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>wash_dry_hands</Name>
+                <Folder>anim_wash</Folder>
+            </AnimationSet>
+
+            <!--_________-->
+            <!-- SURGERY -->
+            <!--_________-->
+            <AnimationSet>
+                <Name>stand_idle_surgery</Name>
+                <Folder>anim_surgery</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>cover_patient</Name>
+                <Folder>anim_surgery</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_electroacutery</Name>
+                <Folder>anim_surgery</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_defibrillator_high</Name>
+                <Folder>anim_surgery</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>pass_item_side_right</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>f_sw_pass_item_side_right.xml</AnimSW>
+                <AnimSE>f_sw_pass_item_side_left.xml</AnimSE>
+                <AnimNW>f_ne_pass_item_side_left.xml</AnimNW>
+                <AnimNE>f_ne_pass_item_side_right.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>pass_item_side_left</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>f_sw_pass_item_side_left.xml</AnimSW>
+                <AnimSE>f_sw_pass_item_side_right.xml</AnimSE>
+                <AnimNW>f_ne_pass_item_side_right.xml</AnimNW>
+                <AnimNE>f_ne_pass_item_side_left.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_item_side_right</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>f_sw_take_item_side_right.xml</AnimSW>
+                <AnimSE>f_sw_take_item_side_left.xml</AnimSE>
+                <AnimNW>f_ne_take_item_side_left.xml</AnimNW>
+                <AnimNE>f_ne_take_item_side_right.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>pass_equipment_side_right</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>f_sw_pass_equipment_side_right.xml</AnimSW>
+                <AnimSE>f_sw_pass_equipment_side_left.xml</AnimSE>
+                <AnimNW>f_ne_pass_equipment_side_left.xml</AnimNW>
+                <AnimNE>f_ne_pass_equipment_side_right.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>pass_equipment_side_left</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>f_sw_pass_equipment_side_left.xml</AnimSW>
+                <AnimSE>f_sw_pass_equipment_side_right.xml</AnimSE>
+                <AnimNW>f_ne_pass_equipment_side_right.xml</AnimNW>
+                <AnimNE>f_ne_pass_equipment_side_left.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_item_side_left</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>f_sw_take_item_side_left.xml</AnimSW>
+                <AnimSE>f_sw_take_item_side_right.xml</AnimSE>
+                <AnimNW>f_ne_take_item_side_right.xml</AnimNW>
+                <AnimNE>f_ne_take_item_side_left.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>pass_item_diagonally_right</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>f_sw_pass_item_diagonally_right.xml</AnimSW>
+                <AnimSE>f_sw_pass_item_diagonally_left.xml</AnimSE>
+                <AnimNW>f_ne_pass_item_diagonally_left.xml</AnimNW>
+                <AnimNE>f_ne_pass_item_diagonally_right.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>pass_item_diagonally_left</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>f_sw_pass_item_diagonally_left.xml</AnimSW>
+                <AnimSE>f_sw_pass_item_diagonally_right.xml</AnimSE>
+                <AnimNW>f_ne_pass_item_diagonally_right.xml</AnimNW>
+                <AnimNE>f_ne_pass_item_diagonally_left.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>pass_equipment_diagonally_right</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>f_sw_pass_equipment_diagonally_right.xml</AnimSW>
+                <AnimSE>f_sw_pass_equipment_diagonally_left.xml</AnimSE>
+                <AnimNW>f_ne_pass_equipment_diagonally_left.xml</AnimNW>
+                <AnimNE>f_ne_pass_equipment_diagonally_right.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>pass_equipment_diagonally_left</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>f_sw_pass_equipment_diagonally_left.xml</AnimSW>
+                <AnimSE>f_sw_pass_equipment_diagonally_right.xml</AnimSE>
+                <AnimNW>f_ne_pass_equipment_diagonally_right.xml</AnimNW>
+                <AnimNE>f_ne_pass_equipment_diagonally_left.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_item_diagonally_right</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>f_sw_take_item_diagonally_right.xml</AnimSW>
+                <AnimSE>f_sw_take_item_diagonally_left.xml</AnimSE>
+                <AnimNW>f_ne_take_item_diagonally_left.xml</AnimNW>
+                <AnimNE>f_ne_take_item_diagonally_right.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_item_diagonally_left</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>f_sw_take_item_diagonally_left.xml</AnimSW>
+                <AnimSE>f_sw_take_item_diagonally_right.xml</AnimSE>
+                <AnimNW>f_ne_take_item_diagonally_right.xml</AnimNW>
+                <AnimNE>f_ne_take_item_diagonally_left.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>surgery_chest_in</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>f_sw_surgery_chest_in.xml</AnimSW>
+                <AnimSE>f_se_surgery_chest_in.xml</AnimSE>
+                <AnimNW>f_nw_surgery_chest_in.xml</AnimNW>
+                <AnimNE>f_ne_surgery_chest_in.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>surgery_chest_idle</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>f_sw_surgery_chest_idle.xml</AnimSW>
+                <AnimSE>f_se_surgery_chest_idle.xml</AnimSE>
+                <AnimNW>f_nw_surgery_chest_idle.xml</AnimNW>
+                <AnimNE>f_ne_surgery_chest_idle.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>surgery_chest_out</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>f_sw_surgery_chest_out.xml</AnimSW>
+                <AnimSE>f_se_surgery_chest_out.xml</AnimSE>
+                <AnimNW>f_nw_surgery_chest_out.xml</AnimNW>
+                <AnimNE>f_ne_surgery_chest_out.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>surgery_assistant_chest_in</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>f_se_surgery_chest_in.xml</AnimSW>
+                <AnimSE>f_sw_surgery_chest_in.xml</AnimSE>
+                <AnimNW>f_ne_surgery_chest_in.xml</AnimNW>
+                <AnimNE>f_nw_surgery_chest_in.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>surgery_assistant_chest_idle</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>f_se_surgery_chest_idle.xml</AnimSW>
+                <AnimSE>f_sw_surgery_chest_idle.xml</AnimSE>
+                <AnimNW>f_ne_surgery_chest_idle.xml</AnimNW>
+                <AnimNE>f_nw_surgery_chest_idle.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>surgery_assistant_chest_out</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>f_se_surgery_chest_out.xml</AnimSW>
+                <AnimSE>f_sw_surgery_chest_out.xml</AnimSE>
+                <AnimNW>f_ne_surgery_chest_out.xml</AnimNW>
+                <AnimNE>f_nw_surgery_chest_out.xml</AnimNE>
+            </AnimationSet>
+
+            <!--_________-->
+            <!-- TEMPs -->
+            <!--_________-->
+            <AnimationSet>
+                <Name>temp_examination_in</Name>
+                <Folder>anim_test</Folder>
+            </AnimationSet>
+            <AnimationSet>
+                <Name>temp_examination_idle</Name>
+                <Folder>anim_test</Folder>
+            </AnimationSet>
+            <AnimationSet>
+                <Name>temp_examination_out</Name>
+                <Folder>anim_test</Folder>
+            </AnimationSet>
+            <AnimationSet>
+                <Name>temp_examination_full</Name>
+                <Folder>anim_test</Folder>
+            </AnimationSet>
+
+            <!--______-->
+            <!-- service dep. DLC CAFETERIA -->
+            <!--______-->
+            <AnimationSet>
+                <Name>take_banana_in</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_banana_idle</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_banana_out</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+            <AnimationSet>
+                <Name>take_donut_in</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_donut_idle</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_donut_out</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_sandwich_in</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_sandwich_idle</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_sandwich_out</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>f
+
+            <AnimationSet>
+                <Name>use_equipment_ENT_Workstation_in</Name>
+                <Folder>anim_stand_equipment</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>use_equipment_ENT_Workstation_idle</Name>
+                <Folder>anim_stand_equipment</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>use_equipment_ENT_Workstation_out</Name>
+                <Folder>anim_stand_equipment</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_defibrillation_in</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_defibrillation_idle</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_defibrillation_out</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_use_objectl_idle</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ent_use_in</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ent_use_idle</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ent_use_out</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <!--_________-->
+            <!-- HANGING -->
+            <!--_________-->
+            <AnimationSet>
+                <Name>hanging</Name>
+                <Folder>anim_test</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>f_sw_hanging.xml</AnimSW>
+                <AnimSE>f_sw_hanging.xml</AnimSE>
+                <AnimNW>f_sw_hanging.xml</AnimNW>
+                <AnimNE>f_sw_hanging.xml</AnimNE>
+            </AnimationSet>
+        </AnimationSets>
+    </GameDBAnimatedModel8DirController>
+
+    <GameDBAnimatedModel8DirController ID="MALE_DEFAULT">
+        <Name>Default character controller</Name>
+        <AnimationFilenamePrefix>m_</AnimationFilenamePrefix>
+        <Scale>4.8</Scale>
+
+        <ModelS>male_s_model.xml</ModelS>
+        <ModelSW>male_sw_model.xml</ModelSW>
+        <ModelW>male_e_model.xml</ModelW>
+        <ModelNW>male_ne_model.xml</ModelNW>
+        <ModelN>male_n_model.xml</ModelN>
+        <ModelNE>male_ne_model.xml</ModelNE>
+        <ModelE>male_e_model.xml</ModelE>
+        <ModelSE>male_sw_model.xml</ModelSE>
+
+        <ModelLyingSW>male_sw_model.xml</ModelLyingSW>
+        <ModelLyingNW>male_bed_model.xml</ModelLyingNW>
+        <ModelLyingNE>male_bed_model.xml</ModelLyingNE>
+        <ModelLyingSE>male_sw_model.xml</ModelLyingSE>
+
+        <MirrorS>false</MirrorS>
+        <MirrorSW>false</MirrorSW>
+        <MirrorW>true</MirrorW>
+        <MirrorNW>true</MirrorNW>
+        <MirrorN>false</MirrorN>
+        <MirrorNE>false</MirrorNE>
+        <MirrorE>false</MirrorE>
+        <MirrorSE>true</MirrorSE>
+
+        <MirrorLyingSW>true</MirrorLyingSW>
+        <MirrorLyingNW>true</MirrorLyingNW>
+        <MirrorLyingNE>false</MirrorLyingNE>
+        <MirrorLyingSE>false</MirrorLyingSE>
+
+        <AnimationSets>
+            <!-- <AnimationSet> -->
+            <!--This is the default one -->
+            <!--Configuration>FOUR_DIR_MIRRORED</Configuration-->
+            <!-- <Folder>FemaleWalk</Folder> -->
+            <!-- </AnimationSet> -->
+
+            <!--_______-->
+            <!-- WALK -->
+            <!--_______-->
+            <AnimationSet>
+                <Name>walk</Name>
+                <Folder>anim_walk</Folder>
+                <Configuration>EIGHT_DIR_MIRRORED</Configuration>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>walk_slow</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>walk_sick</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>walk_limp</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>walk_hold_phone</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>walk_push_cart</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>walk_push_stretcher</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>walk_fast_push_stretcher</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>walk_push_wheelchair</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>walk_braindead</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>run</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>walk_mask</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>walk_crutch</Name>
+                <Folder>anim_walk</Folder>
+            </AnimationSet>
+
+            <!--_______-->
+            <!-- STAND -->
+            <!--_______-->
+
+            <AnimationSet>
+                <Name>stand_idle</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_wait</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_look</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_bookcase_take</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_type_in</Name>
+                <Folder>anim_stand_equipment</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_type_idle</Name>
+                <Folder>anim_stand_equipment</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_type_out</Name>
+                <Folder>anim_stand_equipment</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_use_in</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_use_idle</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_use_out</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_mop</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_take_from_fridge</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_consult_on_phone</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_use_thermometer</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+            <AnimationSet>
+                <Name>stand_use_thermometer_low</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_neck_palpation_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_neck_palpation_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_neck_palpation_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_abdominal_palpation_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_abdominal_palpation_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_abdominal_palpation_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_use_trash</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_blood_sampling_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_blood_sampling_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_blood_sampling_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ear_examination_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ear_examination_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ear_examination_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_laryngoscopy_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_laryngoscopy_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_laryngoscopy_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_nasal_cavity_inspection_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_nasal_cavity_inspection_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_nasal_cavity_inspection_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_oral_cavity_inspection_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_oral_cavity_inspection_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_oral_cavity_inspection_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_head_lamp_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_head_lamp_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_head_lamp_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_physical_visual_exam_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_physical_visual_exam_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_physical_visual_exam_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_skin_injection_test_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_skin_injection_test_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_skin_injection_test_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_bacteria_antibodies_proof_sampling_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_bacteria_antibodies_proof_sampling_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_bacteria_antibodies_proof_sampling_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_bacteria_cultivation_sampling_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_bacteria_cultivation_sampling_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_bacteria_cultivation_sampling_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_fungal_cultivation_sampling_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_fungal_cultivation_sampling_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_fungal_cultivation_sampling_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_urine_sampling</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_stethoscope_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_stethoscope_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_stethoscope_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>step_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>step_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_eye_test</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_examination_in</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+            <AnimationSet>
+                <Name>stand_examination_idle</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+            <AnimationSet>
+                <Name>stand_examination_out</Name>
+                <Folder>anim_stand_examinations</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_microscope_use_in</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_microscope_use_idle</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_microscope_use_out</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ultracentrifuge_use_in</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ultracentrifuge_use_idle</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ultracentrifuge_use_out</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_glassware_use_in</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_glassware_use_idle</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_glassware_use_out</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ria_use_in</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ria_use_idle</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ria_use_out</Name>
+                <Folder>anim_stand_stat_lab</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_doc_give_receipt</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_print_receipt</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_write_receipt_in</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_write_receipt_idle</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_write_receipt_out</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_press_bandage_hand_in</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_press_bandage_hand_idle</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_press_bandage_hand_out</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_fix_arm_in</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_fix_arm_idle</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_fix_arm_out</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_treatment_in</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+            <AnimationSet>
+                <Name>stand_treatment_idle</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+            <AnimationSet>
+                <Name>stand_treatment_out</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_look_in</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_look_idle</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_look_out</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_queue_machine</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_xray_viewer_in</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_xray_viewer_idle</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_xray_viewer_out</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_xray_control_in</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_xray_control_idle</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_xray_control_out</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>use_equipment_low</Name>
+                <Folder>anim_stand_equipment</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>use_equipment_high</Name>
+                <Folder>anim_stand_equipment</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>chest_compressions_in</Name>
+                <Folder>anim_collapse</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>chest_compressions_idle</Name>
+                <Folder>anim_collapse</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>chest_compressions_out</Name>
+                <Folder>anim_collapse</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>collapse_support_in</Name>
+                <Folder>anim_collapse</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>collapse_support_idle</Name>
+                <Folder>anim_collapse</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>collapse_support_out</Name>
+                <Folder>anim_collapse</Folder>
+            </AnimationSet>
+
+            <!--_____-->
+            <!-- SIT -->
+            <!--_____-->
+            <AnimationSet>
+                <Name>sit_in</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_in_sick</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_idle</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_idle_hold_phone</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_idle_sick</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_out</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_exam_bed_in</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_exam_bed_in_ac</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_exam_bed_idle</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_exam_bed_out</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_read_in</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_read_idle</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_read_out</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_type_in</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_type_idle</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_type_out</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_anesthetic_machine_in</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_anesthetic_machine_idle</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_anesthetic_machine_out</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_doc_recommendation_in</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_doc_recommendation_idle</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_doc_recommendation_out</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_wc_in</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_wc_idle</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_wc_out</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_sit_and_eat_in</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_sit_and_eat_idle</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_sit_and_eat_out</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_relax_pc_in</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_relax_pc_idle</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_relax_pc_out</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>sit_wheelchair_idle</Name>
+                <Folder>anim_sit</Folder>
+            </AnimationSet>
+
+            <!--_______-->
+            <!-- LYING -->
+            <!--_______-->
+            <AnimationSet>
+                <Name>lay_bed_in</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>lay_bed_idle</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>lay_bed_out</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_bed_idle</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_bed_idle_head</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_bed_idle_head_wound_head</Name>
+                <Folder>anim_lay</Folder>
+             </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_stretcher_idle_head_wound_head</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+             <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_stretcher_x_idle_head_wound_head</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>CUSTOM</Configuration>
+                <Name>lie_bed_idle_head_respirator</Name>
+                <Folder>anim_lay</Folder>
+
+                <AnimLyingSW>m_sw_lie_bed_idle_head_respirator.xml</AnimLyingSW>
+                <AnimLyingSE>m_se_lie_bed_idle_head_respirator.xml</AnimLyingSE>
+                <AnimLyingNW>m_nw_lie_bed_idle_head_respirator.xml</AnimLyingNW>
+                <AnimLyingNE>m_ne_lie_bed_idle_head_respirator.xml</AnimLyingNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_bed_idle_head_bubble</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_bed_idle_head_oxygen</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_stretcher_idle</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_stretcher_idle_head</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_stretcher_x_idle</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_stretcher_x_idle_wound_head</Name>
+                <Folder>anim_lay</Folder>
+             </AnimationSet>
+
+             <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_stretcher_x_idle_wound_chest</Name>
+                <Folder>anim_lay</Folder>
+              </AnimationSet>
+
+             <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_stretcher_x_idle_wound_abdomen</Name>
+                <Folder>anim_lay</Folder>
+              </AnimationSet>
+
+             <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_stretcher_x_idle_wound_leg</Name>
+                <Folder>anim_lay</Folder>
+              </AnimationSet>
+
+             <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_stretcher_x_idle_wound_arm</Name>
+                <Folder>anim_lay</Folder>
+              </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_stretcher_x_idle_head</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_collapsed_idle</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_idle</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_idle_wound_head</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_idle_wound_chest</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_idle_wound_abdomen</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_idle_wound_leg</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_idle_wound_arm</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_oxygen</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_oxygen_wound_head</Name>
+                <Folder>anim_lay</Folder>
+             </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_oxygen_wound_chest</Name>
+                <Folder>anim_lay</Folder>
+             </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_oxygen_wound_abdomen</Name>
+                <Folder>anim_lay</Folder>
+             </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_oxygen_wound_leg</Name>
+                <Folder>anim_lay</Folder>
+             </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_oxygen_wound_arm</Name>
+                <Folder>anim_lay</Folder>
+             </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_head</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_op_table_head_respirator</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_bed_defibrillator</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_hidden</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_autopsy_table_idle</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_autopsy_table_autopsy</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_bed_idle_wound_head</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+          <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_bed_idle_wound_chest</Name>
+                <Folder>anim_lay</Folder>
+          </AnimationSet>
+
+          <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_bed_idle_wound_abdomen</Name>
+                <Folder>anim_lay</Folder>
+          </AnimationSet>
+
+          <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_bed_idle_wound_leg</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR_LYING</Configuration>
+                <Name>lie_bed_idle_wound_arm</Name>
+                <Folder>anim_lay</Folder>
+            </AnimationSet>
+
+            <!--______-->
+            <!-- TAKE -->
+            <!--______-->
+             <AnimationSet>
+                <Name>take_vending_machine_in</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_vending_machine_idle</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_vending_machine_out</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_vending_machine_coffee_in</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_vending_machine_coffee_idle</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_vending_machine_coffee_out</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_water_machine</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_shelf</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_cabinet</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_cabinet_up</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+
+            <!--______-->
+            <!-- WASH -->
+            <!--______-->
+            <AnimationSet>
+                <Name>wash_in</Name>
+                <Folder>anim_wash</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>wash_idle</Name>
+                <Folder>anim_wash</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>wash_out</Name>
+                <Folder>anim_wash</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>wash_lab_sink_in</Name>
+                <Folder>anim_wash</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>wash_lab_sink_idle</Name>
+                <Folder>anim_wash</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>wash_lab_sink_out</Name>
+                <Folder>anim_wash</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>wash_sink_hands</Name>
+                <Folder>anim_wash</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>wash_dry_hands</Name>
+                <Folder>anim_wash</Folder>
+            </AnimationSet>
+
+            <!--_________-->
+            <!-- SURGERY -->
+            <!--_________-->
+            <AnimationSet>
+                <Name>stand_idle_surgery</Name>
+                <Folder>anim_surgery</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>cover_patient</Name>
+                <Folder>anim_surgery</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_electroacutery</Name>
+                <Folder>anim_surgery</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_defibrillator_high</Name>
+                <Folder>anim_surgery</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>pass_item_side_right</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>m_sw_pass_item_side_right.xml</AnimSW>
+                <AnimSE>m_sw_pass_item_side_left.xml</AnimSE>
+                <AnimNW>m_ne_pass_item_side_left.xml</AnimNW>
+                <AnimNE>m_ne_pass_item_side_right.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>pass_item_side_left</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>m_sw_pass_item_side_left.xml</AnimSW>
+                <AnimSE>m_sw_pass_item_side_right.xml</AnimSE>
+                <AnimNW>m_ne_pass_item_side_right.xml</AnimNW>
+                <AnimNE>m_ne_pass_item_side_left.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>pass_equipment_side_right</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>m_sw_pass_equipment_side_right.xml</AnimSW>
+                <AnimSE>m_sw_pass_equipment_side_left.xml</AnimSE>
+                <AnimNW>m_ne_pass_equipment_side_left.xml</AnimNW>
+                <AnimNE>m_ne_pass_equipment_side_right.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>pass_equipment_side_left</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>m_sw_pass_equipment_side_left.xml</AnimSW>
+                <AnimSE>m_sw_pass_equipment_side_right.xml</AnimSE>
+                <AnimNW>m_ne_pass_equipment_side_right.xml</AnimNW>
+                <AnimNE>m_ne_pass_equipment_side_left.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_item_side_right</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>m_sw_take_item_side_right.xml</AnimSW>
+                <AnimSE>m_sw_take_item_side_left.xml</AnimSE>
+                <AnimNW>m_ne_take_item_side_left.xml</AnimNW>
+                <AnimNE>m_ne_take_item_side_right.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_item_side_left</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>m_sw_take_item_side_left.xml</AnimSW>
+                <AnimSE>m_sw_take_item_side_right.xml</AnimSE>
+                <AnimNW>m_ne_take_item_side_right.xml</AnimNW>
+                <AnimNE>m_ne_take_item_side_left.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>pass_item_diagonally_right</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>m_sw_pass_item_diagonally_right.xml</AnimSW>
+                <AnimSE>m_sw_pass_item_diagonally_left.xml</AnimSE>
+                <AnimNW>m_ne_pass_item_diagonally_left.xml</AnimNW>
+                <AnimNE>m_ne_pass_item_diagonally_right.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>pass_item_diagonally_left</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>m_sw_pass_item_diagonally_left.xml</AnimSW>
+                <AnimSE>m_sw_pass_item_diagonally_right.xml</AnimSE>
+                <AnimNW>m_ne_pass_item_diagonally_right.xml</AnimNW>
+                <AnimNE>m_ne_pass_item_diagonally_left.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>pass_equipment_diagonally_right</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>m_sw_pass_equipment_diagonally_right.xml</AnimSW>
+                <AnimSE>m_sw_pass_equipment_diagonally_left.xml</AnimSE>
+                <AnimNW>m_ne_pass_equipment_diagonally_left.xml</AnimNW>
+                <AnimNE>m_ne_pass_equipment_diagonally_right.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>pass_equipment_diagonally_left</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>m_sw_pass_equipment_diagonally_left.xml</AnimSW>
+                <AnimSE>m_sw_pass_equipment_diagonally_right.xml</AnimSE>
+                <AnimNW>m_ne_pass_equipment_diagonally_right.xml</AnimNW>
+                <AnimNE>m_ne_pass_equipment_diagonally_left.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_item_diagonally_right</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>m_sw_take_item_diagonally_right.xml</AnimSW>
+                <AnimSE>m_sw_take_item_diagonally_left.xml</AnimSE>
+                <AnimNW>m_ne_take_item_diagonally_left.xml</AnimNW>
+                <AnimNE>m_ne_take_item_diagonally_right.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_item_diagonally_left</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>m_sw_take_item_diagonally_left.xml</AnimSW>
+                <AnimSE>m_sw_take_item_diagonally_right.xml</AnimSE>
+                <AnimNW>m_ne_take_item_diagonally_right.xml</AnimNW>
+                <AnimNE>m_ne_take_item_diagonally_left.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>surgery_chest_in</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>m_sw_surgery_chest_in.xml</AnimSW>
+                <AnimSE>m_se_surgery_chest_in.xml</AnimSE>
+                <AnimNW>m_nw_surgery_chest_in.xml</AnimNW>
+                <AnimNE>m_ne_surgery_chest_in.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>surgery_chest_idle</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>m_sw_surgery_chest_idle.xml</AnimSW>
+                <AnimSE>m_se_surgery_chest_idle.xml</AnimSE>
+                <AnimNW>m_nw_surgery_chest_idle.xml</AnimNW>
+                <AnimNE>m_ne_surgery_chest_idle.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>surgery_chest_out</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>m_sw_surgery_chest_out.xml</AnimSW>
+                <AnimSE>m_se_surgery_chest_out.xml</AnimSE>
+                <AnimNW>m_nw_surgery_chest_out.xml</AnimNW>
+                <AnimNE>m_ne_surgery_chest_out.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>surgery_assistant_chest_in</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>m_se_surgery_chest_in.xml</AnimSW>
+                <AnimSE>m_sw_surgery_chest_in.xml</AnimSE>
+                <AnimNW>m_ne_surgery_chest_in.xml</AnimNW>
+                <AnimNE>m_nw_surgery_chest_in.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>surgery_assistant_chest_idle</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>m_se_surgery_chest_idle.xml</AnimSW>
+                <AnimSE>m_sw_surgery_chest_idle.xml</AnimSE>
+                <AnimNW>m_ne_surgery_chest_idle.xml</AnimNW>
+                <AnimNE>m_nw_surgery_chest_idle.xml</AnimNE>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>surgery_assistant_chest_idle</Name>
+                <Folder>anim_surgery</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>m_se_surgery_chest_idle.xml</AnimSW>
+                <AnimSE>m_sw_surgery_chest_idle.xml</AnimSE>
+                <AnimNW>m_ne_surgery_chest_idle.xml</AnimNW>
+                <AnimNE>m_nw_surgery_chest_idle.xml</AnimNE>
+            </AnimationSet>
+
+            <!--_________-->
+            <!-- TEMPs -->
+            <!--_________-->
+            <AnimationSet>
+                <Name>temp_examination_in</Name>
+                <Folder>anim_test</Folder>
+            </AnimationSet>
+            <AnimationSet>
+                <Name>temp_examination_idle</Name>
+                <Folder>anim_test</Folder>
+            </AnimationSet>
+            <AnimationSet>
+                <Name>temp_examination_out</Name>
+                <Folder>anim_test</Folder>
+            </AnimationSet>
+            <AnimationSet>
+                <Name>temp_examination_full</Name>
+                <Folder>anim_test</Folder>
+            </AnimationSet>
+
+            <!--______-->
+            <!-- service dep. DLC CAFETERIA -->
+            <!--______-->
+            <AnimationSet>
+                <Name>take_banana_in</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_banana_idle</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_banana_out</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_donut_in</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_donut_idle</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_donut_out</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_sandwich_in</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_sandwich_idle</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>take_sandwich_out</Name>
+                <Folder>anim_take</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>use_equipment_ENT_Workstation_in</Name>
+                <Folder>anim_stand_equipment</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>use_equipment_ENT_Workstation_idle</Name>
+                <Folder>anim_stand_equipment</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>use_equipment_ENT_Workstation_out</Name>
+                <Folder>anim_stand_equipment</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_defibrillation_in</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_defibrillation_idle</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_defibrillation_out</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_use_objectl_idle</Name>
+                <Folder>anim_stand</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ent_use_in</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ent_use_idle</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Name>stand_ent_use_out</Name>
+                <Folder>anim_stand_treatments</Folder>
+            </AnimationSet>
+
+            <!--_________-->
+            <!-- HANGING -->
+            <!--_________-->
+            <AnimationSet>
+                <Name>hanging</Name>
+                <Folder>anim_test</Folder>
+                <Configuration>CUSTOM</Configuration>
+                <AnimSW>m_sw_hanging.xml</AnimSW>
+                <AnimSE>m_sw_hanging.xml</AnimSE>
+                <AnimNW>m_sw_hanging.xml</AnimNW>
+                <AnimNE>m_sw_hanging.xml</AnimNE>
+            </AnimationSet>
+
+        </AnimationSets>
+    </GameDBAnimatedModel8DirController>
+</Database>

@@ -1,0 +1,19 @@
+﻿<Database>
+    <GameDBNotification ID="NOTIF_CONTROLLED_PATIENT_COLLAPSING">
+        <TextLocID>NOTIF_CONTROLLED_PATIENT_COLLAPSING_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_RED</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_INSURANCE_OBJ_RESET">
+        <TextLocID>NOTIF_INSURANCE_OBJ_RESET_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_RED</DefaultColorRef>
+    </GameDBNotification>
+</Database>

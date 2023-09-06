@@ -1,0 +1,8 @@
+﻿<Database>
+
+    <GameDBStatistic ID="STAT_CREATED">               <PlatformValue>STAT_CREATED</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    <GameDBStatistic ID="STAT_SPEC_MODE_TREATED">     <PlatformValue>STAT_SPEC_MODE_TREATED</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    <GameDBStatistic ID="STAT_CAMERA_ROTATED">        <PlatformValue>STAT_CAMERA_ROTATED</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    
+</Database>
+

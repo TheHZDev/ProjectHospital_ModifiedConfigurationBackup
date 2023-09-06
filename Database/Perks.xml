@@ -1,0 +1,294 @@
+<Database>
+    <!-- ========= -->
+    <!-- Employees -->
+    <!-- ========= -->
+    
+    <!--Positive -->
+    <GameDBPerk ID="PERK_GOOD_BOSS">
+        <AbbreviationLocID>PERK_GOOD_BOSS_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>true</HiddenByDefault>
+        <IconIndex>326</IconIndex>
+        <PerkType>POSITIVE</PerkType>
+    </GameDBPerk>
+
+    <GameDBPerk ID="PERK_FAST_LEARNER">    
+        <AbbreviationLocID>PERK_FAST_LEARNER_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>true</HiddenByDefault>
+        <IconIndex>327</IconIndex>
+        <PerkType>POSITIVE</PerkType>
+    </GameDBPerk>
+
+    <GameDBPerk ID="PERK_SPARTAN">    
+        <AbbreviationLocID>PERK_SPARTAN_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>true</HiddenByDefault>
+        <IconIndex>329</IconIndex>
+        <PerkType>POSITIVE</PerkType>
+    </GameDBPerk>
+
+    <GameDBPerk ID="PERK_SCHOLAR">
+        <AbbreviationLocID>PERK_SCHOLAR_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>false</HiddenByDefault>
+        <IconIndex>330</IconIndex>
+        <PerkType>POSITIVE</PerkType>
+    </GameDBPerk>
+
+    <GameDBPerk ID="PERK_PEOPLE_PERSON">
+        <AbbreviationLocID>PERK_PEOPLE_PERSON_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>true</HiddenByDefault>
+        <IconIndex>331</IconIndex>
+        <PerkType>POSITIVE</PerkType>
+    </GameDBPerk>
+
+    <GameDBPerk ID="PERK_GAMER">
+      	<AbbreviationLocID>PERK_GAMER_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>false</HiddenByDefault>
+        <IconIndex>332</IconIndex>
+        <PerkType>POSITIVE</PerkType>
+    </GameDBPerk>     
+    
+    <GameDBPerk ID="PERK_DIAGNOSTIC_GENIUS">
+      	<AbbreviationLocID>PERK_DIAGNOSTIC_GENIUS_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>false</HiddenByDefault>
+        <IconIndex>342</IconIndex>
+        <PerkType>POSITIVE</PerkType>
+    </GameDBPerk>    
+    
+    <GameDBPerk ID="PERK_PRACTICAL_DIAGNOSES">
+      	<AbbreviationLocID>PERK_PRACTICAL_DIAGNOSES_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>true</HiddenByDefault>
+        <IconIndex>343</IconIndex>
+        <PerkType>POSITIVE</PerkType>
+    </GameDBPerk>
+
+    <GameDBPerk ID="PERK_RESTZISTANCE">
+        <AbbreviationLocID>PERK_RESTZISTANCE_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>false</HiddenByDefault>
+        <IconIndex>344</IconIndex>
+        <PerkType>POSITIVE</PerkType>
+    </GameDBPerk>    
+    
+    <GameDBPerk ID="PERK_CHEMIST">
+        <AbbreviationLocID>PERK_CHEMIST_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>true</HiddenByDefault>
+        <IconIndex>345</IconIndex>
+        <PerkType>POSITIVE</PerkType>
+    </GameDBPerk>    
+    
+    <GameDBPerk ID="PERK_COMFORTING">
+        <AbbreviationLocID>PERK_COMFORTING_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>true</HiddenByDefault>
+        <IconIndex>346</IconIndex>
+        <PerkType>POSITIVE</PerkType>
+    </GameDBPerk>
+
+    <GameDBPerk ID="PERK_FAST">
+        <AbbreviationLocID>PERK_FAST_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>false</HiddenByDefault>
+        <IconIndex>349</IconIndex>
+        <PerkType>POSITIVE</PerkType>
+    </GameDBPerk>
+
+    <GameDBPerk ID="PERK_PLEASANT">
+        <AbbreviationLocID>PERK_PLEASANT_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>true</HiddenByDefault>
+        <IconIndex>514</IconIndex>
+        <PerkType>POSITIVE</PerkType>
+    </GameDBPerk>    
+    
+    <GameDBPerk ID="PERK_CLEAN_FEET">
+        <AbbreviationLocID>PERK_CLEAN_FEET_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>false</HiddenByDefault>
+        <IconIndex>516</IconIndex>
+        <PerkType>POSITIVE</PerkType>
+    </GameDBPerk>
+
+    <GameDBPerk ID="PERK_LOYAL">
+        <AbbreviationLocID>PERK_LOYAL_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>true</HiddenByDefault>
+        <IconIndex>518</IconIndex>
+        <PerkType>POSITIVE</PerkType>
+    </GameDBPerk>
+
+    <!--Negative -->
+    <GameDBPerk ID="PERK_SLOW_LEARNER">    
+        <AbbreviationLocID>PERK_SLOW_LEARNER_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>true</HiddenByDefault>
+        <IconIndex>328</IconIndex>
+        <PerkType>NEGATIVE</PerkType>
+        <LosingPerkLocID>PERK_SLOW_LEARNER_LOST_DESCRIPTION</LosingPerkLocID>
+    </GameDBPerk>
+
+    <GameDBPerk ID="PERK_LONG_COMMUTE">      
+     	<AbbreviationLocID>PERK_LONG_COMMUTE_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>false</HiddenByDefault>
+        <IconIndex>333</IconIndex>
+        <PerkType>NEGATIVE</PerkType>
+        <NotRemovable>true</NotRemovable>        
+    </GameDBPerk>
+
+    <GameDBPerk ID="PERK_ALCOHOLISM">     	
+    <AbbreviationLocID>PERK_ALCOHOLISM_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>true</HiddenByDefault>
+        <IconIndex>324</IconIndex>
+        <PerkType>NEGATIVE</PerkType>
+        <LosingPerkLocID>PERK_ALCOHOLISM_LOST_DESCRIPTION</LosingPerkLocID>
+    </GameDBPerk>
+
+    <GameDBPerk ID="PERK_FAST_METABOLISM">    
+    	<AbbreviationLocID>PERK_FAST_METABOLISM_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>false</HiddenByDefault>
+        <IconIndex>334</IconIndex>
+        <PerkType>NEGATIVE</PerkType>
+        <NotRemovable>true</NotRemovable>        
+    </GameDBPerk>
+
+    <GameDBPerk ID="PERK_DIRTY_FEET">    	
+    	<AbbreviationLocID>PERK_DIRTY_FEET_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>false</HiddenByDefault>
+        <IconIndex>335</IconIndex>
+        <PerkType>NEGATIVE</PerkType>
+        <LosingPerkLocID>PERK_DIRTY_FEET_LOST_DESCRIPTION</LosingPerkLocID>
+    </GameDBPerk>
+
+    <GameDBPerk ID="PERK_FRESH_PARENT">
+        <AbbreviationLocID>PERK_FRESH_PARENT_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>false</HiddenByDefault>
+        <IconIndex>348</IconIndex>
+        <PerkType>NEGATIVE</PerkType>
+        <NotRemovable>true</NotRemovable>
+    </GameDBPerk>
+
+    <GameDBPerk ID="PERK_GERMAPHOBE">
+        <AbbreviationLocID>PERK_GERMAPHOBE_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>true</HiddenByDefault>
+        <IconIndex>347</IconIndex>
+        <PerkType>NEGATIVE</PerkType>
+        <LosingPerkLocID>PERK_GERMAPHOBE_LOST_DESCRIPTION</LosingPerkLocID>
+    </GameDBPerk>
+
+    <GameDBPerk ID="PERK_SLOW">
+        <AbbreviationLocID>PERK_SLOW_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>false</HiddenByDefault>
+        <IconIndex>341</IconIndex>
+        <PerkType>NEGATIVE</PerkType>
+        <LosingPerkLocID>PERK_SLOW_LOST_DESCRIPTION</LosingPerkLocID>
+    </GameDBPerk>    
+    
+    <GameDBPerk ID="PERK_HEDONIST">
+        <AbbreviationLocID>PERK_HEDONIST_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>true</HiddenByDefault>
+        <IconIndex>520</IconIndex>
+        <PerkType>NEGATIVE</PerkType>
+        <LosingPerkLocID>PERK_HEDONIST_LOST_DESCRIPTION</LosingPerkLocID>
+    </GameDBPerk>   
+    
+    <GameDBPerk ID="PERK_DEPRESSED">
+        <AbbreviationLocID>PERK_DEPRESSED_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>true</HiddenByDefault>
+        <IconIndex>517</IconIndex>
+        <PerkType>NEGATIVE</PerkType>
+        <LosingPerkLocID>PERK_DEPRESSED_LOST_DESCRIPTION</LosingPerkLocID>
+    </GameDBPerk>    
+    
+    <GameDBPerk ID="PERK_UNPLEASANT">
+        <AbbreviationLocID>PERK_UNPLEASANT_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>true</HiddenByDefault>
+        <IconIndex>519</IconIndex>
+        <PerkType>NEGATIVE</PerkType>
+        <LosingPerkLocID>PERK_UNPLEASANT_LOST_DESCRIPTION</LosingPerkLocID>
+    </GameDBPerk>
+
+    <!-- Double-edged -->
+    <GameDBPerk ID="PERK_EARLY_BIRD">
+        <AbbreviationLocID>PERK_EARLY_BIRD_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>false</HiddenByDefault>
+        <IconIndex>351</IconIndex>
+        <PerkType>NEUTRAL</PerkType>
+    </GameDBPerk>
+
+    <GameDBPerk ID="PERK_NIGHT_OWL">
+        <AbbreviationLocID>PERK_NIGHT_OWL_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>false</HiddenByDefault>
+        <IconIndex>350</IconIndex>
+        <PerkType>NEUTRAL</PerkType>
+    </GameDBPerk>
+
+    <GameDBPerk ID="PERK_HARD_WORKER">
+        <AbbreviationLocID>PERK_HARD_WORKER_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>false</HiddenByDefault>
+        <IconIndex>515</IconIndex>
+        <PerkType>NEUTRAL</PerkType>
+    </GameDBPerk>
+
+    <!-- ======== -->
+    <!-- Patients -->
+    <!-- ======== -->
+    
+    <!--Positive -->
+    <GameDBPerk ID="PERK_COOPERATIVE">
+        <AbbreviationLocID>PERK_COOPERATIVE_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>false</HiddenByDefault>
+        <IconIndex>322</IconIndex>
+    </GameDBPerk>
+
+  	<GameDBPerk ID="PERK_INSPIRATOR">
+        <AbbreviationLocID>PERK_INSPIRATOR_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>true</HiddenByDefault>
+        <IconIndex>336</IconIndex>
+    </GameDBPerk>
+
+    <!--PERK_FAST_METABOLISM -->
+    
+    <!--PERK_GAMER -->
+
+    <GameDBPerk ID="PERK_SHAMELESS">
+        <AbbreviationLocID>PERK_SHAMELESS_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>false</HiddenByDefault>
+        <IconIndex>339</IconIndex>
+    </GameDBPerk>
+
+    <GameDBPerk ID="PERK_MEDICAL_EDUCATION">
+        <AbbreviationLocID>PERK_MEDICAL_EDUCATION_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>true</HiddenByDefault>
+        <IconIndex>321</IconIndex>
+    </GameDBPerk>
+
+    <!--Negative -->
+    <GameDBPerk ID="PERK_AGGRESSIVE">      
+    	<AbbreviationLocID>PERK_AGGRESSIVE_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>false</HiddenByDefault>
+        <IconIndex>337</IconIndex>
+    </GameDBPerk>
+
+     <GameDBPerk ID="PERK_FOREIGNER">      
+    	<AbbreviationLocID>PERK_FOREIGNER_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>true</HiddenByDefault>
+        <IconIndex>325</IconIndex>
+    </GameDBPerk>
+
+    <GameDBPerk ID="PERK_DEMOTIVATOR">
+        <AbbreviationLocID>PERK_DEMOTIVATOR_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>true</HiddenByDefault>
+        <IconIndex>340</IconIndex>
+    </GameDBPerk>
+
+    <GameDBPerk ID="PERK_SHY">
+        <AbbreviationLocID>PERK_SHY_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>true</HiddenByDefault>
+        <IconIndex>338</IconIndex>
+    </GameDBPerk>    
+    
+    <GameDBPerk ID="PERK_PIRATE">
+        <AbbreviationLocID>PERK_PIRATE_DESCRIPTION</AbbreviationLocID>
+        <HiddenByDefault>true</HiddenByDefault>
+        <IconIndex>521</IconIndex>
+    </GameDBPerk>
+    
+    <!--PERK_GERMAPHOBE -->
+
+    <!--PERK_DIRTY_FEET -->
+
+</Database>
+
+
+

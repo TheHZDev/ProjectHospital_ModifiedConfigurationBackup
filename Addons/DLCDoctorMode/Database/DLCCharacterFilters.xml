@@ -1,0 +1,41 @@
+﻿<Database>
+    <GameDBCharacterFilter ID="CHAR_FILTER_HAZARD">
+        <Color> <R>255</R>  <G>0</G>  <B>0</B>  </Color>
+        <Exclusive>true</Exclusive>
+        <ColorSpectrum>true</ColorSpectrum>
+    </GameDBCharacterFilter>
+
+    <GameDBCharacterFilter ID="CHAR_FILTER_PROFIT">
+        <Color> <R>255</R>  <G>0</G>  <B>0</B>  </Color>
+        <Exclusive>true</Exclusive>
+        <ColorSpectrum>true</ColorSpectrum>
+    </GameDBCharacterFilter>
+
+    <GameDBCharacterFilter ID="CHAR_FILTER_SATISFACTION">
+        <Color> <R>255</R>  <G>0</G>  <B>0</B>  </Color>
+        <Exclusive>true</Exclusive>
+        <ColorSpectrum>true</ColorSpectrum>
+    </GameDBCharacterFilter>
+
+    <GameDBCharacterFilter ID="CHAR_FILTER_CRITICAL">
+        <Color> <R>255</R>  <G>0</G>  <B>0</B>  </Color>
+        <Exclusive>true</Exclusive>
+    </GameDBCharacterFilter>
+
+    <GameDBCharacterFilter ID="CHAR_FILTER_WAITING_FOR_TRT">
+        <Color> <R>88</R>  <G>161</G>  <B>206</B>  </Color>
+    </GameDBCharacterFilter>
+
+    <GameDBCharacterFilter ID="CHAR_FILTER_WAITING_FOR_EXM">
+        <Color> <R>85</R>  <G>191</G>  <B>117</B>  </Color>
+    </GameDBCharacterFilter>
+
+    <GameDBCharacterFilter ID="CHAR_FILTER_NO_DIAGNOSIS">
+        <Color> <R>240</R>  <G>240</G>  <B>240</B>  </Color>
+    </GameDBCharacterFilter>
+
+    <!-- Taken from the controlled patient icon -->
+    <GameDBCharacterFilter ID="CHAR_FILTER_CONTROLLED">
+        <Color> <R>232</R>  <G>138</G>  <B>86</B>  </Color>
+    </GameDBCharacterFilter>
+</Database>

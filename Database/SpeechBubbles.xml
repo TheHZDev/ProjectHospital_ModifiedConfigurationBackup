@@ -1,0 +1,252 @@
+﻿<Database>
+    
+    <!--GENERAL-->
+    <GameDBSpeechBubble ID="BUBBLE_EMPTY">
+        <TextureID>252</TextureID>
+    </GameDBSpeechBubble>
+    
+    <GameDBSpeechBubble ID="BUBBLE_QUESTION"> 
+        <TextureID>0</TextureID>    
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_ANSWER"> 
+        <TextureID>1</TextureID>    
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_FREETIME">
+        <TextureID>2</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_BORED">
+        <TextureID>3</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_THRILED">
+        <TextureID>16</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_HAPPY"> 
+        <TextureID>17</TextureID>    
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_NEUTRAL">
+        <TextureID>18</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_UNHAPPY"> 
+        <TextureID>19</TextureID>    
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_SAD">
+        <TextureID>20</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_EXCLAMATION"> 
+        <TextureID>4</TextureID>    
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_HOME"> 
+        <TextureID>5</TextureID>    
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_PRESCRIPTION"> 
+        <TextureID>6</TextureID>    
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_SWEATING">
+        <TextureID>194</TextureID>    
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_PILLS">
+        <TextureID>144</TextureID>    
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_GAME">
+        <TextureID>7</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_NEXT">
+        <TextureID>8</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_THERMOMETER">
+        <TextureID>12</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_EQUIPEMENT">
+        <TextureID>117</TextureID>
+    </GameDBSpeechBubble>
+    
+    <GameDBSpeechBubble ID="BUBBLE_EXAM_BED">
+        <TextureID>9</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_BIOHAZARD">
+        <TextureID>11</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_WC">
+        <TextureID>12</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_WC_GO">
+        <TextureID>22</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_X_RAY">
+        <TextureID>13</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_STOP">
+        <TextureID>14</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_THUMB_UP">
+        <TextureID>15</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_FOOD">
+        <TextureID>21</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_PERK_AGGRESSIVE">
+        <TextureID>193</TextureID>
+    </GameDBSpeechBubble>
+    
+    <GameDBSpeechBubble ID="BUBBLE_DRESS">
+        <TextureID>23</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_FIRED">
+        <TextureID>24</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_WAITING">
+        <TextureID>25</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_SLEEP">
+        <TextureID>43</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_TV">
+        <TextureID>52</TextureID>
+    </GameDBSpeechBubble>    
+    
+    <GameDBSpeechBubble ID="BUBBLE_COLLAPSE">
+        <TextureID>42</TextureID>
+    </GameDBSpeechBubble>   
+    
+    <GameDBSpeechBubble ID="BUBBLE_SCALPEL_PLEASE">
+        <TextureID>26</TextureID>
+    </GameDBSpeechBubble>    
+    
+    <GameDBSpeechBubble ID="BUBBLE_SCALPEL_USE">
+        <TextureID>27</TextureID>
+    </GameDBSpeechBubble>   
+    
+    <GameDBSpeechBubble ID="BUBBLE_CLAMPS_PLEASE">
+        <TextureID>28</TextureID>
+    </GameDBSpeechBubble>    
+    
+    <GameDBSpeechBubble ID="BUBBLE_CLAMPS_USE">
+        <TextureID>29</TextureID>
+    </GameDBSpeechBubble>   
+    
+    <GameDBSpeechBubble ID="BUBBLE_ELEC_PEN_PLEASE">
+        <TextureID>30</TextureID>
+    </GameDBSpeechBubble>    
+    
+    <GameDBSpeechBubble ID="BUBBLE_ELEC_PEN_USE">
+        <TextureID>31</TextureID>
+    </GameDBSpeechBubble> 
+    
+    <GameDBSpeechBubble ID="BUBBLE_SUCCION_PEN_PLEASE">
+        <TextureID>34</TextureID>
+    </GameDBSpeechBubble>    
+    
+    <GameDBSpeechBubble ID="BUBBLE_SUCCION_PEN_USE">
+        <TextureID>35</TextureID>
+    </GameDBSpeechBubble>    
+    
+    <GameDBSpeechBubble ID="BUBBLE_LAPARO_SET_PLEASE">
+        <TextureID>32</TextureID>
+    </GameDBSpeechBubble>    
+    
+    <GameDBSpeechBubble ID="BUBBLE_LAPARO_SET_USE">
+        <TextureID>33</TextureID>
+    </GameDBSpeechBubble>    
+    
+    <GameDBSpeechBubble ID="BUBBLE_CLOSE_UP">
+        <TextureID>36</TextureID>
+    </GameDBSpeechBubble>   
+    
+    <GameDBSpeechBubble ID="BUBBLE_CLOSING_UP">
+        <TextureID>37</TextureID>
+    </GameDBSpeechBubble>    
+    
+    <GameDBSpeechBubble ID="BUBBLE_WAKE_UP">
+        <TextureID>38</TextureID>
+    </GameDBSpeechBubble>    
+    
+    <GameDBSpeechBubble ID="BUBBLE_READING">
+        <TextureID>39</TextureID>
+    </GameDBSpeechBubble>    
+    
+    <GameDBSpeechBubble ID="BUBBLE_CLEAR">
+        <TextureID>40</TextureID>
+    </GameDBSpeechBubble>    
+    
+    <GameDBSpeechBubble ID="BUBBLE_BREATHE_MASK">
+        <TextureID>41</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_HACKSAW_PLEASE">
+        <TextureID>44</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_HACKSAW_USE">
+        <TextureID>45</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_DRILL_PLEASE">
+        <TextureID>46</TextureID>
+    </GameDBSpeechBubble>  
+    
+    <GameDBSpeechBubble ID="BUBBLE_DRILL_USE">
+        <TextureID>47</TextureID>
+    </GameDBSpeechBubble>      
+    
+    <GameDBSpeechBubble ID="BUBBLE_PROSTHESIS_PLEASE">
+        <TextureID>48</TextureID>
+    </GameDBSpeechBubble>    
+    
+    <GameDBSpeechBubble ID="BUBBLE_PROSTHESIS_USE">
+        <TextureID>49</TextureID>
+    </GameDBSpeechBubble>  
+    
+    <GameDBSpeechBubble ID="BUBBLE_STAPADECTOMY_PLEASE">
+        <TextureID>50</TextureID>
+    </GameDBSpeechBubble>   
+    
+    <GameDBSpeechBubble ID="BUBBLE_STAPADECTOMY_USE">
+        <TextureID>51</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_PLACEHOLDER">
+        <TextureID>255</TextureID>
+    </GameDBSpeechBubble>   
+    
+    <GameDBSpeechBubble ID="BUBBLE_PLACEHOLDER_1">
+        <TextureID>237</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_PLACEHOLDER_2">
+        <TextureID>238</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_PLACEHOLDER_3">
+        <TextureID>239</TextureID>
+    </GameDBSpeechBubble>
+</Database>
+

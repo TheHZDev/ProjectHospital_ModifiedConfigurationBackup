@@ -1,0 +1,9 @@
+﻿<Database>
+    <GameDBSoundConfig ID="SOUND_CONFIG"> 
+        <LowPassCenter>48000</LowPassCenter>
+        <LowPassEdge>1000</LowPassEdge>
+        
+        <VolumeDBZoomIn>0</VolumeDBZoomIn>
+        <VolumeDBZoomOut>-12</VolumeDBZoomOut>
+    </GameDBSoundConfig>
+</Database>

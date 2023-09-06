@@ -1,0 +1,17 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_UK_DLC_DOCTOR_MODE_PATCH_1_1_24">
+    
+        <LanguageCode>uk</LanguageCode>
+        <LanguageNameLocalized>Українська</LanguageNameLocalized>
+    
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+    
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSURANCE_OBJ_RESET</LocID>            <Text>Цілі страхової компанії скинуто</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSURANCE_OBJ_RESET_TEXT</LocID>       <Text>Складність «Режиму лікаря» було змінено, тому цілі страхової компанії скинуто.</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

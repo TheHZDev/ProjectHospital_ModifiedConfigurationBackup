@@ -1,0 +1,16 @@
+﻿<Database>
+    <!-- TODO support more? ...facebook for example offers 58 different options -->
+    <GameDBGender ID="GENDER_MALE"> 
+        <GameDBAnimatedModel8DirControllerRef>MALE_DEFAULT</GameDBAnimatedModel8DirControllerRef>   
+        <GameDBFacialFeaturesRef>FACIAL_FEATURES_MALE</GameDBFacialFeaturesRef>   
+        <NameLocID>MALE</NameLocID>
+        <SoundEventSuffix>_MALE</SoundEventSuffix>
+    </GameDBGender>
+
+    <GameDBGender ID="GENDER_FEMALE"> 
+        <GameDBAnimatedModel8DirControllerRef>FEMALE_DEFAULT</GameDBAnimatedModel8DirControllerRef>   
+        <GameDBFacialFeaturesRef>FACIAL_FEATURES_FEMALE</GameDBFacialFeaturesRef>   
+        <NameLocID>FEMALE</NameLocID>
+        <SoundEventSuffix>_FEMALE</SoundEventSuffix>
+    </GameDBGender>
+</Database>

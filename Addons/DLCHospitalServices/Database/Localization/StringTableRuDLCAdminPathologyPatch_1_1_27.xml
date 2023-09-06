@@ -1,0 +1,28 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_RU_DLC_ADMIN_PATHOLOGY_PATCH_1_1_27">
+    
+        <LanguageCode>ru</LanguageCode>
+        <LanguageNameLocalized>Русский</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+
+            <GameDBLocalizedString>    <LocID>DLC_PHARMACOLOGIST</LocID>                                     <Text>Фармаколог</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>DLC_PHARMACOLOGIST_UI</LocID>                                  <Text>Фармаколог</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY</LocID>             <Text>Аптека</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY_DESCRIPTION</LocID> <Text>Фармакологи продают лекарства пациентам, следя, чтобы те получили правильную дозировку и инструкции по приему.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>DLC_ROOM_TYPE_PHARMACY_DESCRIPTION</LocID>                     <Text>Больничная аптека продает лекарства пациентам. \nМин. персонал: 1x Фармаколог</Text></GameDBLocalizedString>
+
+            <!--NEW SCENARIO-->
+            <GameDBLocalizedString>    <LocID>LEVEL_SANDBOX_HOSPITAL_H</LocID>                               <Text>Услуги больницы: Большая больница</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

@@ -1,0 +1,169 @@
+﻿<Database>
+
+    <GameDBDepartment ID="DPT_TRAUMATOLOGY_DEPARTMENT">
+        <LockedByDefault>false</LockedByDefault>
+        <HospitalizationLockedByDefault>false</HospitalizationLockedByDefault>
+
+        <MinDoctorLevel>2</MinDoctorLevel>
+
+        <PatientGenerationWeight>50</PatientGenerationWeight>
+
+        <FirstDoctorSpecialization>SKILL_DOC_SPEC_TRAUMATOLOGY</FirstDoctorSpecialization>
+
+        <SecondDoctorSpecializations>
+            <SkillRef>SKILL_DOC_SPEC_ADVANCED_DIAGNOSIS</SkillRef>
+            <SkillRef>SKILL_DOC_SPEC_TRAUMA_SURGERY</SkillRef>
+            <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
+        </SecondDoctorSpecializations>
+
+        <SurgerySpecialization>SKILL_DOC_SPEC_TRAUMA_SURGERY</SurgerySpecialization>
+
+        <RequiredRoomsClinic>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_WAITING</RoomDatabaseEntryRef>
+                <MinCount>1</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_TRAUMATOLOGY_OFFICE</RoomDatabaseEntryRef>
+                <MinCount>1</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_RECEPTION</RoomDatabaseEntryRef>
+                <MinCount>0</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_CLEANING_CLOSET</RoomDatabaseEntryRef>
+                <MinCount>0</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+
+            <!--GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_STAT_LAB_GS</RoomDatabaseEntryRef>
+                <MinCount>0</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement-->
+        </RequiredRoomsClinic>
+
+        <SharedRoomsClinic>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_WC</RoomDatabaseEntryRef>
+                <MinCount>0</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_COMMON_ROOM</RoomDatabaseEntryRef>
+                <MinCount>0</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_CORRIDOR</RoomDatabaseEntryRef>
+                <MinCount>0</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_ELEVATOR_MARKER</RoomDatabaseEntryRef>
+                <MinCount>0</MinCount>
+                <MaxCount>2</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+        </SharedRoomsClinic>
+        
+        <RequiredRoomsHospitalization>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_ON_CALL_ROOM</RoomDatabaseEntryRef>
+                <MinCount>1</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_NURSES_STATION</RoomDatabaseEntryRef>
+                <MinCount>1</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_INPATIENT_TRAUMATOLOGY_OFFICE</RoomDatabaseEntryRef>
+                <MinCount>1</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_BURN_UNIT</RoomDatabaseEntryRef>
+                <MinCount>1</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_HIGH_PRIORITY_INPATIENT_WARD</RoomDatabaseEntryRef>
+                <MinCount>1</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_TRAUMATOLOGY</RoomDatabaseEntryRef>
+                <MinCount>0</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_DIAGNOSTIC_SONOGRAPHY_UNIT_TRAUMATOLOGY</RoomDatabaseEntryRef>
+                <MinCount>0</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+<!--
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>DLC_ROOM_TYPE_LOUNGE</RoomDatabaseEntryRef>
+                <MinCount>0</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+-->
+        </RequiredRoomsHospitalization>
+
+        <SharedRoomsHospitalization>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_OPERATING_ROOM</RoomDatabaseEntryRef>
+                <MinCount>0</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+        </SharedRoomsHospitalization>
+
+        <MinClinicnDoctorsDay>1</MinClinicnDoctorsDay>
+
+        <MinStretchers>1</MinStretchers>
+
+        <MinHospitalizationDoctorsDay>3</MinHospitalizationDoctorsDay>
+        <MinHospitalizationDoctorNight>1</MinHospitalizationDoctorNight>
+        <MinHospitalizationNursesDay>3</MinHospitalizationNursesDay>
+        <MinHospitalizationNursesNight>1</MinHospitalizationNursesNight>
+
+        <MinSurgeonsDay>1</MinSurgeonsDay>
+        <MinAnestezilogistDay>1</MinAnestezilogistDay>
+        <MinSurgeryNurseDay>2</MinSurgeryNurseDay>
+        
+        <RecommendedUSGTechnlogist>true</RecommendedUSGTechnlogist>
+        <RecommendedCardiologist>true</RecommendedCardiologist>
+
+        <IconID>472</IconID>
+        <PatientRounds>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </PatientRounds>
+
+        <PrefabTag>ui_prefab_traumatology</PrefabTag>
+        <PrefabButtonIndex>5</PrefabButtonIndex>
+
+        <PrestigeModifierStaff>1.0</PrestigeModifierStaff>
+        <PrestigeModifierPatients>1.0</PrestigeModifierPatients>
+        <PrestigeModifierTreated>1.0</PrestigeModifierTreated>
+        <PrestigeModifierDead>1.0</PrestigeModifierDead>
+
+        <ForcedMobilityNormal>IMOBILE</ForcedMobilityNormal>
+
+
+        <DisplayIndex>82</DisplayIndex>
+        <DiagnosisRoleIcon>473</DiagnosisRoleIcon>
+
+        <!-- Not supported in mods -->
+        <ShowInPrefabs>true</ShowInPrefabs>
+        <PrefabsTooltipId>TOOLTIP_BUILDING_PREFAB_TRAUMATOLOGY</PrefabsTooltipId>
+        <PrefabsTag>ui_prefab_traumatology</PrefabsTag>
+    </GameDBDepartment>
+
+</Database>

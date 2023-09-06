@@ -1,0 +1,458 @@
+<Database>
+	<GameDBWall ID="WALL_TYPE_DEFAULT">
+		 <AbbreviationLocID>WALL_TYPE_DEFAULT</AbbreviationLocID>
+         <TextureID>0</TextureID>
+         <TextureIDPattern>0</TextureIDPattern> 
+         <Cost>10</Cost>
+         <IconIndex>996</IconIndex>
+	 </GameDBWall>
+
+	 <GameDBWall ID="WALL_TYPE_CONCRETE_TILES">    
+    	<AbbreviationLocID>WALL_TYPE_CONCRETE_TILES</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>3</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>994</IconIndex>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_BRICKS">    
+    	<AbbreviationLocID>WALL_TYPE_BRICKS</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>1</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>926</IconIndex>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_BRICKS_SOCLE">    	
+    	<AbbreviationLocID>WALL_TYPE_BRICKS_SOCLE</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>2</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>992</IconIndex>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_CONCRETE_OUTSIDE">    
+    	<AbbreviationLocID>WALL_TYPE_CONCRETE_OUTSIDE</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>4</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>640</IconIndex>
+        <Colored>true</Colored>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_CONCRETE_OUTSIDE_BOTTOM">    
+    	<AbbreviationLocID>WALL_TYPE_CONCRETE_OUTSIDE_BOTTOM</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>28</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>641</IconIndex>
+        <Colored>true</Colored>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_CONCRETE_OUTSIDE_TOP">    
+    	<AbbreviationLocID>WALL_TYPE_CONCRETE_OUTSIDE_TOP</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>29</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>642</IconIndex>
+        <Colored>true</Colored>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_CONCRETE_COLOR">    
+    	<AbbreviationLocID>WALL_TYPE_CONCRETE_COLOR</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>5</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>643</IconIndex>
+        <Colored>true</Colored>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_CONCRETE_COLOR_BOTTOM">    
+    	<AbbreviationLocID>WALL_TYPE_CONCRETE_COLOR_BOTTOM</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>13</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>644</IconIndex>
+        <Colored>true</Colored>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_CONCRETE_COLOR_TOP">    
+    	<AbbreviationLocID>WALL_TYPE_CONCRETE_COLOR_TOP</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>14</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>645</IconIndex>
+        <Colored>true</Colored>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_PLATES">    
+    	<AbbreviationLocID>WALL_TYPE_PLATES</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>15</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>658</IconIndex>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_PLATES_COLORED">    
+    	<AbbreviationLocID>WALL_TYPE_PLATES_COLORED</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>37</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>657</IconIndex>
+        <Colored>true</Colored>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_LIGHTWOOD_ALL">    
+    	<AbbreviationLocID>WALL_TYPE_LIGHTWOOD_ALL</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>7</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>646</IconIndex>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_LIGHTWOOD_TOP">    
+    	<AbbreviationLocID>WALL_TYPE_LIGHTWOOD_TOP</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>8</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>648</IconIndex>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_LIGHTWOOD_BOTTOM">    
+    	<AbbreviationLocID>WALL_TYPE_LIGHTWOOD_BOTTOM</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>9</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>647</IconIndex>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_DARKWOOD_ALL">    
+    	<AbbreviationLocID>WALL_TYPE_DARKWOOD_ALL</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>10</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>649</IconIndex>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_DARKWOOD_TOP">    
+    	<AbbreviationLocID>WALL_TYPE_DARKWOOD_TOP</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>11</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>651</IconIndex>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_DARKWOOD_BOTTOM">    
+    	<AbbreviationLocID>WALL_TYPE_DARKWOOD_BOTTOM</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>12</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>650</IconIndex>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_CERAMIC_WHITE">    
+    	<AbbreviationLocID>WALL_TYPE_CERAMIC_WHITE</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>26</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>993</IconIndex>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_CERAMIC_WHITE_HALF">    
+    	<AbbreviationLocID>WALL_TYPE_CERAMIC_WHITE_HALF</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>32</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>652</IconIndex>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_CERAMIC_WHITE_HALF_COLORED">    
+    	<AbbreviationLocID>WALL_TYPE_CERAMIC_WHITE_HALF_COLORED</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>33</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>653</IconIndex>
+        <Colored>true</Colored>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_CERAMIC_WHITE_LINE">    
+    	<AbbreviationLocID>WALL_TYPE_CERAMIC_WHITE_LINE</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>34</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>654</IconIndex>
+        <Colored>true</Colored>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_CERAMIC_ORANGE">    
+    	<AbbreviationLocID>WALL_TYPE_CERAMIC_ORANGE</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>27</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>927</IconIndex>
+        <Colored>true</Colored>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_CERAMIC_COLORED_HALF_WHITE">    
+    	<AbbreviationLocID>WALL_TYPE_CERAMIC_COLORED_HALF_WHITE</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>35</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>655</IconIndex>
+        <Colored>true</Colored>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_CERAMIC_COLORED_HALF">    
+    	<AbbreviationLocID>WALL_TYPE_CERAMIC_COLORED_HALF</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>36</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>656</IconIndex>
+        <Colored>true</Colored>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_WC">    	
+    	<AbbreviationLocID>WALL_TYPE_WC</AbbreviationLocID>
+        <TextureID>5</TextureID>
+        <TextureIDPattern>6</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>1000</IconIndex>
+        <BothSidesSimilar>true</BothSidesSimilar>
+        <Colored>true</Colored>
+    </GameDBWall>
+
+    <!-- //COLORED//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <GameDBWall ID="WALL_TYPE_GREEN">    	
+    	<AbbreviationLocID>WALL_TYPE_GREEN</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>16</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>918</IconIndex>
+        <Colored>true</Colored>
+    </GameDBWall>
+
+	 <GameDBWall ID="WALL_TYPE_LINE">    
+    	<AbbreviationLocID>WALL_TYPE_LINE</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>17</TextureIDPattern>
+        <Cost>10</Cost>
+        <IconIndex>916</IconIndex>
+         <Colored>true</Colored>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_TWOLINES">    	
+    	<AbbreviationLocID>WALL_TYPE_TWOLINES</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>18</TextureIDPattern>
+        <Cost>10</Cost>
+        <IconIndex>995</IconIndex>
+        <Colored>true</Colored>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_THICK_LINE_ORANGE">    	
+    	<AbbreviationLocID>WALL_TYPE_THICK_LINE_ORANGE</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>19</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>922</IconIndex>
+        <Colored>true</Colored>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_LINE_HALF_BLUE">    	
+    	<AbbreviationLocID>WALL_TYPE_LINE_HALF_BLUE</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>20</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>917</IconIndex>
+        <Colored>true</Colored>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_HALF_GREEN">		
+    	<AbbreviationLocID>WALL_TYPE_HALF_GREEN</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>21</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>919</IconIndex>
+        <Colored>true</Colored>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_HALF">		
+    	<AbbreviationLocID>WALL_TYPE_HALF</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>22</TextureIDPattern>
+        <Cost>10</Cost>
+        <IconIndex>998</IconIndex>
+        <Colored>true</Colored>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_UPPER_HALF">    
+    	<AbbreviationLocID>WALL_TYPE_UPPER_HALF</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>23</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>999</IconIndex>
+        <Colored>true</Colored>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_LINE_ORANGE">    	
+    	<AbbreviationLocID>WALL_TYPE_LINE_ORANGE</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>24</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>923</IconIndex>
+        <Colored>true</Colored>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_WOOND_PANELING_ORANGE">    	
+    	<AbbreviationLocID>WALL_TYPE_WOOND_PANELING_ORANGE</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>25</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>10</Cost>
+        <IconIndex>925</IconIndex>
+        <Colored>true</Colored>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_TEST">
+		 <AbbreviationLocID>WALL_TYPE_DEFAULT</AbbreviationLocID>
+         <TextureID>0</TextureID>
+         <TextureIDPattern>30</TextureIDPattern> 
+         <Cost>10</Cost>
+         <IconIndex>996</IconIndex>
+         <Hidden>true</Hidden>
+	 </GameDBWall>
+
+<!-- //REMOVE//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <GameDBWall ID="WALL_TYPE_TILES_YELLOW">
+        <AbbreviationLocID>WALL_TYPE_TILES_YELLOW</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>31</TextureIDPattern>
+        <Cost>60</Cost>
+        <IconIndex>1018</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_PILLAR_LINE">        
+    	<AbbreviationLocID>WALL_TYPE_PILLAR_LINE</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>31</TextureIDPattern>
+        <AlwaysVisible>true</AlwaysVisible>
+        <Cost>40</Cost>
+        <IconIndex>1018</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_WC_THICK">    
+    	<AbbreviationLocID>WALL_TYPE_WC_THICK</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>31</TextureIDPattern>
+        <AlwaysVisible>true</AlwaysVisible>
+        <Cost>40</Cost>
+        <IconIndex>1018</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_GLASS_DOOR">    	
+    	<AbbreviationLocID>WALL_GLASS_DOOR</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>31</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>40</Cost>
+         <IconIndex>1018</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_TILES">
+		<AbbreviationLocID>WALL_TYPE_TILES</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>31</TextureIDPattern>
+        <Cost>60</Cost>
+        <IconIndex>1018</IconIndex>
+        <Hidden>true</Hidden>
+	</GameDBWall>
+
+	<GameDBWall ID="WALL_TYPE_ORANGE">    	
+    	<AbbreviationLocID>WALL_TYPE_ORANGE</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>31</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>40</Cost>
+        <IconIndex>1018</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_LINE_GREEN">    
+		<AbbreviationLocID>WALL_TYPE_LINE_GREEN</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>31</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>40</Cost>
+        <IconIndex>1018</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_BLUE">    	
+    	<AbbreviationLocID>WALL_TYPE_BLUE</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>31</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>40</Cost>
+        <IconIndex>1018</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_LINE_BLUE">    
+    	<AbbreviationLocID>WALL_TYPE_LINE_BLUE</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>31</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>40</Cost>
+        <IconIndex>1018</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBWall>
+
+    <GameDBWall ID="WALL_TYPE_FENCE">		
+    	<AbbreviationLocID>WALL_TYPE_FENCE</AbbreviationLocID>
+        <TextureID>0</TextureID>
+        <TextureIDPattern>31</TextureIDPattern>
+        <AlwaysVisible>false</AlwaysVisible>
+        <Cost>40</Cost>
+        <IconIndex>1018</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBWall>
+
+</Database>
+

@@ -1,0 +1,107 @@
+﻿<Database>
+
+    <!-- ANIMATED /////////////////////////////////////////////////////////// -->
+
+    <GameDBObject ID="OBJECT_XRAY_ANIM_TEST">
+        <AbbreviationLocID>OBJECT_XRAY_ANIM_TEST</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_ANIMATED</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_8</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>20</TextureIDNW>
+        <TextureIDNE>21</TextureIDNE>
+        <TextureIDSE>22</TextureIDSE>
+        <TextureIDSW>23</TextureIDSW>
+        <IconIndex>967</IconIndex>
+
+        <GameDBAnimatedModel8DirControllerRef>OBJECT_X_RAY_ARM_CONTROLLER</GameDBAnimatedModel8DirControllerRef>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>-1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+            <AccessPosition>
+                <m_x>0</m_x>
+                <m_y>-1</m_y>
+            </AccessPosition>
+            <AccessPosition>
+                <m_x>0</m_x>
+                <m_y>1</m_y>
+            </AccessPosition>
+        </AccessPositions>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+        <Placement>INDOORS</Placement>
+
+        <OffsetZNW>0.0</OffsetZNW>
+        <OffsetZNE>0.0</OffsetZNE>
+        <OffsetZSE>-0.6</OffsetZSE>
+        <OffsetZSW>0.0</OffsetZSW>
+
+        <Durability>20</Durability>
+
+        <SoundEventUseStartRef>SFX_ENV_XRAY_SERVO</SoundEventUseStartRef>
+        
+        <Tags>
+            <Tag>ui_hidden</Tag>
+            <Tag>x_ray_machine_anim</Tag>
+        </Tags>
+
+        <Cost>9999</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_XRAY</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_ANGIOGRAPH_ANIMATED">
+        <AbbreviationLocID>OBJECT_ANGIOGRAPH_ANIMATED</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_ANIMATED</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_8</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>16</TextureIDNW>
+        <TextureIDNE>17</TextureIDNE>
+        <TextureIDSE>18</TextureIDSE>
+        <TextureIDSW>19</TextureIDSW>
+        <IconIndex>723</IconIndex>
+
+        <GameDBAnimatedModel8DirControllerRef>OBJECT_ANGIOGRAPH_ARM_CONTROLLER</GameDBAnimatedModel8DirControllerRef>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>-1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+            <AccessPosition>
+                <m_x>0</m_x>
+                <m_y>-1</m_y>
+            </AccessPosition>
+            <AccessPosition>
+                <m_x>0</m_x>
+                <m_y>1</m_y>
+            </AccessPosition>
+        </AccessPositions>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+        <Placement>INDOORS</Placement>
+
+        <OffsetZNW>0.0</OffsetZNW>
+        <OffsetZNE>0.0</OffsetZNE>
+        <OffsetZSE>-0.6</OffsetZSE>
+        <OffsetZSW>0.0</OffsetZSW>
+
+        <Durability>20</Durability>
+
+        <SoundEventUseStartRef>SFX_ENV_XRAY_SERVO</SoundEventUseStartRef>
+
+        <Tags>
+            <Tag>ui_hidden</Tag>
+            <Tag>angiograph_anim</Tag>
+            <Tag>angiography_scan</Tag>
+        </Tags>
+
+        <Cost>0</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_XRAY</ColorSetRef>
+    </GameDBObject>
+</Database>

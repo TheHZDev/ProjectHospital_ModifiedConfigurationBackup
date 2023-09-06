@@ -1,0 +1,124 @@
+﻿<Database>
+
+    <GameDBCompositeObject ID="COMPOSITE_VISITORS_SEATS">       
+		<AbbreviationLocID>COMPOSITE_VISITORS_SEATS_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_VISITORS_SEATS_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+             <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>-1</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_VISITORS_SEATS_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+
+        <Tags>
+            <Tag>ui_furniture</Tag>
+            <Tag>ui_chair_waiting</Tag>
+            <Tag>ui_visitor_seat</Tag>
+        </Tags>
+
+        <Cost>129</Cost>
+        <IconIndex>562</IconIndex>
+    </GameDBCompositeObject>
+
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_AUTOPSY_TABLE">
+        <AbbreviationLocID>COMPOSITE_OBJECT_AUTOPSY_TABLE_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_AUTOPSY_TABLE_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_AUTOPSY_TABLE_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+        <Cost>2999</Cost>
+
+        <Tags>
+            <Tag>ui_equipment</Tag>
+            <Tag>ui_autopsy_table</Tag>
+        </Tags>
+
+        <IconIndex>2566 </IconIndex>
+    </GameDBCompositeObject>
+
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_PATHOLOGY_FREEZER">       
+		<AbbreviationLocID>COMPOSITE_OBJECT_PATHOLOGY_FREEZER_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>COMPOSITE_OBJECT_PATHOLOGY_FREEZER_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+             <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>-1</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>COMPOSITE_OBJECT_PATHOLOGY_FREEZER_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+        <Cost>899</Cost>
+
+        <Tags>
+            <Tag>ui_equipment</Tag>
+            <Tag>ui_pathology_freezer</Tag>
+        </Tags>
+
+        <IconIndex>2567</IconIndex>
+    </GameDBCompositeObject>
+
+    <GameDBCompositeObject ID="OBJECT_PATHOLOGY_BED">
+        <AbbreviationLocID>OBJECT_PATHOLOGY_BED_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_PATHOLOGY_BED_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_PATHOLOGY_BED_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+        <Cost>199</Cost>
+
+        <Tags>
+            <Tag>ui_equipment</Tag>
+            <Tag>ui_pathology_bed</Tag>
+        </Tags>
+
+        <IconIndex>2568</IconIndex>
+    </GameDBCompositeObject>
+
+</Database>

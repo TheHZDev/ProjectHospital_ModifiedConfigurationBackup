@@ -1,0 +1,36 @@
+﻿<Database>
+    <GameDBTweakableInt ID="DLC_ADMIN_PATHOLOGY_ENABLED">               <Value>1</Value>   </GameDBTweakableInt>
+
+    <!-- Days between events -->
+    <GameDBTweakableInt ID="DLC_DAYS_BETWEEN_GLOBAL_EVENTS_MIN">        <Value>1</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="DLC_DAYS_BETWEEN_GLOBAL_EVENTS_MAX">        <Value>3</Value>   </GameDBTweakableInt>
+    <GameDBTweakableFloat ID="DLC_VISITORS_ENABLED">                    <Value>0.0</Value>   </GameDBTweakableFloat>
+   <!--Pharmacy--> 
+    <GameDBTweakableFloat ID="TWEAKABLE_PHARMACY_WARNING_WAIT">         <Value>2</Value>   </GameDBTweakableFloat>
+    <GameDBTweakableFloat ID="TWEAKABLE_PHARMACY_MAX_WAIT">             <Value>2.5</Value>   </GameDBTweakableFloat>
+    <GameDBTweakableFloat ID="TWEAKABLE_PHARMACOLOGIST_FREE_TIME_DELAY"><Value>1</Value>   </GameDBTweakableFloat>
+    <!--Gift Shop-->
+    <GameDBTweakableFloat ID="TWEAKABLE_GIFT_SHOP_MAX_WAIT">            <Value>2</Value>   </GameDBTweakableFloat>
+    <GameDBTweakableInt ID="TWEAKABLE_GIFT_SHOP_GIFT_PRICE">            <Value>50</Value>   </GameDBTweakableInt>
+    <!--Visits-->
+    <GameDBTweakableFloat ID="TWEAKABLE_VISITOR_TALK_TIME">             <Value>5.0</Value>   </GameDBTweakableFloat>
+    <GameDBTweakableFloat ID="TWEAKABLE_PATIENT_TALK_TIME">             <Value>5.0</Value>   </GameDBTweakableFloat>
+
+    <GameDBTweakableInt ID="DLC_TRAINING_COST">                          <Value>800</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="DLC_TRAINING_TIME_HOURS">                    <Value>8</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="DLC_TRAINING_TIME_HOURS_FAST_LEARNER">       <Value>5</Value>   </GameDBTweakableInt>
+    <GameDBTweakableFloat ID="DLC_TRAINING_HOURLY_IMPROVEMENT">          <Value>0.01</Value>   </GameDBTweakableFloat>
+    <GameDBTweakableFloat ID="DLC_TRAINING_HOURLY_IMPROVEMENT_FAST_LEARNER">    <Value>0.013</Value>   </GameDBTweakableFloat>
+    <GameDBTweakableFloat ID="DLC_TRAINING_NEGATIVE_PERK_LOST_PROBABILITY">    <Value>0.2</Value>   </GameDBTweakableFloat>
+
+    <GameDBTweakableInt ID="TWEAKABLE_AUTOSPY_TIME_CONSTANT">           <Value>20</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_AUTOPSY_SKILL_POINTS">            <Value>100</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_PAST_DOCTORS_XP">                 <Value>10</Value>   </GameDBTweakableInt>
+    
+    <GameDBTweakableInt ID="TWEAKABLE_AUTOPSY_DIAGNOSIS_PAY_PERCENTAGE"><Value>50</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_JANITOR_MANAGER_CLEANING_BONUS_PERCENT"> <Value>10</Value>   </GameDBTweakableInt>
+    
+    <!-- Increased in all DLCs the same -->
+    <GameDBTweakableInt ID="TWEAKABLE_MAX_FLOORS"> <Value>6</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_EMPLOYEE_LIMIT"> <Value>400</Value>   </GameDBTweakableInt>
+</Database>

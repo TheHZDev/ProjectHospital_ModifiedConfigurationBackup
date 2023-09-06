@@ -1,0 +1,17 @@
+<Database>
+    <GameDBStringTable ID="LOC_PTBR_DLC_DOCTOR_MODE_PATCH_1_1_24">
+    
+        <LanguageCode>ptbr</LanguageCode>
+        <LanguageNameLocalized>Português do Brasil</LanguageNameLocalized>
+    
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+    
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSURANCE_OBJ_RESET</LocID>            <Text>Objetivo de Plano de Saúde reiniciado</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSURANCE_OBJ_RESET_TEXT</LocID>       <Text>A mudança na dificuldade do Modo Médico reinicia os objetivos do Plano de Saúde.</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

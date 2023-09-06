@@ -1,0 +1,28 @@
+<Database>
+    <GameDBStringTable ID="LOC_KR_DLC_ADMIN_PATHOLOGY_PATCH_1_1_27">
+    
+        <LanguageCode>kr</LanguageCode>
+        <LanguageNameLocalized>한국어</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+
+            <GameDBLocalizedString>    <LocID>DLC_PHARMACOLOGIST</LocID>                                     <Text>약사</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>DLC_PHARMACOLOGIST_UI</LocID>                                  <Text>약사</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY</LocID>             <Text>약국</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY_DESCRIPTION</LocID> <Text>약사는 환자들에게 약을 판매하며 환자가 올바른 복용량 및 복용 방법을 숙지하도록 도와줍니다.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>DLC_ROOM_TYPE_PHARMACY_DESCRIPTION</LocID>                     <Text>병원 약국에서는 환자들을 위한 약을 판매합니다. \n최소 필요 직원: 약사 x 1</Text></GameDBLocalizedString>
+
+            <!--NEW SCENARIO-->
+            <GameDBLocalizedString>    <LocID>LEVEL_SANDBOX_HOSPITAL_H</LocID>                               <Text>병원 서비스: 빅 병원</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

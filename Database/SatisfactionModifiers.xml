@@ -1,0 +1,204 @@
+<Database>
+    <!-- Negative -->
+    <GameDBSatisfactionModifier ID="SAT_MOD_COULDNT_SIT">
+        <Value>-20</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_LONG_WAIT">
+        <Value>-20</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_NO_BOSS">
+        <Value>-15</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_DEMOTIVATOR">
+        <Value>-5</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_DIRTY_ENVIRONMENT">
+        <Value>-30</Value>
+    </GameDBSatisfactionModifier>    
+    
+    <GameDBSatisfactionModifier ID="SAT_MOD_EXPOSED_TO_OUTDOORS">
+        <Value>-30</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_WAITED_FOR_WC">
+        <Value>-10</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_BORED">
+        <Value>-5</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_COULDNT_WASH_HANDS">
+        <Value>-20</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_WAITED_FOR_FOOD">
+        <Value>-5</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_WRONG_DIAG_LAST_TIME">
+        <Value>-30</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_FIRED">
+        <Value>-30</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_FOOD_NOT_EATEN">
+        <Value>-20</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_TIRED">
+        <Value>-20</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_DISCOMFORTABLE">
+        <Value>-10</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_TOILET_NOT_USED">
+        <Value>-20</Value>
+    </GameDBSatisfactionModifier>    
+    
+    <GameDBSatisfactionModifier ID="SAT_MOD_ROUGH_NIGHT">
+        <Value>-5</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_UNRELEASED">
+        <Value>-10</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_COULDNT_DRY_HANDS">
+        <Value>-5</Value>
+    </GameDBSatisfactionModifier>    
+    
+    <GameDBSatisfactionModifier ID="SAT_MOD_UGLY_ENVIRONMENT">
+        <Value>-10</Value>
+    </GameDBSatisfactionModifier>    
+    
+    <GameDBSatisfactionModifier ID="SAT_MOD_SHOCKED">
+        <Value>-5</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_HUNGOVER">
+        <Value>-40</Value>
+    </GameDBSatisfactionModifier>   
+    
+    <GameDBSatisfactionModifier ID="SAT_MOD_DEPRESSED">
+        <Value>-20</Value>
+    </GameDBSatisfactionModifier> 
+    
+    <GameDBSatisfactionModifier ID="SAT_MOD_MEAN_STAFF">
+        <Value>-10</Value>
+    </GameDBSatisfactionModifier>    
+    
+    <GameDBSatisfactionModifier ID="SAT_MOD_DOUBTFUL">
+        <Value>-30</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_NEGLECTED">
+        <Value>-20</Value>
+    </GameDBSatisfactionModifier>    
+    
+    <GameDBSatisfactionModifier ID="SAT_MOD_UNTREATED">
+        <Value>-15</Value>
+    </GameDBSatisfactionModifier>
+
+    <!-- Positive //////////////////////////////////////////////////////////////////////////// -->
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_TOILET_USED">
+        <Value>5</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_FOOD_EATEN">
+        <Value>5</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_BOREDOM_REDUCED">
+        <Value>5</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_SHORT_WAIT">
+        <Value>10</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_HAS_BOSS">
+        <Value>5</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_INSTIPRATOR">
+        <Value>15</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_NICE_ENVIRONMENT">
+        <Value>10</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_NICE_DOCTOR">
+        <Value>15</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_GOOD_BOSS">
+        <Value>15</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_PATIENT_CURED">
+        <Value>30</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_RESTED">
+        <Value>5</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_COMFORTABLE">
+        <Value>5</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_HAD_LUNCH_STANDING">
+        <Value>5</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_HAD_LUNCH">
+        <Value>10</Value>
+    </GameDBSatisfactionModifier>    
+    
+    <GameDBSatisfactionModifier ID="SAT_MOD_GOING_HOME">
+        <Value>5</Value>
+    </GameDBSatisfactionModifier>    
+    
+    <GameDBSatisfactionModifier ID="SAT_HAD_COFFEE">
+        <Value>10</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_BIG_COMFORT">
+        <Value>10</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_NICE_STAFF">
+        <Value>10</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_PRODUCTIVE">
+        <Value>5</Value>
+    </GameDBSatisfactionModifier>    
+    
+    <GameDBSatisfactionModifier ID="SAT_MOD_CARED_FOR">
+        <Value>20</Value>
+    </GameDBSatisfactionModifier>
+
+    <GameDBSatisfactionModifier ID="SAT_MOD_PROFESSIONAL_CARE_LEVEL_1">
+        <Value>5</Value>
+    </GameDBSatisfactionModifier> 
+    
+    <GameDBSatisfactionModifier ID="SAT_MOD_PROFESSIONAL_CARE_LEVEL_2">
+        <Value>15</Value>
+    </GameDBSatisfactionModifier>  
+    
+</Database>
+
+
+

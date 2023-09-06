@@ -1,0 +1,28 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_PL_DLC_ADMIN_PATHOLOGY_PATCH_1_1_27">
+    
+        <LanguageCode>pl</LanguageCode>
+        <LanguageNameLocalized>Polski</LanguageNameLocalized>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
+        <LocalizedStrings>
+
+            <GameDBLocalizedString>    <LocID>DLC_PHARMACOLOGIST</LocID>                                     <Text>Farmaceuta</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>DLC_PHARMACOLOGIST_UI</LocID>                                  <Text>Farmaceuta</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY</LocID>             <Text>Apteka</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY_DESCRIPTION</LocID> <Text>Farmaceuci sprzedają pacjentom odpowiednie dawki lekarstw i przekazują informacje na temat ich zażywania.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>    <LocID>DLC_ROOM_TYPE_PHARMACY_DESCRIPTION</LocID>                     <Text>Apteka szpitalna sprzedaje lekarstwa twoim pacjentom. \nMin. wymagany personel: 1 farmaceuta</Text></GameDBLocalizedString>
+
+            <!--NEW SCENARIO-->
+            <GameDBLocalizedString>    <LocID>LEVEL_SANDBOX_HOSPITAL_H</LocID>                               <Text>Usługi szpitalne: duży szpital</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

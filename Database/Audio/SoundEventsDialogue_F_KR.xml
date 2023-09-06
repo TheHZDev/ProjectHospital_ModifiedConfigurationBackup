@@ -1,0 +1,147 @@
+﻿<Database>
+    <!--===============  Dialogue - staff ===================-->
+
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_QUESTION_FEMALE_KR">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/f_kr/staff_01_question_tk20.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/staff_01_question_tk19.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/staff_01_question_tk16.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_STATEMENT_FEMALE_KR">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/f_kr/staff_02_statement_tk11.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/staff_02_statement_tk09.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/staff_02_statement_tk08.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/staff_02_statement_tk07.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/staff_02_statement_tk04.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_STATEMENT_URGENT_FEMALE_KR">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/f_kr/staff_03_statement_urgent_tk01.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/staff_03_statement_urgent_tk02.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/staff_03_statement_urgent_tk05.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_ORDER_PATIENT_FEMALE_KR">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/f_kr/staff_04_ordering_patient_tk13.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/staff_04_ordering_patient_tk10.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/staff_04_ordering_patient_tk06.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/staff_04_ordering_patient_tk04.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+    
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_SURGEON_TOOL_FEMALE_KR">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/f_kr/staff_05_surgeon_tool_tk02.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/staff_05_surgeon_tool_tk03.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/staff_05_surgeon_tool_tk05.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/staff_05_surgeon_tool_tk09.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/staff_05_surgeon_tool_tk10.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+    
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_NEXT_FEMALE_KR">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/f_kr/staff_06_next_tk02.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/staff_06_next_tk03.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/staff_06_next_tk04.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <!--===============  Dialogue - patients ===================-->
+    
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_STATEMENT_FEMALE_KR">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/f_kr/patient_01_statement_tk24.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/patient_01_statement_tk19.wav</AudioClip>
+            <!--AudioClip>Audio/Dialogue/f_kr/patient_01_statement_tk18.wav</AudioClip-->
+            <AudioClip>Audio/Dialogue/f_kr/patient_01_statement_tk17.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/patient_01_statement_tk10.wav</AudioClip>            
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_STATEMENT_BARELY_AUDIBLE_FEMALE_KR">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/f_kr/patient_02_statement_barely_audible_tk01.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/patient_02_statement_barely_audible_tk06.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/patient_02_statement_barely_audible_tk07.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-16</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_ANGRY_FEMALE_KR">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/f_kr/patient_03_angry_tk23.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/patient_03_angry_tk21.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/patient_03_angry_tk18.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/patient_03_angry_tk16.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/patient_03_angry_tk15.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_OUCH_FEMALE_KR">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/f_kr/patient_04_ouch_tk06.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/patient_04_ouch_tk04.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_AAA_FEMALE_KR">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/f_kr/patient_05_aaa_tk02.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/patient_05_aaa_tk04.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/patient_05_aaa_tk07.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_GOODBYE_FEMALE_KR">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/f_kr/patient_06_goodbye_tk09.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/patient_06_goodbye_tk08.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/patient_06_goodbye_tk07.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/patient_06_goodbye_tk06.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_CHATTING_FEMALE_KR">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/f_kr/patient_07_chatting_tk12.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/patient_07_chatting_tk11.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/patient_07_chatting_tk08.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/f_kr/patient_07_chatting_tk03.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+    
+ </Database>
+

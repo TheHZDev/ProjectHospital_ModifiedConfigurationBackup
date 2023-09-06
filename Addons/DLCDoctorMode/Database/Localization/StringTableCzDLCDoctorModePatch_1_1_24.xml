@@ -1,0 +1,17 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_CZ_DLC_DOCTOR_MODE_PATCH_1_1_24">
+
+        <LanguageCode>cz</LanguageCode>
+        <LanguageNameLocalized>Čeština</LanguageNameLocalized>
+    
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+    
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSURANCE_OBJ_RESET</LocID>            <Text>Plnění podmínky pro pojišťovnu bylo přerušeno.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSURANCE_OBJ_RESET_TEXT</LocID>       <Text>Kvůli změně obtížnosti bylo přerušeno plnění podmínky pro pojišťovnu.</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

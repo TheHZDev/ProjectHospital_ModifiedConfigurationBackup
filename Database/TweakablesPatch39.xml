@@ -1,0 +1,9 @@
+﻿<Database>
+    <!-- Behavior of items in UI panels, for example the lists of examinations and treatments in patient card. These use
+         three sizes of icons and texts.
+         0: only medium and big icons and texts used if resolution is 800p and lower, automatic otherwise
+         1: only medium and big icons and texts used  
+         2: small, medium and big versions used regardless of resolution
+     -->
+    <GameDBTweakableInt ID="TWEAKABLE_UI_PANEL_SEGMENT_SIZE_BEHAVIOR"> <Value>0</Value>   </GameDBTweakableInt>
+</Database>

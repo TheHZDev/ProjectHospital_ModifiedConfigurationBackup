@@ -1,0 +1,384 @@
+﻿<Database>
+    <!--Building-->
+    <GameDBAchievement ID="ACHIEVEMENT_PLACE_OBJECT">
+        <PlatformValue>ACHIEVEMENT_PLACE_OBJECT</PlatformValue>
+        <StatisticRef>STAT_BUILD_OBJ</StatisticRef>
+        <StatisticValue>1</StatisticValue>
+        <IconIndex>260</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>        
+    
+    <GameDBAchievement ID="ACHIEVEMENT_MORE_SPOTS">
+        <PlatformValue>ACHIEVEMENT_MORE_SPOTS</PlatformValue>
+        <StatisticRef>STAT_BUILD_OBJ</StatisticRef>
+        <StatisticValue>100</StatisticValue>
+        <IconIndex>260</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>      
+    
+    <GameDBAchievement ID="ACHIEVEMENT_All_SPOTS">
+        <PlatformValue>ACHIEVEMENT_All_SPOTS</PlatformValue>
+        <StatisticRef>STAT_BUILD_OBJ</StatisticRef>
+        <StatisticValue>1000</StatisticValue>
+        <IconIndex>260</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>      
+    
+    <GameDBAchievement ID="ACHIEVEMENT_VERY_NICE">
+        <PlatformValue>ACHIEVEMENT_VERY_NICE</PlatformValue>
+        <StatisticRef>STAT_BUILD_OBJ_DECORATIONS</StatisticRef>
+        <StatisticValue>100</StatisticValue>
+        <IconIndex>280</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>     
+    
+    <GameDBAchievement ID="ACHIEVEMENT_GARDENER">
+        <PlatformValue>ACHIEVEMENT_GARDENER</PlatformValue>
+        <StatisticRef>STAT_BUILD_OBJ_TREES</StatisticRef>
+        <StatisticValue>30</StatisticValue>
+        <IconIndex>362</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>      
+    
+    <GameDBAchievement ID="ACHIEVEMENT_I_SEE_YOU">
+        <PlatformValue>ACHIEVEMENT_I_SEE_YOU</PlatformValue>
+        <StatisticRef>STAT_BUILD_OBJ_EYE_POSTER</StatisticRef>
+        <StatisticValue>30</StatisticValue>
+        <IconIndex>361</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>      
+    
+    <GameDBAchievement ID="ACHIEVEMENT_GOING_UP">
+        <PlatformValue>ACHIEVEMENT_GOING_UP</PlatformValue>
+        <IconIndex>97</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>      
+    
+    <GameDBAchievement ID="ACHIEVEMENT_TOP_FLOOR">
+        <PlatformValue>ACHIEVEMENT_TOP_FLOOR</PlatformValue>
+        <IconIndex>97</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>     
+    
+    <GameDBAchievement ID="ACHIEVEMENT_TOILETS">
+        <PlatformValue>ACHIEVEMENT_TOILETS</PlatformValue>
+        <StatisticRef>STAT_BUILD_TOILETS</StatisticRef>
+        <StatisticValue>30</StatisticValue>
+        <IconIndex>363</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>      
+    
+    <GameDBAchievement ID="ACHIEVEMENT_LITTER_FREE">
+        <PlatformValue>ACHIEVEMENT_LITTER_FREE</PlatformValue>
+        <StatisticRef>STAT_BUILD_OBJ_TRASH</StatisticRef>
+        <StatisticValue>30</StatisticValue>
+        <IconIndex>364</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>       
+    
+    <GameDBAchievement ID="ACHIEVEMENT_BIOHAZARD">
+        <PlatformValue>ACHIEVEMENT_BIOHAZARD</PlatformValue>
+        <StatisticRef>STAT_BUILD_OBJ_BIOTRASH</StatisticRef>
+        <StatisticValue>30</StatisticValue>
+        <IconIndex>359</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>      
+    
+    <GameDBAchievement ID="ACHIEVEMENT_INSTANT_HOSPITAL">
+        <PlatformValue>ACHIEVEMENT_INSTANT_HOSPITAL</PlatformValue>
+        <StatisticRef>STAT_BUILD_PREFAB_ROOMS</StatisticRef>
+        <StatisticValue>15</StatisticValue>
+        <IconIndex>265</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>     
+    
+    <GameDBAchievement ID="ACHIEVEMENT_HOSPITAL_51">
+        <PlatformValue>ACHIEVEMENT_HOSPITAL_51</PlatformValue>
+        <StatisticRef>STAT_BUILD_SATELLITES</StatisticRef>
+        <StatisticValue>10</StatisticValue>
+        <IconIndex>360</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>      
+    
+    <GameDBAchievement ID="ACHIEVEMENT_BUILDER">
+        <PlatformValue>ACHIEVEMENT_BUILDER</PlatformValue>
+        <IconIndex>285</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>
+
+    <GameDBAchievement ID="ACHIEVEMENT_CRUSHER">
+        <PlatformValue>ACHIEVEMENT_CRUSHER</PlatformValue>
+        <IconIndex>36</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>    
+    
+    <GameDBAchievement ID="ACHIEVEMENT_MOVER">
+        <PlatformValue>ACHIEVEMENT_MOVER</PlatformValue>
+        <StatisticRef>STAT_MOVE_OBJ</StatisticRef>
+        <StatisticValue>50</StatisticValue>
+        <IconIndex>40</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>
+
+    <GameDBAchievement ID="ACHIEVEMENT_SHALL_NOT_PASS">
+        <PlatformValue>ACHIEVEMENT_SHALL_NOT_PASS</PlatformValue>
+        <IconIndex>252</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>      
+    
+    <GameDBAchievement ID="ACHIEVEMENT_GREAT_WALL">
+        <PlatformValue>ACHIEVEMENT_GREAT_WALL</PlatformValue>
+        <StatisticRef>STAT_BUILD_WALLS</StatisticRef>
+        <StatisticValue>1000</StatisticValue>
+        <IconIndex>256</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>      
+    
+    <GameDBAchievement ID="ACHIEVEMENT_COMPLETE_HOSPITAL">
+        <PlatformValue>ACHIEVEMENT_COMPLETE_HOSPITAL</PlatformValue>
+        <IconIndex>386</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>      
+    
+    <!--Management-->
+    <GameDBAchievement ID="ACHIEVEMENT_HIRE_FIRST_EMPLOYEE">
+        <PlatformValue>ACHIEVEMENT_HIRE_FIRST_EMPLOYEE</PlatformValue>
+        <StatisticRef>STAT_HIRE</StatisticRef>
+        <StatisticValue>1</StatisticValue>
+        <IconIndex>365</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement> 
+    
+    <GameDBAchievement ID="ACHIEVEMENT_HIRE_STAFF">
+        <PlatformValue>ACHIEVEMENT_HIRE_STAFF</PlatformValue>
+        <StatisticRef>STAT_HIRE</StatisticRef>
+        <StatisticValue>20</StatisticValue>
+        <IconIndex>365</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>       
+    
+    <GameDBAchievement ID="ACHIEVEMENT_FIRE_STAFF">
+        <PlatformValue>ACHIEVEMENT_FIRE_STAFF</PlatformValue>
+        <StatisticRef>STAT_FIRE</StatisticRef>
+        <StatisticValue>20</StatisticValue>
+        <IconIndex>117</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>      
+    
+    <GameDBAchievement ID="ACHIEVEMENT_SIGN_INSURANCE">
+        <PlatformValue>ACHIEVEMENT_SIGN_INSURANCE</PlatformValue>
+        <IconIndex>10</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>    
+        
+    <GameDBAchievement ID="ACHIEVEMENT_RIGHT_BOSS">
+        <PlatformValue>ACHIEVEMENT_RIGHT_BOSS</PlatformValue>
+        <IconIndex>22</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>
+    
+    <!--Diagnoses-->
+    <GameDBAchievement ID="ACHIEVEMENT_CURE_FIRST_PATIENT">
+        <PlatformValue>ACHIEVEMENT_CURE_FIRST_PATIENT</PlatformValue>
+        <StatisticRef>STAT_TREATED</StatisticRef>
+        <StatisticValue>1</StatisticValue>
+        <IconIndex>367</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>
+    
+    <GameDBAchievement ID="ACHIEVEMENT_CURE_PATIENTS">
+        <PlatformValue>ACHIEVEMENT_CURE_PATIENTS</PlatformValue>
+        <StatisticRef>STAT_TREATED</StatisticRef>
+        <StatisticValue>1000</StatisticValue>
+        <IconIndex>367</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>    
+    
+    <GameDBAchievement ID="ACHIEVEMENT_BLOOD_TEST_SAMPLES">
+        <PlatformValue>ACHIEVEMENT_BLOOD_TEST_SAMPLES</PlatformValue>
+        <StatisticRef>STAT_EXM_BLOOD_DRAW</StatisticRef>
+        <StatisticValue>50</StatisticValue>
+        <IconIndex>373</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>    
+    
+    <GameDBAchievement ID="ACHIEVEMENT_X_RAY_TESTS">
+        <PlatformValue>ACHIEVEMENT_X_RAY_TESTS</PlatformValue>
+        <StatisticRef>STAT_EXM_XRAY</StatisticRef>
+        <StatisticValue>30</StatisticValue>
+        <IconIndex>630</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>    
+    
+    <GameDBAchievement ID="ACHIEVEMENT_LEFT_DOCTOR">
+        <PlatformValue>ACHIEVEMENT_LEFT_DOCTOR</PlatformValue>
+        <StatisticRef>STAT_WRONG_DIAG</StatisticRef>
+        <StatisticValue>20</StatisticValue>
+        <IconIndex>423</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>    
+    
+    <GameDBAchievement ID="ACHIEVEMENT_RIGHT_DOCTOR">
+        <PlatformValue>ACHIEVEMENT_RIGHT_DOCTOR</PlatformValue>
+        <StatisticRef>STAT_CORRECT_DIAG</StatisticRef>
+        <StatisticValue>20</StatisticValue>
+        <IconIndex>423</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>
+    
+    <GameDBAchievement ID="ACHIEVEMENT_HELLO_ANYBODY">
+        <PlatformValue>ACHIEVEMENT_HELLO_ANYBODY</PlatformValue>
+        <IconIndex>632</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>    
+    
+    <GameDBAchievement ID="ACHIEVEMENT_MY_TURN">
+        <PlatformValue>ACHIEVEMENT_MY_TURN</PlatformValue>
+        <StatisticRef>STAT_TAKEN_OVER</StatisticRef>
+        <StatisticValue>30</StatisticValue>
+        <IconIndex>366</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>
+
+    <!--Miscellaneous-->
+    <GameDBAchievement ID="ACHIEVEMENT_SENT_PATIENTS_HOME">
+        <PlatformValue>ACHIEVEMENT_SENT_PATIENTS_HOME</PlatformValue>
+        <StatisticRef>STAT_SENT_HOME</StatisticRef>
+        <StatisticValue>20</StatisticValue>
+        <IconIndex>94</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>
+    
+    <GameDBAchievement ID="ACHIEVEMENT_BANKER">
+        <PlatformValue>ACHIEVEMENT_BANKER</PlatformValue>
+        <IconIndex>481</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>    
+    
+    <GameDBAchievement ID="ACHIEVEMENT_SPENDER">
+        <PlatformValue>ACHIEVEMENT_SPENDER</PlatformValue>
+        <StatisticRef>STAT_MONEY_SPENT</StatisticRef>
+        <StatisticValue>1000000</StatisticValue>
+        <IconIndex>481</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>    
+    
+    <GameDBAchievement ID="ACHIEVEMENT_JANITOR">
+        <PlatformValue>ACHIEVEMENT_JANITOR</PlatformValue>
+        <StatisticRef>STAT_TILES_CLEAN</StatisticRef>
+        <StatisticValue>10000</StatisticValue>
+        <IconIndex>376</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>    
+    
+    <GameDBAchievement ID="ACHIEVEMENT_DONT_COLLAPSE">
+        <PlatformValue>ACHIEVEMENT_DONT_COLLAPSE</PlatformValue>
+        <StatisticRef>STAT_COLLAPSED</StatisticRef>
+        <StatisticValue>10</StatisticValue>
+        <IconIndex>276</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>
+
+    <GameDBAchievement ID="ACHIEVEMENT_ALCOHOLIC">
+        <PlatformValue>ACHIEVEMENT_ALCOHOLIC_DESCRIPTION</PlatformValue>
+        <StatisticRef>STAT_HIRE_ALCOHOLIC</StatisticRef>
+        <StatisticValue>5</StatisticValue>
+        <IconIndex>24</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>   
+    
+    <GameDBAchievement ID="ACHIEVEMENT_EAGLE">
+        <PlatformValue>ACHIEVEMENT_EAGLE</PlatformValue>
+        <IconIndex>40</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>
+
+    <!--Campaign-->
+    <GameDBAchievement ID="ACHIEVEMENT_LEVEL_1">
+        <PlatformValue>ACHIEVEMENT_LEVEL_1</PlatformValue>
+        <IconIndex>355</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>
+
+    <GameDBAchievement ID="ACHIEVEMENT_LEVEL_2">
+        <PlatformValue>ACHIEVEMENT_LEVEL_2</PlatformValue>
+        <IconIndex>356</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>
+
+    <GameDBAchievement ID="ACHIEVEMENT_LEVEL_3">
+        <PlatformValue>ACHIEVEMENT_LEVEL_3</PlatformValue>
+        <IconIndex>357</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>
+
+    <GameDBAchievement ID="ACHIEVEMENT_LEVEL_4">
+        <PlatformValue>ACHIEVEMENT_LEVEL_4</PlatformValue>
+        <IconIndex>352</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>    
+    
+    <GameDBAchievement ID="ACHIEVEMENT_GOOD_CREDIT">
+        <PlatformValue>ACHIEVEMENT_GOOD_CREDIT</PlatformValue>
+        <IconIndex>211</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>
+
+    <GameDBAchievement ID="ACHIEVEMENT_LEVEL_5">
+        <PlatformValue>ACHIEVEMENT_LEVEL_5</PlatformValue>
+        <IconIndex>353</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>    
+    
+    <GameDBAchievement ID="ACHIEVEMENT_LEVEL_6">
+        <PlatformValue>ACHIEVEMENT_LEVEL_6</PlatformValue>
+        <IconIndex>354</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>
+
+    <GameDBAchievement ID="ACHIEVEMENT_CHIEF_OF_CHIEFS">
+        <PlatformValue>ACHIEVEMENT_CHIEF_OF_CHIEFS</PlatformValue>
+        <IconIndex>358</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>
+
+    <!--Challenges-->
+    <GameDBAchievement ID="ACHIEVEMENT_CHALLENGE_LEVEL_1">
+        <PlatformValue>ACHIEVEMENT_CHALLENGE_LEVEL_1</PlatformValue>
+        <IconIndex>390</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>
+
+    <GameDBAchievement ID="ACHIEVEMENT_CHALLENGE_LEVEL_2">
+        <PlatformValue>ACHIEVEMENT_CHALLENGE_LEVEL_2</PlatformValue>
+        <IconIndex>404</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>
+
+    <GameDBAchievement ID="ACHIEVEMENT_CHALLENGE_LEVEL_3">
+        <PlatformValue>ACHIEVEMENT_CHALLENGE_LEVEL_3</PlatformValue>
+        <IconIndex>411</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>
+
+    <GameDBAchievement ID="ACHIEVEMENT_CHALLENGE_LEVEL_4">
+        <PlatformValue>ACHIEVEMENT_CHALLENGE_LEVEL_4</PlatformValue>
+        <IconIndex>418</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>
+
+    <GameDBAchievement ID="ACHIEVEMENT_CHALLENGE_LEVEL_5">
+        <PlatformValue>ACHIEVEMENT_CHALLENGE_LEVEL_5</PlatformValue>
+        <IconIndex>425</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>
+
+    <GameDBAchievement ID="ACHIEVEMENT_CHALLENGE_LEVEL_6">
+        <PlatformValue>ACHIEVEMENT_CHALLENGE_LEVEL_6</PlatformValue>
+        <IconIndex>432</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>
+
+</Database>
+
+       

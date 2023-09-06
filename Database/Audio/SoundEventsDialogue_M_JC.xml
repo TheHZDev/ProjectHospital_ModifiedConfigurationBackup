@@ -1,0 +1,121 @@
+﻿<Database>
+    <!--===============  Fake dialogue ===================-->
+
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_QUESTION_MALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_question_male_01.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_question_male_02.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_question_male_03.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_STATEMENT_MALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_statement_doctor_male_01.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_statement_doctor_male_02.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_statement_doctor_male_03.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_statement_doctor_male_04.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_statement_doctor_male_05.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_STATEMENT_URGENT_MALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_statement_doctor_male_01.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_NEXT_MALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_statement_doctor_male_01.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_ORDER_PATIENT_MALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_statement_doctor_male_01.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+    
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_SURGEON_TOOL_MALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_statement_doctor_male_01.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_STATEMENT_MALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_statement_patient_male_01.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_statement_patient_male_02.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_statement_patient_male_03.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_statement_patient_male_04.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_statement_patient_male_05.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_STATEMENT_BARELY_AUDIBLE_MALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_statement_patient_male_01.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-16</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_ANGRY_MALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_angry_male_01.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_angry_male_02.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_angry_male_03.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_OUCH_MALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_statement_patient_male_01.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+    
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_AAA_MALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_statement_patient_male_01.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_GOODBYE_MALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_statement_patient_male_01.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_CHATTING_MALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_statement_patient_male_01.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+    
+ </Database>
+

@@ -1,0 +1,168 @@
+<Database>
+    <!-- Keep 1 free -->
+    
+    <GameDBEmployeeRole ID="EMPL_ROLE_EXM_TRT">
+        <FlagBit>2</FlagBit>
+        <Icon>-1</Icon>
+  
+        <AllowedOccupations>
+            <OccupationRef>OCCUPATION_DOCTOR</OccupationRef>
+        </AllowedOccupations>
+
+        <DoubleRole>true</DoubleRole>
+        <EmergencyText>EMPL_ROLE_EXM_TRT</EmergencyText>
+        <DepartmentText>EMPL_ROLE_EXM_TRT_DEP</DepartmentText>
+    </GameDBEmployeeRole>
+
+    <GameDBEmployeeRole ID="EMPL_ROLE_SURGERY">
+        <FlagBit>4</FlagBit>
+        <Icon>2388</Icon>
+
+        <AllowedOccupations>
+            <OccupationRef>OCCUPATION_DOCTOR</OccupationRef>
+        </AllowedOccupations>
+
+        <OnlyHospitalization>true</OnlyHospitalization>
+        <OnlyForSurgery>true</OnlyForSurgery>
+        <BlockedOnICU>true</BlockedOnICU>
+        <BlockedOnAdmin>true</BlockedOnAdmin>
+        <DoubleRole>true</DoubleRole>
+        <EmergencyIcon>2430</EmergencyIcon>
+        <EmergencyText>ROOM_TYPE_TRAUMA_CENTER</EmergencyText>
+        <DepartmentText>EMPL_ROLE_SURGERY_DEP</DepartmentText>
+    </GameDBEmployeeRole>
+
+    <GameDBEmployeeRole ID="EMPL_ROLE_SURGERY_ASSIST">
+        <FlagBit>8</FlagBit>
+        <Icon>2394</Icon>
+
+        <AllowedOccupations>
+            <OccupationRef>OCCUPATION_DOCTOR</OccupationRef>
+        </AllowedOccupations>
+
+        <OnlyHospitalization>true</OnlyHospitalization>
+        <OnlyForSurgery>true</OnlyForSurgery>
+        <OnlySpecializedDepartments>true</OnlySpecializedDepartments>
+        <BlockedOnICU>true</BlockedOnICU>
+        <BlockedOnAdmin>true</BlockedOnAdmin>
+    </GameDBEmployeeRole>
+
+    <GameDBEmployeeRole ID="EMPL_ROLE_SURGERY_ANESTHESIOLOGY">
+        <FlagBit>16</FlagBit>
+        <Icon>2352</Icon>
+
+        <AllowedOccupations>
+            <OccupationRef>OCCUPATION_DOCTOR</OccupationRef>
+        </AllowedOccupations>
+
+        <RequiredSkills>
+            <SkillRef>SKILL_DOC_SPEC_ANESTHESIOLOGY</SkillRef>
+        </RequiredSkills>
+
+        <OnlyHospitalization>true</OnlyHospitalization>
+        <OnlyForSurgery>true</OnlyForSurgery>
+        <OnlySpecializedDepartments>true</OnlySpecializedDepartments>
+        <BlockedOnAdmin>true</BlockedOnAdmin>
+    </GameDBEmployeeRole>
+
+    <GameDBEmployeeRole ID="EMPL_ROLE_PATIENT_CARE">
+        <FlagBit>32</FlagBit>
+        <Icon>2358</Icon>
+
+        <AllowedOccupations>
+            <OccupationRef>OCCUPATION_NURSE</OccupationRef>
+        </AllowedOccupations>
+
+        <OnlyHospitalization>true</OnlyHospitalization>
+        <BlockedOnAdmin>true</BlockedOnAdmin>
+    </GameDBEmployeeRole>
+
+    <GameDBEmployeeRole ID="EMPL_ROLE_PATIENT_TRANSFERS">
+        <FlagBit>64</FlagBit>
+        <Icon>2418</Icon>
+
+        <AllowedOccupations>
+            <OccupationRef>OCCUPATION_NURSE</OccupationRef>
+        </AllowedOccupations>
+
+        <OnlyHospitalization>true</OnlyHospitalization>
+    </GameDBEmployeeRole>
+
+    <GameDBEmployeeRole ID="EMPL_ROLE_SURGERY_NURSE">
+        <FlagBit>128</FlagBit>
+        <Icon>2400</Icon>
+
+        <AllowedOccupations>
+            <OccupationRef>OCCUPATION_NURSE</OccupationRef>
+        </AllowedOccupations>
+
+        <RequiredSkills>
+            <SkillRef>SKILL_NURSE_SPEC_MEDICAL_SURGERY</SkillRef>
+        </RequiredSkills>
+
+        <OnlyHospitalization>true</OnlyHospitalization>
+
+        <NoSkillRequiredOnEmergency>true</NoSkillRequiredOnEmergency>
+        <BlockedOnICU>true</BlockedOnICU>
+        <BlockedOnAdmin>true</BlockedOnAdmin>
+        <DoubleRole>true</DoubleRole>
+        <OnlyForSurgery>true</OnlyForSurgery>
+        <EmergencyIcon>2430</EmergencyIcon>
+        <EmergencyText>EMPL_ROLE_SURGERY_NURSE_ER</EmergencyText>
+        <DepartmentText>EMPL_ROLE_SURGERY_NURSE</DepartmentText>
+    </GameDBEmployeeRole>
+
+    <GameDBEmployeeRole ID="EMPL_ROLE_LAB">
+        <FlagBit>256</FlagBit>
+        <Icon>2406</Icon><!--TODO make green and grey version-->
+
+        <AllowedOccupations>
+            <OccupationRef>OCCUPATION_LAB_SPECIALIST</OccupationRef>
+        </AllowedOccupations>
+
+        <AlwaysChecked>false</AlwaysChecked>
+        <BlockedOnAdmin>true</BlockedOnAdmin>
+    </GameDBEmployeeRole>
+
+    <GameDBEmployeeRole ID="EMPL_ROLE_CLEANING">
+        <FlagBit>512</FlagBit>
+        <Icon>2370</Icon>
+
+        <AllowedOccupations>
+            <OccupationRef>OCCUPATION_JANITOR</OccupationRef>
+        </AllowedOccupations>
+        
+        <AlwaysChecked>true</AlwaysChecked>
+        <ForceWorkSpace>true</ForceWorkSpace>
+        <ForceWorkSpaceTag>cleaning_closet</ForceWorkSpaceTag>
+    </GameDBEmployeeRole>
+
+    <GameDBEmployeeRole ID="EMPL_ROLE_LAB_FOR_HOSPITALIZED">
+        <FlagBit>1024</FlagBit>
+        <Icon>2412</Icon>
+
+        <AllowedOccupations>
+            <OccupationRef>OCCUPATION_LAB_SPECIALIST</OccupationRef>
+        </AllowedOccupations>
+
+        <AlwaysChecked>false</AlwaysChecked>
+        <BlockedOnAdmin>true</BlockedOnAdmin>
+    </GameDBEmployeeRole>
+
+    <GameDBEmployeeRole ID="EMPL_ROLE_RECEPTIONIST">
+        <FlagBit>2048</FlagBit>
+        <Icon>2364</Icon>
+        
+        <RequiredSkills>
+            <SkillRef>SKILL_NURSE_SPEC_RECEPTIONIST</SkillRef>
+        </RequiredSkills>
+        
+        <AllowedOccupations>
+            <OccupationRef>OCCUPATION_NURSE</OccupationRef>
+        </AllowedOccupations>
+
+        <AlwaysChecked>false</AlwaysChecked>
+        <OnlyClinic>true</OnlyClinic>
+        <BlockedOnAdmin>true</BlockedOnAdmin>
+    </GameDBEmployeeRole>
+</Database>

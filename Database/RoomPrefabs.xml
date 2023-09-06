@@ -1,0 +1,1974 @@
+﻿<Database>
+    <GameDBPrefabObject ID="PREFAB_ROOM_GP_OFFICE_SIMPLE">
+        <AbbreviationLocID>PREFAB_ROOM_GP_OFFICE_SIMPLE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_gp_office_simple.xml</PrefabNW>
+
+        <Cost>4000</Cost>
+
+        <IconIndex>-1</IconIndex>        
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_GP_OFFICE_SIMPLE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_emergency</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_OUTPATIENT_GS_OFFICE_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_OUTPATIENT_GS_OFFICE_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_outpatient_gs_office_small.xml</PrefabNW>
+
+        <Cost>5000</Cost>
+
+        <IconIndex>-1</IconIndex>        
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_OUTPATIENT_GS_OFFICE_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_surgery</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_OUTPATIENT_GS_OFFICE_LARGE">
+        <AbbreviationLocID>PREFAB_ROOM_OUTPATIENT_GS_OFFICE_LARGE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_outpatient_gs_office_large.xml</PrefabNW>
+
+        <Cost>6000</Cost>
+
+        <IconIndex>-1</IconIndex>        
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_OUTPATIENT_GS_OFFICE_LARGE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_surgery</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_OUTPATIENT_IM_OFFICE_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_OUTPATIENT_IM_OFFICE_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_outpatient_im_office_small.xml</PrefabNW>
+
+        <Cost>5000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_OUTPATIENT_IM_OFFICE_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_interna</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_OUTPATIENT_IM_OFFICE_LARGE">
+        <AbbreviationLocID>PREFAB_ROOM_OUTPATIENT_IM_OFFICE_LARGE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_outpatient_im_office_large.xml</PrefabNW>
+
+        <Cost>6000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_OUTPATIENT_IM_OFFICE_LARGE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_interna</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_OUTPATIENT_NE_OFFICE_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_OUTPATIENT_NE_OFFICE_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_outpatient_ne_office_small.xml</PrefabNW>
+
+        <Cost>5000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_OUTPATIENT_NE_OFFICE_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_neurology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_OUTPATIENT_NE_OFFICE_LARGE">
+        <AbbreviationLocID>PREFAB_ROOM_OUTPATIENT_NE_OFFICE_LARGE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_outpatient_ne_office_large.xml</PrefabNW>
+
+        <Cost>6000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_OUTPATIENT_NE_OFFICE_LARGE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_neurology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_OUTPATIENT_OT_OFFICE_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_OUTPATIENT_OT_OFFICE_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_outpatient_ot_office_small.xml</PrefabNW>
+
+        <Cost>5000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_OUTPATIENT_OT_OFFICE_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_orthopaedy</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_OUTPATIENT_OT_OFFICE_LARGE">
+        <AbbreviationLocID>PREFAB_ROOM_OUTPATIENT_OT_OFFICE_LARGE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_outpatient_ot_office_large.xml</PrefabNW>
+
+        <Cost>6000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_OUTPATIENT_OT_OFFICE_LARGE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_orthopaedy</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_OUTPATIENT_CAR_OFFICE_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_OUTPATIENT_CAR_OFFICE_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_outpatient_car_office_small.xml</PrefabNW>
+
+        <Cost>5000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_OUTPATIENT_CAR_OFFICE_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_cardiology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_OUTPATIENT_CAR_OFFICE_LARGE">
+        <AbbreviationLocID>PREFAB_ROOM_OUTPATIENT_CAR_OFFICE_LARGE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_outpatient_car_office_large.xml</PrefabNW>
+
+        <Cost>6000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_OUTPATIENT_CAR_OFFICE_LARGE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_cardiology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_X_RAY">
+        <AbbreviationLocID>PREFAB_ROOM_X_RAY_ABBR</AbbreviationLocID>
+        <PrefabNW>room_x_ray.xml</PrefabNW>
+
+        <Cost>23500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_X_RAY</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_radiology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_ANGIOGRAPHY">
+        <AbbreviationLocID>PREFAB_ROOM_ANGIOGRAPHY_ABBR</AbbreviationLocID>
+        <PrefabNW>room_angiography.xml</PrefabNW>
+
+        <Cost>34999</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_ANGIOGRAPHY</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_radiology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_CT">
+        <AbbreviationLocID>PREFAB_ROOM_CT_ABBR</AbbreviationLocID>
+        <PrefabNW>room_ct.xml</PrefabNW>
+
+        <Cost>44999</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_CT</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_radiology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_MRI">
+        <AbbreviationLocID>PREFAB_ROOM_MRI_ABBR</AbbreviationLocID>
+        <PrefabNW>room_mri.xml</PrefabNW>
+
+        <Cost>59999</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_MRI</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_radiology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_GP_OFFICE_LARGE">
+        <AbbreviationLocID>PREFAB_ROOM_GP_OFFICE_LARGE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_gp_office_large.xml</PrefabNW>
+
+        <Cost>6000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_GP_OFFICE_LARGE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_emergency</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_GP_OFFICE_SMALL_ROOM">
+        <AbbreviationLocID>PREFAB_ROOM_GP_OFFICE_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_gp_office_small.xml</PrefabNW>
+
+        <Cost>5000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_GP_OFFICE_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_emergency</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_WAITING_ROOM_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_WAITING_ROOM_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_waiting_room_small.xml</PrefabNW>
+
+        <Cost>1500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_WAITING_ROOM_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_rooms</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_WAITING_ROOM_LARGE">
+        <AbbreviationLocID>PREFAB_ROOM_WAITING_ROOM_LARGE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_waiting_room_large.xml</PrefabNW>
+
+        <Cost>2000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_WAITING_ROOM_LARGE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_rooms</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_RESTROOM_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_RESTROOM_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_restroom_small.xml</PrefabNW>
+
+        <Cost>1500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_RESTROOM_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_emergency</Tag>
+            <Tag>ui_prefab_surgery</Tag>
+            <Tag>ui_prefab_icu</Tag>
+            <Tag>ui_prefab_radiology</Tag>
+            <Tag>ui_prefab_interna</Tag>
+            <Tag>ui_prefab_orthopaedy</Tag>
+            <Tag>ui_prefab_cardiology</Tag>
+            <Tag>ui_prefab_neurology</Tag>
+            <Tag>ui_prefab_lab</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_RESTROOM">
+        <AbbreviationLocID>PREFAB_ROOM_RESTROOM_ABBR</AbbreviationLocID>
+        <PrefabNW>room_restroom.xml</PrefabNW>
+
+        <Cost>2000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_RESTROOM</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_emergency</Tag>
+            <Tag>ui_prefab_surgery</Tag>
+            <Tag>ui_prefab_icu</Tag>
+            <Tag>ui_prefab_radiology</Tag>
+            <Tag>ui_prefab_interna</Tag>
+            <Tag>ui_prefab_orthopaedy</Tag>
+            <Tag>ui_prefab_cardiology</Tag>
+            <Tag>ui_prefab_neurology</Tag>
+            <Tag>ui_prefab_lab</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_CORRIDOR_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_CORRIDOR_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_corridor_small.xml</PrefabNW>
+
+        <Cost>1500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_CORRIDOR_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_rooms</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_CORRIDOR_LARGE">
+        <AbbreviationLocID>PREFAB_ROOM_CORRIDOR_LARGE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_corridor_large.xml</PrefabNW>
+
+        <Cost>1000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_CORRIDOR_LARGE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_rooms</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_RECEPTION_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_RECEPTION_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_reception_small.xml</PrefabNW>
+
+        <Cost>2000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_RECEPTION_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_rooms</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_RECEPTION_LARGE">
+        <AbbreviationLocID>PREFAB_ROOM_RECEPTION_LARGE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_reception_large.xml</PrefabNW>
+
+        <Cost>4200</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_RECEPTION_LARGE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_rooms</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <!--GameDBPrefabObject ID="PREFAB_ROOM_STAT_LAB_ER">
+        <AbbreviationLocID>PREFAB_ROOM_STAT_LAB_ER_ABBR</AbbreviationLocID>
+        <PrefabNW>room_stat_lab_er.xml</PrefabNW>
+
+        <Cost>17000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_STAT_LAB_ER</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_emergency</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_STAT_LAB_NE">
+        <AbbreviationLocID>PREFAB_ROOM_STAT_LAB_NE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_stat_lab_ne.xml</PrefabNW>
+
+        <Cost>21000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_STAT_LAB_NE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_neurology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_STAT_LAB_GS">
+        <AbbreviationLocID>PREFAB_ROOM_STAT_LAB_GS_ABBR</AbbreviationLocID>
+        <PrefabNW>room_stat_lab_gs.xml</PrefabNW>
+
+        <Cost>20500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_STAT_LAB_GS</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_surgery</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_STAT_LAB_IM">
+        <AbbreviationLocID>PREFAB_ROOM_STAT_LAB_IM_ABBR</AbbreviationLocID>
+        <PrefabNW>room_stat_lab_im.xml</PrefabNW>
+
+        <Cost>22000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_STAT_LAB_IM</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_interna</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_STAT_LAB_OT">
+        <AbbreviationLocID>PREFAB_ROOM_STAT_LAB_OT_ABBR</AbbreviationLocID>
+        <PrefabNW>room_stat_lab_ot.xml</PrefabNW>
+
+        <Cost>18000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_STAT_LAB_OT</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_orthopaedy</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_STAT_LAB_CAR">
+        <AbbreviationLocID>PREFAB_ROOM_STAT_LAB_CAR_ABBR</AbbreviationLocID>
+        <PrefabNW>room_stat_lab_car.xml</PrefabNW>
+
+        <Cost>18000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_STAT_LAB_CAR</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_cardiology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject-->
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_COMMON_ROOM">
+        <AbbreviationLocID>PREFAB_ROOM_COMMON_ROOM_ABBR</AbbreviationLocID>
+        <PrefabNW>room_common_room.xml</PrefabNW>
+
+        <Cost>3800</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_COMMON_ROOM</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_emergency</Tag>
+            <Tag>ui_prefab_surgery</Tag>
+            <Tag>ui_prefab_icu</Tag>
+            <Tag>ui_prefab_radiology</Tag>
+            <Tag>ui_prefab_interna</Tag>
+            <Tag>ui_prefab_orthopaedy</Tag>
+            <Tag>ui_prefab_cardiology</Tag>
+            <Tag>ui_prefab_neurology</Tag>
+            <Tag>ui_prefab_lab</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_CLEANING_CLOSET">
+        <AbbreviationLocID>PREFAB_ROOM_CLEANING_CLOSET_ABBR</AbbreviationLocID>
+        <PrefabNW>room_cleaning_closet.xml</PrefabNW>
+
+        <Cost>1750</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_CLEANING_CLOSET</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_emergency</Tag>
+            <Tag>ui_prefab_surgery</Tag>
+            <Tag>ui_prefab_icu</Tag>
+            <Tag>ui_prefab_radiology</Tag>
+            <Tag>ui_prefab_interna</Tag>
+            <Tag>ui_prefab_orthopaedy</Tag>
+            <Tag>ui_prefab_cardiology</Tag>
+            <Tag>ui_prefab_neurology</Tag>
+            <Tag>ui_prefab_lab</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_ON_CALL_ROOM_LARGE">
+        <AbbreviationLocID>PREFAB_ROOM_ON_CALL_ROOM_LARGE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_on_call_room_large.xml</PrefabNW>
+
+        <Cost>5500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_ON_CALL_ROOM_LARGE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_emergency</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_ON_CALL_ROOM_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_ON_CALL_ROOM_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_on_call_room_small.xml</PrefabNW>
+
+        <Cost>4500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_ON_CALL_ROOM_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_emergency</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_ON_CALL_ROOM_LARGE_GS">
+        <AbbreviationLocID>PREFAB_ROOM_ON_CALL_ROOM_LARGE_GS_ABBR</AbbreviationLocID>
+        <PrefabNW>room_on_call_room_large_gs.xml</PrefabNW>
+
+        <Cost>5500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_ON_CALL_ROOM_LARGE_GS</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_surgery</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_ON_CALL_ROOM_SMALL_GS">
+        <AbbreviationLocID>PREFAB_ROOM_ON_CALL_ROOM_SMALL_GS_ABBR</AbbreviationLocID>
+        <PrefabNW>room_on_call_room_small_gs.xml</PrefabNW>
+
+        <Cost>4500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_ON_CALL_ROOM_SMALL_GS</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_surgery</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_ON_CALL_ROOM_LARGE_ICU">
+        <AbbreviationLocID>PREFAB_ROOM_ON_CALL_ROOM_LARGE_ICU_ABBR</AbbreviationLocID>
+        <PrefabNW>room_on_call_room_large_icu.xml</PrefabNW>
+
+        <Cost>5500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_ON_CALL_ROOM_LARGE_ICU</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_icu</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_ON_CALL_ROOM_SMALL_ICU">
+        <AbbreviationLocID>PREFAB_ROOM_ON_CALL_ROOM_SMALL_ICU_ABBR</AbbreviationLocID>
+        <PrefabNW>room_on_call_room_small_icu.xml</PrefabNW>
+
+        <Cost>4500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_ON_CALL_ROOM_SMALL_ICU</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_icu</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_ON_CALL_ROOM_LARGE_IM">
+        <AbbreviationLocID>PREFAB_ROOM_ON_CALL_ROOM_LARGE_IM_ABBR</AbbreviationLocID>
+        <PrefabNW>room_on_call_room_large_im.xml</PrefabNW>
+
+        <Cost>5500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_ON_CALL_ROOM_LARGE_IM</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_interna</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_ON_CALL_ROOM_SMALL_IM">
+        <AbbreviationLocID>PREFAB_ROOM_ON_CALL_ROOM_SMALL_IM_ABBR</AbbreviationLocID>
+        <PrefabNW>room_on_call_room_small_im.xml</PrefabNW>
+
+        <Cost>4500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_ON_CALL_ROOM_SMALL_IM</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_interna</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_ON_CALL_ROOM_LARGE_OT">
+        <AbbreviationLocID>PREFAB_ROOM_ON_CALL_ROOM_LARGE_OT_ABBR</AbbreviationLocID>
+        <PrefabNW>room_on_call_room_large_ot.xml</PrefabNW>
+
+        <Cost>5500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_ON_CALL_ROOM_LARGE_OT</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_orthopaedy</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_ON_CALL_ROOM_SMALL_OT">
+        <AbbreviationLocID>PREFAB_ROOM_ON_CALL_ROOM_SMALL_OT_ABBR</AbbreviationLocID>
+        <PrefabNW>room_on_call_room_small_ot.xml</PrefabNW>
+
+        <Cost>4500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_ON_CALL_ROOM_SMALL_OT</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_orthopaedy</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_ON_CALL_ROOM_LARGE_CAR">
+        <AbbreviationLocID>PREFAB_ROOM_ON_CALL_ROOM_LARGE_CAR_ABBR</AbbreviationLocID>
+        <PrefabNW>room_on_call_room_large_car.xml</PrefabNW>
+
+        <Cost>5500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_ON_CALL_ROOM_LARGE_CAR</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_cardiology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_ON_CALL_ROOM_SMALL_CAR">
+        <AbbreviationLocID>PREFAB_ROOM_ON_CALL_ROOM_SMALL_CAR_ABBR</AbbreviationLocID>
+        <PrefabNW>room_on_call_room_small_car.xml</PrefabNW>
+
+        <Cost>4500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_ON_CALL_ROOM_SMALL_CAR</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_cardiology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_ON_CALL_ROOM_LARGE_NE">
+        <AbbreviationLocID>PREFAB_ROOM_ON_CALL_ROOM_LARGE_NE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_on_call_room_large_ne.xml</PrefabNW>
+
+        <Cost>5500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_ON_CALL_ROOM_LARGE_NE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_neurology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_ON_CALL_ROOM_SMALL_NE">
+        <AbbreviationLocID>PREFAB_ROOM_ON_CALL_ROOM_SMALL_NE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_on_call_room_small_ne.xml</PrefabNW>
+
+        <Cost>4500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_ON_CALL_ROOM_SMALL_NE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_neurology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_NURSES_STATION_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_NURSES_STATION_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_nurses_station_small.xml</PrefabNW>
+
+        <Cost>5600</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_NURSES_STATION_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_emergency</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_NURSES_STATION_LARGE">
+        <AbbreviationLocID>PREFAB_ROOM_NURSES_STATION_LARGE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_nurses_station_large.xml</PrefabNW>
+
+        <Cost>7000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_NURSES_STATION_LARGE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_emergency</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_NURSES_STATION_SMALL_GS">
+        <AbbreviationLocID>PREFAB_ROOM_NURSES_STATION_SMALL_GS_ABBR</AbbreviationLocID>
+        <PrefabNW>room_nurses_station_small_gs.xml</PrefabNW>
+
+        <Cost>5600</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_NURSES_STATION_SMALL_GS</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_surgery</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_NURSES_STATION_LARGE_GS">
+        <AbbreviationLocID>PREFAB_ROOM_NURSES_STATION_LARGE_GS_ABBR</AbbreviationLocID>
+        <PrefabNW>room_nurses_station_large_gs.xml</PrefabNW>
+
+        <Cost>7000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_NURSES_STATION_LARGE_GS</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_surgery</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_NURSES_STATION_SMALL_ICU">
+        <AbbreviationLocID>PREFAB_ROOM_NURSES_STATION_SMALL_ICU_ABBR</AbbreviationLocID>
+        <PrefabNW>room_nurses_station_small_icu.xml</PrefabNW>
+
+        <Cost>5600</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_NURSES_STATION_SMALL_ICU</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_icu</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_NURSES_STATION_LARGE_ICU">
+        <AbbreviationLocID>PREFAB_ROOM_NURSES_STATION_LARGE_ICU_ABBR</AbbreviationLocID>
+        <PrefabNW>room_nurses_station_large_icu.xml</PrefabNW>
+
+        <Cost>7000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_NURSES_STATION_LARGE_ICU</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_icu</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_NURSES_STATION_SMALL_IM">
+        <AbbreviationLocID>PREFAB_ROOM_NURSES_STATION_SMALL_IM_ABBR</AbbreviationLocID>
+        <PrefabNW>room_nurses_station_small_im.xml</PrefabNW>
+
+        <Cost>5600</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_NURSES_STATION_SMALL_IM</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_interna</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_NURSES_STATION_LARGE_IM">
+        <AbbreviationLocID>PREFAB_ROOM_NURSES_STATION_LARGE_IM_ABBR</AbbreviationLocID>
+        <PrefabNW>room_nurses_station_large_im.xml</PrefabNW>
+
+        <Cost>7000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_NURSES_STATION_LARGE_IM</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_interna</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_NURSES_STATION_SMALL_OT">
+        <AbbreviationLocID>PREFAB_ROOM_NURSES_STATION_SMALL_OT_ABBR</AbbreviationLocID>
+        <PrefabNW>room_nurses_station_small_ot.xml</PrefabNW>
+
+        <Cost>5600</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_NURSES_STATION_SMALL_OT</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_orthopaedy</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_NURSES_STATION_LARGE_OT">
+        <AbbreviationLocID>PREFAB_ROOM_NURSES_STATION_LARGE_OT_ABBR</AbbreviationLocID>
+        <PrefabNW>room_nurses_station_large_ot.xml</PrefabNW>
+
+        <Cost>7000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_NURSES_STATION_LARGE_OT</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_orthopaedy</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_NURSES_STATION_SMALL_CAR">
+        <AbbreviationLocID>PREFAB_ROOM_NURSES_STATION_SMALL_CAR_ABBR</AbbreviationLocID>
+        <PrefabNW>room_nurses_station_small_car.xml</PrefabNW>
+
+        <Cost>5600</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_NURSES_STATION_SMALL_CAR</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_cardiology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_NURSES_STATION_LARGE_CAR">
+        <AbbreviationLocID>PREFAB_ROOM_NURSES_STATION_LARGE_CAR_ABBR</AbbreviationLocID>
+        <PrefabNW>room_nurses_station_large_car.xml</PrefabNW>
+
+        <Cost>7000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_NURSES_STATION_LARGE_CAR</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_cardiology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_NURSES_STATION_SMALL_NE">
+        <AbbreviationLocID>PREFAB_ROOM_NURSES_STATION_SMALL_NE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_nurses_station_small_ne.xml</PrefabNW>
+
+        <Cost>5600</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_NURSES_STATION_SMALL_NE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_neurology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_NURSES_STATION_LARGE_NE">
+        <AbbreviationLocID>PREFAB_ROOM_NURSES_STATION_LARGE_NE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_nurses_station_large_ne.xml</PrefabNW>
+
+        <Cost>7000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_NURSES_STATION_LARGE_NE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_neurology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_OBSERVATION_ROOM_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_OBSERVATION_ROOM_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_observation_room_small.xml</PrefabNW>
+
+        <Cost>12000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_OBSERVATION_ROOM_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_emergency</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_OBSERVATION_ROOM_LARGE">
+        <AbbreviationLocID>PREFAB_ROOM_OBSERVATION_ROOM_LARGE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_observation_room_large.xml</PrefabNW>
+
+        <Cost>22000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_OBSERVATION_ROOM_LARGE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_emergency</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_TRAUMA_CENTER">
+        <AbbreviationLocID>PREFAB_ROOM_TRAUMA_CENTER_ABBR</AbbreviationLocID>
+        <PrefabNW>room_trauma_center.xml</PrefabNW>
+
+        <Cost>23000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_TRAUMA_CENTER</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_emergency</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <!-- General surgery - hospitalization -->
+    <GameDBPrefabObject ID="PREFAB_ROOM_INPATIENT_WARD_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_INPATIENT_WARD_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_inpatient_ward_small.xml</PrefabNW>
+
+        <Cost>2600</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_INPATIENT_WARD_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_surgery</Tag>
+            <Tag>ui_prefab_interna</Tag>
+            <Tag>ui_prefab_orthopaedy</Tag>
+            <Tag>ui_prefab_cardiology</Tag>
+            <Tag>ui_prefab_neurology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_INPATIENT_WARD_LARGE">
+        <AbbreviationLocID>PREFAB_ROOM_INPATIENT_WARD_LARGE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_inpatient_ward_large.xml</PrefabNW>
+
+        <Cost>7100</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_INPATIENT_WARD_LARGE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_surgery</Tag>
+            <Tag>ui_prefab_interna</Tag>
+            <Tag>ui_prefab_orthopaedy</Tag>
+            <Tag>ui_prefab_cardiology</Tag>
+            <Tag>ui_prefab_neurology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_HIGH_PRIORITY_WARD_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_HIGH_PRIORITY_WARD_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_high_priority_ward_small.xml</PrefabNW>
+
+        <Cost>4500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_HIGH_PRIORITY_WARD_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_surgery</Tag>
+            <Tag>ui_prefab_interna</Tag>
+            <Tag>ui_prefab_orthopaedy</Tag>
+            <Tag>ui_prefab_cardiology</Tag>
+            <Tag>ui_prefab_neurology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_HIGH_PRIORITY_WARD_LARGE">
+        <AbbreviationLocID>PREFAB_ROOM_HIGH_PRIORITY_WARD_LARGE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_high_priority_ward_large.xml</PrefabNW>
+
+        <Cost>13200</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_HIGH_PRIORITY_WARD_LARGE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_surgery</Tag>
+            <Tag>ui_prefab_interna</Tag>
+            <Tag>ui_prefab_orthopaedy</Tag>
+            <Tag>ui_prefab_cardiology</Tag>
+            <Tag>ui_prefab_neurology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_INPATIENT_GS_OFFICE">
+        <AbbreviationLocID>PREFAB_ROOM_INPATIENT_GS_OFFICE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_inpatient_gs_office.xml</PrefabNW>
+
+        <Cost>10500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_INPATIENT_GS_OFFICE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_surgery</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_INPATIENT_GS_OFFICE_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_INPATIENT_GS_OFFICE_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_inpatient_gs_office_small.xml</PrefabNW>
+
+        <Cost>9500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_INPATIENT_GS_OFFICE_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_surgery</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_INPATIENT_IM_OFFICE">
+        <AbbreviationLocID>PREFAB_ROOM_INPATIENT_IM_OFFICE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_inpatient_im_office.xml</PrefabNW>
+
+        <Cost>5700</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_INPATIENT_IM_OFFICE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_interna</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_INPATIENT_IM_OFFICE_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_INPATIENT_IM_OFFICE_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_inpatient_im_office_small.xml</PrefabNW>
+
+        <Cost>5000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_INPATIENT_IM_OFFICE_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_interna</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_INPATIENT_OT_OFFICE">
+        <AbbreviationLocID>PREFAB_ROOM_INPATIENT_OT_OFFICE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_inpatient_ot_office.xml</PrefabNW>
+
+        <Cost>6500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_INPATIENT_OT_OFFICE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_orthopaedy</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_INPATIENT_OT_OFFICE_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_INPATIENT_OT_OFFICE_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_inpatient_ot_office_small.xml</PrefabNW>
+
+        <Cost>5500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_INPATIENT_OT_OFFICE_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_orthopaedy</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_INPATIENT_CAR_OFFICE">
+        <AbbreviationLocID>PREFAB_ROOM_INPATIENT_CAR_OFFICE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_inpatient_car_office.xml</PrefabNW>
+
+        <Cost>4800</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_INPATIENT_CAR_OFFICE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_cardiology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_INPATIENT_CAR_OFFICE_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_INPATIENT_CAR_OFFICE_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_inpatient_car_office_small.xml</PrefabNW>
+
+        <Cost>4000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_INPATIENT_CAR_OFFICE_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_cardiology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_INPATIENT_NE_OFFICE">
+        <AbbreviationLocID>PREFAB_ROOM_INPATIENT_NE_OFFICE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_inpatient_ne_office.xml</PrefabNW>
+
+        <Cost>10000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_INPATIENT_NE_OFFICE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_neurology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_INPATIENT_NE_OFFICE_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_INPATIENT_NE_OFFICE_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_inpatient_ne_office_small.xml</PrefabNW>
+
+        <Cost>9000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_INPATIENT_NE_OFFICE_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_neurology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_OPERATING_THEATRE_GS">
+        <AbbreviationLocID>PREFAB_ROOM_OPERATING_THEATRE_GS_ABBR</AbbreviationLocID>
+        <PrefabNW>room_operating_theatre_gs.xml</PrefabNW>
+
+        <Cost>25300</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_OPERATING_THEATRE_GS</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_surgery</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+    
+    <GameDBPrefabObject ID="PREFAB_ROOM_OPERATING_THEATRE_OT">
+        <AbbreviationLocID>PREFAB_ROOM_OPERATING_THEATRE_OT_ABBR</AbbreviationLocID>
+        <PrefabNW>room_operating_theatre_ot.xml</PrefabNW>
+
+        <Cost>25300</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_OPERATING_THEATRE_OT</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_orthopaedy</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_OPERATING_THEATRE_CAR">
+        <AbbreviationLocID>PREFAB_ROOM_OPERATING_THEATRE_CAR_ABBR</AbbreviationLocID>
+        <PrefabNW>room_operating_theatre_car.xml</PrefabNW>
+
+        <Cost>25300</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_OPERATING_THEATRE_CAR</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_cardiology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_OPERATING_THEATRE_NE">
+        <AbbreviationLocID>PREFAB_ROOM_OPERATING_THEATRE_NE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_operating_theatre_ne.xml</PrefabNW>
+
+        <Cost>25300</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_OPERATING_THEATRE_NE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_neurology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_SONOGRAPHY_UNIT_GS">
+        <AbbreviationLocID>PREFAB_ROOM_SONOGRAPHY_UNIT_GS_ABBR</AbbreviationLocID>
+        <PrefabNW>room_sonography_unit_gs.xml</PrefabNW>
+
+        <Cost>12500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_SONOGRAPHY_UNIT_GS</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_surgery</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_SONOGRAPHY_UNIT_OT">
+        <AbbreviationLocID>PREFAB_ROOM_SONOGRAPHY_UNIT_OT_ABBR</AbbreviationLocID>
+        <PrefabNW>room_sonography_unit_ot.xml</PrefabNW>
+
+        <Cost>18000</Cost>
+
+        <IconIndex>-1</IconIndex>        
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_SONOGRAPHY_UNIT_OT</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_orthopaedy</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_SONOGRAPHY_UNIT_CAR">
+        <AbbreviationLocID>PREFAB_ROOM_SONOGRAPHY_UNIT_CAR_ABBR</AbbreviationLocID>
+        <PrefabNW>room_sonography_unit_car.xml</PrefabNW>
+
+        <Cost>8500</Cost>
+
+        <IconIndex>-1</IconIndex>        
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_SONOGRAPHY_UNIT_CAR</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_cardiology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_CARDIOVASCULAR_UNIT_GS">
+        <AbbreviationLocID>PREFAB_ROOM_CARDIOVASCULAR_UNIT_GS_ABBR</AbbreviationLocID>
+        <PrefabNW>room_cardiovascular_unit_gs.xml</PrefabNW>
+
+        <Cost>8900</Cost>
+
+        <IconIndex>-1</IconIndex>        
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_CARDIOVASCULAR_UNIT_GS</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_surgery</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_CARDIOVASCULAR_UNIT_IM">
+        <AbbreviationLocID>PREFAB_ROOM_CARDIOVASCULAR_UNIT_IM_ABBR</AbbreviationLocID>
+        <PrefabNW>room_cardiovascular_unit_im.xml</PrefabNW>
+
+        <Cost>9500</Cost>
+
+        <IconIndex>-1</IconIndex>        
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_CARDIOVASCULAR_UNIT_IM</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_interna</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_CARDIOVASCULAR_UNIT_CAR">
+        <AbbreviationLocID>PREFAB_ROOM_CARDIOVASCULAR_UNIT_CAR_ABBR</AbbreviationLocID>
+        <PrefabNW>room_cardiovascular_unit_car.xml</PrefabNW>
+
+        <Cost>9500</Cost>
+
+        <IconIndex>-1</IconIndex>        
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_CARDIOVASCULAR_UNIT_CAR</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_cardiology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_CARDIOVASCULAR_UNIT_NE">
+        <AbbreviationLocID>PREFAB_ROOM_CARDIOVASCULAR_UNIT_NE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_cardiovascular_unit_ne.xml</PrefabNW>
+
+        <Cost>4500</Cost>
+
+        <IconIndex>-1</IconIndex>        
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_CARDIOVASCULAR_UNIT_NE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_neurology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_NEUROLAB_NE">
+        <AbbreviationLocID>PREFAB_ROOM_NEUROLAB_NE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_neurolab_ne.xml</PrefabNW>
+
+        <Cost>10000</Cost>
+
+        <IconIndex>-1</IconIndex>        
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_NEUROLAB_NE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_neurology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <!-- ICU -->
+    <GameDBPrefabObject ID="PREFAB_ROOM_ICU_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_ICU_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_icu_small.xml</PrefabNW>
+
+        <Cost>29000</Cost>
+
+        <IconIndex>-1</IconIndex>        
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_ICU_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_icu</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_ICU_LARGE">
+        <AbbreviationLocID>PREFAB_ROOM_ICU_LARGE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_icu_large.xml</PrefabNW>
+
+        <Cost>58000</Cost>
+
+        <IconIndex>-1</IconIndex>        
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_ICU_LARGE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_icu</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+    
+    <!--MEDICAL LOABORATORIES-->
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_HEMATOLOGY_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_HEMATOLOGY_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_hematology_small.xml</PrefabNW>
+
+        <Cost>25000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_HEMATOLOGY_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_lab</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_HEMATOLOGY_LARGE">
+        <AbbreviationLocID>PREFAB_ROOM_HEMATOLOGY_LARGE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_hematology_large.xml</PrefabNW>
+
+        <Cost>30000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_HEMATOLOGY_LARGE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_lab</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_MICROBIOLOGY_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_MICROBIOLOGY_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_microbiology_small.xml</PrefabNW>
+
+        <Cost>25000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_MICROBIOLOGY_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_lab</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_MICROBIOLOGY_LARGE">
+        <AbbreviationLocID>PREFAB_ROOM_MICROBIOLOGY_LARGE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_microbiology_large.xml</PrefabNW>
+
+        <Cost>30000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_MICROBIOLOGY_LARGE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_lab</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_HISTOLOGY_SMALL">
+        <AbbreviationLocID>PREFAB_ROOM_HISTOLOGY_SMALL_ABBR</AbbreviationLocID>
+        <PrefabNW>room_histology_small.xml</PrefabNW>
+
+        <Cost>20000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_HISTOLOGY_SMALL</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_lab</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_HISTOLOGY_LARGE">
+        <AbbreviationLocID>PREFAB_ROOM_HISTOLOGY_LARGE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_histology_large.xml</PrefabNW>
+
+        <Cost>25000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_HISTOLOGY_LARGE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_lab</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_CARDIOVASCULAR_UNIT_RAD">
+        <AbbreviationLocID>PREFAB_ROOM_CARDIOVASCULAR_UNIT_RAD_ABBR</AbbreviationLocID>
+        <PrefabNW>room_cardiovascular_unit_rad.xml</PrefabNW>
+
+        <Cost>11000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_CARDIOVASCULAR_UNIT_RAD</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_radiology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+    
+    <GameDBPrefabObject ID="PREFAB_ROOM_SONOGRAPHY_UNIT_RAD">
+        <AbbreviationLocID>PREFAB_ROOM_SONOGRAPHY_UNIT_RAD_ABBR</AbbreviationLocID>
+        <PrefabNW>room_sonography_unit_rad.xml</PrefabNW>
+
+        <Cost>13500</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_SONOGRAPHY_UNIT_RAD</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_radiology</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_ROOM_IM_UNIQUE_OFFICE_LARGE">
+        <AbbreviationLocID>PREFAB_ROOM_IM_UNIQUE_OFFICE_LARGE_ABBR</AbbreviationLocID>
+        <PrefabNW>room_im_unique_office_large.xml</PrefabNW>
+
+        <Cost>20000</Cost>
+
+        <IconIndex>-1</IconIndex>
+        <CustomIconAssetRef>ASSET_PREFAB_ICON_IM_UNIQUE_OFFICE_LARGE</CustomIconAssetRef>
+
+        <Tags>
+            <Tag>ui_prefab_interna</Tag>
+        </Tags>
+
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+</Database>

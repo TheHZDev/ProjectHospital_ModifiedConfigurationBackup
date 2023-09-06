@@ -1,0 +1,38 @@
+﻿<Database>
+    <GameDBStatistic ID="STAT_BUILD_WALLS">           <PlatformValue>STAT_BUILD_WALLS</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    <GameDBStatistic ID="STAT_BUILD_OBJ">             <PlatformValue>STAT_BUILD_OBJ</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    <GameDBStatistic ID="STAT_BUILD_OBJ_DECORATIONS"> <PlatformValue>STAT_BUILD_OBJ_DECORATIONS</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    <GameDBStatistic ID="STAT_BUILD_OBJ_EYE_POSTER">  <PlatformValue>STAT_BUILD_OBJ_EYE_POSTER</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    <GameDBStatistic ID="STAT_BUILD_OBJ_TREES">       <PlatformValue>STAT_BUILD_OBJ_TREES</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    <GameDBStatistic ID="STAT_BUILD_OBJ_TRASH">       <PlatformValue>STAT_BUILD_OBJ_TRASH</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    <GameDBStatistic ID="STAT_BUILD_OBJ_BIOTRASH">    <PlatformValue>STAT_BUILD_OBJ_BIOTRASH</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    <GameDBStatistic ID="STAT_BUILD_PREFAB_ROOMS">    <PlatformValue>STAT_BUILD_PREFAB_ROOMS</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    <GameDBStatistic ID="STAT_BUILD_SATELLITES">      <PlatformValue>STAT_BUILD_SATELLITES</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    <GameDBStatistic ID="STAT_BUILD_TOILETS">         <PlatformValue>STAT_BUILD_TOILETS</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    <GameDBStatistic ID="STAT_MOVE_OBJ">              <PlatformValue>STAT_MOVE_OBJ</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+
+    <GameDBStatistic ID="STAT_HIRE">                  <PlatformValue>STAT_HIRE</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    <GameDBStatistic ID="STAT_HIRE_ALCOHOLIC">        <PlatformValue>STAT_HIRE_ALCOHOLIC</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    <GameDBStatistic ID="STAT_FIRE">                  <PlatformValue>STAT_FIRE</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    <GameDBStatistic ID="STAT_SENT_HOME">             <PlatformValue>STAT_SENT_HOME</PlatformValue><IconIndex>326</IconIndex>  </GameDBStatistic>
+    
+    <GameDBStatistic ID="STAT_TREATED">               <PlatformValue>STAT_TREATED</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    <GameDBStatistic ID="STAT_CORRECT_DIAG">          <PlatformValue>STAT_CORRECT_DIAG</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    <GameDBStatistic ID="STAT_WRONG_DIAG">            <PlatformValue>STAT_WRONG_DIAG</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    <GameDBStatistic ID="STAT_EXM_BLOOD_DRAW">        <PlatformValue>STAT_EXM_BLOOD_DRAW</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    <GameDBStatistic ID="STAT_EXM_XRAY">              <PlatformValue>STAT_EXM_XRAY</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    <GameDBStatistic ID="STAT_TAKEN_OVER">            <PlatformValue>STAT_TAKEN_OVER</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    <GameDBStatistic ID="STAT_COLLAPSED">             <PlatformValue>STAT_COLLAPSED</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    <GameDBStatistic ID="STAT_CHANGE_LANG">           <PlatformValue>STAT_CHANGE_LANG</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+
+    <GameDBStatistic ID="STAT_RENAMED">               <PlatformValue>STAT_RENAMED</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    
+    <GameDBStatistic ID="STAT_TILES_CLEAN">           <PlatformValue>STAT_TILES_CLEAN</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+    
+    <GameDBStatistic ID="STAT_TOOLTIPS">              <PlatformValue>STAT_TOOLTIPS</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+
+    <GameDBStatistic ID="STAT_MONEY_SPENT">           <PlatformValue>STAT_MONEY_SPENT</PlatformValue>   <IconIndex>326</IconIndex>  </GameDBStatistic>
+
+    <GameDBStatistic ID="STAT_CAMERA_ROTATION">       <PlatformValue></PlatformValue>   <IconIndex>326</IconIndex> <ReportStep>20</ReportStep> </GameDBStatistic>
+</Database>
+

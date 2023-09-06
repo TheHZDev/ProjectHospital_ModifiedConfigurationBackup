@@ -1,0 +1,100 @@
+<Database>
+    <GameDBPrefabObject ID="DOOR_DOUBLE">
+    	<AbbreviationLocID>DOOR_DOUBLE</AbbreviationLocID>
+        <PrefabNW>double_door_nw.xml</PrefabNW>
+           
+        <Cost>100</Cost>
+        <IconIndex>1001</IconIndex>
+        <Tags>
+            <Tag>ui_door</Tag>
+        </Tags>
+
+        <LayerDoors>true</LayerDoors>
+        <ColorSetRef>COLOR_SET_DOOR_FULL</ColorSetRef>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="DOOR_DOUBLE_WINDOW">
+    	<AbbreviationLocID>DOOR_DOUBLE_WINDOW</AbbreviationLocID>
+        <PrefabNW>double_door_window.xml</PrefabNW>
+           
+        <Cost>100</Cost>
+        <IconIndex>920</IconIndex>
+        <Tags>
+            <Tag>ui_door</Tag>
+        </Tags>
+
+        <LayerDoors>true</LayerDoors>
+        <ColorSetRef>COLOR_SET_DOOR_LINE</ColorSetRef>
+    </GameDBPrefabObject>
+
+     <GameDBPrefabObject ID="DOOR_DOUBLE_GLASS">
+    	<AbbreviationLocID>DOOR_DOUBLE_GLASS</AbbreviationLocID>
+        <PrefabNW>double_door_glass.xml</PrefabNW>
+           
+        <Cost>100</Cost>
+        <IconIndex>711</IconIndex>
+        <Tags>
+            <Tag>ui_door</Tag>
+        </Tags>
+
+        <LayerDoors>true</LayerDoors>
+        <ColorSetRef>COLOR_SET_DOOR_GLASS</ColorSetRef>
+    </GameDBPrefabObject>
+    
+    <GameDBPrefabObject ID="DOOR_DOUBLE_SLIDING">
+        <AbbreviationLocID>DOOR_DOUBLE_SLIDING</AbbreviationLocID>
+        <PrefabNW>double_door_sliding_nw.xml</PrefabNW>
+        
+        <Cost>200</Cost>
+        <IconIndex>1002</IconIndex>
+        <Tags>
+            <Tag>ui_door</Tag>
+        </Tags>
+        
+        <LayerDoors>true</LayerDoors>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_DEFAULT</ColorSetRef>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="DOOR_DOUBLE_XRAY">
+    	<AbbreviationLocID>DOOR_DOUBLE_XRAY</AbbreviationLocID>
+        <PrefabNW>double_door_xray.xml</PrefabNW>
+           
+        <Cost>100</Cost>
+        <IconIndex>742</IconIndex>
+        <Tags>
+            <Tag>ui_door</Tag>
+        </Tags>
+
+        <LayerDoors>true</LayerDoors>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_DEFAULT</ColorSetRef>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="DOOR_RESTRICTED_DOUBLE">
+    	<AbbreviationLocID>DOOR_RESTRICTED_DOUBLE</AbbreviationLocID>
+        <PrefabNW>double_door_restricted.xml</PrefabNW>
+           
+        <Cost>100</Cost>
+        <IconIndex>744</IconIndex>
+        <Tags>
+            <Tag>ui_door</Tag>
+        </Tags>
+
+        <LayerDoors>true</LayerDoors>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_DEFAULT</ColorSetRef>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="DOOR_DOUBLE_ELEVATOR">
+    	<AbbreviationLocID>DOOR_DOUBLE_ELEVATOR</AbbreviationLocID>
+        <PrefabNW>double_door_elevator.xml</PrefabNW>
+           
+        <Cost>100</Cost>
+        <IconIndex>792</IconIndex>
+        <Tags>
+        	<Tag>ui_door</Tag>
+        </Tags>
+
+        <LayerDoors>true</LayerDoors>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_DEFAULT</ColorSetRef>
+    </GameDBPrefabObject>
+
+</Database>

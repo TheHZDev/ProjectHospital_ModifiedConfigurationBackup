@@ -1,0 +1,39 @@
+﻿<Database>
+    <!--GameDBVoice ID="VOICE_MALE_JC">
+        <SoundEventSuffix>_JC</SoundEventSuffix>
+        <Tags>
+            <Tag>male</Tag>
+            <Tag>staff</Tag>
+            <Tag>patient</Tag>
+        </Tags>
+    </GameDBVoice>
+
+    <GameDBVoice ID="VOICE_FEMALE_JC">
+        <SoundEventSuffix>_JC</SoundEventSuffix>
+        <Tags>
+            <Tag>female</Tag>
+            <Tag>staff</Tag>
+            <Tag>patient</Tag>
+        </Tags>
+    </GameDBVoice-->
+
+    <GameDBVoice ID="VOICE_MALE_DS">
+        <SoundEventSuffix>_DS</SoundEventSuffix>
+        <Tags>
+            <Tag>male</Tag>
+            <Tag>staff</Tag>
+            <Tag>patient</Tag>
+        </Tags>
+    </GameDBVoice>
+
+    <GameDBVoice ID="VOICE_FEMALE_KR">
+        <SoundEventSuffix>_KR</SoundEventSuffix>
+        <Tags>
+            <Tag>female</Tag>
+            <Tag>staff</Tag>
+            <Tag>patient</Tag>
+        </Tags>
+    </GameDBVoice>
+</Database>
+
+

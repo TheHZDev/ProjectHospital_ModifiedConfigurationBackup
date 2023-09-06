@@ -1,0 +1,17 @@
+<Database>
+    <GameDBStringTable ID="LOC_ES_DLC_DOCTOR_MODE_PATCH_1_1_24">
+    
+        <LanguageCode>es</LanguageCode>
+        <LanguageNameLocalized>Español</LanguageNameLocalized>
+    
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+    
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSURANCE_OBJ_RESET</LocID>            <Text>Se han reiniciado los objetivos de la aseguradora</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSURANCE_OBJ_RESET_TEXT</LocID>       <Text>Debido un cambio en los ajustes de dificultad del modo Doctor se ha(n) reiniciado el/los objetivo(s) de la aseguradora.</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

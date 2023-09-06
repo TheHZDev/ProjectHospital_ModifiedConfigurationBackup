@@ -1,0 +1,150 @@
+﻿<Database>
+    <!--===============  Dialogue - staff ===================-->
+
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_QUESTION_MALE_DS">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/m_ds/staff_01_question_tk21.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/staff_01_question_tk24.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/staff_01_question_tk25.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/staff_01_question_tk26.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/staff_01_question_tk27.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_STATEMENT_MALE_DS">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/m_ds/staff_02_statement_tk01.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/staff_02_statement_tk03.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/staff_02_statement_tk04.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/staff_02_statement_tk07.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/staff_02_statement_tk08.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_STATEMENT_URGENT_MALE_DS">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/m_ds/staff_03_statement_urgent_tk02.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/staff_03_statement_urgent_tk03.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/staff_03_statement_urgent_tk05.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_ORDER_PATIENT_MALE_DS">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/m_ds/staff_04_orderiing_patient_tk01.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/staff_04_orderiing_patient_tk06.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/staff_04_orderiing_patient_tk07.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+    
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_SURGEON_TOOL_MALE_DS">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/m_ds/staff_05_surgeon_tool_tk01.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/staff_05_surgeon_tool_tk03.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/staff_05_surgeon_tool_tk05.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/staff_05_surgeon_tool_tk06.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/staff_05_surgeon_tool_tk09.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+    
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_NEXT_MALE_DS">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/m_ds/staff_06_next_tk01.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/staff_06_next_tk05.wav</AudioClip>
+			<AudioClip>Audio/Dialogue/m_ds/staff_06_next_tk06.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <!--===============  Dialogue - patients ===================-->
+    
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_STATEMENT_MALE_DS">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/m_ds/patient_01_statement_tk06.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/patient_01_statement_tk10.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/patient_01_statement_tk11.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/patient_01_statement_tk12.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/patient_01_statement_tk17.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_STATEMENT_BARELY_AUDIBLE_MALE_DS">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/m_ds/patient_02_statement_barely_audible_tk01.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/patient_02_statement_barely_audible_tk02.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/patient_02_statement_barely_audible_tk03.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-16</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_ANGRY_MALE_DS">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/m_ds/patient_03_angry_tk02.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/patient_03_angry_tk03.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/patient_03_angry_tk06.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/patient_03_angry_tk08.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/patient_03_angry_tk10.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_OUCH_MALE_DS">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/m_ds/patient_04_ouch_tk07.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/patient_04_ouch_tk09.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/patient_04_ouch_tk12.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_AAA_MALE_DS">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/m_ds/patient_05_aaa_tk01.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/patient_05_aaa_tk02.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/patient_05_aaa_tk03.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_GOODBYE_MALE_DS">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/m_ds/patient_06_goodbye_tk02.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/patient_06_goodbye_tk03.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/patient_06_goodbye_tk06.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/patient_06_goodbye_tk09.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_CHATTING_MALE_DS">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/m_ds/patient_07_chatting_tk01.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/patient_07_chatting_tk04.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/patient_07_chatting_tk05.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/patient_07_chatting_tk06.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/m_ds/patient_07_chatting_tk08.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+    
+ </Database>
+

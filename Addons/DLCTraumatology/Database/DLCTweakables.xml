@@ -1,0 +1,13 @@
+﻿<Database>
+    <GameDBTweakableInt ID="DLC_TRAUMATOLOGY_ENABLED">   <Value>1</Value>   </GameDBTweakableInt>
+
+    <GameDBTweakableInt ID="HELICOPTER_MAX_CALLS_PER_DAY"> <Value>1</Value>   </GameDBTweakableInt>
+    <GameDBTweakableFloat ID="HELICOPTER_MISSION_TIME_HOURS"> <Value>2.0</Value>   </GameDBTweakableFloat>
+    <GameDBTweakableFloat ID="HELICOPTER_EVENT_MISSION_TIME_HOURS"> <Value>0.4</Value>   </GameDBTweakableFloat>
+
+    <!-- Increased in all DLCs the same -->
+    <GameDBTweakableInt ID="TWEAKABLE_MAX_FLOORS"> <Value>6</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_EMPLOYEE_LIMIT"> <Value>400</Value>   </GameDBTweakableInt>
+
+    <GameDBTweakableInt ID="TWEAKABLE_MAX_INSURANCE_COMPANIES">   <Value>4</Value>   </GameDBTweakableInt>
+</Database>

@@ -1,0 +1,1027 @@
+<Database>
+    <!--========================   UI   =======================-->
+
+    <GameDBSoundEvent ID="SFX_UI_BEEP">
+        <AudioClips>
+            <AudioClip>Audio/UI/ui_beep.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+		<VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_UI_DECREASE">
+        <AudioClips>
+            <AudioClip>Audio/UI/ui_decrease.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_UI_INCREASE">
+        <AudioClips>
+            <AudioClip>Audio/UI/ui_increase.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_UI_FORBIDDEN">
+        <AudioClips>
+            <AudioClip>Audio/UI/ui_forbidden.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+		<VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_UI_POPUP">
+        <AudioClips>
+            <AudioClip>Audio/UI/ui_popup.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+        <VolumeDB>-9</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_UI_POPUP_EVENT_CRASH">
+        <AudioClips>
+            <AudioClip>Audio/UI/ui_event_generic_crash.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+        <VolumeDB>-9</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_UI_POPUP_EVENT_EPIDEMIC">
+        <AudioClips>
+            <AudioClip>Audio/UI/ui_event_generic_epidemic.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+        <VolumeDB>-9</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_UI_POPUP_EVENT_DISASTER">
+        <AudioClips>
+            <AudioClip>Audio/UI/ui_event_generic_naturaldisaster.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+        <VolumeDB>-9</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_UI_PAGER">
+        <AudioClips>
+            <AudioClip>Audio/UI/ui_pager.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+    
+    <GameDBSoundEvent ID="SFX_UI_WINDOW_OPEN">
+        <AudioClips>
+            <AudioClip>Audio/UI/ui_window_open.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+		<VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_UI_WINDOW_CLOSED">
+        <AudioClips>
+            <AudioClip>Audio/UI/ui_window_closed.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_UI_OBJECT_SELECTED">
+        <AudioClips>
+            <AudioClip>Audio/UI/ui_object_select.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+		<VolumeDB>-9</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_UI_SCROLL_UP">
+        <AudioClips>
+            <AudioClip>Audio/UI/ui_scroll_up.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+    </GameDBSoundEvent>
+    
+    <GameDBSoundEvent ID="SFX_UI_SCROLL_DOWN">
+        <AudioClips>
+            <AudioClip>Audio/UI/ui_scroll_down.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_UI_UNLOCK">
+        <AudioClips>
+            <AudioClip>Audio/UI/ui_unlock.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+    
+    <GameDBSoundEvent ID="SFX_UI_FAIL_CHALLENGE">
+        <AudioClips>
+            <AudioClip>Audio/UI/ui_fail_challenge.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_MEDICAL_BEEP">
+        <AudioClips>
+            <AudioClip>Audio/UI/ui_quit_flatline_start.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_MEDICAL_FLATLINE">
+        <AudioClips>
+            <AudioClip>Audio/UI/ui_quit_flatline_end.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+    
+    <!--=====================   Ambience   ====================-->
+
+    <GameDBSoundEvent ID="AMB_CITY">
+        <AudioClips>
+            <AudioClip>Audio/Ambience/amb_distant_city.ogg</AudioClip>
+        </AudioClips>
+        <VolumeDB>-12</VolumeDB>
+        <SoundBusRef>SOUND_BUS_ROOMS</SoundBusRef> <!-- TODO what? -->
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="AMB_HOSPITAL">
+        <AudioClips>
+            <AudioClip>Audio/Ambience/amb_hospital_general.ogg</AudioClip>
+        </AudioClips>
+        <VolumeDB>-21</VolumeDB>
+        <SoundBusRef>SOUND_BUS_ROOMS</SoundBusRef>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="AMB_DISTANT_AMBULANCE">
+        <AudioClips>
+            <AudioClip>Audio/Ambience/amb_distant_ambulance_01.wav</AudioClip>
+            <AudioClip>Audio/Ambience/amb_distant_ambulance_02.wav</AudioClip>
+        </AudioClips>
+        <VolumeDB>-12</VolumeDB>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef><!-- TODO global bus -->
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="AMB_RAIN">
+        <AudioClips>
+            <AudioClip>Audio/Ambience/amb_rain.wav</AudioClip>
+        </AudioClips>
+        <VolumeDB>-17</VolumeDB>
+        <SoundBusRef>SOUND_BUS_ROOMS</SoundBusRef>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_WAITING_ROOM_FULL">
+        <AudioClips>
+            <AudioClip>Audio/Ambience/amb_waitingroom_voices.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ROOMS</SoundBusRef>
+        <VolumeDB>-28</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="AMB_ICU">
+        <AudioClips>
+            <AudioClip>Audio/Ambience/amb_icu.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ROOMS</SoundBusRef>
+        <VolumeDB>-15</VolumeDB>
+    </GameDBSoundEvent>
+
+    <!--===============  Environment sounds ===================-->
+
+    <GameDBSoundEvent ID="SFX_ENV_COMPUTER_TYPE">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_computer_type_01.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_computer_type_02.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_computer_type_03.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_DOOR_CABINET_OPEN">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_door_cabinet_open.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_DOOR_CABINET_CLOSE">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_door_cabinet_close.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_DOOR_LOCKER_OPEN">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_door_locker_open.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_DOOR_LOCKER_CLOSE">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_door_locker_close.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_DOOR_DRAWER_OPEN">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_door_drawer_open.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_DOOR_DRAWER_CLOSE">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_door_drawer_close.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_DOOR_FRIDGE_OPEN">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_door_fridge_open.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_DOOR_FRIDGE_CLOSE">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_door_fridge_close.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_DOOR_A_OPEN">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_door_generic_a_open_01.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_door_generic_a_open_02.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_door_generic_a_open_03.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_DOORS</SoundBusRef>
+        <VolumeDB>-9</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_DOOR_A_CLOSE">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_door_generic_a_close_01.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_door_generic_a_close_02.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_door_generic_a_close_03.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_DOORS</SoundBusRef>
+        <VolumeDB>-9</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_DOOR_B_OPEN">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_door_generic_b_open.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_DOORS</SoundBusRef>
+        <VolumeDB>-9</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_DOOR_B_CLOSE">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_door_generic_b_close.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_DOORS</SoundBusRef>
+        <VolumeDB>-9</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_DOOR_C_OPEN">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_door_generic_c_open.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_DOORS</SoundBusRef>
+        <VolumeDB>-9</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_DOOR_C_CLOSE">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_door_generic_c_close.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_DOORS</SoundBusRef>
+        <VolumeDB>-9</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_SLIDING_DOOR_OPEN">
+        <AudioClips>
+            <!--AudioClip>Audio/Placeholders/door_open_001.wav</AudioClip-->
+            <AudioClip>Audio/Ingame/ingame_door_sliding_open.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_DOORS</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_SLIDING_DOOR_CLOSE">
+        <AudioClips>
+            <!--AudioClip>Audio/Placeholders/door_close_002.wav</AudioClip-->
+            <AudioClip>Audio/Ingame/ingame_door_sliding_close.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_DOORS</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+	
+    <GameDBSoundEvent ID="SFX_ENV_SLIDING_DOOR_A_OPEN">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_door_sliding_a_open.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_DOORS</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_SLIDING_DOOR_A_CLOSE">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_door_sliding_a_close.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_DOORS</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+	
+    <GameDBSoundEvent ID="SFX_ENV_SLIDING_DOOR_B_OPEN">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_door_sliding_b_open.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_DOORS</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_SLIDING_DOOR_B_CLOSE">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_door_sliding_b_close.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_DOORS</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+
+	<GameDBSoundEvent ID="SFX_ENV_SLIDING_DOOR_C_OPEN">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_door_sliding_c_open.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_DOORS</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_SLIDING_DOOR_C_CLOSE">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_door_sliding_c_close.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_DOORS</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+
+    <!--GameDBSoundEvent ID="SFX_ENV_GENERIC_REPAIR">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_generic_repair_01.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_generic_repair_02.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_generic_repair_03.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent-->
+
+    <GameDBSoundEvent ID="SFX_ENV_HAND_DRYER">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_hand_dryer.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-12</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_PATIENT_CALL">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_patient_call.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_PATIENT_DRESS">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_patient_dress_01.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_patient_dress_02.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_patient_dress_03.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-8</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_PATIENT_UNDRESS">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_patient_undress_01.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_patient_undress_02.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_patient_undress_03.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-8</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_PRINTER_SEQUENCE">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_printer_seq.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_WASH_HANDS">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_sink_washhands.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-9</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_SINK_METAL">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_sink_metal_01.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_sink_metal_02.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_sink_metal_03.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-15</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_SWITCH_GENERIC_ON">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_switch_generic_on.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_SWITCH_GENERIC_OFF">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_switch_generic_off.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_TELEVISION_SEQUENCE">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_television_seq.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_TOILET_FLUSH">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_toilet_flush_01.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_toilet_flush_02.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_VENDING_MACHINE_SEQUENCE">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_vendingmachine_seq.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_WATER_DISPENSER_SEQUENCE">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_waterdispenser_seq.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_XRAY_VIEWER">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_xray_viewer.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_MACHINE_GENERIC_START_01">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/machine_generic_clickbeep_01.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-7</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_MACHINE_GENERIC_START_02">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/machine_generic_clickbeep_02.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-7</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_MACHINE_GENERIC_START_03">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/machine_generic_clickbeep_03.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-7</VolumeDB>
+    </GameDBSoundEvent>
+    
+    <GameDBSoundEvent ID="SFX_ENV_MACHINE_GENERIC_START_RANDOM">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/machine_generic_clickbeep_01.wav</AudioClip>
+            <AudioClip>Audio/Ingame/machine_generic_clickbeep_02.wav</AudioClip>
+            <AudioClip>Audio/Ingame/machine_generic_clickbeep_03.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-7</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_MACHINE_GENERIC_SETUP_01">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/machine_generic_settingup_01.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-7</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_MACHINE_GENERIC_SETUP_02">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/machine_generic_settingup_02.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-7</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_MACHINE_GENERIC_SETUP_03">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/machine_generic_settingup_03.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-7</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_PLASTIC_PROP_PICKUP">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_plastic_pickup_01.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_plastic_pickup_02.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_plastic_pickup_03.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_SURGERY_FOLEY">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_surgery_foley_01.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_surgery_foley_02.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_surgery_foley_03.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-12</VolumeDB>
+    </GameDBSoundEvent>
+    
+    <GameDBSoundEvent ID="SFX_ENV_SURGERY_INSTRUMENTS">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_surgery_foley_04.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_surgery_foley_05.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-9</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_SURGERY_LAMP">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_surgery_lamp.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+    
+    <GameDBSoundEvent ID="SFX_ENV_MRI_BED_MOVE">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/machine_mri_bedmove.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-12</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_MRI">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/machine_mri_loop.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_CT">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/machine_ct_loop.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+    
+    <GameDBSoundEvent ID="SFX_ENV_BUCKET_CART_LOOP">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_bucket_kart.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-20</VolumeDB>
+    </GameDBSoundEvent>    
+    
+    <GameDBSoundEvent ID="SFX_ENV_COLLAPSING_PATIENT">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_collapsingpatient.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-12</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_STRETCHER_LOOP">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_stretcher_moveloop_01.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_stretcher_moveloop_02.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_stretcher_moveloop_03.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-12</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_XRAY_SERVO">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/machine_xray_servo_01.wav</AudioClip>
+            <AudioClip>Audio/Ingame/machine_xray_servo_02.wav</AudioClip>
+            <AudioClip>Audio/Ingame/machine_xray_servo_03.wav</AudioClip>
+			<AudioClip>Audio/Ingame/machine_xray_servo_04.wav</AudioClip>
+            <AudioClip>Audio/Ingame/machine_xray_servo_05.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+	
+
+	
+	<!-- small foley -->
+	
+	<GameDBSoundEvent ID="SFX_ENV_BEEP_ACTION_A">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_beep_action_a.wav</AudioClip>
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_BEEP_ACTION_B">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_beep_action_b.wav</AudioClip>
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_BEEP_ACTION_C">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_beep_action_c.wav</AudioClip>
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_BEEP_ACTION_D">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_beep_action_d.wav</AudioClip>
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_BEEP_ALERT_A">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_beep_alert_a.wav</AudioClip>
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-4</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_BEEP_ALERT_B">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_beep_alert_b.wav</AudioClip>
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-4</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_BEEP_ALERT_C">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_beep_alert_c.wav</AudioClip>
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-4</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_BEEP_ALERT_D">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_beep_alert_d.wav</AudioClip>
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-1</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_BUTTON_PRESS_A">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_button_press_a.wav</AudioClip>
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-4</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_BUTTON_PRESS_B">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_button_press_b.wav</AudioClip>
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-4</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_BUTTON_PRESS_C">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_button_press_c.wav</AudioClip>
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-4</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_BUTTON_PRESS_D">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_button_press_d.wav</AudioClip>
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-4</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_BUTTON_PRESS_E">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_button_press_e.wav</AudioClip>
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-4</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_DIAL_CLICK_A">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_dial_click_a.wav</AudioClip>
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-1</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_DIAL_CLICK_B">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_dial_click_b.wav</AudioClip>
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-1</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_DIAL_CLICK_C">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_dial_click_c.wav</AudioClip>
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-1</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_SWITCH">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_switch_01.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_switch_02.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_switch_03.wav</AudioClip>
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_MOUSECLICK">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_mouseclick_01.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_mouseclick_02.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_mouseclick_03.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_mouseclick_04.wav</AudioClip>
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-18</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_EATING">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_eating_01.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_eating_02.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_eating_03.wav</AudioClip>
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-1</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_FOLEY_GETONBED">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_foley_getonbed_01.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_foley_getonbed_02.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_foley_getonbed_03.wav</AudioClip>
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_TRASH">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_trash_01.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_trash_02.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_trash_03.wav</AudioClip>
+            <!--AudioClip>Audio/Ingame/ingame_trash_plastic_01.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_trash_plastic_02.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_trash_plastic_03.wav</AudioClip-->
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-1</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_HAND_SANITIZER">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_handsanitiser.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+    
+	<GameDBSoundEvent ID="SFX_ENV_PAPERS_HANDLING">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_paper_handling_01.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_paper_handling_02.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_paper_handling_03.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_paper_handling_04.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_paper_handling_05.wav</AudioClip>
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-1</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_DRAWERS_RUSTLING">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_drawers_rustling_01.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_drawers_rustling_02.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_drawers_rustling_03.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_drawers_rustling_04.wav</AudioClip>
+         </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-4</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<GameDBSoundEvent ID="SFX_ENV_WETMOP">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ingame_wetmop_01.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_wetmop_02.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_wetmop_03.wav</AudioClip>
+			<AudioClip>Audio/Ingame/ingame_wetmop_04.wav</AudioClip>
+            <AudioClip>Audio/Ingame/ingame_wetmop_05.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-15</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_CAFETERIA">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/cafeteria_01.wav</AudioClip>
+            <AudioClip>Audio/Ingame/cafeteria_02.wav</AudioClip>
+            <AudioClip>Audio/Ingame/cafeteria_03.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+    
+    <GameDBSoundEvent ID="SFX_UI_XP">
+        <AudioClips>
+            <AudioClip>Audio/UI/ui_doctor_xp.wav</AudioClip>
+        </AudioClips>
+        <VolumeDB>-6</VolumeDB>
+        <SoundBusRef>SOUND_BUS_INGAME_TEXTS</SoundBusRef>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_ENV_PATIENT_PAYS">
+        <AudioClips>
+            <AudioClip>Audio/UI/ui_patient_pays_01.wav</AudioClip>
+            <AudioClip>Audio/UI/ui_patient_pays_02.wav</AudioClip>
+            <AudioClip>Audio/UI/ui_patient_pays_03.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_INGAME_TEXTS</SoundBusRef>
+        <VolumeDB>-6</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_AMBULANCE_START">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ambulance_engine_start.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_AMBULANCE_LOOP">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ambulance_engine_loop.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_AMBULANCE_STOP">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ambulance_engine_stop.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_AMBULANCE_SIREN">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ambulance_siren_arrive_02.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_AMBULANCE_SIREN_START">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/ambulance_siren_start.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_DEFIBRILLARTOR_CHARGE">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/machine_defibrillator_charge.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_DEFIBRILLARTOR_ZAP">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/machine_defibrillator_zap.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+   
+    <!--===============  Music ===================-->
+
+    <GameDBSoundEvent ID="MUS_TITLE_SCREEN">
+        <AudioClips>
+            <AudioClip>Audio/Music/ph_main_theme_preview_nm.ogg</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+        <VolumeDB>-14</VolumeDB>
+    </GameDBSoundEvent>
+    
+    <GameDBSoundEvent ID="MUS_GAMEPLAY">
+        <AudioClips>
+            <AudioClip>Audio/Music/ph_gameplay_01_update.ogg</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+        <VolumeDB>-25</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="MUS_EVENTS">
+        <AudioClips>
+            <AudioClip>Audio/Music/ph_gameplay_events.ogg</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+        <VolumeDB>-25</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="MUS_GAMEPLAY_NIGHT">
+        <AudioClips>
+            <AudioClip>Audio/Music/ph_gameplay_night_draft.ogg</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+        <VolumeDB>-23
+		</VolumeDB>
+    </GameDBSoundEvent>
+	
+	<!-- REFERENCE LIST -->
+	
+	
+
+</Database>

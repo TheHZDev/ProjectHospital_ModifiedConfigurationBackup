@@ -1,0 +1,6 @@
+<Database>
+    <GameDBSoundEvent ID="SFX_BUILDING_MODE_ROOM">   <AudioClips><AudioClip>Audio/BuildingMode/build_area_marked_room.wav</AudioClip></AudioClips>  <SoundBusRef>SOUND_BUS_UI</SoundBusRef>  <VolumeDB>-12</VolumeDB>  </GameDBSoundEvent>
+    <GameDBSoundEvent ID="SFX_BUILDING_MODE_FLOOR">  <AudioClips><AudioClip>Audio/BuildingMode/build_floor_change_01.wav</AudioClip></AudioClips>   <SoundBusRef>SOUND_BUS_UI</SoundBusRef>  <VolumeDB>-6</VolumeDB>   </GameDBSoundEvent>
+    <GameDBSoundEvent ID="SFX_BUILDING_MODE_OBJECT"> <AudioClips><AudioClip>Audio/BuildingMode/build_object_placed_03.wav</AudioClip></AudioClips>  <SoundBusRef>SOUND_BUS_UI</SoundBusRef>  <VolumeDB>-6</VolumeDB>   </GameDBSoundEvent>
+    <GameDBSoundEvent ID="SFX_BUILDING_MODE_WALL">   <AudioClips><AudioClip>Audio/BuildingMode/build_wall_placed_03.wav</AudioClip></AudioClips>    <SoundBusRef>SOUND_BUS_UI</SoundBusRef>  <VolumeDB>-6</VolumeDB>   </GameDBSoundEvent>
+</Database>

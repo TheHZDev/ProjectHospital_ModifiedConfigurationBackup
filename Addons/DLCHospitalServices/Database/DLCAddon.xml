@@ -1,0 +1,6 @@
+﻿<Database>
+    <GameDBAddon ID="DLC_ADMIN_PATHOLOGY">
+        <Author>Oxymoron Games</Author>
+        <MinRequiredGameVersion>19348</MinRequiredGameVersion>
+    </GameDBAddon>
+</Database>

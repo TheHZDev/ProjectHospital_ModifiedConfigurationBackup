@@ -1,0 +1,160 @@
+﻿<!-- 
+Patients
+//GetComponent<AnimModelComponent>().m_state.m_colorClothesA = new Vector3(0.1f, 1.0f, 0.5f);
+//GetComponent<AnimModelComponent>().m_state.m_colorClothesB = new Vector3(0.1f, 1.0f, 0.5f);
+
+Treated
+//GetComponent<AnimModelComponent>().m_state.m_colorClothesA = new Vector3(0.2f, 1.0f, 0.5f);
+//GetComponent<AnimModelComponent>().m_state.m_colorClothesB = new Vector3(0.2f, 1.0f, 0.5f);
+
+Doctors
+//m_entity.GetComponent<AnimModelComponent>().m_state.m_colorClothesA = new Vector3(0.5f, 0.0f, 1.0f);
+//m_entity.GetComponent<AnimModelComponent>().m_state.m_colorClothesB = new Vector3(0.5f, 0.0f, 1.0f);
+
+DEFAULT
+   float clothesHue = Random.Range(0.5f, 0.75f);
+        m_state.m_clothes.m_colorClothesA = new Vector3(clothesHue, Random.Range(0.25f, 0.5f), Random.Range(0.5f, 0.95f));
+        m_state.m_clothes.m_colorClothesB = new Vector3(clothesHue, Random.Range(0.2f, 0.5f), Random.Range(0.5f, 0.95f));
+
+-->
+
+<Database>
+    <GameDBColorRangeSettings ID="CLRRNGSTTNGS_BUSINESS_CLOTHES"> 
+        <HueMin>0.0</HueMin>
+        <HueMax>0.2</HueMax>
+        <SaturationMin>0.01</SaturationMin>  
+        <SaturationMax>0.2</SaturationMax>  
+        <ValueMin>0.1</ValueMin>  
+        <ValueMax>0.3</ValueMax>  
+    </GameDBColorRangeSettings>
+    <GameDBColorRangeSettings ID="CLRRNGSTTNGS_BUSINESS_CLOTHES_ACCESSORIES">
+        <HueMin>0.0</HueMin>
+        <HueMax>1.0</HueMax>
+        <SaturationMin>0.5</SaturationMin>
+        <SaturationMax>0.8</SaturationMax>
+        <ValueMin>0.4</ValueMin>
+        <ValueMax>0.7</ValueMax>
+    </GameDBColorRangeSettings>
+    <GameDBColorRangeSettings ID="CLRRNGSTTNGS_CASUAL_CLOTHES"> 
+        <HueMin>0.0</HueMin>
+        <HueMax>0.3</HueMax>
+        <SaturationMin>0.2</SaturationMin>   
+        <SaturationMax>0.6</SaturationMax>  
+        <ValueMin>0.6</ValueMin> 
+        <ValueMax>0.8</ValueMax>  
+    </GameDBColorRangeSettings>
+    <GameDBColorRangeSettings ID="CLRRNGSTTNGS_JEANS"> 
+        <HueMin>0.6</HueMin>
+        <HueMax>0.6</HueMax>
+        <SaturationMin>0.3</SaturationMin>  
+        <SaturationMax>0.5</SaturationMax>  
+        <ValueMin>0.4</ValueMin>  
+        <ValueMax>0.6</ValueMax>  
+    </GameDBColorRangeSettings>
+    <GameDBColorRangeSettings ID="CLRRNGSTTNGS_NURSE_BLUE"> 
+        <HueMin>0.89</HueMin>
+        <HueMax>0.89</HueMax>
+        <SaturationMin>0.25</SaturationMin>  
+        <SaturationMax>0.25</SaturationMax>  
+        <ValueMin>0.65</ValueMin>  
+        <ValueMax>0.65</ValueMax>  
+    </GameDBColorRangeSettings>
+    <GameDBColorRangeSettings ID="CLRRNGSTTNGS_NURSE_TOP"> 
+        <HueMin>0.89</HueMin>
+        <HueMax>0.89</HueMax>
+        <SaturationMin>0.25</SaturationMin>  
+        <SaturationMax>0.25</SaturationMax>  
+        <ValueMin>0.75</ValueMin>  
+        <ValueMax>0.75</ValueMax>  
+    </GameDBColorRangeSettings>
+    <GameDBColorRangeSettings ID="CLRRNGSTTNGS_DOCTOR_WHITE"> 
+        <HueMin>0.5</HueMin>
+        <HueMax>0.5</HueMax>
+        <SaturationMin>0.0</SaturationMin>  
+        <SaturationMax>0.0</SaturationMax>  
+        <ValueMin>0.9</ValueMin>  
+        <ValueMax>0.9</ValueMax>  
+    </GameDBColorRangeSettings>
+    <GameDBColorRangeSettings ID="CLRRNGSTTNGS_DOCTOR_TOP"> 
+        <HueMin>0.5</HueMin>
+        <HueMax>0.5</HueMax>
+        <SaturationMin>0.0</SaturationMin>  
+        <SaturationMax>0.0</SaturationMax>  
+        <ValueMin>0.90</ValueMin>  
+        <ValueMax>0.90</ValueMax>  
+    </GameDBColorRangeSettings>
+    <GameDBColorRangeSettings ID="CLRRNGSTTNGS_JANITOR">
+        <HueMin>0.0625</HueMin>
+        <HueMax>0.0625</HueMax>
+        <SaturationMin>0.7</SaturationMin>
+        <SaturationMax>0.7</SaturationMax>
+        <ValueMin>0.55</ValueMin>
+        <ValueMax>0.55</ValueMax>
+    </GameDBColorRangeSettings>
+    <GameDBColorRangeSettings ID="CLRRNGSTTNGS_JANITOR_TOP">
+        <HueMin>0.125</HueMin>
+        <HueMax>0.125</HueMax>
+        <SaturationMin>0.7</SaturationMin>
+        <SaturationMax>0.7</SaturationMax>
+        <ValueMin>0.7</ValueMin>
+        <ValueMax>0.7</ValueMax>
+    </GameDBColorRangeSettings>
+    <GameDBColorRangeSettings ID="CLRRNGSTTNGS_LAB_TROUSERS"> 
+        <HueMin>0.60</HueMin>
+        <HueMax>0.60</HueMax>
+        <SaturationMin>0.43</SaturationMin>  
+        <SaturationMax>0.43</SaturationMax>  
+        <ValueMin>0.64</ValueMin>  
+        <ValueMax>0.64</ValueMax>  
+    </GameDBColorRangeSettings>
+    <GameDBColorRangeSettings ID="CLRRNGSTTNGS_LAB_TOP"> 
+        <HueMin>0.60</HueMin>
+        <HueMax>0.60</HueMax>
+        <SaturationMin>0.43</SaturationMin>  
+        <SaturationMax>0.43</SaturationMax>  
+        <ValueMin>0.84</ValueMin>  
+        <ValueMax>0.84</ValueMax>  
+    </GameDBColorRangeSettings>
+    <GameDBColorRangeSettings ID="CLRRNGSTTNGS_SURGEON">
+        <HueMin>0.60</HueMin>
+        <HueMax>0.60</HueMax>
+        <SaturationMin>0.43</SaturationMin>
+        <SaturationMax>0.43</SaturationMax>
+        <ValueMin>0.7</ValueMin>
+        <ValueMax>0.7</ValueMax>
+    </GameDBColorRangeSettings>
+    <GameDBColorRangeSettings ID="CLRRNGSTTNGS_PARAMEDIC">
+        <HueMin>0.0</HueMin>
+        <HueMax>0.0</HueMax>
+        <SaturationMin>0.0</SaturationMin>
+        <SaturationMax>0.0</SaturationMax>
+        <ValueMin>0.2</ValueMin>
+        <ValueMax>0.2</ValueMax>
+    </GameDBColorRangeSettings>
+    <GameDBColorRangeSettings ID="CLRRNGSTTNGS_PAJAMAS">
+        <HueMin>0.1</HueMin>
+        <HueMax>0.1</HueMax>
+        <SaturationMin>0.1</SaturationMin>
+        <SaturationMax>0.1</SaturationMax>
+        <ValueMin>0.8</ValueMin>
+        <ValueMax>0.8</ValueMax>
+    </GameDBColorRangeSettings>
+    <GameDBColorRangeSettings ID="CLRRNGSTTNGS_POLICE">
+        <HueMin>0.54</HueMin>
+        <HueMax>0.54</HueMax>
+        <SaturationMin>0.33</SaturationMin>
+        <SaturationMax>0.33</SaturationMax>
+        <ValueMin>0.1</ValueMin>
+        <ValueMax>0.1</ValueMax>
+    </GameDBColorRangeSettings>
+    <GameDBColorRangeSettings ID="CLRRNGSTTNGS_FIREFIGHTER">
+        <HueMin>0.1</HueMin>
+        <HueMax>0.1</HueMax>
+        <SaturationMin>0.45</SaturationMin>
+        <SaturationMax>0.45</SaturationMax>
+        <ValueMin>0.7</ValueMin>
+        <ValueMax>0.7</ValueMax>
+    </GameDBColorRangeSettings>
+
+</Database>
+

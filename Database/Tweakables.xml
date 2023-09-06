@@ -1,0 +1,155 @@
+﻿<Database>
+    <GameDBTweakableFloat ID="TWEAKABLE_COLLAPSE_REPEAT_MIN_HOURS"> <Value>3.0</Value>   </GameDBTweakableFloat>
+    <GameDBTweakableFloat ID="TWEAKABLE_COLLAPSE_REPEAT_MAX_HOURS"> <Value>6.0</Value>   </GameDBTweakableFloat>
+
+    <GameDBTweakableInt ID="TWEAKABLE_EMPLOYEE_LIMIT"> <Value>250</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_EMPLOYEE_LIMIT_EXTENDED"> <Value>600</Value>   </GameDBTweakableInt>
+    
+    <GameDBTweakableInt ID="TWEAKABLE_COLLAPSE_ANESTHEZIOLOGIST_PERCENT_BOOST"> <Value>60</Value>   </GameDBTweakableInt>
+    
+    <!-- Patients going straight to clinic on a specific department -->
+    <GameDBTweakableInt ID="CLINIC_REFERRAL_PATIENTS_PERCENT"> <Value>50</Value>   </GameDBTweakableInt>
+
+    <GameDBTweakableFloat ID="SKILL_IMPROVEMENT_RATE_PERCENT"> <Value>15</Value>   </GameDBTweakableFloat>
+    <GameDBTweakableFloat ID="LEVELING_RATE_PERCENT"> <Value>45</Value>   </GameDBTweakableFloat>
+
+    <GameDBTweakableInt ID="FIRST_NAME_COUNT"> <Value>20</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="SURNAME_COUNT"> <Value>40</Value>   </GameDBTweakableInt>
+
+    <GameDBTweakableInt ID="AMBULANCE_LIMIT"> <Value>6</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="AMBULANCE_MAX_CALLS_PER_DAY"> <Value>3</Value>   </GameDBTweakableInt>
+    <GameDBTweakableFloat ID="AMBULANCE_MISSION_TIME_HOURS"> <Value>1</Value>   </GameDBTweakableFloat>
+
+    <GameDBTweakableFloat ID="TWEAKABLE_BAD_PRESTIGE"> <Value>0.4</Value>   </GameDBTweakableFloat>
+    <GameDBTweakableFloat ID="TWEAKABLE_GOOD_PRESTIGE"> <Value>0.9</Value>   </GameDBTweakableFloat>
+
+    <!-- How many patients get spawned after a bad-prestige day -->
+    <GameDBTweakableInt ID="TWEAKABLE_BAD_PRESTIGE_PATIENT_COUNT_PERCENT"> <Value>50</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_GOOD_PRESTIGE_PAYMENT_PERCENT"> <Value>20</Value>   </GameDBTweakableInt>
+
+    <!-- How many extra patients get spawned if prestige is above TWEAKABLE_GOOD_PRESTIGE -->
+    <GameDBTweakableInt ID="TWEAKABLE_GOOD_PRESTIGE_PATIENT_BONUS_PERCENT"> <Value>5</Value>   </GameDBTweakableInt>
+    
+    <GameDBTweakableInt ID="TWEAKABLE_AMBULANCE_MAINENANCE_COST"> <Value>500</Value>   </GameDBTweakableInt>
+    
+    <GameDBTweakableInt ID="TWEAKABLE_EVENT_MONEY_MULTIPLIER"> <Value>1</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_SUCCESSFUL_EVENT_MONEY_REWARD"> <Value>5000</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_FAILED_EVENT_MONEY_REWARD"> <Value>5000</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_MAX_EVENT_MONEY_REWARD"> <Value>20000</Value>   </GameDBTweakableInt>
+
+    <GameDBTweakableInt ID="TWEAKABLE_BUILDING_REFUND_PERCENT"> <Value>50</Value>   </GameDBTweakableInt>
+
+    <GameDBTweakableInt ID="TWEAKABLE_MAX_FLOORS"> <Value>4</Value>   </GameDBTweakableInt>
+    
+    <GameDBTweakableInt ID="TWEAKABLE_MIN_VIEW_SIZE"> <Value>8</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_MAX_VIEW_SIZE"> <Value>52</Value>   </GameDBTweakableInt>
+
+    <GameDBTweakableFloat ID="PROCEDURE_SKIP_TIME_HOURS"> <Value>0.125</Value>   </GameDBTweakableFloat>
+
+    <GameDBTweakableInt ID="TWEAKABLE_WORKLOAD_NONE">   <Value>5</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_WORKLOAD_LOW">    <Value>40</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_WORKLOAD_MEDIUM"> <Value>70</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_WORKLOAD_HIGH">   <Value>90</Value>   </GameDBTweakableInt> <!-- Above this is critical -->
+
+    <GameDBTweakableFloat ID="TWEAKABLE_PATIENT_LEAVE_TIME_HOURS">    <Value>24</Value>   </GameDBTweakableFloat>
+    <GameDBTweakableFloat ID="TWEAKABLE_PATIENT_LEAVE_WARNING_HOURS"> <Value>2</Value>   </GameDBTweakableFloat>
+    <GameDBTweakableFloat ID="TWEAKABLE_PATIENT_MAX_WAIT_TIME_HOURS"> <Value>4</Value>   </GameDBTweakableFloat>
+    
+    <GameDBTweakableString ID="TEXTURE_ASSET_FLOOR">         <Value>ASSET_TEX_TILES</Value>   </GameDBTweakableString>
+    <GameDBTweakableString ID="TEXTURE_ASSET_WALLS">         <Value>ASSET_TEX_WALLSHAPES</Value>   </GameDBTweakableString>
+    <GameDBTweakableString ID="TEXTURE_ASSET_WALLS_PATTERN"> <Value>ASSET_TEX_WALLPATTERNS</Value>   </GameDBTweakableString>
+    <GameDBTweakableString ID="TEXTURE_ASSET_DOORS">         <Value>ASSET_TEX_DOORS</Value>   </GameDBTweakableString>
+
+    <GameDBTweakableInt ID="TWEAKABLE_MAX_INSURANCE_COMPANIES">   <Value>3</Value>   </GameDBTweakableInt>
+    
+    <GameDBTweakableInt ID="TWEAKABLE_RANDOM_EVENT_PROBABILITY">                <Value>50</Value>   </GameDBTweakableInt>
+    <GameDBTweakableFloat ID="TWEAKABLE_RANDOM_EVENT_START_TIME_GENERATION">      <Value>1.0</Value>   </GameDBTweakableFloat>
+    <GameDBTweakableFloat ID="TWEAKABLE_RANDOM_EVENT_END_TIME_GENERATION">        <Value>23.0</Value>   </GameDBTweakableFloat>
+    <GameDBTweakableFloat ID="TWEAKABLE_RANDOM_EVENT_AFTER_PLAYER_EVENT_DELAY">   <Value>0.5</Value>   </GameDBTweakableFloat>
+
+    <GameDBTweakableFloat ID="TWEAKABLE_STATUS_BAR_MESSAGE_DURATION">   <Value>2.5</Value>   </GameDBTweakableFloat>
+
+    <GameDBTweakableFloat ID="TWEAKABLE_HOSPITALIZATION_RELEASE_START">     <Value>8</Value>   </GameDBTweakableFloat>
+    <GameDBTweakableFloat ID="TWEAKABLE_HOSPITALIZATION_RELEASE_END">       <Value>18</Value>   </GameDBTweakableFloat>
+
+    <!-- Max dirt is 200, anything above this gives modifier 'dirty floor' -->
+    <GameDBTweakableInt ID="TWEAKABLE_DIRTY_FLOOR_LEVEL">       <Value>150</Value>   </GameDBTweakableInt>
+
+    <GameDBTweakableFloat ID="TWEAKABLE_JANITOR_BREAK_TIME_HOURS">       <Value>2</Value>   </GameDBTweakableFloat>
+
+    <GameDBTweakableInt ID="TWEAKABLE_MAX_BOOKMARKED_EMPLOYEES">                  <Value>8</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_VISIBLE_BOOKMARKED_PORTRAITS">              <Value>12</Value>   </GameDBTweakableInt>
+
+    <!--How long does a non-critical patient need to wait for surgery until surgical staff (that also has other roles) 
+    start interrupting their current activities like examinations and checking patients-->
+    <GameDBTweakableFloat ID="TWEAKABLE_LONG_WAIT_SURGERY_HOURS">                 <Value>1.0</Value>   </GameDBTweakableFloat>
+    
+    <!-- ==== Skill points ==== -->
+    <!--Basic skill points - janitors, nurses taking care of patients and delivering food-->
+    <GameDBTweakableInt ID="TWEAKABLE_MAIN_SKILL_POINTS">                         <Value>5</Value>   </GameDBTweakableInt>
+    
+    <!--Action related skill points (can add to various specialization if character has them)-->
+    <GameDBTweakableInt ID="TWEAKABLE_SURGERY_SKILL_POINTS">                      <Value>100</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_COLLAPSE_SKILL_POINTS">                     <Value>10</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_STABILIZATION_SKILL_POINTS">                <Value>0</Value>   </GameDBTweakableInt>
+    <!--Procedures related skill point-->
+    <GameDBTweakableInt ID="TWEAKABLE_EXAMINATION_SKILL_POINTS">                  <Value>1</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_EXAMINATION_EQUIPMENT_SKILL_POINTS">        <Value>2</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_TREATMENT_SKILL_POINTS">                    <Value>5</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_TREATMENT_EQUIPMENT_SKILL_POINTS">          <Value>50</Value>   </GameDBTweakableInt>
+    <!--Procedures related skill point for radiology -->
+    <GameDBTweakableInt ID="TWEAKABLE_EXAMINATION_RADIOLOGY_SKILL_POINTS">        <Value>6</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_EXAMINATION_LAB_SKILL_POINTS">              <Value>10</Value>   </GameDBTweakableInt>
+    
+    <!--Doctor diagnosing (doctor without the perk PERK_PRACTICAL_DIAGNOSES)-->
+    <GameDBTweakableInt ID="TWEAKABLE_CORRECT_DIAGNOSE_SKILL_POINTS">             <Value>5</Value>    </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_INCORRECT_DIAGNOSE_SKILL_POINTS">           <Value>0</Value>    </GameDBTweakableInt>
+
+    <!--Doctor diagnosing (doctor with the perk PERK_PRACTICAL_DIAGNOSES)-->
+    <GameDBTweakableInt ID="TWEAKABLE_CORRECT_DIAGNOSE_PERK_SKILL_POINTS">        <Value>10</Value>    </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_INCORRECT_DIAGNOSE_PERK_SKILL_POINTS">      <Value>5</Value>    </GameDBTweakableInt>
+    
+    <!--Script specific situation-->
+    <GameDBTweakableInt ID="TWEAKABLE_DOCTOR_INTERVIEW_QUESTION_SKILL_POINTS">    <Value>0</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_JANITOR_DEXTERITY_SKILL_POINTS">            <Value>5</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_NURSE_CLINICAL_SPECIALIST_SKILL_POINTS">    <Value>10</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_REPEAT_ACTION_FREE_TIME_SKILL_POINTS">      <Value>20</Value>   </GameDBTweakableInt>
+
+    <!-- ==== Doctor rating factors in percent ==== -->
+    <GameDBTweakableInt ID="TWEAKABLE_DOC_RATING_SATISFACTION">                   <Value>50</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_DOC_RATING_DISCOMFORT">                     <Value>50</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_DOC_RATING_EACH_COLLAPSE">                  <Value>-25</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_DOC_RATING_EACH_MISDIAGNOSIS">              <Value>-50</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_DOC_RATING_DEAD">                           <Value>-100</Value>   </GameDBTweakableInt>
+
+    <GameDBTweakableInt ID="TWEAKABLE_DOCTOR_SCORE_PATIENT_COUNT">                <Value>20</Value>   </GameDBTweakableInt>
+
+    <GameDBTweakableFloat ID="TWEAKABLE_RESERVATION_BUBBLE_SCALE">                <Value>0.16</Value>   </GameDBTweakableFloat>
+
+    <!-- ==== Used for procedures that takes longer if there is not optional equipment (differential diagnosis)==== -->
+    <GameDBTweakableFloat ID="TWEAKABLE_OPTIONAL_EQUIPMENT_MULTIPLIER">           <Value>2.0</Value>   </GameDBTweakableFloat>
+    
+    <GameDBTweakableFloat ID="TWEAKABLE_MIMIMUM_OBSERVATION_TIME_HOURS">          <Value>1.0</Value>   </GameDBTweakableFloat>
+
+    <GameDBTweakableFloat ID="TWEAKABLE_TECHNOLOGISTS_FREE_TIME_DELAY">           <Value>1</Value>   </GameDBTweakableFloat>
+    
+    <GameDBTweakableInt ID="TWEAKABLE_EDGE_SCROLLING_SPEED">                      <Value>40</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_EDGE_SCROLLING_AREA">                       <Value>4</Value>   </GameDBTweakableInt>
+
+    <GameDBTweakableString ID="TWEAKABLE_DEFAULT_LANGUAGE_CODE">                  <Value>en</Value>   </GameDBTweakableString>
+
+    <!-- ==== Patch 27 difficulty modding options ==== -->
+    <GameDBTweakableInt ID="TWEAKABLE_PATIENT_PAYMENTS_PERCENT">                  <Value>100</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_COLLAPSE_TIME_PERCENT">                     <Value>100</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_NO_DIAGNOSIS_FILTERING">                    <Value>0</Value>   </GameDBTweakableInt>
+
+    <!-- A way to disable mods that aren't compatible with later versions of the game and not maintainded anymore. If you
+         are the author of one of these mods and if you get to update the mod in the future, please let us know! -->
+    <GameDBTweakableString ID="TWEAKABLE_INCOMPATIBLE_WORKSHOP_MODS">             <Value>1960942866</Value>   </GameDBTweakableString>
+
+    <!-- ==== Patch 30  ==== -->
+    <GameDBTweakableFloat ID="TWEAKABLE_WALKING_ADDED_DIRT">                      <Value>0.3</Value>   </GameDBTweakableFloat>
+
+    <!-- ==== Patch 33? === -->
+    <GameDBTweakableInt ID="TWEAKABLE_INAPPLICABLE_DIAGNOSES_PERCENT">            <Value>0</Value>   </GameDBTweakableInt>
+</Database>

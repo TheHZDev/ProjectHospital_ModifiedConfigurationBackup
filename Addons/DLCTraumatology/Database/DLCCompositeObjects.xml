@@ -1,0 +1,46 @@
+﻿<Database>
+
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_FUTURISTIC_BED">
+        <AbbreviationLocID>COMPOSITE_OBJECT_FUTURISTIC_BED_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_FUTURISTIC_BED_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_FUTURISTIC_BED_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_FLUID_STAND</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+        <Cost>2999</Cost>
+        
+        <Tags>
+            <Tag>ui_equipment</Tag>
+            <Tag>ui_beds</Tag>
+            <Tag>ui_modern_bed</Tag>
+            <Tag>ui_futuristic_bed</Tag>
+            <Tag>hospital_bed</Tag>
+            <Tag>modern_hospital_bed</Tag>
+        </Tags>
+
+        <IconIndex>2874</IconIndex>
+    </GameDBCompositeObject>
+
+
+</Database>

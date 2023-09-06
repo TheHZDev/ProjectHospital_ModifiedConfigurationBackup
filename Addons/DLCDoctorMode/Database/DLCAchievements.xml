@@ -1,0 +1,65 @@
+﻿<Database>
+    <!--DLC tutorial-->
+    <GameDBAchievement ID="DLC_ACHIEVEMENT_TUTORIAL_01">
+        <PlatformValue>DLC_ACHIEVEMENT_TUTORIAL_01</PlatformValue>
+        <IconIndex>524</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>
+
+    <!--DLC Campaing-->
+    <GameDBAchievement ID="DLC_ACHIEVEMENT_LEVEL_1">
+        <PlatformValue>DLC_ACHIEVEMENT_LEVEL_1</PlatformValue>
+        <IconIndex>525</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>
+
+    <!--Miscellaneous-->
+    <GameDBAchievement ID="DLC_ACHIEVEMENT_CREATE_ONE_CHAR">
+        <PlatformValue>DLC_ACHIEVEMENT_CREATE_CHAR</PlatformValue>
+        <StatisticRef>STAT_CREATED</StatisticRef>
+        <StatisticValue>1</StatisticValue>
+        <IconIndex>527</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>    
+    
+    <GameDBAchievement ID="DLC_ACHIEVEMENT_CREATE_MORE_CHAR">
+        <PlatformValue>DLC_ACHIEVEMENT_CREATE_MORE_CHAR</PlatformValue>
+        <StatisticRef>STAT_CREATED</StatisticRef>
+        <StatisticValue>10</StatisticValue>
+        <IconIndex>528</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>
+    
+    <GameDBAchievement ID="DLC_ACHIEVEMENT_SPECIALIST_MODE">
+        <PlatformValue>DLC_ACHIEVEMENT_SPECIALIST_MODE</PlatformValue>
+        <IconIndex>523</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>    
+    
+    <GameDBAchievement ID="DLC_ACHIEVEMENT_SPECIALIST_MODE_PATIENT">
+        <PlatformValue>DLC_ACHIEVEMENT_SPECIALIST_MODE_PATIENT</PlatformValue>
+        <StatisticRef>STAT_SPEC_MODE_TREATED</StatisticRef>
+        <StatisticValue>1</StatisticValue>
+        <IconIndex>529</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>    
+    
+    <GameDBAchievement ID="DLC_ACHIEVEMENT_SPECIALIST_MODE_PATIENTS">
+        <PlatformValue>DLC_ACHIEVEMENT_SPECIALIST_MODE_PATIENTS</PlatformValue>
+        <StatisticRef>STAT_SPEC_MODE_TREATED</StatisticRef>
+        <StatisticValue>20</StatisticValue>
+        <IconIndex>526</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>   
+    
+    <GameDBAchievement ID="DLC_ACHIEVEMENT_CAMERA_ROTATION">
+        <PlatformValue>DLC_ACHIEVEMENT_CAMERA_ROTATION</PlatformValue>
+        <StatisticRef>STAT_CAMERA_ROTATED</StatisticRef>
+        <StatisticValue>100</StatisticValue>
+        <IconIndex>522</IconIndex>
+        <Hidden>true</Hidden>
+    </GameDBAchievement>
+
+</Database>
+
+       

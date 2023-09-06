@@ -1,0 +1,53 @@
+﻿<Database>
+    <GameDBProcedure ID="DLC_ADMIN_CONTROL_PROCEDURE_PHARMACY">
+        <StaffSelectionRules>REQUIRED_ROOM</StaffSelectionRules>
+        <RequiredRoomTags>
+            <Tag>pharmacy</Tag>
+        </RequiredRoomTags>
+        <RequiredStatLabQualificationRef>DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY</RequiredStatLabQualificationRef>
+        <ProcedureScript>DLCProcedureScriptPharmacy</ProcedureScript>
+        <EmployeeRoleRef>EMPL_ROLE_PHARMACIST</EmployeeRoleRef>
+    </GameDBProcedure>    
+    
+    <GameDBProcedure ID="DLC_ADMIN_CONTROL_PROCEDURE_GIFT_SHOP">
+        <StaffSelectionRules>REQUIRED_ROOM</StaffSelectionRules>
+        <RequiredRoomTags>
+            <Tag>gift_shop</Tag>
+        </RequiredRoomTags>
+        <RequiredJanitorQualificationRef>DLC_SKILL_JANITOR_SPEC_VENDOR</RequiredJanitorQualificationRef>
+        <ProcedureScript>DLCProcedureScriptGiftShop</ProcedureScript>
+    </GameDBProcedure>   
+    
+    <GameDBProcedure ID="DLC_LOUNGE_VISIT">
+        <StaffSelectionRules>REQUIRED_ROOM</StaffSelectionRules>
+        <RequiredRoomTags>
+            <Tag>lounge</Tag>
+        </RequiredRoomTags>
+        <ProcedureScript>DLCProcedureLoungeVisit</ProcedureScript>
+    </GameDBProcedure>    
+    
+    <GameDBProcedure ID="DLC_ROOM_VISIT">
+        <StaffSelectionRules>REQUIRED_ROOM</StaffSelectionRules>
+        <RequiredRoomTags>
+            <Tag>ward</Tag>
+        </RequiredRoomTags>
+        <ProcedureScript>DLCProcedureRoomVisit</ProcedureScript>
+    </GameDBProcedure>
+
+    <GameDBProcedure ID="DLC_ADMIN_STAFF_TRAINING">
+        <StaffSelectionRules>REQUIRED_ROOM</StaffSelectionRules>
+        <RequiredEquipmentList>
+            <RequiredEquipment>
+                <Tag>sitting</Tag>
+            </RequiredEquipment>
+        </RequiredEquipmentList>
+        
+        <RequiredRoomTags>
+            <Tag>classroom</Tag>
+        </RequiredRoomTags>
+<!--        <RequiredStatLabQualificationRef>DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY</RequiredStatLabQualificationRef>-->
+        <ProcedureScript>DLCProcedureTraining</ProcedureScript>
+    </GameDBProcedure>
+    
+</Database>
+

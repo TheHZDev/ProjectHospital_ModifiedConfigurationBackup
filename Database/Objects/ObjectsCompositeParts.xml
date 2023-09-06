@@ -1,0 +1,2251 @@
+﻿<Database>
+    <!-- //COMPOSITE OBJECTS///////////////////////////////////////////////////////////////////////////////////// -->
+
+    <GameDBObject ID="OBJECT_BENCH_A">
+        <AbbreviationLocID>OBJECT_BENCH_A</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>17</TextureIDSE>
+        <TextureIDSW>23</TextureIDSW>
+
+        <TextureIDBackNW>12</TextureIDBackNW>
+        <TextureIDBackNE>14</TextureIDBackNE>
+        <TextureIDBackSE>19</TextureIDBackSE>
+        <TextureIDBackSW>21</TextureIDBackSW>
+        <IconIndex>932</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+
+        <Placement>INDOORS</Placement>
+
+        <!-- Turn backwards (compared to the default NW direction) -->
+        <UseDirection>SE</UseDirection>
+
+        <UseOffsetXNW>-0.33</UseOffsetXNW>
+        <UseOffsetYNW>0.25</UseOffsetYNW>
+
+        <UseOffsetXNE>0.00</UseOffsetXNE>
+        <UseOffsetYNE>-0.30</UseOffsetYNE>
+
+        <UseOffsetXSE>0.55</UseOffsetXSE>
+        <UseOffsetYSE>-0.05</UseOffsetYSE>
+
+        <UseOffsetXSW>0.2</UseOffsetXSW>
+        <UseOffsetYSW>0.49</UseOffsetYSW>
+
+        <UseAnimationsStart>
+            <Animation>sit_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>sit_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>sit_out</Animation>
+        </UseAnimationsEnd>
+
+        <Tags>
+            <Tag>sitting</Tag>
+            <Tag>ui_chair_waiting</Tag>
+        </Tags>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_CHAIRS_WHITE</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_BENCH_B">
+        <AbbreviationLocID>OBJECT_BENCH_B</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>16</TextureIDSE>
+        <TextureIDSW>22</TextureIDSW>
+
+        <TextureIDBackNW>13</TextureIDBackNW>
+        <TextureIDBackNE>15</TextureIDBackNE>
+        <TextureIDBackSE>18</TextureIDBackSE>
+        <TextureIDBackSW>20</TextureIDBackSW>
+        <IconIndex>932</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+
+        <Placement>INDOORS</Placement>
+
+        <!-- Turn backwards (compared to the default NW direction) -->
+        <UseDirection>SE</UseDirection>
+
+        <UseOffsetXNW>-0.33</UseOffsetXNW>
+        <UseOffsetYNW>0.0</UseOffsetYNW>
+
+        <UseOffsetXNE>0.25</UseOffsetXNE>
+        <UseOffsetYNE>-0.33</UseOffsetYNE>
+
+        <UseOffsetXSE>0.49</UseOffsetXSE>
+        <UseOffsetYSE>0.2</UseOffsetYSE>
+
+        <UseOffsetXSW>-0.1</UseOffsetXSW>
+        <UseOffsetYSW>0.5</UseOffsetYSW>
+
+        <UseAnimationsStart>
+            <Animation>sit_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>sit_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>sit_out</Animation>
+        </UseAnimationsEnd>
+
+        <Tags>
+            <Tag>sitting</Tag>
+            <Tag>ui_chair_waiting</Tag>
+        </Tags>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_CHAIRS_WHITE</ColorSetRef>
+    </GameDBObject>
+
+    <!-- LEGS -->
+    <GameDBObject ID="OBJECT_CAMP_BED_A">
+        <AbbreviationLocID>OBJECT_CAMP_BED_A</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDBackNW>160</TextureIDBackNW>
+        <TextureIDBackNE>163</TextureIDBackNE>
+        <TextureIDBackSE>167</TextureIDBackSE>
+        <TextureIDBackSW>169</TextureIDBackSW>
+        <TextureIDNW>161</TextureIDNW>
+        <TextureIDNE>164</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>933</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <ConnectedSlots>
+            <ConnectedSlot>
+                <PositionX>0</PositionX>
+                <PositionY>-1</PositionY>
+                <AllowedTags>
+                    <Tag>table_equipment</Tag>
+                </AllowedTags>
+                <ForcedDirection>NE</ForcedDirection>
+                <RoomTag>table_equipment</RoomTag>
+                <Required>true</Required>
+            </ConnectedSlot>
+            <ConnectedSlot>
+                <PositionX>0</PositionX>
+                <PositionY>-1</PositionY>
+                <AllowedTags>
+                    <Tag>shockwave</Tag>
+                </AllowedTags>
+                <ForcedDirection>NE</ForcedDirection>
+                <RoomTag>shockwave_mandatory</RoomTag>
+                <Required>true</Required>
+            </ConnectedSlot>
+            <ConnectedSlot>
+                <PositionX>0</PositionX>
+                <PositionY>-1</PositionY>
+                <AllowedTags>
+                    <Tag>electrocardiograph</Tag>
+                </AllowedTags>
+                <ForcedDirection>NE</ForcedDirection>
+                <RoomTag>electrocardiograph_mandatory</RoomTag>
+                <Required>true</Required>
+            </ConnectedSlot>
+        </ConnectedSlots>
+
+        <Placement>INDOORS</Placement>
+
+        <AttachmentSlot>
+            <HeightOffset>1.8</HeightOffset>
+            <DepthOffset>0.0</DepthOffset>
+            <AllowedTags>
+                <Tag>exam_lamp</Tag>
+            </AllowedTags>
+            <ForcesAttachmentOrientation>true</ForcesAttachmentOrientation>
+        </AttachmentSlot>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+        </AccessPositions>
+
+        <AccessPositionsHaveToBeFree>true</AccessPositionsHaveToBeFree>
+        
+        <UseDirection>NW</UseDirection>
+        <UseOffsetXNW>0.33</UseOffsetXNW>
+        <UseAnimationsStart>
+            <Animation>sit_exam_bed_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>sit_exam_bed_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>sit_exam_bed_out</Animation>
+        </UseAnimationsEnd>
+
+        <Tags>
+            <Tag>sit_exam</Tag>
+            <Tag>exam_table</Tag>
+            <Tag>ui_exam_table</Tag>
+        </Tags>
+
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+    <!-- HEAD -->
+    <GameDBObject ID="OBJECT_CAMP_BED_B">
+        <AbbreviationLocID>OBJECT_CAMP_BED_B</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>162</TextureIDNW>
+        <TextureIDNE>165</TextureIDNE>
+        <TextureIDSE>166</TextureIDSE>
+        <TextureIDSW>168</TextureIDSW>
+        <IconIndex>933</IconIndex>
+
+        <!--<UseDirection>SE</UseDirection>
+        <UseOffsetXNW>-0.33</UseOffsetXNW>-->
+        <AccessPositions></AccessPositions><!-- No limit -->
+
+        <Placement>INDOORS</Placement>
+
+        <AttachedCharacterDirection>NE</AttachedCharacterDirection>
+
+        <AttachedCharacterOffsetXNW>0</AttachedCharacterOffsetXNW>
+        <AttachedCharacterOffsetYNW>-0.5</AttachedCharacterOffsetYNW>
+
+        <AttachedCharacterOffsetXNE>0.5</AttachedCharacterOffsetXNE>
+        <AttachedCharacterOffsetYNE>0.0</AttachedCharacterOffsetYNE>
+
+        <AttachedCharacterOffsetXSE>0</AttachedCharacterOffsetXSE>
+        <AttachedCharacterOffsetYSE>0.5</AttachedCharacterOffsetYSE>
+
+        <AttachedCharacterOffsetXSW>-0.5</AttachedCharacterOffsetXSW>
+        <AttachedCharacterOffsetYSW>0</AttachedCharacterOffsetYSW>
+
+        <AttachedToCharacterDirection>SW</AttachedToCharacterDirection>
+        <AttachedToCharacterOffsetX>1.7</AttachedToCharacterOffsetX>
+
+        <!--<NotInteractable>true</NotInteractable>--><!--TODO blocking placement arrows-->
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <ConnectedSlots>
+            <ConnectedSlot>
+                <PositionX>-1</PositionX>
+                <PositionY>1</PositionY>
+                <AllowedTags>
+                    <Tag>dialysis_machine</Tag>
+                </AllowedTags>
+                <ForcedDirection>NE</ForcedDirection>
+                <RoomTag>dialysis_machine</RoomTag>
+                <Required>true</Required>
+            </ConnectedSlot>              
+            <ConnectedSlot>
+                <PositionX>1</PositionX>
+                <PositionY>1</PositionY>
+                <AllowedTags>
+                    <Tag>ophthalmic_equipment</Tag>
+                </AllowedTags>
+                <ForcedDirection>NE</ForcedDirection>
+                <RoomTag>ophthalmic_equipment</RoomTag>
+                <Required>true</Required>
+            </ConnectedSlot>             
+            <ConnectedSlot>
+                <PositionX>-1</PositionX>
+                <PositionY>1</PositionY>
+                <AllowedTags>
+                    <Tag>ultrasonograph</Tag>
+                </AllowedTags>
+                <ForcedDirection>NE</ForcedDirection>
+                <RoomTag>ultrasonograph</RoomTag>
+                <Required>true</Required>
+            </ConnectedSlot>            
+            <ConnectedSlot>
+                <PositionX>1</PositionX>
+                <PositionY>1</PositionY>
+                <AllowedTags>
+                    <Tag>elastograph</Tag>
+                </AllowedTags>
+                <ForcedDirection>NE</ForcedDirection>
+                <RoomTag>elastograph_mandatory</RoomTag>
+                <Required>true</Required>
+            </ConnectedSlot>
+            
+        </ConnectedSlots>
+
+        <Tags>
+            <Tag>transport_point</Tag>
+        </Tags>
+
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+    <!-- LEGS -->
+    <GameDBObject ID="OBJECT_BASIC_BED_A">
+        <AbbreviationLocID>OBJECT_BASIC_BED_A</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDBackNW>866</TextureIDBackNW>
+        <TextureIDBackNE>872</TextureIDBackNE>
+        <TextureIDBackSE>881</TextureIDBackSE>
+        <TextureIDBackSW>888</TextureIDBackSW>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>884</TextureIDSE>
+        <TextureIDSW>891</TextureIDSW>
+        <IconIndex>933</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <UseDirection>SE</UseDirection>
+
+        <Placement>INDOORS</Placement>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>-1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+            <AccessPosition>
+                <m_x>1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+        </AccessPositions>
+
+        <AccessPositionsHaveToBeFree>true</AccessPositionsHaveToBeFree>
+
+        <RequiredObjectsInRoom>
+            <RequiredObject>
+                <Tag>fluid_stand</Tag>
+                <MaxDistance>1</MaxDistance>
+            </RequiredObject>
+        </RequiredObjectsInRoom>
+
+        <AttachmentSlot>
+            <HeightOffset>1.8</HeightOffset>
+            <DepthOffset>0.0</DepthOffset>
+            <AllowedTags>
+                <Tag>exam_lamp</Tag>
+            </AllowedTags>
+            <ForcesAttachmentOrientation>true</ForcesAttachmentOrientation>
+        </AttachmentSlot>
+
+        <UseAnimationsStart>
+            <Animation>sit_exam_bed_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>sit_exam_bed_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>sit_exam_bed_out</Animation>
+        </UseAnimationsEnd>
+
+        <AnimationFramesNW>3</AnimationFramesNW>
+        <AnimationFramesNE>3</AnimationFramesNE>
+        <AnimationFramesSE>3</AnimationFramesSE>
+        <AnimationFramesSW>3</AnimationFramesSW>
+
+        <Tags>
+            <Tag>ui_observation</Tag>
+            <Tag>hospital_bed</Tag>
+            <Tag>ui_beds</Tag>
+            <Tag>standard_hospital_bed</Tag>
+            <Tag>bed_legs</Tag>
+        </Tags>
+
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_BED</ColorSetRef>
+    </GameDBObject>
+
+    <!-- HEAD -->
+    <GameDBObject ID="OBJECT_BASIC_BED_B">
+        <AbbreviationLocID>OBJECT_BASIC_BED_B</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>869</TextureIDNW>
+        <TextureIDNE>875</TextureIDNE>
+        <TextureIDSE>878</TextureIDSE>
+        <TextureIDSW>885</TextureIDSW>
+        <IconIndex>933</IconIndex>
+
+        <UseDirection>SE</UseDirection>
+        <UseOffsetXNW>1</UseOffsetXNW>
+        <UseOffsetYNW>0</UseOffsetYNW>
+
+        <Placement>INDOORS</Placement>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>-1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+            <AccessPosition>
+                <m_x>1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+        </AccessPositions>
+
+        <AttachedCharacterDirection>NE</AttachedCharacterDirection>
+
+        <AttachedCharacterOffsetXNW>0</AttachedCharacterOffsetXNW>
+        <AttachedCharacterOffsetYNW>-0.5</AttachedCharacterOffsetYNW>
+
+        <AttachedCharacterOffsetXNE>0.5</AttachedCharacterOffsetXNE>
+        <AttachedCharacterOffsetYNE>0.0</AttachedCharacterOffsetYNE>
+
+        <AttachedCharacterOffsetXSE>0</AttachedCharacterOffsetXSE>
+        <AttachedCharacterOffsetYSE>0.5</AttachedCharacterOffsetYSE>
+
+        <AttachedCharacterOffsetXSW>-0.5</AttachedCharacterOffsetXSW>
+        <AttachedCharacterOffsetYSW>0</AttachedCharacterOffsetYSW>
+
+        <AttachedToCharacterDirection>SW</AttachedToCharacterDirection>
+        <AttachedToCharacterOffsetX>1.7</AttachedToCharacterOffsetX>
+
+        <AttachmentSlot>
+            <HeightOffset>0.0</HeightOffset>
+            <DepthOffset>0.0</DepthOffset>
+            <AllowedTags>
+                <Tag>fluid_stand</Tag>
+            </AllowedTags>
+        </AttachmentSlot>
+
+        <ConnectedSlots>
+            <ConnectedSlot>
+                <PositionX>-1</PositionX>
+                <PositionY>0</PositionY>
+                <AllowedTags>
+                    <Tag>life_support</Tag>
+                </AllowedTags>
+                <ForcedDirection>NE</ForcedDirection>
+                <RoomTag>life_support</RoomTag>
+                <Required>true</Required>
+            </ConnectedSlot>
+            <ConnectedSlot>
+                <PositionX>-1</PositionX>
+                <PositionY>0</PositionY>
+                <AllowedTags>
+                    <Tag>mechanical_ventilator</Tag>
+                </AllowedTags>
+                <ForcedDirection>NE</ForcedDirection>
+                <RoomTag>mechanical_ventilator</RoomTag>
+                <Required>true</Required>
+            </ConnectedSlot>
+            <ConnectedSlot>
+                <PositionX>-1</PositionX>
+                <PositionY>0</PositionY>
+                <AllowedTags>
+                    <Tag>night_stand</Tag>
+                </AllowedTags>
+                <ForcedDirection>NE</ForcedDirection>
+                <RoomTag>night_stand</RoomTag>
+                <Required>true</Required>
+            </ConnectedSlot>
+            <ConnectedSlot>
+                <PositionX>1</PositionX>
+                <PositionY>0</PositionY>
+                <AllowedTags>
+                    <Tag>life_monitor</Tag>
+                </AllowedTags>
+                <ForcedDirection>NE</ForcedDirection>
+                <RoomTag>life_monitor</RoomTag>
+                <Required>true</Required>
+            </ConnectedSlot>
+        </ConnectedSlots>
+
+        <NotInteractable>false</NotInteractable>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <UseAnimationsStart>
+            <Animation>sit_exam_bed_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>sit_exam_bed_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>sit_exam_bed_out</Animation>
+        </UseAnimationsEnd>
+
+        <AnimationFramesNW>3</AnimationFramesNW>
+        <AnimationFramesNE>3</AnimationFramesNE>
+        <AnimationFramesSE>3</AnimationFramesSE>
+        <AnimationFramesSW>3</AnimationFramesSW>
+
+        <Tags>
+            <Tag>hospital_bed</Tag>
+            <Tag>standard_hospital_bed</Tag>
+            <Tag>hospitalization</Tag>
+            <Tag>transport_point</Tag>
+            <Tag>sit_exam</Tag>
+            <Tag>bed_head</Tag>
+        </Tags>
+
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_BED</ColorSetRef>
+    </GameDBObject>
+
+    <!-- LEGS -->
+    <GameDBObject ID="OBJECT_MODERN_BED_A">
+        <AbbreviationLocID>OBJECT_HITECH_BED_A</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDBackNW>892</TextureIDBackNW>
+        <TextureIDBackNE>898</TextureIDBackNE>
+        <TextureIDBackSE>907</TextureIDBackSE>
+        <TextureIDBackSW>914</TextureIDBackSW>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>910</TextureIDSE>
+        <TextureIDSW>917</TextureIDSW>
+        <IconIndex>933</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <UseDirection>SE</UseDirection>
+
+        <Placement>INDOORS</Placement>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>-1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+            <AccessPosition>
+                <m_x>1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+        </AccessPositions>
+
+        <AccessPositionsHaveToBeFree>true</AccessPositionsHaveToBeFree>
+
+        <RequiredObjectsInRoom>
+            <RequiredObject>
+                <Tag>fluid_stand</Tag>
+                <MaxDistance>1</MaxDistance>
+            </RequiredObject>
+        </RequiredObjectsInRoom>
+
+        <AttachmentSlot>
+            <HeightOffset>1.8</HeightOffset>
+            <DepthOffset>0.0</DepthOffset>
+            <AllowedTags>
+                <Tag>exam_lamp</Tag>
+            </AllowedTags>
+            <ForcesAttachmentOrientation>true</ForcesAttachmentOrientation>
+        </AttachmentSlot>
+
+        <UseAnimationsStart>
+            <Animation>sit_exam_bed_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>sit_exam_bed_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>sit_exam_bed_out</Animation>
+        </UseAnimationsEnd>
+
+        <AnimationFramesNW>3</AnimationFramesNW>
+        <AnimationFramesNE>3</AnimationFramesNE>
+        <AnimationFramesSE>3</AnimationFramesSE>
+        <AnimationFramesSW>3</AnimationFramesSW>
+
+        <Tags>
+            <Tag>hospital_bed</Tag>
+            <Tag>modern_hospital_bed</Tag>
+            <Tag>bed_legs</Tag>
+            <Tag>ui_beds</Tag>
+            <Tag>ui_modern_bed</Tag>
+        </Tags>
+
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_BED_MODERN</ColorSetRef>
+    </GameDBObject>
+
+    <!-- HEAD -->
+    <GameDBObject ID="OBJECT_MODERN_BED_B">
+        <AbbreviationLocID>OBJECT_HITECH_BED_B</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>895</TextureIDNW>
+        <TextureIDNE>901</TextureIDNE>
+        <TextureIDSE>904</TextureIDSE>
+        <TextureIDSW>911</TextureIDSW>
+        <IconIndex>933</IconIndex>
+
+        <UseDirection>SE</UseDirection>
+        <UseOffsetXNW>1</UseOffsetXNW>
+        <UseOffsetYNW>0</UseOffsetYNW>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>-1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+            <AccessPosition>
+                <m_x>1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+        </AccessPositions>
+
+        <AttachedCharacterDirection>NE</AttachedCharacterDirection>
+
+        <AttachedCharacterOffsetXNW>0</AttachedCharacterOffsetXNW>
+        <AttachedCharacterOffsetYNW>-0.5</AttachedCharacterOffsetYNW>
+
+        <AttachedCharacterOffsetXNE>0.5</AttachedCharacterOffsetXNE>
+        <AttachedCharacterOffsetYNE>0.0</AttachedCharacterOffsetYNE>
+
+        <AttachedCharacterOffsetXSE>0</AttachedCharacterOffsetXSE>
+        <AttachedCharacterOffsetYSE>0.5</AttachedCharacterOffsetYSE>
+
+        <AttachedCharacterOffsetXSW>-0.5</AttachedCharacterOffsetXSW>
+        <AttachedCharacterOffsetYSW>0</AttachedCharacterOffsetYSW>
+
+        <AttachedToCharacterDirection>SW</AttachedToCharacterDirection>
+        <AttachedToCharacterOffsetX>1.7</AttachedToCharacterOffsetX>
+
+        <AttachmentSlot>
+            <HeightOffset>0.0</HeightOffset>
+            <DepthOffset>0.0</DepthOffset>
+            <AllowedTags>
+                <Tag>fluid_stand</Tag>
+            </AllowedTags>
+        </AttachmentSlot>
+
+        <ConnectedSlots>
+            <ConnectedSlot>
+                <PositionX>-1</PositionX>
+                <PositionY>0</PositionY>
+                <AllowedTags>
+                    <Tag>mechanical_ventilator</Tag>
+                </AllowedTags>
+                <ForcedDirection>NE</ForcedDirection>
+                <RoomTag>mechanical_ventilator</RoomTag>
+                <Required>true</Required>
+            </ConnectedSlot>
+            <ConnectedSlot>
+                <PositionX>-1</PositionX>
+                <PositionY>0</PositionY>
+                <AllowedTags>
+                    <Tag>night_stand</Tag>
+                </AllowedTags>
+                <ForcedDirection>NE</ForcedDirection>
+                <RoomTag>night_stand</RoomTag>
+                <Required>true</Required>
+            </ConnectedSlot>            
+            <ConnectedSlot>
+                <PositionX>-1</PositionX>
+                <PositionY>0</PositionY>
+                <AllowedTags>
+                    <Tag>life_support</Tag>
+                </AllowedTags>
+                <ForcedDirection>NE</ForcedDirection>
+                <RoomTag>life_support</RoomTag>
+                <Required>true</Required>
+            </ConnectedSlot>
+            <ConnectedSlot>
+                <PositionX>1</PositionX>
+                <PositionY>0</PositionY>
+                <AllowedTags>
+                    <Tag>life_monitor</Tag>
+                </AllowedTags>
+                <ForcedDirection>NE</ForcedDirection>
+                <RoomTag>life_monitor</RoomTag>
+                <Required>true</Required>
+            </ConnectedSlot>
+        </ConnectedSlots>
+
+        <NotInteractable>false</NotInteractable>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <Placement>INDOORS</Placement>
+
+        <UseAnimationsStart>
+            <Animation>sit_exam_bed_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>sit_exam_bed_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>sit_exam_bed_out</Animation>
+        </UseAnimationsEnd>
+
+        <AnimationFramesNW>3</AnimationFramesNW>
+        <AnimationFramesNE>3</AnimationFramesNE>
+        <AnimationFramesSE>3</AnimationFramesSE>
+        <AnimationFramesSW>3</AnimationFramesSW>
+
+        <Tags>
+            <Tag>hospital_bed</Tag>
+            <Tag>modern_hospital_bed</Tag>
+            <Tag>hospitalization</Tag>
+            <Tag>transport_point</Tag>
+            <Tag>sit_exam</Tag>
+            <Tag>bed_head</Tag>
+        </Tags>
+
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_BED_MODERN</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_STRETCHER_A">
+        <AbbreviationLocID>OBJECT_STRETCHER_A</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+
+        <TextureIDNW>458</TextureIDNW>
+        <TextureIDNE>466</TextureIDNE>
+        <TextureIDSE>478</TextureIDSE>
+        <TextureIDSW>486</TextureIDSW>
+        <IconIndex>933</IconIndex>
+
+        <!-- Sideways for pushing -->
+        <UseDirection>NE</UseDirection>
+        <UseOffsetXNE>0</UseOffsetXNE>
+
+        <AccessPositions>
+            <!-- Patient access -->
+            <!--AccessPosition>
+                <m_x>-1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition-->
+
+            <!-- Staff pushing -->
+            <AccessPosition>
+                <m_x>0</m_x>
+                <m_y>-1</m_y>
+            </AccessPosition>
+        </AccessPositions>
+
+        <AttachedToCharacterDirection>SW</AttachedToCharacterDirection>
+        <AttachedToCharacterOffsetX>1.0</AttachedToCharacterOffsetX>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <Placement>INDOORS</Placement>
+
+        <AnimationFramesNW>4</AnimationFramesNW>
+        <AnimationFramesNE>4</AnimationFramesNE>
+        <AnimationFramesSE>4</AnimationFramesSE>
+        <AnimationFramesSW>4</AnimationFramesSW>
+
+        <Tags>
+            <Tag>ui_observation</Tag>
+            <Tag>stretcher</Tag>
+            <Tag>ui_stretcher</Tag>
+        </Tags>
+
+        <SoundEventUseLoopRef>SFX_ENV_STRETCHER_LOOP</SoundEventUseLoopRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_STRETCHER_B">
+        <AbbreviationLocID>OBJECT_STRETCHER_B</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDBackNW>462</TextureIDBackNW>
+        <TextureIDBackNE>470</TextureIDBackNE>
+        <TextureIDSE>474</TextureIDSE>
+        <TextureIDSW>482</TextureIDSW>
+        <IconIndex>933</IconIndex>
+
+        <UseDirection>SE</UseDirection>
+        <UseOffsetXNW>-0.33</UseOffsetXNW>
+
+        <AttachedCharacterDirection>NE</AttachedCharacterDirection>
+
+        <AttachedCharacterOffsetXNW>0</AttachedCharacterOffsetXNW>
+        <AttachedCharacterOffsetYNW>-0.5</AttachedCharacterOffsetYNW>
+
+        <AttachedCharacterOffsetXNE>0.5</AttachedCharacterOffsetXNE>
+        <AttachedCharacterOffsetYNE>0.0</AttachedCharacterOffsetYNE>
+
+        <AttachedCharacterOffsetXSE>0</AttachedCharacterOffsetXSE>
+        <AttachedCharacterOffsetYSE>0.5</AttachedCharacterOffsetYSE>
+
+        <AttachedCharacterOffsetXSW>-0.5</AttachedCharacterOffsetXSW>
+        <AttachedCharacterOffsetYSW>0</AttachedCharacterOffsetYSW>
+
+        <AttachedToCharacterDirection>SW</AttachedToCharacterDirection>
+        <AttachedToCharacterOffsetX>2.0</AttachedToCharacterOffsetX>
+
+        <NotInteractable>true</NotInteractable>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <Placement>INDOORS</Placement>
+
+        <AccessPositions></AccessPositions><!-- No limit -->
+        
+        <!--UseAnimationsStart>
+            <Animation>sit_exam_bed_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>sit_exam_bed_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>sit_exam_bed_out</Animation>
+        </UseAnimationsEnd-->
+
+        <UseAnimationsStart>
+            <Animation>lay_bed_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>lay_bed_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>lay_bed_out</Animation>
+        </UseAnimationsEnd>
+
+        <AnimationFramesNW>4</AnimationFramesNW>
+        <AnimationFramesNE>4</AnimationFramesNE>
+        <AnimationFramesSE>4</AnimationFramesSE>
+        <AnimationFramesSW>4</AnimationFramesSW>
+
+        <Tags>
+            <Tag>stretcher_patient</Tag>
+        </Tags>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_OFFICE_DESK_A">
+        <AbbreviationLocID>OBJECT_OFFICE_DESK_A</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>32</TextureIDNW>
+        <TextureIDNE>34</TextureIDNE>
+        <TextureIDSE>37</TextureIDSE>
+        <TextureIDSW>39</TextureIDSW>
+        <IconIndex>958</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+
+        <AttachmentSlot>
+            <HeightOffset>0.9</HeightOffset>
+            <AllowedTags>
+                <Tag>square_objects</Tag>
+                <Tag>big_printer</Tag>
+                <Tag>ui_plants</Tag>
+                <Tag>pc</Tag>
+                <Tag>tv</Tag>
+                <Tag>radio</Tag>
+                <Tag>printer</Tag>
+                <Tag>lab_eq</Tag>
+                <Tag>lab_eq_small</Tag>
+                <Tag>microscope</Tag>
+                <Tag>hematoanalyzer</Tag>
+                <Tag>defibrillator</Tag>
+                <Tag>surgery_instruments</Tag>
+                <Tag>electrocautery_machine</Tag>
+                <Tag>fast_usg</Tag>
+                <Tag>RIA</Tag>
+                <Tag>audiometer</Tag>
+                <Tag>crp_scan</Tag>
+                <Tag>spirometer</Tag>
+                <Tag>shockwave</Tag>
+                <Tag>electromyograph</Tag>
+                <Tag>lab_analyzer</Tag>
+                <Tag>stool_analyzer</Tag>
+                <Tag>thermal_cycler</Tag>
+                <Tag>electrocardiograph</Tag>
+                <Tag>ui_coffee_machine</Tag>
+                <Tag>ui_sandwich</Tag>
+                <Tag>ui_cutlery</Tag>
+				<Tag>ui_juice</Tag>
+				<Tag>ui_fruit_snack</Tag>
+				<Tag>ui_donut_snack</Tag>
+				<Tag>ui_pathology_instruments</Tag>
+            </AllowedTags>
+            <ForcesAttachmentOrientation>true</ForcesAttachmentOrientation>
+        </AttachmentSlot>
+
+        <ConnectedSlots>
+            <ConnectedSlot>
+                <PositionX>-1</PositionX>
+                <PositionY>0</PositionY>
+                <AllowedTags>
+                    <Tag>office_chair</Tag>
+                </AllowedTags>
+                <ForcedDirection>SE</ForcedDirection>
+            </ConnectedSlot>
+        </ConnectedSlots>
+
+        <AttachedToObject>false</AttachedToObject>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <ForcesAttachmentOrientation>true</ForcesAttachmentOrientation>
+        <Placement>INDOORS</Placement>
+
+        <Tags>
+            <Tag>desk</Tag>
+            <Tag>ui_office_desk</Tag>
+        </Tags>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_OFFICE_DESK1</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_OFFICE_DESK_B">
+        <AbbreviationLocID>OBJECT_OFFICE_DESK_B</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>33</TextureIDNW>
+        <TextureIDNE>35</TextureIDNE>
+        <TextureIDSE>36</TextureIDSE>
+        <TextureIDSW>38</TextureIDSW>
+        <IconIndex>958</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+
+        <AttachmentSlot>
+            <HeightOffset>0.9</HeightOffset>
+            <AllowedTags>
+                <Tag>square_objects</Tag>
+                <Tag>big_printer</Tag>
+                <Tag>ui_plants</Tag>
+                <!--Tag>pc</Tag-->
+                <Tag>tv</Tag>
+                <Tag>radio</Tag>
+                <Tag>printer</Tag>
+                <Tag>lab_eq</Tag>
+                <Tag>lab_eq_small</Tag>
+                <Tag>microscope</Tag>
+                <Tag>hematoanalyzer</Tag>
+                <Tag>defibrillator</Tag>
+                <Tag>surgery_instruments</Tag>
+                <Tag>electrocautery_machine</Tag>
+                <Tag>fast_usg</Tag>
+                <Tag>RIA</Tag>
+                <Tag>audiometer</Tag>
+                <Tag>crp_scan</Tag>
+                <Tag>spirometer</Tag>
+                <Tag>shockwave</Tag>
+                <Tag>electromyograph</Tag>
+                <Tag>lab_analyzer</Tag>
+                <Tag>stool_analyzer</Tag>
+                <Tag>thermal_cycler</Tag>
+                <Tag>electrocardiograph</Tag>
+                <Tag>ui_coffee_machine</Tag>
+                <Tag>ui_sandwich</Tag>
+                <Tag>ui_cutlery</Tag>
+				<Tag>ui_juice</Tag>
+				<Tag>ui_fruit_snack</Tag>
+				<Tag>ui_donut_snack</Tag>
+				<Tag>ui_pathology_instruments</Tag>
+            </AllowedTags>
+            <ForcesAttachmentOrientation>true</ForcesAttachmentOrientation>
+        </AttachmentSlot>
+
+        <AttachedToObject>false</AttachedToObject>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <Placement>INDOORS</Placement>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_OFFICE_DESK1</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_OFFICE_DESK2_A">
+        <AbbreviationLocID>OBJECT_OFFICE_DESK2_A</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>360</TextureIDNW>
+        <TextureIDNE>362</TextureIDNE>
+        <TextureIDSE>365</TextureIDSE>
+        <TextureIDSW>367</TextureIDSW>
+        <IconIndex>717</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+
+        <AttachmentSlot>
+            <HeightOffset>0.9</HeightOffset>
+            <AllowedTags>
+                <Tag>square_objects</Tag>
+                <Tag>big_printer</Tag>
+                <Tag>ui_plants</Tag>
+                <Tag>pc</Tag>
+                <Tag>tv</Tag>
+                <Tag>radio</Tag>
+                <Tag>printer</Tag>
+                <Tag>lab_eq</Tag>
+                <Tag>lab_eq_small</Tag>
+                <Tag>microscope</Tag>
+                <Tag>hematoanalyzer</Tag>
+                <Tag>defibrillator</Tag>
+                <Tag>surgery_instruments</Tag>
+                <Tag>electrocautery_machine</Tag>
+                <Tag>fast_usg</Tag>
+                <Tag>RIA</Tag>
+                <Tag>audiometer</Tag>
+                <Tag>crp_scan</Tag>
+                <Tag>spirometer</Tag>
+                <Tag>shockwave</Tag>
+                <Tag>electromyograph</Tag>
+                <Tag>lab_analyzer</Tag>
+                <Tag>stool_analyzer</Tag>
+                <Tag>thermal_cycler</Tag>
+                <Tag>electrocardiograph</Tag>
+                <Tag>ui_coffee_machine</Tag>
+                <Tag>ui_sandwich</Tag>
+                <Tag>ui_cutlery</Tag>
+				<Tag>ui_juice</Tag>
+				<Tag>ui_fruit_snack</Tag>
+				<Tag>ui_donut_snack</Tag>
+				<Tag>ui_pathology_instruments</Tag>
+            </AllowedTags>
+            <ForcesAttachmentOrientation>true</ForcesAttachmentOrientation>
+        </AttachmentSlot>
+
+        <ConnectedSlots>
+            <ConnectedSlot>
+                <PositionX>-1</PositionX>
+                <PositionY>0</PositionY>
+                <AllowedTags>
+                    <Tag>office_chair</Tag>
+                </AllowedTags>
+                <ForcedDirection>SE</ForcedDirection>
+            </ConnectedSlot>
+        </ConnectedSlots>
+
+        <AttachedToObject>false</AttachedToObject>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <ForcesAttachmentOrientation>true</ForcesAttachmentOrientation>
+        <Placement>INDOORS</Placement>
+
+        <Tags>
+            <Tag>desk</Tag>
+            <Tag>ui_office_desk</Tag>
+        </Tags>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_OFFICE_DESK2</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_OFFICE_DESK2_B">
+        <AbbreviationLocID>OBJECT_OFFICE_DESK2_B</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>361</TextureIDNW>
+        <TextureIDNE>363</TextureIDNE>
+        <TextureIDSE>364</TextureIDSE>
+        <TextureIDSW>366</TextureIDSW>
+        <IconIndex>717</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+
+        <AttachmentSlot>
+            <HeightOffset>0.9</HeightOffset>
+            <AllowedTags>
+                <Tag>square_objects</Tag>
+                <Tag>big_printer</Tag>
+                <Tag>ui_plants</Tag>
+                <!--Tag>pc</Tag-->
+                <Tag>tv</Tag>
+                <Tag>radio</Tag>
+                <Tag>printer</Tag>
+                <Tag>lab_eq</Tag>
+                <Tag>lab_eq_small</Tag>
+                <Tag>microscope</Tag>
+                <Tag>hematoanalyzer</Tag>
+                <Tag>defibrillator</Tag>
+                <Tag>surgery_instruments</Tag>
+                <Tag>electrocautery_machine</Tag>
+                <Tag>fast_usg</Tag>
+                <Tag>RIA</Tag>
+                <Tag>audiometer</Tag>
+                <Tag>crp_scan</Tag>
+                <Tag>spirometer</Tag>
+                <Tag>shockwave</Tag>
+                <Tag>electromyograph</Tag>
+                <Tag>lab_analyzer</Tag>
+                <Tag>stool_analyzer</Tag>
+                <Tag>thermal_cycler</Tag>
+                <Tag>electrocardiograph</Tag>
+                <Tag>ui_coffee_machine</Tag>
+                <Tag>ui_sandwich</Tag>
+                <Tag>ui_cutlery</Tag>
+				<Tag>ui_juice</Tag>
+				<Tag>ui_fruit_snack</Tag>
+				<Tag>ui_donut_snack</Tag>
+				<Tag>ui_pathology_instruments</Tag>
+            </AllowedTags>
+            <ForcesAttachmentOrientation>true</ForcesAttachmentOrientation>
+        </AttachmentSlot>
+
+        <AttachedToObject>false</AttachedToObject>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <Placement>INDOORS</Placement>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_OFFICE_DESK2</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_LAB_DESK_A">
+        <AbbreviationLocID>OBJECT_LAB_DESK_A</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>24</TextureIDNW>
+        <TextureIDNE>26</TextureIDNE>
+        <TextureIDSE>25</TextureIDSE>
+        <TextureIDSW>27</TextureIDSW>
+        <IconIndex>966</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+
+        <AttachmentSlot>
+            <HeightOffset>0.9</HeightOffset>
+            <AllowedTags>
+                <Tag>square_objects</Tag>
+                <Tag>big_printer</Tag>
+                <Tag>ui_plants</Tag>
+                <Tag>pc</Tag>
+                <Tag>tv</Tag>
+                <Tag>radio</Tag>
+                <Tag>printer</Tag>
+                <Tag>lab_eq</Tag>
+                <Tag>lab_eq_small</Tag>
+                <Tag>microscope</Tag>
+                <Tag>hematoanalyzer</Tag>
+                <Tag>defibrillator</Tag>
+                <Tag>RIA</Tag>
+                <Tag>surgery_instruments</Tag>
+                <Tag>electrocautery_machine</Tag>
+                <Tag>fast_usg</Tag>
+                <Tag>audiometer</Tag>
+                <Tag>crp_scan</Tag>
+                <Tag>spirometer</Tag>
+                <Tag>shockwave</Tag>
+                <Tag>electromyograph</Tag>
+                <Tag>lab_analyzer</Tag>
+                <Tag>stool_analyzer</Tag>
+                <Tag>thermal_cycler</Tag>
+                <Tag>electrocardiograph</Tag>
+                <Tag>ui_coffee_machine</Tag>
+                <Tag>ui_sandwich</Tag>
+                <Tag>ui_cutlery</Tag>
+				<Tag>ui_juice</Tag>
+				<Tag>ui_fruit_snack</Tag>
+				<Tag>ui_donut_snack</Tag>
+				<Tag>ui_pathology_instruments</Tag>
+            </AllowedTags>
+            <ForcesAttachmentOrientation>true</ForcesAttachmentOrientation>
+        </AttachmentSlot>
+
+        <ConnectedSlots>
+            <ConnectedSlot>
+                <PositionX>-1</PositionX>
+                <PositionY>0</PositionY>
+                <AllowedTags>
+                    <Tag>office_chair</Tag>
+                    <Tag>stool</Tag>
+                </AllowedTags>
+                <ForcedDirection>SE</ForcedDirection>
+            </ConnectedSlot>
+        </ConnectedSlots>
+
+        <Tags>
+            <Tag>lab_desk</Tag>
+        </Tags>
+
+        <AttachedToObject>false</AttachedToObject>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <Placement>INDOORS</Placement>
+        <ForcesAttachmentOrientation>true</ForcesAttachmentOrientation>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_LAB_DESK_B">
+        <AbbreviationLocID>OBJECT_LAB_DESK_B</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>25</TextureIDNW>
+        <TextureIDNE>27</TextureIDNE>
+        <TextureIDSE>24</TextureIDSE>
+        <TextureIDSW>26</TextureIDSW>
+        <IconIndex>966</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+
+        <AttachmentSlot>
+            <HeightOffset>0.9</HeightOffset>
+            <AllowedTags>
+                <Tag>square_objects</Tag>
+                <Tag>big_printer</Tag>
+                <Tag>ui_plants</Tag>
+                <Tag>pc</Tag>
+                <Tag>tv</Tag>
+                <Tag>radio</Tag>
+                <Tag>printer</Tag>
+                <Tag>lab_eq</Tag>
+                <Tag>lab_eq_small</Tag>
+                <Tag>microscope</Tag>
+                <Tag>hematoanalyzer</Tag>
+                <Tag>defibrillator</Tag>
+                <Tag>RIA</Tag>
+                <Tag>surgery_instruments</Tag>
+                <Tag>electrocautery_machine</Tag>
+                <Tag>fast_usg</Tag>
+                <Tag>audiometer</Tag>
+                <Tag>crp_scan</Tag>
+                <Tag>spirometer</Tag>
+                <Tag>shockwave</Tag>
+                <Tag>electromyograph</Tag>
+                <Tag>lab_analyzer</Tag>
+                <Tag>stool_analyzer</Tag>
+                <Tag>thermal_cycler</Tag>
+                <Tag>electrocardiograph</Tag>
+                <Tag>ui_coffee_machine</Tag>
+                <Tag>ui_sandwich</Tag>
+                <Tag>ui_cutlery</Tag>
+				<Tag>ui_juice</Tag>
+				<Tag>ui_fruit_snack</Tag>
+				<Tag>ui_donut_snack</Tag>
+				<Tag>ui_pathology_instruments</Tag>
+            </AllowedTags>
+            <ForcesAttachmentOrientation>true</ForcesAttachmentOrientation>
+        </AttachmentSlot>
+
+        <ConnectedSlots>
+            <ConnectedSlot>
+                <PositionX>-1</PositionX>
+                <PositionY>0</PositionY>
+                <AllowedTags>
+                    <Tag>office_chair</Tag>
+                    <Tag>stool</Tag>
+                </AllowedTags>
+                <ForcedDirection>SE</ForcedDirection>
+            </ConnectedSlot>
+        </ConnectedSlots>
+
+        <Tags>
+            <Tag>lab_desk</Tag>
+        </Tags>
+
+        <AttachedToObject>false</AttachedToObject>
+        <Placement>INDOORS</Placement>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_DINING_TABLE_L">
+        <AbbreviationLocID>OBJECT_DINING_TABLE_L</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>186</TextureIDNW>
+        <TextureIDNE>188</TextureIDNE>
+        <TextureIDSE>187</TextureIDSE>
+        <TextureIDSW>189</TextureIDSW>
+        <IconIndex>959</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>-1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+            <AccessPosition>
+                <m_x>1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+        </AccessPositions>
+
+        <AttachmentSlot>
+            <HeightOffset>0.9</HeightOffset>
+            <AllowedTags>
+                <Tag>square_objects</Tag>
+                <Tag>big_printer</Tag>
+                <Tag>ui_plants</Tag>
+                <Tag>pc</Tag>
+                <Tag>tv</Tag>
+                <Tag>radio</Tag>
+                <Tag>printer</Tag>
+                <Tag>lab_eq</Tag>
+                <Tag>lab_eq_small</Tag>
+                <Tag>microscope</Tag>
+                <Tag>hematoanalyzer</Tag>
+                <Tag>defibrillator</Tag>
+                <Tag>surgery_instruments</Tag>
+                <Tag>electrocautery_machine</Tag>
+                <Tag>fast_usg</Tag>
+                <Tag>RIA</Tag>
+                <Tag>audiometer</Tag>
+                <Tag>crp_scan</Tag>
+                <Tag>spirometer</Tag>
+                <Tag>shockwave</Tag>
+                <Tag>electromyograph</Tag>
+                <Tag>lab_analyzer</Tag>
+                <Tag>stool_analyzer</Tag>
+                <Tag>thermal_cycler</Tag>
+                <Tag>electrocardiograph</Tag>
+                <Tag>ui_coffee_machine</Tag>
+                <Tag>ui_sandwich</Tag>
+                <Tag>ui_cutlery</Tag>
+				<Tag>ui_juice</Tag>
+				<Tag>ui_fruit_snack</Tag>
+				<Tag>ui_donut_snack</Tag>
+				<Tag>ui_pathology_instruments</Tag>
+            </AllowedTags>
+            <ForcesAttachmentOrientation>false</ForcesAttachmentOrientation>
+        </AttachmentSlot>
+
+        <ConnectedSlots>
+            <ConnectedSlot>
+                <PositionX>1</PositionX>
+                <PositionY>0</PositionY>
+                <AllowedTags>
+                    <Tag>eating</Tag>
+                </AllowedTags>
+                <ForcedDirection>NW</ForcedDirection>
+            </ConnectedSlot>
+            <ConnectedSlot>
+                <PositionX>-1</PositionX>
+                <PositionY>0</PositionY>
+                <AllowedTags>
+                    <Tag>eating</Tag>
+                </AllowedTags>
+                <ForcedDirection>SE</ForcedDirection>
+            </ConnectedSlot>
+        </ConnectedSlots>
+
+        <AttachedToObject>false</AttachedToObject>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <Placement>INDOORS</Placement>
+        <ForcesAttachmentOrientation>true</ForcesAttachmentOrientation>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_DINING_TABLE_R">
+        <AbbreviationLocID>OBJECT_DINING_TABLE_R</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>187</TextureIDNW>
+        <TextureIDNE>189</TextureIDNE>
+        <TextureIDSE>186</TextureIDSE>
+        <TextureIDSW>188</TextureIDSW>
+        <IconIndex>959</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>-1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+            <AccessPosition>
+                <m_x>1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+        </AccessPositions>
+
+        <AttachmentSlot>
+            <HeightOffset>0.9</HeightOffset>
+            <AllowedTags>
+                <Tag>square_objects</Tag>
+                <Tag>big_printer</Tag>
+                <Tag>ui_plants</Tag>
+                <Tag>pc</Tag>
+                <Tag>tv</Tag>
+                <Tag>radio</Tag>
+                <Tag>printer</Tag>
+                <Tag>lab_eq</Tag>
+                <Tag>lab_eq_small</Tag>
+                <Tag>microscope</Tag>
+                <Tag>hematoanalyzer</Tag>
+                <Tag>defibrillator</Tag>
+                <Tag>surgery_instruments</Tag>
+                <Tag>electrocautery_machine</Tag>
+                <Tag>fast_usg</Tag>
+                <Tag>RIA</Tag>
+                <Tag>audiometer</Tag>
+                <Tag>crp_scan</Tag>
+                <Tag>spirometer</Tag>
+                <Tag>shockwave</Tag>
+                <Tag>electromyograph</Tag>
+                <Tag>lab_analyzer</Tag>
+                <Tag>stool_analyzer</Tag>
+                <Tag>thermal_cycler</Tag>
+                <Tag>electrocardiograph</Tag>
+                <Tag>ui_coffee_machine</Tag>
+                <Tag>ui_sandwich</Tag>
+                <Tag>ui_cutlery</Tag>
+				<Tag>ui_juice</Tag>
+				<Tag>ui_fruit_snack</Tag>
+				<Tag>ui_donut_snack</Tag>
+				<Tag>ui_pathology_instruments</Tag>
+            </AllowedTags>
+            <ForcesAttachmentOrientation>false</ForcesAttachmentOrientation>
+        </AttachmentSlot>
+
+        <ConnectedSlots>
+            <ConnectedSlot>
+                <PositionX>-1</PositionX>
+                <PositionY>0</PositionY>
+                <AllowedTags>
+                    <Tag>eating</Tag>
+                </AllowedTags>
+                <ForcedDirection>SE</ForcedDirection>
+            </ConnectedSlot>
+            <ConnectedSlot>
+                <PositionX>1</PositionX>
+                <PositionY>0</PositionY>
+                <AllowedTags>
+                    <Tag>eating</Tag>
+                </AllowedTags>
+                <ForcedDirection>NW</ForcedDirection>
+            </ConnectedSlot>
+        </ConnectedSlots>
+        
+        <Tags>
+            <Tag>ui_dining_tables</Tag>
+        </Tags>
+        
+
+        <AttachedToObject>false</AttachedToObject>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <Placement>INDOORS</Placement>
+        <ForcesAttachmentOrientation>true</ForcesAttachmentOrientation>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_SOFA_A">
+        <AbbreviationLocID>OBJECT_SOFA_A</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>46</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>54</TextureIDSE>
+        <TextureIDSW>56</TextureIDSW>
+
+        <TextureIDBackNW>47</TextureIDBackNW>
+        <TextureIDBackNE>51</TextureIDBackNE>
+        <TextureIDBackSE>55</TextureIDBackSE>
+        <TextureIDBackSW>57</TextureIDBackSW>
+        <IconIndex>983</IconIndex>
+
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+        <Placement>INDOORS</Placement>
+
+        <!-- Turn backwards (compared to the default NW direction) -->
+
+        <UseDirection>SE</UseDirection>
+
+        <UseOffsetXNW>-0.33</UseOffsetXNW>
+        <UseOffsetYNW>0.25</UseOffsetYNW>
+
+        <UseOffsetXNE>0.00</UseOffsetXNE>
+        <UseOffsetYNE>-0.30</UseOffsetYNE>
+
+        <UseOffsetXSE>0.55</UseOffsetXSE>
+        <UseOffsetYSE>-0.05</UseOffsetYSE>
+
+        <UseOffsetXSW>0.2</UseOffsetXSW>
+        <UseOffsetYSW>0.49</UseOffsetYSW>
+
+        <UseAnimationsStart>
+            <Animation>sit_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>sit_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>sit_out</Animation>
+        </UseAnimationsEnd>
+
+        <Tags>
+            <Tag>sitting</Tag>
+            <Tag>rest</Tag>
+            <Tag>hospitalized_patient</Tag>
+            <Tag>ui_sofa</Tag>
+        </Tags>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_SOFA</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_SOFA_B">
+        <AbbreviationLocID>OBJECT_SOFA_B</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>49</TextureIDNE>
+        <TextureIDSE>52</TextureIDSE>
+        <TextureIDSW>58</TextureIDSW>
+
+        <TextureIDBackNW>48</TextureIDBackNW>
+        <TextureIDBackNE>50</TextureIDBackNE>
+        <TextureIDBackSE>53</TextureIDBackSE>
+        <TextureIDBackSW>59</TextureIDBackSW>
+        <IconIndex>983</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+        <Placement>INDOORS</Placement>
+
+        <!-- Turn backwards (compared to the default NW direction) -->
+
+        <UseDirection>SE</UseDirection>
+
+        <UseOffsetXNW>-0.33</UseOffsetXNW>
+        <UseOffsetYNW>0.0</UseOffsetYNW>
+
+        <UseOffsetXNE>0.25</UseOffsetXNE>
+        <UseOffsetYNE>-0.33</UseOffsetYNE>
+
+        <UseOffsetXSE>0.49</UseOffsetXSE>
+        <UseOffsetYSE>0.2</UseOffsetYSE>
+
+        <UseOffsetXSW>-0.1</UseOffsetXSW>
+        <UseOffsetYSW>0.5</UseOffsetYSW>
+
+        <UseAnimationsStart>
+            <Animation>sit_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>sit_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>sit_out</Animation>
+        </UseAnimationsEnd>
+
+        <Tags>
+            <Tag>sitting</Tag>
+            <Tag>rest</Tag>
+            <Tag>hospitalized_patient</Tag>
+        </Tags>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_SOFA</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_XRAY_BED_A">
+        <AbbreviationLocID>OBJECT_XRAY_BED_A</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <TextureIDBackNW>204</TextureIDBackNW>
+        <TextureIDBackNE>206</TextureIDBackNE>
+        <TextureIDBackSE>209</TextureIDBackSE>
+        <TextureIDBackSW>211</TextureIDBackSW>
+        <IconIndex>967</IconIndex>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+        </AccessPositions>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <Placement>INDOORS</Placement>
+        <UseDirection>SE</UseDirection>
+        <UseOffsetXNW>-0.33</UseOffsetXNW>
+        <UseAnimationsStart>
+            <Animation>sit_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>sit_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>sit_out</Animation>
+        </UseAnimationsEnd>
+
+        <Tags>
+        </Tags>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_XRAY</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_XRAY_BED_B">
+        <AbbreviationLocID>OBJECT_XRAY_BED_B</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <TextureIDBackNW>205</TextureIDBackNW>
+        <TextureIDBackNE>207</TextureIDBackNE>
+        <TextureIDBackSE>208</TextureIDBackSE>
+        <TextureIDBackSW>210</TextureIDBackSW>
+        <IconIndex>967</IconIndex>
+
+        <UseDirection>SE</UseDirection>
+        <UseOffsetXNW>1</UseOffsetXNW>
+        <UseOffsetYNW>-0.5</UseOffsetYNW>
+
+        <AttachedCharacterDirection>NE</AttachedCharacterDirection>
+
+        <AttachedCharacterOffsetXNW>0</AttachedCharacterOffsetXNW>
+        <AttachedCharacterOffsetYNW>-0.5</AttachedCharacterOffsetYNW>
+
+        <AttachedCharacterOffsetXNE>0.5</AttachedCharacterOffsetXNE>
+        <AttachedCharacterOffsetYNE>0.0</AttachedCharacterOffsetYNE>
+
+        <AttachedCharacterOffsetXSE>0</AttachedCharacterOffsetXSE>
+        <AttachedCharacterOffsetYSE>0.5</AttachedCharacterOffsetYSE>
+
+        <AttachedCharacterOffsetXSW>-0.5</AttachedCharacterOffsetXSW>
+        <AttachedCharacterOffsetYSW>0</AttachedCharacterOffsetYSW>
+
+        <AttachedToCharacterDirection>SW</AttachedToCharacterDirection>
+        <AttachedToCharacterOffsetX>1.7</AttachedToCharacterOffsetX>
+
+        <NotInteractable>true</NotInteractable>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <Placement>INDOORS</Placement>
+
+        <UseAnimationsStart>
+            <Animation>sit_exam_bed_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>sit_exam_bed_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>sit_exam_bed_out</Animation>
+        </UseAnimationsEnd>
+
+        <Tags>
+            <Tag>ui_hidden</Tag>
+            <Tag>x_ray_bed</Tag>
+            <Tag>x_ray_machine</Tag>
+            <Tag>ui_xray_machine</Tag>
+            <Tag>transport_point</Tag>
+        </Tags>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_XRAY</ColorSetRef>
+    </GameDBObject>
+
+    <!-- LEGS -->
+    <GameDBObject ID="OBJECT_OPERATING_TABLE_A">
+        <AbbreviationLocID>OBJECT_OPERATING_TABLE_A</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>228</TextureIDNW>
+        <TextureIDNE>236</TextureIDNE>
+        <TextureIDSE>244</TextureIDSE>
+        <TextureIDSW>252</TextureIDSW>
+        <IconIndex>727</IconIndex>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>-1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+            <AccessPosition>
+                <m_x>0</m_x>
+                <m_y>-1</m_y>
+            </AccessPosition>
+            <AccessPosition>
+                <m_x>1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+        </AccessPositions>
+
+        <AccessPositionsHaveToBeFree>true</AccessPositionsHaveToBeFree>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+        <Placement>INDOORS</Placement>
+
+        <RequiredObjectsInRoom>
+            <RequiredObject>
+                <Tag>operating_bed_lights</Tag>
+                <MaxDistance>1</MaxDistance>
+            </RequiredObject>
+        </RequiredObjectsInRoom>
+
+        <AttachmentSlot>
+            <HeightOffset>1.9</HeightOffset>
+            <AllowedTags>
+                <Tag>operating_bed_lights</Tag>
+            </AllowedTags>
+            <ForcesAttachmentOrientation>false</ForcesAttachmentOrientation>
+        </AttachmentSlot>
+
+        <ConnectedSlots>
+            <ConnectedSlot>
+                <PositionX>0</PositionX>
+                <PositionY>-1</PositionY>
+                <AllowedTags>
+                    <Tag>angio_viewer</Tag>
+                </AllowedTags>
+                <ForcedDirection>SW</ForcedDirection>
+                <RoomTag>operating_room</RoomTag>
+                <Required>true</Required>
+            </ConnectedSlot>
+            <ConnectedSlot>
+                <PositionX>-1</PositionX>
+                <PositionY>-1</PositionY>
+                <AllowedTags>
+                    <Tag>instruments_table</Tag>
+                </AllowedTags>
+                <ForcedDirection>NE</ForcedDirection>
+                <RoomTag>operating_room</RoomTag>
+                <Required>true</Required>
+            </ConnectedSlot>
+            <ConnectedSlot>
+                <PositionX>-1</PositionX>
+                <PositionY>-1</PositionY>
+                <AllowedTags>
+                    <Tag>surgery_instruments</Tag>
+                </AllowedTags>
+                <ForcedDirection>NE</ForcedDirection>
+                <RoomTag>operating_room</RoomTag>
+                <Required>true</Required>
+            </ConnectedSlot>
+        </ConnectedSlots>
+
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <UseDirection>SE</UseDirection>
+
+        <UseAnimationsStart>
+            <Animation>lay_bed_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>lay_bed_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>lay_bed_out</Animation>
+        </UseAnimationsEnd>
+
+        <AnimationFramesNW>4</AnimationFramesNW>
+        <AnimationFramesNE>4</AnimationFramesNE>
+        <AnimationFramesSE>4</AnimationFramesSE>
+        <AnimationFramesSW>4</AnimationFramesSW>
+
+        <Tags>
+            <Tag>ui_op_table</Tag>
+            <Tag>operating_table</Tag>
+            <Tag>operating_table_legs</Tag>
+            <Tag>bed_legs</Tag>
+        </Tags>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_OP_TABLE</ColorSetRef>
+    </GameDBObject>
+
+    <!-- HEAD -->
+    <GameDBObject ID="OBJECT_OPERATING_TABLE_B">
+        <AbbreviationLocID>OBJECT_OPERATING_TABLE_B</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>232</TextureIDNW>
+        <TextureIDNE>240</TextureIDNE>
+        <TextureIDSE>248</TextureIDSE>
+        <TextureIDSW>256</TextureIDSW>
+        <IconIndex>727</IconIndex>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>-1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+            <AccessPosition>
+                <m_x>1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+            <AccessPosition>
+                <m_x>0</m_x>
+                <m_y>1</m_y>
+            </AccessPosition>
+        </AccessPositions>
+
+        <AccessPositionsHaveToBeFree>true</AccessPositionsHaveToBeFree>
+
+        <UseDirection>SE</UseDirection>
+        <UseOffsetXNW>-0.33</UseOffsetXNW>
+
+        <AttachedCharacterDirection>NE</AttachedCharacterDirection>
+
+        <AttachedCharacterOffsetXNW>0</AttachedCharacterOffsetXNW>
+        <AttachedCharacterOffsetYNW>-0.5</AttachedCharacterOffsetYNW>
+
+        <AttachedCharacterOffsetXNE>0.5</AttachedCharacterOffsetXNE>
+        <AttachedCharacterOffsetYNE>0.0</AttachedCharacterOffsetYNE>
+
+        <AttachedCharacterOffsetXSE>0</AttachedCharacterOffsetXSE>
+        <AttachedCharacterOffsetYSE>0.5</AttachedCharacterOffsetYSE>
+
+        <AttachedCharacterOffsetXSW>-0.5</AttachedCharacterOffsetXSW>
+        <AttachedCharacterOffsetYSW>0</AttachedCharacterOffsetYSW>
+
+        <AttachedToCharacterDirection>SW</AttachedToCharacterDirection>
+        <AttachedToCharacterOffsetX>1.7</AttachedToCharacterOffsetX>
+
+        <NotInteractable>false</NotInteractable>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+        <Placement>INDOORS</Placement>
+        
+        <RequiredObjectsInRoom>
+            <RequiredObject>
+                <Tag>operating_bed_lights</Tag>
+                <MaxDistance>1</MaxDistance>
+            </RequiredObject>
+            <RequiredObject>
+                <Tag>anesthetic_machine</Tag>
+                <MaxDistance>2</MaxDistance>
+                <RoomTag>operating_room</RoomTag>
+            </RequiredObject>            
+            <RequiredObject>
+                <Tag>anesthetic_machine</Tag>
+                <MaxDistance>1</MaxDistance>
+                <RoomTag>trauma_center</RoomTag>
+            </RequiredObject>
+            <RequiredObject>
+                <Tag>stool</Tag>
+                <MaxDistance>1</MaxDistance>
+                <RoomTag>operating_room</RoomTag>
+            </RequiredObject>
+
+        </RequiredObjectsInRoom>
+        
+        <AttachmentSlot>
+            <HeightOffset>1.9</HeightOffset>
+            <AllowedTags>
+                <Tag>operating_bed_lights</Tag>
+            </AllowedTags>
+            <ForcesAttachmentOrientation>false</ForcesAttachmentOrientation>
+        </AttachmentSlot>
+
+        <ConnectedSlots>
+            <ConnectedSlot>
+                <PositionX>0</PositionX>
+                <PositionY>1</PositionY>
+                <AllowedTags>
+                    <Tag>anesthetic_machine</Tag>
+                </AllowedTags>
+                <ForcedDirection>NE</ForcedDirection>
+                <RoomTag>trauma_center</RoomTag>
+            </ConnectedSlot>           
+            <ConnectedSlot>
+                <PositionX>0</PositionX>
+                <PositionY>2</PositionY>
+                <AllowedTags>
+                    <Tag>anesthetic_machine</Tag>
+                </AllowedTags>
+                <ForcedDirection>NE</ForcedDirection>
+                <RoomTag>operating_room</RoomTag>
+            </ConnectedSlot>
+            <ConnectedSlot>
+                <PositionX>0</PositionX>
+                <PositionY>1</PositionY>
+                <AllowedTags>
+                    <Tag>stool</Tag>
+                </AllowedTags>
+                <ForcedDirection>SW</ForcedDirection>
+                <RoomTag>operating_room</RoomTag>
+            </ConnectedSlot>
+            <ConnectedSlot>
+                <PositionX>-1</PositionX>
+                <PositionY>1</PositionY>
+                <AllowedTags>
+                    <Tag>ent_workstation</Tag>
+                </AllowedTags>
+                <ForcedDirection>NE</ForcedDirection>
+                <RoomTag>im_unique_office</RoomTag>
+                <Required>true</Required>
+            </ConnectedSlot>
+            <ConnectedSlot>
+                <PositionX>1</PositionX>
+                <PositionY>1</PositionY>
+                <AllowedTags>
+                    <Tag>thoracentesis</Tag>
+                </AllowedTags>
+                <ForcedDirection>NE</ForcedDirection>
+                <RoomTag>im_unique_office</RoomTag>
+                <Required>true</Required>
+            </ConnectedSlot>
+        </ConnectedSlots>
+
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <UseAnimationsStart>
+            <Animation>lay_bed_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>lay_bed_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>lay_bed_out</Animation>
+        </UseAnimationsEnd>
+
+        <AnimationFramesNW>4</AnimationFramesNW>
+        <AnimationFramesNE>4</AnimationFramesNE>
+        <AnimationFramesSE>4</AnimationFramesSE>
+        <AnimationFramesSW>4</AnimationFramesSW>
+
+        <Tags>
+            <Tag>operating_table</Tag>
+            <Tag>operating_table_head</Tag>
+            <Tag>transport_point</Tag>
+            <Tag>sit_exam</Tag>
+            <Tag>bed_head</Tag>
+            <Tag>hospitalization</Tag> <!-- for trauma hospitalization -->
+        </Tags>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_OP_TABLE</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_OUTSIDE_BENCH_A">
+        <AbbreviationLocID>OBJECT_OUTSIDE_BENCH_A</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>443</TextureIDSE>
+        <TextureIDSW>445</TextureIDSW>
+
+        <TextureIDBackNW>436</TextureIDBackNW>
+        <TextureIDBackNE>438</TextureIDBackNE>
+        <TextureIDBackSE>442</TextureIDBackSE>
+        <TextureIDBackSW>444</TextureIDBackSW>
+        <IconIndex>746</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+
+        <Placement>OUTDOORS</Placement>
+        <Placement>ROOF</Placement>
+
+        <!-- Turn backwards (compared to the default NW direction) -->
+        <UseDirection>SE</UseDirection>
+
+        <UseOffsetXNW>-0.33</UseOffsetXNW>
+        <UseOffsetYNW>0.25</UseOffsetYNW>
+
+        <UseOffsetXNE>0.00</UseOffsetXNE>
+        <UseOffsetYNE>-0.30</UseOffsetYNE>
+
+        <UseOffsetXSE>0.55</UseOffsetXSE>
+        <UseOffsetYSE>-0.05</UseOffsetYSE>
+
+        <UseOffsetXSW>0.2</UseOffsetXSW>
+        <UseOffsetYSW>0.49</UseOffsetYSW>
+
+        <UseAnimationsStart>
+            <Animation>sit_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>sit_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>sit_out</Animation>
+        </UseAnimationsEnd>
+
+        <Tags>
+            <Tag>sitting</Tag>
+        </Tags>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_OUTSIDE_BENCH_B">
+        <AbbreviationLocID>OBJECT_OUTSIDE_BENCH_B</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>441</TextureIDSE>
+        <TextureIDSW>447</TextureIDSW>
+
+        <TextureIDBackNW>437</TextureIDBackNW>
+        <TextureIDBackNE>439</TextureIDBackNE>
+        <TextureIDBackSE>440</TextureIDBackSE>
+        <TextureIDBackSW>446</TextureIDBackSW>
+        <IconIndex>746</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+
+        <Placement>OUTDOORS</Placement>
+        <Placement>ROOF</Placement>
+
+        <!-- Turn backwards (compared to the default NW direction) -->
+        <UseDirection>SE</UseDirection>
+
+        <UseOffsetXNW>-0.33</UseOffsetXNW>
+        <UseOffsetYNW>0.0</UseOffsetYNW>
+
+        <UseOffsetXNE>0.25</UseOffsetXNE>
+        <UseOffsetYNE>-0.33</UseOffsetYNE>
+
+        <UseOffsetXSE>0.49</UseOffsetXSE>
+        <UseOffsetYSE>0.2</UseOffsetYSE>
+
+        <UseOffsetXSW>-0.1</UseOffsetXSW>
+        <UseOffsetYSW>0.5</UseOffsetYSW>
+
+        <UseAnimationsStart>
+            <Animation>sit_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>sit_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>sit_out</Animation>
+        </UseAnimationsEnd>
+
+        <Tags>
+            <Tag>sitting</Tag>
+        </Tags>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_LAB_HALF_DESK_A">
+        <AbbreviationLocID>OBJECT_LAB_HALF_DESK_ABR</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>390</TextureIDNW>
+        <TextureIDNE>391</TextureIDNE>
+        <TextureIDSE>392</TextureIDSE>
+        <TextureIDSW>393</TextureIDSW>
+        <IconIndex>673</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AllowsObjectsOnWallsAbove>false</AllowsObjectsOnWallsAbove>
+
+        <AttachmentSlot>
+            <HeightOffset>0.9</HeightOffset>
+            <AllowedTags>
+                <Tag>square_objects</Tag>
+                <Tag>big_printer</Tag>
+                <Tag>ui_plants</Tag>
+                <Tag>pc</Tag>
+                <Tag>tv</Tag>
+                <Tag>radio</Tag>
+                <Tag>printer</Tag>
+                <Tag>lab_eq</Tag>
+                <Tag>lab_eq_small</Tag>
+                <Tag>microscope</Tag>
+                <Tag>hematoanalyzer</Tag>
+                <Tag>defibrillator</Tag>
+                <Tag>RIA</Tag>
+                <Tag>surgery_instruments</Tag>
+                <Tag>electrocautery_machine</Tag>
+                <Tag>fast_usg</Tag>
+                <Tag>audiometer</Tag>
+                <Tag>crp_scan</Tag>
+                <Tag>spirometer</Tag>
+                <Tag>shockwave</Tag>
+                <Tag>electromyograph</Tag>
+                <Tag>lab_analyzer</Tag>
+                <Tag>stool_analyzer</Tag>
+                <Tag>thermal_cycler</Tag>
+                <Tag>electrocardiograph</Tag>
+                <Tag>ui_coffee_machine</Tag>
+                <Tag>ui_pathology_instruments</Tag>
+            </AllowedTags>
+            <ForcesAttachmentOrientation>true</ForcesAttachmentOrientation>
+        </AttachmentSlot>
+
+        <ConnectedSlots>
+            <ConnectedSlot>
+                <PositionX>-1</PositionX>
+                <PositionY>0</PositionY>
+                <AllowedTags>
+                    <Tag>office_chair</Tag>
+                    <Tag>stool</Tag>
+                </AllowedTags>
+                <ForcedDirection>SE</ForcedDirection>
+            </ConnectedSlot>
+        </ConnectedSlots>
+
+        <Tags>
+            <Tag>table_equipment</Tag>
+        </Tags>
+
+        <AttachedToObject>false</AttachedToObject>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <Placement>INDOORS</Placement>
+
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_OFFICE_DESK2</ColorSetRef>
+
+        <Cost>369</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_LAB_HALF_DESK_B">
+        <AbbreviationLocID>OBJECT_LAB_HALF_DESK_ABR</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>394</TextureIDSE>
+        <TextureIDSW>395</TextureIDSW>
+        <IconIndex>673</IconIndex>
+        
+        <PlacedToEdge>true</PlacedToEdge>
+        <AttachedToCeiling>false</AttachedToCeiling>
+
+        <NonBlocking>true</NonBlocking>
+        <AttachedToObject>false</AttachedToObject>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <Placement>INDOORS</Placement>
+
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_OFFICE_DESK2</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_LAB_CABINET_A">
+        <AbbreviationLocID>OBJECT_LAB_CABINET_ABR</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>384</TextureIDNW>
+        <TextureIDNE>385</TextureIDNE>
+        <TextureIDSE>386</TextureIDSE>
+        <TextureIDSW>387</TextureIDSW>
+        <IconIndex>674</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AllowsObjectsOnWallsAbove>false</AllowsObjectsOnWallsAbove>
+
+        <AttachmentSlot>
+            <HeightOffset>0.9</HeightOffset>
+            <AllowedTags>
+            	<Tag>sink</Tag>
+                <Tag>ui_plants</Tag>
+                <Tag>pc</Tag>
+                <Tag>tv</Tag>
+                <Tag>radio</Tag>
+                <Tag>printer</Tag>
+                <Tag>lab_eq</Tag>
+                <Tag>lab_eq_small</Tag>
+                <Tag>microscope</Tag>
+                <Tag>hematoanalyzer</Tag>
+                <Tag>defibrillator</Tag>
+                <Tag>RIA</Tag>
+                <Tag>surgery_instruments</Tag>
+                <Tag>electrocautery_machine</Tag>
+                <Tag>fast_usg</Tag>
+                <Tag>audiometer</Tag>
+                <Tag>crp_scan</Tag>
+                <Tag>spirometer</Tag>
+                <Tag>shockwave</Tag>
+                <Tag>electromyograph</Tag>
+                <Tag>lab_analyzer</Tag>
+                <Tag>stool_analyzer</Tag>
+                <Tag>thermal_cycler</Tag>
+                <Tag>electrocardiograph</Tag>
+                <Tag>ui_coffee_machine</Tag>
+                <Tag>ui_pathology_instruments</Tag>
+            </AllowedTags>
+            <ForcesAttachmentOrientation>true</ForcesAttachmentOrientation>
+        </AttachmentSlot>
+
+        <Tags>
+            <Tag>table_equipment</Tag>
+        </Tags>
+
+        <AttachedToObject>false</AttachedToObject>
+        <PartOfCompositeObject>false</PartOfCompositeObject>
+        <Placement>INDOORS</Placement>
+
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_OFFICE_DESK2</ColorSetRef>
+
+        <Cost>369</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_LAB_CABINET_B">
+        <AbbreviationLocID>OBJECT_LAB_CABINET_ABR</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>388</TextureIDSE>
+        <TextureIDSW>389</TextureIDSW>
+        <IconIndex>674</IconIndex>
+        
+        <PlacedToEdge>true</PlacedToEdge>
+        <AttachedToCeiling>false</AttachedToCeiling>
+
+        <NonBlocking>true</NonBlocking>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <Placement>INDOORS</Placement>
+
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_OFFICE_DESK2</ColorSetRef>
+    </GameDBObject>
+    
+</Database>

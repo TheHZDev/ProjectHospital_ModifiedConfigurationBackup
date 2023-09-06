@@ -1,0 +1,57 @@
+<Database>
+    <!-- Keep 1 free -->
+    
+    <GameDBEmployeeRole ID="EMPL_ROLE_PHARMACIST">
+        <FlagBit>8192</FlagBit>
+        <Icon>2436</Icon>
+  
+        <AllowedOccupations>
+            <OccupationRef>OCCUPATION_LAB_SPECIALIST</OccupationRef>
+        </AllowedOccupations>
+
+        <RequiredSkills>
+            <SkillRef>DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY</SkillRef>
+        </RequiredSkills>
+
+        <OnlyClinic>true</OnlyClinic>
+        <ForceWorkSpace>true</ForceWorkSpace>
+        <ForceWorkSpaceTag>pharmacy</ForceWorkSpaceTag>
+    </GameDBEmployeeRole>
+
+    <GameDBEmployeeRole ID="EMPL_ROLE_JANITOR_MANAGER">
+        <FlagBit>16384</FlagBit>
+        <Icon>2442</Icon>
+
+        <AllowedOccupations>
+            <OccupationRef>OCCUPATION_JANITOR</OccupationRef>
+        </AllowedOccupations>
+
+        <RequiredSkills>
+            <SkillRef>DLC_SKILL_JANITOR_SPEC_MANAGER</SkillRef>
+        </RequiredSkills>
+
+        <OnlyClinic>true</OnlyClinic>
+        <AlwaysChecked>true</AlwaysChecked>
+        <ForceWorkSpace>true</ForceWorkSpace>
+        <ForceWorkSpaceTag>janitor_admin</ForceWorkSpaceTag>
+    </GameDBEmployeeRole>
+    
+    <GameDBEmployeeRole ID="EMPL_ROLE_VENDOR">
+        <FlagBit>32768</FlagBit>
+        <Icon>2448</Icon>
+
+        <AllowedOccupations>
+            <OccupationRef>OCCUPATION_JANITOR</OccupationRef>
+        </AllowedOccupations>
+
+        <RequiredSkills>
+            <SkillRef>DLC_SKILL_JANITOR_SPEC_VENDOR</SkillRef>
+        </RequiredSkills>
+
+        <OnlyClinic>true</OnlyClinic>
+        <AlwaysChecked>true</AlwaysChecked>
+        <ForceWorkSpace>true</ForceWorkSpace>
+        <ForceWorkSpaceTag>gift_shop</ForceWorkSpaceTag>
+    </GameDBEmployeeRole>
+
+</Database>

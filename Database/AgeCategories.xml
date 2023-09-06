@@ -1,0 +1,38 @@
+﻿<Database>
+    <GameDBAgeCategory ID="AGE_YOUNG"> 
+        <MinAge>18</MinAge>
+        <MaxAge>35</MaxAge>
+        <HairSaturationMin>0.0</HairSaturationMin>  
+        <HairSaturationMax>1.0</HairSaturationMax>  
+        <HairValueMin>0.0</HairValueMin>  
+        <HairValueMax>1.0</HairValueMax>
+        <GlassesProbablility>30</GlassesProbablility>
+    </GameDBAgeCategory>
+    <GameDBAgeCategory ID="AGE_MID"> 
+        <MinAge>36</MinAge>
+        <MaxAge>55</MaxAge>
+        <HairSaturationMin>0.0</HairSaturationMin>  
+        <HairSaturationMax>1.0</HairSaturationMax>  
+        <HairValueMin>0.0</HairValueMin>  
+        <HairValueMax>1.0</HairValueMax>
+        <GlassesProbablility>50</GlassesProbablility>
+    </GameDBAgeCategory>
+    <GameDBAgeCategory ID="AGE_OLDER">
+        <MinAge>56</MinAge>
+        <MaxAge>70</MaxAge>
+        <HairSaturationMin>0.0</HairSaturationMin>
+        <HairSaturationMax>1.0</HairSaturationMax>
+        <HairValueMin>0.0</HairValueMin>
+        <HairValueMax>1.0</HairValueMax>
+        <GlassesProbablility>50</GlassesProbablility>
+    </GameDBAgeCategory>
+    <GameDBAgeCategory ID="AGE_SENIOR"> 
+        <MinAge>71</MinAge>
+        <MaxAge>90</MaxAge>
+        <HairSaturationMin>0.0</HairSaturationMin>  
+        <HairSaturationMax>0.01</HairSaturationMax>  
+        <HairValueMin>0.8</HairValueMin>  
+        <HairValueMax>1.0</HairValueMax>
+        <GlassesProbablility>80</GlassesProbablility>
+    </GameDBAgeCategory>
+</Database>

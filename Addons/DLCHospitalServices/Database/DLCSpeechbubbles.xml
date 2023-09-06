@@ -1,0 +1,40 @@
+<Database>
+
+    <GameDBSpeechBubble ID="BUBBLE_RUN">
+        <TextureID>53</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_APPLE">
+        <TextureID>54</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_HOME">
+        <TextureID>55</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_SYRINGE">
+        <TextureID>56</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_PILLS">
+        <TextureID>57</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_BANANA">
+        <TextureID>58</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_GIFT">
+        <TextureID>59</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_MEAL">
+        <TextureID>60</TextureID>
+    </GameDBSpeechBubble>
+
+    <GameDBSpeechBubble ID="BUBBLE_DRINK">
+        <TextureID>61</TextureID>
+    </GameDBSpeechBubble>
+    
+</Database>    
+    

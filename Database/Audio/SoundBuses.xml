@@ -1,0 +1,22 @@
+<Database>
+    <GameDBSoundBus ID="SOUND_BUS_ENVIRONMENT">
+        <PlaybackLimit>64</PlaybackLimit>
+    </GameDBSoundBus>
+
+    <GameDBSoundBus ID="SOUND_BUS_INGAME_TEXTS">
+        <PlaybackLimit>8</PlaybackLimit>
+    </GameDBSoundBus>
+
+    <GameDBSoundBus ID="SOUND_BUS_DOORS">
+        <PlaybackLimit>8</PlaybackLimit>
+    </GameDBSoundBus>
+
+    <GameDBSoundBus ID="SOUND_BUS_ROOMS">
+        <PlaybackLimit>32</PlaybackLimit>
+    </GameDBSoundBus>
+    
+    <GameDBSoundBus ID="SOUND_BUS_UI">
+        <PlaybackLimit>10</PlaybackLimit>
+        <MixerGroup>UI</MixerGroup>
+    </GameDBSoundBus>
+</Database>

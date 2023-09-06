@@ -1,0 +1,250 @@
+﻿<Database>
+
+    <!-- BIG //////////////////////////////////////////////////////////////////////////////// -->
+
+    <GameDBObject ID="OBJECT_TREE">
+        <AbbreviationLocID>OBJECT_TREE_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_BIGDEMO</TextureRef>
+        <TextureAtlasLayout>LAYOUT_8_X_3_PLUS_CROSSECTION</TextureAtlasLayout>
+        <SpriteShape>SHAPE_2_X_4</SpriteShape>
+        <TextureIDNW>0</TextureIDNW>
+        <TextureIDNE>0</TextureIDNE>
+        <TextureIDSE>0</TextureIDSE>
+        <TextureIDSW>0</TextureIDSW>
+        <IconIndex>928</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <NotInteractable>true</NotInteractable>
+
+        <Tags>
+            <Tag>ui_outside</Tag>
+            <Tag>tree</Tag>
+        </Tags>
+        
+        <MinWallDistance>5</MinWallDistance>
+        
+        <Cost>29</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_STREET_LAMP">
+        <AbbreviationLocID>OBJECT_STREET_LAMP_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_BIGDEMO</TextureRef>
+        <TextureAtlasLayout>LAYOUT_8_X_3_PLUS_CROSSECTION</TextureAtlasLayout>
+        <SpriteShape>SHAPE_2_X_4</SpriteShape>
+        <TextureIDNW>1</TextureIDNW>
+        <TextureIDNE>2</TextureIDNE>
+        <TextureIDSE>3</TextureIDSE>
+        <TextureIDSW>4</TextureIDSW>
+        <IconIndex>929</IconIndex>
+        
+        <TexturesBackwards>true</TexturesBackwards> <!-- this fixes orientations when rotating the camera -->
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <NotInteractable>true</NotInteractable>
+
+        <LightLevelRed>120</LightLevelRed>
+        <LightLevelGreen>100</LightLevelGreen>
+        <LightLevelBlue>80</LightLevelBlue>
+        <LightRange>7</LightRange>
+        <LightIsDirectional>false</LightIsDirectional>
+        <LightAutomatic>true</LightAutomatic>
+
+        <Tags>
+            <Tag>ui_outside</Tag>
+        </Tags>
+
+        <MinWallDistance>5</MinWallDistance>
+
+        <Cost>49</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_TREE_SMALL">
+        <AbbreviationLocID>OBJECT_TREE_SMALL_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_BIGDEMO</TextureRef>
+        <TextureAtlasLayout>LAYOUT_8_X_3_PLUS_CROSSECTION</TextureAtlasLayout>
+        <SpriteShape>SHAPE_2_X_4</SpriteShape>
+        <TextureIDNW>5</TextureIDNW>
+        <TextureIDNE>5</TextureIDNE>
+        <TextureIDSE>5</TextureIDSE>
+        <TextureIDSW>5</TextureIDSW>
+        <IconIndex>1015</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <NotInteractable>true</NotInteractable>
+
+        <Tags>
+            <Tag>ui_outside</Tag>
+            <Tag>tree</Tag>
+        </Tags>
+
+        <MinWallDistance>3</MinWallDistance>
+        
+        <Cost>29</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_THUYA">
+        <AbbreviationLocID>OBJECT_THUYA_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_BIGDEMO</TextureRef>
+        <TextureAtlasLayout>LAYOUT_8_X_3_PLUS_CROSSECTION</TextureAtlasLayout>
+        <SpriteShape>SHAPE_2_X_4</SpriteShape>
+        <TextureIDNW>6</TextureIDNW>
+        <TextureIDNE>6</TextureIDNE>
+        <TextureIDSE>6</TextureIDSE>
+        <TextureIDSW>6</TextureIDSW>
+        <IconIndex>1016</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <NotInteractable>true</NotInteractable>
+
+        <Tags>
+            <Tag>ui_outside</Tag>
+            <Tag>tree</Tag>
+        </Tags>
+
+        <MinWallDistance>2</MinWallDistance>
+        
+        <Cost>29</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_BUSH_MEDIUM">
+        <AbbreviationLocID>OBJECT_BUSH_MEDIUM_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_BIGDEMO</TextureRef>
+        <TextureAtlasLayout>LAYOUT_8_X_3_PLUS_CROSSECTION</TextureAtlasLayout>
+        <SpriteShape>SHAPE_2_X_4</SpriteShape>
+        <TextureIDNW>7</TextureIDNW>
+        <TextureIDNE>7</TextureIDNE>
+        <TextureIDSE>7</TextureIDSE>
+        <TextureIDSW>7</TextureIDSW>
+        <IconIndex>1017</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <NotInteractable>true</NotInteractable>
+
+        <Tags>
+            <Tag>ui_outside</Tag>
+        </Tags>
+
+        <Cost>29</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_TREE_TALL">
+        <AbbreviationLocID>OBJECT_TREE_TALL_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_BIGDEMO</TextureRef>
+        <TextureAtlasLayout>LAYOUT_8_X_3_PLUS_CROSSECTION</TextureAtlasLayout>
+        <SpriteShape>SHAPE_2_X_4</SpriteShape>
+        <TextureIDNW>8</TextureIDNW>
+        <TextureIDNE>8</TextureIDNE>
+        <TextureIDSE>8</TextureIDSE>
+        <TextureIDSW>8</TextureIDSW>
+        <IconIndex>756</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <NotInteractable>true</NotInteractable>
+
+        <Tags>
+            <Tag>ui_outside</Tag>
+            <Tag>tree</Tag>
+        </Tags>
+
+        <MinWallDistance>5</MinWallDistance>
+        
+        <Cost>29</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_TREE_YOUNG">
+        <AbbreviationLocID>OBJECT_TREE_YOUNG_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_BIGDEMO</TextureRef>
+        <TextureAtlasLayout>LAYOUT_8_X_3_PLUS_CROSSECTION</TextureAtlasLayout>
+        <SpriteShape>SHAPE_2_X_4</SpriteShape>
+        <TextureIDNW>9</TextureIDNW>
+        <TextureIDNE>9</TextureIDNE>
+        <TextureIDSE>9</TextureIDSE>
+        <TextureIDSW>9</TextureIDSW>
+        <IconIndex>757</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <NotInteractable>true</NotInteractable>
+
+        <Tags>
+            <Tag>ui_outside</Tag>
+            <Tag>tree</Tag>
+        </Tags>
+
+        <MinWallDistance>2</MinWallDistance>
+        
+        <Cost>59</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_PALM">
+        <AbbreviationLocID>OBJECT_PALM_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_BIGDEMO</TextureRef>
+        <TextureAtlasLayout>LAYOUT_8_X_3_PLUS_CROSSECTION</TextureAtlasLayout>
+        <SpriteShape>SHAPE_2_X_4</SpriteShape>
+        <TextureIDNW>10</TextureIDNW>
+        <TextureIDNE>10</TextureIDNE>
+        <TextureIDSE>10</TextureIDSE>
+        <TextureIDSW>10</TextureIDSW>
+        <IconIndex>798</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <NotInteractable>true</NotInteractable>
+
+        <Tags>
+            <Tag>ui_outside</Tag>
+            <Tag>tree</Tag>
+        </Tags>
+
+        <MinWallDistance>3</MinWallDistance>
+        
+        <Cost>59</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_STREET_LAMP_SMALL">
+        <AbbreviationLocID>OBJECT_STREET_LAMP_SMALL_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_BIGDEMO</TextureRef>
+        <TextureAtlasLayout>LAYOUT_8_X_3_PLUS_CROSSECTION</TextureAtlasLayout>
+        <SpriteShape>SHAPE_2_X_4</SpriteShape>
+        <TextureIDNW>11</TextureIDNW>
+        <TextureIDNE>11</TextureIDNE>
+        <TextureIDSE>11</TextureIDSE>
+        <TextureIDSW>11</TextureIDSW>
+        <IconIndex>799</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <NotInteractable>true</NotInteractable>
+
+        <LightLevelRed>120</LightLevelRed>
+        <LightLevelGreen>100</LightLevelGreen>
+        <LightLevelBlue>80</LightLevelBlue>
+        <LightRange>5</LightRange>
+        <LightIsDirectional>false</LightIsDirectional>
+        <LightAutomatic>true</LightAutomatic>
+
+        <Tags>
+            <Tag>ui_outside</Tag>
+        </Tags>
+
+        <MinWallDistance>2</MinWallDistance>
+
+        <Cost>59</Cost>
+    </GameDBObject>
+
+</Database>

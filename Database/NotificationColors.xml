@@ -1,0 +1,36 @@
+﻿<Database>
+    <!--
+     ColorLight - color switching button in popup
+     ColorDark  - backgorund in log and bottom of popup
+     ColorText  - text color in options
+     -->
+    <GameDBNotificationColor ID="NOTIF_COLOR_RED">
+        <ColorLight> <R>255</R>  <G>128</G>  <B>128</B>  </ColorLight>
+        <ColorDark> <R>153</R>  <G>71</G>  <B>69</B>  </ColorDark>
+        <ColorText> <R>255</R>  <G>0</G>  <B>0</B>  </ColorText>
+    </GameDBNotificationColor>
+    
+    <GameDBNotificationColor ID="NOTIF_COLOR_YELLOW">
+        <ColorLight> <R>255</R>  <G>192</G>  <B>0</B>  </ColorLight>
+        <ColorDark> <R>161</R>  <G>130</G>  <B>82</B>  </ColorDark>
+        <ColorText> <R>255</R>  <G>192</G>  <B>0</B>  </ColorText>
+    </GameDBNotificationColor>
+    
+    <GameDBNotificationColor ID="NOTIF_COLOR_GREEN">
+        <ColorLight> <R>128</R>  <G>255</G>  <B>128</B>  </ColorLight>
+        <ColorDark> <R>82</R>  <G>117</G>  <B>103</B>  </ColorDark>
+        <ColorText> <R>128</R>  <G>255</G>  <B>128</B>  </ColorText>
+    </GameDBNotificationColor>
+    
+    <GameDBNotificationColor ID="NOTIF_COLOR_BLUE">
+        <ColorLight> <R>0</R>  <G>192</G>  <B>255</B>  </ColorLight>
+        <ColorDark> <R>90</R>  <G>115</G>  <B>140</B>  </ColorDark>
+        <ColorText> <R>0</R>  <G>192</G>  <B>255</B>  </ColorText>
+    </GameDBNotificationColor>
+    
+    <GameDBNotificationColor ID="NOTIF_COLOR_DEFAULT">
+        <ColorLight> <R>255</R>  <G>255</G>  <B>255</B>  </ColorLight>
+        <ColorDark> <R>110</R>  <G>110</G>  <B>110</B>  </ColorDark>
+        <ColorText> <R>255</R>  <G>255</G>  <B>255</B>  </ColorText>
+    </GameDBNotificationColor>
+</Database>

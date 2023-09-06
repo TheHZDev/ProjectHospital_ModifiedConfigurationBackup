@@ -1,0 +1,1042 @@
+<Database>
+    <GameDBFloorType ID="FLOOR_TYPE_CONSTRUCTION">
+        <AbbreviationLocID>FLOOR_TYPE_CONSTRUCTION</AbbreviationLocID>
+        <TextureID>62</TextureID>
+        <IconIndex>580</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>2</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.25</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_ROOF">
+        <AbbreviationLocID>FLOOR_TYPE_ROOF</AbbreviationLocID>
+        <TextureID>211</TextureID>
+        <IconIndex>554</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>2</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.25</Specular>
+        <Outdoors>true</Outdoors>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_WHITE_TILES">
+        <AbbreviationLocID>FLOOR_TYPE_WHITE_TILES</AbbreviationLocID>
+        <TextureID>61</TextureID>
+        <IconIndex>581</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.5</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_GREEN_LINE">
+        <AbbreviationLocID>FLOOR_TYPE_GREEN_LINE</AbbreviationLocID>
+        <TextureID>128</TextureID>
+        <IconIndex>582</IconIndex>
+        <ConnectedTiles>true</ConnectedTiles>
+        <ConnectedTilesByColor>true</ConnectedTilesByColor>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.5</Specular>
+        <Colored>true</Colored>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_BLUE_LINE">
+        <AbbreviationLocID>FLOOR_TYPE_BLUE_LINE</AbbreviationLocID>
+        <TextureID>144</TextureID>
+        <IconIndex>583</IconIndex>
+        <ConnectedTiles>true</ConnectedTiles>
+        <ConnectedTilesByColor>true</ConnectedTilesByColor>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.5</Specular>
+        <Colored>true</Colored>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_CERAMIC_APRICOT">
+        <AbbreviationLocID>FLOOR_TYPE_CERAMIC_APRICOT</AbbreviationLocID>
+        <TextureID>50</TextureID>
+        <IconIndex>584</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.75</Specular>
+        <Colored>true</Colored>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_CERAMIC_BEIGE">
+        <AbbreviationLocID>FLOOR_TYPE_CERAMIC_BEIGE</AbbreviationLocID>
+        <TextureID>51</TextureID>
+        <IconIndex>585</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.5</Specular>
+        <Colored>true</Colored>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_CERAMIC_TINY">
+        <AbbreviationLocID>FLOOR_TYPE_CERAMIC_TINY</AbbreviationLocID>
+        <TextureID>52</TextureID>
+        <IconIndex>553</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.5</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_CERAMIC_MED">
+        <AbbreviationLocID>FLOOR_TYPE_CERAMIC_MED</AbbreviationLocID>
+        <TextureID>92</TextureID>
+        <IconIndex>586</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.5</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_CERAMIC_MED_COLOR">
+        <AbbreviationLocID>FLOOR_TYPE_CERAMIC_MED_COLOR</AbbreviationLocID>
+        <TextureID>89</TextureID>
+        <IconIndex>587</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>1.0</Specular>
+        <Colored>true</Colored>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_CERAMIC_MED_AMAZON">
+        <AbbreviationLocID>FLOOR_TYPE_CERAMIC_MED_AMAZON</AbbreviationLocID>
+        <TextureID>54</TextureID>
+        <IconIndex>588</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>1.0</Specular>
+        <Colored>true</Colored>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_CERAMIC_FILLED">
+        <AbbreviationLocID>FLOOR_TYPE_CERAMIC_FILLED</AbbreviationLocID>
+        <TextureID>93</TextureID>
+        <IconIndex>589</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>1.0</Specular>
+        <Colored>true</Colored>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_WHITE">
+        <AbbreviationLocID>FLOOR_TYPE_WHITE</AbbreviationLocID>
+        <TextureID>32</TextureID>
+        <IconIndex>590</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.25</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_BLACK">
+        <AbbreviationLocID>FLOOR_TYPE_BLACK</AbbreviationLocID>
+        <TextureID>8</TextureID>
+        <IconIndex>591</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.0</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_BLUE">
+        <AbbreviationLocID>FLOOR_TYPE_BLUE</AbbreviationLocID>
+        <TextureID>56</TextureID>
+        <IconIndex>592</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.5</Specular>
+        <Colored>true</Colored>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_COLORED_DARK_LINE">
+        <AbbreviationLocID>FLOOR_TYPE_COLORED_DARK_LINE</AbbreviationLocID>
+        <TextureID>112</TextureID>
+        <IconIndex>593</IconIndex>
+        <ConnectedTiles>true</ConnectedTiles>
+        <ConnectedTilesByColor>true</ConnectedTilesByColor>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.5</Specular>
+        <Colored>true</Colored>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_COLORED_LIGHT">
+        <AbbreviationLocID>FLOOR_TYPE_COLORED_LIGHT</AbbreviationLocID>
+        <TextureID>55</TextureID>
+        <IconIndex>594</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.5</Specular>
+        <Colored>true</Colored>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_COLORED_LIGHT_LINE">
+        <AbbreviationLocID>FLOOR_TYPE_COLORED_LIGHT_LINE</AbbreviationLocID>
+        <TextureID>160</TextureID>
+        <IconIndex>595</IconIndex>
+        <ConnectedTiles>true</ConnectedTiles>
+        <ConnectedTilesByColor>true</ConnectedTilesByColor>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.5</Specular>
+        <Colored>true</Colored>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_WOOD_RIGHT">
+        <AbbreviationLocID>FLOOR_TYPE_WOOD_RIGHT</AbbreviationLocID>
+        <TextureID>48</TextureID>
+        <TextureIDSW>49</TextureIDSW>
+        <TextureIDSE>48</TextureIDSE>
+        <TextureIDNE>49</TextureIDNE>
+        <IconIndex>596</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.75</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_WOOD_LEFT">
+        <AbbreviationLocID>FLOOR_TYPE_WOOD_LEFT</AbbreviationLocID>
+        <TextureID>49</TextureID>
+        <TextureIDSW>48</TextureIDSW>
+        <TextureIDSE>49</TextureIDSE>
+        <TextureIDNE>48</TextureIDNE>
+        <IconIndex>597</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.75</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_WOOD_DARK_RIGHT">
+        <AbbreviationLocID>FLOOR_TYPE_WOOD_DARK_RIGHT</AbbreviationLocID>
+        <TextureID>59</TextureID>
+        <TextureIDSW>60</TextureIDSW>
+        <TextureIDSE>59</TextureIDSE>
+        <TextureIDNE>60</TextureIDNE>
+        <IconIndex>598</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.75</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_WOOD_DARK_LEFT">
+        <AbbreviationLocID>FLOOR_TYPE_WOOD_DARK_LEFT</AbbreviationLocID>
+        <TextureID>60</TextureID>
+        <TextureIDSW>59</TextureIDSW>
+        <TextureIDSE>60</TextureIDSE>
+        <TextureIDNE>59</TextureIDNE>
+        <IconIndex>599</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.75</Specular>
+    </GameDBFloorType>
+
+    <!-- 
+    <GameDBFloorType ID="FLOOR_TYPE_RANDOM_COLORED">
+        <AbbreviationLocID>FLOOR_TYPE_CERAMIC_BLUE</AbbreviationLocID>
+        <TextureID>53</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>25</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.5</Specular>
+    </GameDBFloorType>
+    -->
+
+    <GameDBFloorType ID="FLOOR_TYPE_LINO_COLORED_LIGHT">
+        <AbbreviationLocID>FLOOR_TYPE_LINO_COLORED_LIGHT</AbbreviationLocID>
+        <TextureID>90</TextureID>
+        <IconIndex>579</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.5</Specular>
+        <Colored>true</Colored>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_LINO_LIGHT_LINE">
+        <AbbreviationLocID>FLOOR_TYPE_LINO_LIGHT_LINE</AbbreviationLocID>
+        <TextureID>176</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>true</ConnectedTiles>
+        <ConnectedTilesByColor>true</ConnectedTilesByColor>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.5</Specular>
+        <Colored>true</Colored>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_LINO_COLORED_DARK">
+        <AbbreviationLocID>FLOOR_TYPE_LINO_COLORED_DARK</AbbreviationLocID>
+        <TextureID>91</TextureID>
+        <IconIndex>600</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.5</Specular>
+        <Colored>true</Colored>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_LINO_DARK_LINE">
+        <AbbreviationLocID>FLOOR_TYPE_LINO_DARK_LINE</AbbreviationLocID>
+        <TextureID>192</TextureID>
+        <IconIndex>601</IconIndex>
+        <ConnectedTiles>true</ConnectedTiles>
+        <ConnectedTilesByColor>true</ConnectedTilesByColor>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.5</Specular>
+        <Colored>true</Colored>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_PANNELS">
+        <AbbreviationLocID>FLOOR_TYPE_PANNELS</AbbreviationLocID>
+        <TextureID>210</TextureID>
+        <IconIndex>602</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Specular>0.5</Specular>
+        <Colored>true</Colored>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_BLOOD">
+        <AbbreviationLocID>FLOOR_TYPE_BLOOD</AbbreviationLocID>
+        <TextureID>33</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>10.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <TextureVariations>9</TextureVariations>
+        <TextureVariationsSequential>false</TextureVariationsSequential>
+        <HiddenInUI>true</HiddenInUI>
+        <Outdoors>false</Outdoors>
+        <Specular>0.25</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_BLOOD_01">
+        <AbbreviationLocID>FLOOR_TYPE_BLOOD</AbbreviationLocID>
+        <TextureID>34</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>10.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <HiddenInUI>true</HiddenInUI>
+        <Outdoors>true</Outdoors>
+        <Specular>0.25</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_BLOOD_02">
+        <AbbreviationLocID>FLOOR_TYPE_BLOOD</AbbreviationLocID>
+        <TextureID>35</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>10.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <Outdoors>true</Outdoors>
+        <HiddenInUI>true</HiddenInUI>
+        <Specular>0.25</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_BLOOD_03">
+        <AbbreviationLocID>FLOOR_TYPE_BLOOD</AbbreviationLocID>
+        <TextureID>36</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>10.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <Outdoors>true</Outdoors>
+        <HiddenInUI>true</HiddenInUI>
+        <Specular>0.25</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_BLOOD_04">
+        <AbbreviationLocID>FLOOR_TYPE_BLOOD</AbbreviationLocID>
+        <TextureID>37</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>10.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <Outdoors>true</Outdoors>
+        <HiddenInUI>true</HiddenInUI>
+        <Specular>0.25</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_BLOOD_05">
+        <AbbreviationLocID>FLOOR_TYPE_BLOOD</AbbreviationLocID>
+        <TextureID>38</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>10.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <Outdoors>true</Outdoors>
+        <HiddenInUI>true</HiddenInUI>
+        <Specular>0.25</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_BLOOD_06">
+        <AbbreviationLocID>FLOOR_TYPE_BLOOD</AbbreviationLocID>
+        <TextureID>39</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>10.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <Outdoors>true</Outdoors>
+        <HiddenInUI>true</HiddenInUI>
+        <Specular>0.25</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_BLOOD_07">
+        <AbbreviationLocID>FLOOR_TYPE_BLOOD</AbbreviationLocID>
+        <TextureID>40</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>10.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <Outdoors>true</Outdoors>
+        <HiddenInUI>true</HiddenInUI>
+        <Specular>0.25</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_BLOOD_08">
+        <AbbreviationLocID>FLOOR_TYPE_BLOOD</AbbreviationLocID>
+        <TextureID>41</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>10.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <Outdoors>true</Outdoors>
+        <HiddenInUI>true</HiddenInUI>
+        <Specular>0.25</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_DONT_USE">
+        <AbbreviationLocID>FLOOR_TYPE_DONT_USE</AbbreviationLocID>
+        <TextureID>57</TextureID>
+        <IconIndex>1018</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>25</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <HiddenInUI>true</HiddenInUI>
+    </GameDBFloorType>
+
+    <!-- //OUTSIDE//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <GameDBFloorType ID="FLOOR_TYPE_CONCRETE_BRICK">
+        <AbbreviationLocID>FLOOR_TYPE_CONCRETE_BRICK</AbbreviationLocID>
+        <TextureID>64</TextureID>
+        <IconIndex>578</IconIndex>
+        <ConnectedTiles>true</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>2</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Outdoors>true</Outdoors>
+        <Specular>0.1</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_INTERLOCKING_PAWMENT">
+        <AbbreviationLocID>FLOOR_TYPE_INTERLOCKING_PAWMENT</AbbreviationLocID>
+        <TextureID>224</TextureID>
+        <IconIndex>603</IconIndex>
+        <ConnectedTiles>true</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>2</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Outdoors>true</Outdoors>
+        <Specular>0.1</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_GRASS">
+        <AbbreviationLocID>FLOOR_TYPE_GRASS</AbbreviationLocID>
+        <TextureID>11</TextureID>
+        <IconIndex>577</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <HighPriority>true</HighPriority>
+        <PathCost>3.0</PathCost>
+        <Cost>100</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <TextureVariations>4</TextureVariations>
+        <Outdoors>true</Outdoors>
+        <Specular>0.0</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_GRASS_01">
+        <AbbreviationLocID>FLOOR_TYPE_GRASS_01</AbbreviationLocID>
+        <TextureID>12</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <HighPriority>true</HighPriority>
+        <PathCost>3.0</PathCost>
+        <Cost>100</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <Outdoors>true</Outdoors>
+        <HiddenInUI>true</HiddenInUI>
+        <Specular>0.0</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_GRASS_02">
+        <AbbreviationLocID>FLOOR_TYPE_GRASS_02</AbbreviationLocID>
+        <TextureID>13</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <HighPriority>true</HighPriority>
+        <PathCost>3.0</PathCost>
+        <Cost>100</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <Outdoors>true</Outdoors>
+        <HiddenInUI>true</HiddenInUI>
+        <Specular>0.0</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_GRASS_03">
+        <AbbreviationLocID>FLOOR_TYPE_GRASS_03</AbbreviationLocID>
+        <TextureID>14</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <HighPriority>true</HighPriority>
+        <PathCost>3.0</PathCost>
+        <Cost>100</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <HiddenInUI>true</HiddenInUI>
+        <Specular>0.0</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_GRASS_DARK">
+        <AbbreviationLocID>FLOOR_TYPE_GRASS_DARK</AbbreviationLocID>
+        <TextureID>27</TextureID>
+        <IconIndex>604</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <HighPriority>true</HighPriority>
+        <PathCost>3.0</PathCost>
+        <Cost>100</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <TextureVariations>4</TextureVariations>
+        <Outdoors>true</Outdoors>
+        <Specular>0.0</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_GRASS_DARK_01">
+        <AbbreviationLocID>FLOOR_TYPE_GRASS_DARK</AbbreviationLocID>
+        <TextureID>28</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <HighPriority>true</HighPriority>
+        <PathCost>3.0</PathCost>
+        <Cost>100</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <Outdoors>true</Outdoors>
+        <HiddenInUI>true</HiddenInUI>
+        <Specular>0.0</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_GRASS_DARK_02">
+        <AbbreviationLocID>FLOOR_TYPE_GRASS_DARK</AbbreviationLocID>
+        <TextureID>29</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <HighPriority>true</HighPriority>
+        <PathCost>3.0</PathCost>
+        <Cost>100</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <Outdoors>true</Outdoors>
+        <HiddenInUI>true</HiddenInUI>
+        <Specular>0.0</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_GRASS_DARK_03">
+        <AbbreviationLocID>FLOOR_TYPE_GRASS_DARK</AbbreviationLocID>
+        <TextureID>30</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <HighPriority>true</HighPriority>
+        <PathCost>3.0</PathCost>
+        <Cost>100</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <HiddenInUI>true</HiddenInUI>
+        <Specular>0.0</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_ROAD">
+        <AbbreviationLocID>FLOOR_TYPE_ROAD</AbbreviationLocID>
+        <TextureID>80</TextureID>
+        <IconIndex>605</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>10.0</PathCost>
+        <Cost>100</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Outdoors>true</Outdoors>
+        <Specular>0.25</Specular>
+        <AllowedOnParking>true</AllowedOnParking>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_LINE">
+        <AbbreviationLocID>FLOOR_TYPE_LINE</AbbreviationLocID>
+        <TextureID>96</TextureID>
+        <IconIndex>606</IconIndex>
+        <ConnectedTiles>true</ConnectedTiles>
+        <PathCost>10.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Outdoors>true</Outdoors>
+        <Specular>0.25</Specular>
+        <AllowedOnParking>true</AllowedOnParking>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_ROAD_DETAIL">
+        <AbbreviationLocID>FLOOR_TYPE_ROAD_DETAIL</AbbreviationLocID>
+        <TextureID>81</TextureID>
+        <IconIndex>607</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>10.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <TextureVariations>6</TextureVariations>
+        <TextureVariationsSequential>true</TextureVariationsSequential>
+        <Outdoors>true</Outdoors>
+        <Specular>0.25</Specular>
+        <AllowedOnParking>true</AllowedOnParking>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_ROAD_DETAIL_01">
+        <AbbreviationLocID>FLOOR_TYPE_ROAD_DETAIL_01</AbbreviationLocID>
+        <TextureID>82</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>10.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <HiddenInUI>true</HiddenInUI>
+        <Outdoors>true</Outdoors>
+        <Specular>0.25</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_ROAD_DETAIL_02">
+        <AbbreviationLocID>FLOOR_TYPE_ROAD_DETAIL_02</AbbreviationLocID>
+        <TextureID>83</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>10.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <Outdoors>true</Outdoors>
+        <HiddenInUI>true</HiddenInUI>
+        <Specular>0.25</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_ROAD_DETAIL_03">
+        <AbbreviationLocID>FLOOR_TYPE_ROAD_DETAIL_03</AbbreviationLocID>
+        <TextureID>84</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>10.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <Outdoors>true</Outdoors>
+        <HiddenInUI>true</HiddenInUI>
+        <Specular>0.25</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_ROAD_DETAIL_04">
+        <AbbreviationLocID>FLOOR_TYPE_ROAD_DETAIL_04</AbbreviationLocID>
+        <TextureID>85</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>10.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <Outdoors>true</Outdoors>
+        <HiddenInUI>true</HiddenInUI>
+        <Specular>0.25</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_ROAD_DETAIL_05">
+        <AbbreviationLocID>FLOOR_TYPE_ROAD_DETAIL_05</AbbreviationLocID>
+        <TextureID>86</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>10.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <Outdoors>true</Outdoors>
+        <HiddenInUI>true</HiddenInUI>
+        <Specular>0.25</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_ROAD_DRAIN_LEFT">
+        <AbbreviationLocID>FLOOR_TYPE_ROAD_DRAIN_LEFT</AbbreviationLocID>
+        <TextureID>87</TextureID>
+        <IconIndex>544</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>10.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <TextureVariations>2</TextureVariations>
+        <TextureVariationsSequential>true</TextureVariationsSequential>
+        <Outdoors>true</Outdoors>
+        <Specular>0.25</Specular>
+        <AllowedOnParking>true</AllowedOnParking>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_ROAD_DRAIN_RIGHT">
+        <AbbreviationLocID>FLOOR_TYPE_ROAD_DRAIN_RIGHT</AbbreviationLocID>
+        <TextureID>88</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>10.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Outdoors>true</Outdoors>
+        <HiddenInUI>true</HiddenInUI>
+        <Specular>0.25</Specular>
+        <AllowedOnParking>true</AllowedOnParking>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_PEDESTRIAN_CROSSING_NW">
+        <AbbreviationLocID>FLOOR_TYPE_PEDESTRIAN_CROSSING_NW</AbbreviationLocID>
+        <TextureID>9</TextureID>
+        <TextureIDSW>10</TextureIDSW>
+        <TextureIDSE>9</TextureIDSE>
+        <TextureIDNE>10</TextureIDNE>
+        <IconIndex>545</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Outdoors>true</Outdoors>
+        <Specular>0.25</Specular>
+        <AllowedOnParking>true</AllowedOnParking>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_PEDESTRIAN_CROSSING_NE">
+        <AbbreviationLocID>FLOOR_TYPE_PEDESTRIAN_CROSSING_NE</AbbreviationLocID>
+        <TextureID>10</TextureID>
+        <TextureIDSW>9</TextureIDSW>
+        <TextureIDSE>10</TextureIDSE>
+        <TextureIDNE>9</TextureIDNE>
+        <IconIndex>546</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Outdoors>true</Outdoors>
+        <Specular>0.25</Specular>
+        <AllowedOnParking>true</AllowedOnParking>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_ROAD_AMBULANCE_L">
+        <AbbreviationLocID>FLOOR_TYPE_ROAD_AMBULANCE_L</AbbreviationLocID>
+        <TextureID>6</TextureID>
+        <TextureIDSW>7</TextureIDSW>
+        <TextureIDSE>6</TextureIDSE>
+        <TextureIDNE>7</TextureIDNE>
+        <IconIndex>547</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Outdoors>true</Outdoors>
+        <Specular>0.25</Specular>
+        <AllowedOnParking>true</AllowedOnParking>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_ROAD_AMBULANCE_R">
+        <AbbreviationLocID>FLOOR_TYPE_ROAD_AMBULANCE_R</AbbreviationLocID>
+        <TextureID>7</TextureID>
+        <TextureIDSW>6</TextureIDSW>
+        <TextureIDSE>7</TextureIDSE>
+        <TextureIDNE>6</TextureIDNE>
+        <IconIndex>548</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Outdoors>true</Outdoors>
+        <Specular>0.25</Specular>
+        <AllowedOnParking>true</AllowedOnParking>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_CONSTRUCTION_OUTSIDE">
+        <AbbreviationLocID>FLOOR_TYPE_CONSTRUCTION_OUTSIDE</AbbreviationLocID>
+        <TextureID>63</TextureID>
+        <IconIndex>549</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>2</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Outdoors>true</Outdoors>
+        <Specular>0.25</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_SAND">
+        <AbbreviationLocID>FLOOR_TYPE_SAND</AbbreviationLocID>
+        <TextureID>94</TextureID>
+        <IconIndex>550</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Outdoors>true</Outdoors>
+        <Specular>0.25</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_GRAVEL">
+        <AbbreviationLocID>FLOOR_TYPE_GRAVEL</AbbreviationLocID>
+        <TextureID>208</TextureID>
+        <IconIndex>551</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Outdoors>true</Outdoors>
+        <Specular>0.25</Specular>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_DIRT">
+        <AbbreviationLocID>FLOOR_TYPE_DIRT</AbbreviationLocID>
+        <TextureID>95</TextureID>
+        <IconIndex>552</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Outdoors>true</Outdoors>
+        <Specular>0.1</Specular>
+    </GameDBFloorType>
+
+    <!-- //HIDDEN//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <GameDBFloorType ID="FLOOR_TYPE_ELEVATOR">
+        <AbbreviationLocID>FLOOR_TYPE_ELEVATOR</AbbreviationLocID>
+        <TextureID>209</TextureID>
+        <IconIndex>1018</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <HiddenInUI>true</HiddenInUI>
+        <Specular>0.25</Specular>
+    </GameDBFloorType>
+
+    <!-- //DEBUG//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <GameDBFloorType ID="FLOOR_TYPE_NONE">
+        <AbbreviationLocID>FLOOR_TYPE_NONE</AbbreviationLocID>
+        <TextureID>-1</TextureID>
+        <IconIndex>1018</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>10000.0</PathCost>
+        <Cost>0</Cost>
+        <MaxDirtLevel>0</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <Outdoors>true</Outdoors>
+        <Specular>0.0</Specular>
+        <HiddenInUI>true</HiddenInUI>
+    </GameDBFloorType>
+
+    <!-- //REMOVE//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <GameDBFloorType ID="FLOOR_TYPE_VARIATION">
+        <AbbreviationLocID>FLOOR_TYPE_VARIATION</AbbreviationLocID>
+        <TextureID>1</TextureID>
+        <IconIndex>576</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>2</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <HiddenInUI>true</HiddenInUI>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_CONNECTED">
+        <AbbreviationLocID>FLOOR_TYPE_CONNECTED</AbbreviationLocID>
+        <TextureID>1</TextureID>
+        <IconIndex>1018</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <HiddenInUI>true</HiddenInUI>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_DEFAULT">
+        <AbbreviationLocID>FLOOR_TYPE_DEFAULT</AbbreviationLocID>
+        <TextureID>1</TextureID>
+        <IconIndex>1018</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>10</Cost>
+        <MaxDirtLevel>2</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <HiddenInUI>true</HiddenInUI>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_BROWN">
+        <AbbreviationLocID>FLOOR_TYPE_BROWN</AbbreviationLocID>
+        <TextureID>1</TextureID>
+        <IconIndex>1018</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>25</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <HiddenInUI>true</HiddenInUI>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_GREEN">
+        <AbbreviationLocID>FLOOR_TYPE_GREEN</AbbreviationLocID>
+        <TextureID>1</TextureID>
+        <IconIndex>1018</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>25</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <HiddenInUI>true</HiddenInUI>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_PURPLE">
+        <AbbreviationLocID>FLOOR_TYPE_PURPLE</AbbreviationLocID>
+        <TextureID>1</TextureID>
+        <IconIndex>1018</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>25</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <HiddenInUI>true</HiddenInUI>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_BROWN_LINE">
+        <AbbreviationLocID>FLOOR_TYPE_BROWN_LINE</AbbreviationLocID>
+        <TextureID>1</TextureID>
+        <IconIndex>1018</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>25</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <HiddenInUI>true</HiddenInUI>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_PURPLE_LINE">
+        <AbbreviationLocID>FLOOR_TYPE_PURPLE_LINE</AbbreviationLocID>
+        <TextureID>1</TextureID>
+        <IconIndex>1018</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>25</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <HiddenInUI>true</HiddenInUI>
+    </GameDBFloorType>
+
+    <GameDBFloorType ID="FLOOR_TYPE_CERAMIC_BLUE">
+        <TextureID>1</TextureID>
+        <IconIndex>1018</IconIndex>
+        <ConnectedTiles>false</ConnectedTiles>
+        <PathCost>1.0</PathCost>
+        <Cost>25</Cost>
+        <MaxDirtLevel>4</MaxDirtLevel>
+        <TextureVariations>1</TextureVariations>
+        <HiddenInUI>true</HiddenInUI>
+    </GameDBFloorType>
+
+</Database>

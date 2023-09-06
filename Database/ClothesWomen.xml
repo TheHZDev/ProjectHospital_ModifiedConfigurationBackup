@@ -1,0 +1,291 @@
+﻿<Database>
+    <GameDBClothes ID="CLOTHES_FEMALE_PANTS_DEFAULT"> 
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hips_pants</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_leg</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_leg</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_calf_pants</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_calf_pants</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_leg_cover</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+
+    <GameDBClothes ID="CLOTHES_FEMALE_SUIT_PANTS_001">
+        <SingleColor>true</SingleColor>
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hips_pants</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_leg</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_leg</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_calf_pants</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_calf_pants</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_leg_cover</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+
+    <GameDBClothes ID="CLOTHES_FEMALE_TOP_DEFAULT"> 
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>body</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hips</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_arm</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_arm</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_forearm</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_forearm</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+
+    <GameDBClothes ID="CLOTHES_FEMALE_TSHIRT"> 
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>body</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hips</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_arm</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_arm</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+
+    <GameDBClothes ID="CLOTHES_FEMALE_TSHIRT_MEDICAL"> 
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>body</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hips</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_arm</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_arm</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+
+    <GameDBClothes ID="CLOTHES_FEMALE_TSHIRT_DOCTOR"> 
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>body</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hips</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_arm</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_arm</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+
+    <GameDBClothes ID="CLOTHES_FEMALE_SURGEON">
+        <SingleColor>true</SingleColor>
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>body</SliceID><TextureID>6</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hips</SliceID><TextureID>6</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_arm</SliceID><TextureID>6</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_arm</SliceID><TextureID>6</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_forearm</SliceID><TextureID>6</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_forearm</SliceID><TextureID>6</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_hand</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_hand</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>15</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hair_back</SliceID><TextureID>15</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+
+    <GameDBClothes ID="CLOTHES_FEMALE_SCRUBS">
+        <SingleColor>true</SingleColor>
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>body</SliceID><TextureID>7</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hips</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_arm</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_arm</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_forearm</SliceID><TextureID>13</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_forearm</SliceID><TextureID>13</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_hand</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_hand</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>15</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hair_back</SliceID><TextureID>15</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+
+    <GameDBClothes ID="CLOTHES_FEMALE_PARAMEDIC_SHIRT">
+        <SingleColor>true</SingleColor>
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>body</SliceID><TextureID>8</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hips</SliceID><TextureID>8</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_arm</SliceID><TextureID>8</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_arm</SliceID><TextureID>8</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+
+    <GameDBClothes ID="CLOTHES_FEMALE_SUIT_JACKET_001">
+        <SingleColor>true</SingleColor>
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>body</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hips</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_arm</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_arm</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_forearm</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_forearm</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+
+    <GameDBClothes ID="CLOTHES_FEMALE_SHOES_DEFAULT"> 
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>left_foot</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_foot</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+        
+    <GameDBClothes ID="CLOTHES_FEMALE_SHORTS">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hips_pants</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_leg</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_leg</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_calf_pants</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_calf_pants</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_leg_cover</SliceID><TextureID>13</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+    
+    <GameDBClothes ID="CLOTHES_FEMALE_TOP_SHIRT"> 
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>body</SliceID><TextureID>9</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hips</SliceID><TextureID>9</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_arm</SliceID><TextureID>9</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_arm</SliceID><TextureID>9</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_forearm</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_forearm</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+    
+     <GameDBClothes ID="CLOTHES_FEMALE_SHOES_OUTDOOR"> 
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>left_foot</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_foot</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+    
+    <GameDBClothes ID="CLOTHES_FEMALE_BALLERINES"> 
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>left_foot</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_foot</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+    
+    <GameDBClothes ID="CLOTHES_FEMALE_SNEAKERS_002"> 
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>left_foot</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_foot</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+    
+    <GameDBClothes ID="CLOTHES_FEMALE_SNEAKERS_003"> 
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>left_foot</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_foot</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+
+    <GameDBClothes ID="CLOTHES_FEMALE_DOCTOR_GLOVES">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>body</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hips</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_arm</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_arm</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_hand</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_hand</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+
+    <!-- //DLC ID///////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <GameDBClothes ID="CLOTHES_FEMALE_QUARANTINE_DOC">
+        <SingleColor>true</SingleColor>
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>body</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hips</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_arm</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_arm</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_forearm</SliceID><TextureID>13</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_forearm</SliceID><TextureID>13</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_hand</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_hand</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>14</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hair_back</SliceID><TextureID>14</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+
+    <GameDBClothes ID="CLOTHES_FEMALE_QUARANTINE_NURSE_LAB">
+        <SingleColor>true</SingleColor>
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>body</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hips</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_arm</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_arm</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_forearm</SliceID><TextureID>13</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_forearm</SliceID><TextureID>13</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_hand</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_hand</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>14</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hair_back</SliceID><TextureID>14</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+
+    <GameDBClothes ID="CLOTHES_FEMALE_QUARANTINE_JANITOR">
+        <SingleColor>true</SingleColor>
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>body</SliceID><TextureID>10</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hips</SliceID><TextureID>9</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_arm</SliceID><TextureID>9</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_arm</SliceID><TextureID>9</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_forearm</SliceID><TextureID>13</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_forearm</SliceID><TextureID>13</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_hand</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_hand</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>14</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hair_back</SliceID><TextureID>14</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+
+    <GameDBClothes ID="CLOTHES_FEMALE_TOP_SHIRT_JANITOR"> 
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>body</SliceID><TextureID>10</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hips</SliceID><TextureID>9</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_arm</SliceID><TextureID>9</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_arm</SliceID><TextureID>9</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_forearm</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_forearm</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+
+    <!-- //DLC TD///////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <GameDBClothes ID="CLOTHES_FEMALE_TSHIRT_POLICE">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>body</SliceID><TextureID>13</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hips</SliceID><TextureID>13</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_arm</SliceID><TextureID>10</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_arm</SliceID><TextureID>10</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+
+    <GameDBClothes ID="CLOTHES_FEMALE_PANTS_POLICE"> 
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hips_pants</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_leg</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_leg</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_calf_pants</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_calf_pants</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_leg_cover</SliceID><TextureID>-1</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+
+    <GameDBClothes ID="CLOTHES_FEMALE_SHIRT_FIREFIGHTER"> 
+        <SingleColor>true</SingleColor>    
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>body</SliceID><TextureID>12</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hips</SliceID><TextureID>12</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_arm</SliceID><TextureID>11</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_arm</SliceID><TextureID>11</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_forearm</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_forearm</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+
+    <GameDBClothes ID="CLOTHES_FEMALE_PANTS_FIREFIGHTER"> 
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hips_pants</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_leg</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_leg</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_calf_pants</SliceID><TextureID>7</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>left_calf_pants</SliceID><TextureID>7</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>right_leg_cover</SliceID><TextureID>-1</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBClothes>
+
+</Database>

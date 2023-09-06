@@ -1,0 +1,169 @@
+<Database>
+    <GameDBFacialFeatures ID="FACIAL_FEATURES_MALE">
+        <HeadShapes>
+            <GameDBFacialFeatureRef>HEAD_SHAPE_MALE_01</GameDBFacialFeatureRef>
+        </HeadShapes>
+
+        <HairStyles>
+            <GameDBFacialFeatureRef>HAIR_STYLE_MALE_MEDIUM_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_MALE_SHORT_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_MALE_BALDING_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_MALE_NEW_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_MALE_NEW_02</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_MALE_NEW_03</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_MALE_NEW_04</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_MALE_NEW_05</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_MALE_NEW_06</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_MALE_NEW_07</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_MALE_NEW_08</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_MALE_NEW_09</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_MALE_NEW_10</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_MALE_NEW_11</GameDBFacialFeatureRef>
+        </HairStyles>
+
+        <BeardStyles>
+            <GameDBFacialFeatureRef>BEARD_STYLE_MALE_FULL_SHORT</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>BEARD_STYLE_MALE_MOUSTACHE</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>BEARD_STYLE_MALE_GOATEE</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>BEARD_STYLE_MALE_SHAVED</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>BEARD_STYLE_MALE_HIPSTER</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>BEARD_STYLE_MALE_NEW_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>BEARD_STYLE_MALE_NEW_02</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>BEARD_STYLE_MALE_NEW_03</GameDBFacialFeatureRef>
+        </BeardStyles>
+
+        <EyeShapes>
+            <GameDBFacialFeatureRef>EYES_MALE_ROUND_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_MALE_ASIAN_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_MALE_ROUND_02</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_MALE_ROUND_03</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_MALE_ROUND_04</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_MALE_ASIAN_02</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_MALE_ROUND_05</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_MALE_ROUND_06</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_MALE_ROUND_07</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_MALE_ROUND_08</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_MALE_ROUND_09</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_MALE_ROUND_10</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_MALE_ROUND_11</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_MALE_ROUND_12</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_MALE_ROUND_13</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_MALE_ROUND_14</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_MALE_ROUND_15</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_MALE_ROUND_16</GameDBFacialFeatureRef>
+        </EyeShapes>
+
+        <Glasses>
+            <GameDBFacialFeatureRef>GLASSES_MALE_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>GLASSES_MALE_02</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>GLASSES_MALE_03</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>GLASSES_MALE_04</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>GLASSES_MALE_05</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>GLASSES_MALE_06</GameDBFacialFeatureRef>
+        </Glasses>
+
+        <NoseTypes>
+            <GameDBFacialFeatureRef>NOSE_MALE_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>NOSE_MALE_02</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>NOSE_MALE_03</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>NOSE_MALE_04</GameDBFacialFeatureRef>
+        </NoseTypes>
+
+        <MouthTypes>
+            <GameDBFacialFeatureRef>MOUTH_MALE_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>MOUTH_MALE_02</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>MOUTH_MALE_03</GameDBFacialFeatureRef>
+        </MouthTypes>
+
+        <WrinkleTypes>
+            <GameDBFacialFeatureRef>WRINKLES_MALE_NONE</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>WRINKLES_MALE_MID_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>WRINKLES_MALE_MID_02</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>WRINKLES_MALE_SENIOR_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>WRINKLES_MALE_SENIOR_02</GameDBFacialFeatureRef>
+        </WrinkleTypes>
+    </GameDBFacialFeatures>
+
+    <GameDBFacialFeatures ID="FACIAL_FEATURES_FEMALE">
+        <HeadShapes>
+            <GameDBFacialFeatureRef>HEAD_SHAPE_FEMALE_01</GameDBFacialFeatureRef>
+        </HeadShapes>
+
+        <HairStyles>
+            <GameDBFacialFeatureRef>HAIR_STYLE_FEMALE_LONG_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_FEMALE_PONY_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_FEMALE_SHORT_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_FEMALE_PUFFY_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_FEMALE_NEW_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_FEMALE_NEW_02</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_FEMALE_NEW_03</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_FEMALE_NEW_04</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_FEMALE_NEW_05</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_FEMALE_NEW_06</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_FEMALE_NEW_07</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>HAIR_STYLE_FEMALE_NEW_08</GameDBFacialFeatureRef>
+        </HairStyles>
+
+        <EyeShapes>
+            <GameDBFacialFeatureRef>EYES_FEMALE_ROUND_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_FEMALE_ASIAN_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_FEMALE_ASIAN_02</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_FEMALE_ROUND_02</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_FEMALE_ROUND_03</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_FEMALE_ROUND_04</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_FEMALE_ROUND_05</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_FEMALE_ROUND_06</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_FEMALE_ROUND_07</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_FEMALE_ROUND_08</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_FEMALE_ROUND_09</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_FEMALE_ROUND_10</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_FEMALE_ROUND_11</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_FEMALE_ROUND_12</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_FEMALE_ROUND_13</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_FEMALE_ROUND_14</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_FEMALE_ROUND_15</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_FEMALE_ROUND_16</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_FEMALE_ROUND_17</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_FEMALE_ROUND_18</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_FEMALE_ROUND_19</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>EYES_FEMALE_ROUND_20</GameDBFacialFeatureRef>
+        </EyeShapes>
+
+        <NoseTypes>
+            <GameDBFacialFeatureRef>NOSE_FEMALE_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>NOSE_FEMALE_02</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>NOSE_FEMALE_03</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>NOSE_FEMALE_04</GameDBFacialFeatureRef>
+        </NoseTypes>
+
+        <Glasses>
+            <GameDBFacialFeatureRef>GLASSES_FEMALE_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>GLASSES_FEMALE_02</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>GLASSES_FEMALE_03</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>GLASSES_FEMALE_04</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>GLASSES_FEMALE_05</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>GLASSES_FEMALE_06</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>GLASSES_FEMALE_07</GameDBFacialFeatureRef>
+        </Glasses>
+
+        <MouthTypes>
+            <GameDBFacialFeatureRef>MOUTH_FEMALE_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>MOUTH_FEMALE_02</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>MOUTH_FEMALE_03</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>MOUTH_FEMALE_04</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>MOUTH_FEMALE_05</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>MOUTH_FEMALE_06</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>MOUTH_FEMALE_07</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>MOUTH_FEMALE_08</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>MOUTH_FEMALE_09</GameDBFacialFeatureRef>
+        </MouthTypes>
+
+        <WrinkleTypes>
+            <GameDBFacialFeatureRef>WRINKLES_FEMALE_NONE</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>WRINKLES_FEMALE_MID_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>WRINKLES_FEMALE_MID_02</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>WRINKLES_FEMALE_SENIOR_01</GameDBFacialFeatureRef>
+            <GameDBFacialFeatureRef>WRINKLES_FEMALE_SENIOR_02</GameDBFacialFeatureRef>
+        </WrinkleTypes>
+    </GameDBFacialFeatures>
+</Database>

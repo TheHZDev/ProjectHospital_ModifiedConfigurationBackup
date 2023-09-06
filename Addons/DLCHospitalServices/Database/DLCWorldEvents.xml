@@ -1,0 +1,100 @@
+﻿<!--  
+    MORE_PATIENTS_FOR_A_RANDOM_DEPARTMENT_PERCENT,
+    MODIFIED_PATIENT_NUMBERS_PERCENT,
+    MODIFIED_INSURANCE_PAYMENTS_PERCENT,
+    MODIFIED_DIAGNOSIS_TYPES, // trauma/disease  -->
+
+<Database>
+    <GameDBWorldEvent ID="DLC_WORLD_EVENT_RENOVATION">
+        <DescriptionID>DLC_WORLD_EVENT_RENOVATION_TEXT</DescriptionID>
+        <Type>MORE_PATIENTS_FOR_A_RANDOM_DEPARTMENT_PERCENT</Type>
+        <ModifierMin>20</ModifierMin>
+        <ModifierMax>50</ModifierMax>
+        <DurationDaysMin>1</DurationDaysMin>
+        <DurationDaysMin>3</DurationDaysMin>
+        <IconIndex>452</IconIndex>
+    </GameDBWorldEvent>
+
+    <GameDBWorldEvent ID="DLC_WORLD_EVENT_OTHER_HOSPITAL_CLOSED">
+        <DescriptionID>DLC_WORLD_EVENT_OTHER_HOSPITAL_CLOSED_TEXT</DescriptionID>
+        <Type>MODIFIED_PATIENT_NUMBERS_PERCENT</Type>
+        <ModifierMin>10</ModifierMin>
+        <ModifierMax>30</ModifierMax>
+        <DurationDaysMin>2</DurationDaysMin>
+        <DurationDaysMin>5</DurationDaysMin>
+        <IconIndex>452</IconIndex>
+    </GameDBWorldEvent>
+
+    <GameDBWorldEvent ID="DLC_WORLD_EVENT_HOLIDAY_SEASON">
+        <DescriptionID>DLC_WORLD_EVENT_HOLIDAY_SEASON_TEXT</DescriptionID>
+        <Type>MODIFIED_PATIENT_NUMBERS_PERCENT</Type>
+        <ModifierMin>-10</ModifierMin>
+        <ModifierMax>-30</ModifierMax>
+        <DurationDaysMin>1</DurationDaysMin>
+        <DurationDaysMin>5</DurationDaysMin>
+        <IconIndex>452</IconIndex>
+    </GameDBWorldEvent>
+
+    <GameDBWorldEvent ID="DLC_WORLD_EVENT_BAD_PRESS">
+        <DescriptionID>DLC_WORLD_EVENT_BAD_PRESS_TEXT</DescriptionID>
+        <Type>MODIFIED_PATIENT_NUMBERS_PERCENT</Type>
+        <ModifierMin>-20</ModifierMin>
+        <ModifierMax>-50</ModifierMax>
+        <DurationDaysMin>1</DurationDaysMin>
+        <DurationDaysMin>3</DurationDaysMin>
+        <IconIndex>452</IconIndex>
+    </GameDBWorldEvent>
+
+    <GameDBWorldEvent ID="DLC_WORLD_EVENT_INFLUENCER_VISIT">
+        <DescriptionID>DLC_WORLD_EVENT_INFLUENCER_VISIT_TEXT</DescriptionID>
+        <Type>MODIFIED_PATIENT_NUMBERS_PERCENT</Type>
+        <ModifierMin>20</ModifierMin>
+        <ModifierMax>50</ModifierMax>
+        <DurationDaysMin>1</DurationDaysMin>
+        <DurationDaysMin>3</DurationDaysMin>
+        <IconIndex>452</IconIndex>
+    </GameDBWorldEvent>
+
+    <GameDBWorldEvent ID="DLC_WORLD_EVENT_FINANCIAL_CRISIS">
+        <DescriptionID>DLC_WORLD_EVENT_FINANCIAL_CRISIS_TEXT</DescriptionID>
+        <Type>MODIFIED_INSURANCE_PAYMENTS_PERCENT</Type>
+        <ModifierMin>-10</ModifierMin>
+        <ModifierMax>-30</ModifierMax>
+        <DurationDaysMin>2</DurationDaysMin>
+        <DurationDaysMin>5</DurationDaysMin>
+        <IconIndex>452</IconIndex>
+    </GameDBWorldEvent>
+
+    <GameDBWorldEvent ID="DLC_WORLD_EVENT_PUBLIC_HEALTH_REFORM">
+        <DescriptionID>DLC_WORLD_EVENT_PUBLIC_HEALTH_REFORM_TEXT</DescriptionID>
+        <Type>MODIFIED_INSURANCE_PAYMENTS_PERCENT</Type>
+        <ModifierMin>10</ModifierMin>
+        <ModifierMax>30</ModifierMax>
+        <DurationDaysMin>2</DurationDaysMin>
+        <DurationDaysMin>5</DurationDaysMin>
+        <IconIndex>452</IconIndex>
+    </GameDBWorldEvent>
+
+    <GameDBWorldEvent ID="DLC_WORLD_EVENT_FLU_SEASON">
+        <DescriptionID>DLC_WORLD_EVENT_FLU_SEASON_TEXT</DescriptionID>
+        <Type>MODIFIED_DIAGNOSIS_TYPES</Type>
+        <Tag>disease</Tag>
+        <ModifierMin>10</ModifierMin>
+        <ModifierMax>30</ModifierMax>
+        <DurationDaysMin>2</DurationDaysMin>
+        <DurationDaysMin>5</DurationDaysMin>
+        <IconIndex>452</IconIndex>
+    </GameDBWorldEvent>
+
+    <GameDBWorldEvent ID="DLC_WORLD_EVENT_BANK_HOLIDAYS">
+        <DescriptionID>DLC_WORLD_EVENT_BANK_HOLIDAYS_TEXT</DescriptionID>
+        <Type>MODIFIED_DIAGNOSIS_TYPES</Type>
+        <Tag>trauma</Tag>
+        <ModifierMin>20</ModifierMin>
+        <ModifierMax>50</ModifierMax>
+        <DurationDaysMin>1</DurationDaysMin>
+        <DurationDaysMin>1</DurationDaysMin>
+        <IconIndex>452</IconIndex>
+    </GameDBWorldEvent>
+
+</Database>

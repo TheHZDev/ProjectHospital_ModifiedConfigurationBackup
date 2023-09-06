@@ -1,0 +1,33 @@
+<Database>
+    <!-- Negative -->
+
+    <GameDBSatisfactionModifier ID="DLC_PHARMACY_LONG_WAIT">
+        <Value>-10</Value>
+    </GameDBSatisfactionModifier>    
+    
+    <GameDBSatisfactionModifier ID="DLC_DID_NOT_GET_GIFT">
+        <Value>-10</Value>
+    </GameDBSatisfactionModifier>    
+    
+    <GameDBSatisfactionModifier ID="DLC_VISIT_DID_NOT_ARRIVE">
+        <Value>-20</Value>
+    </GameDBSatisfactionModifier>    
+
+    <!-- Positive //////////////////////////////////////////////////////////////////////////// -->
+
+    <GameDBSatisfactionModifier ID="DLC_PHARMACY_VISITED">
+        <Value>5</Value>
+    </GameDBSatisfactionModifier>    
+    
+    <GameDBSatisfactionModifier ID="DLC_GOT_GIFT">
+        <Value>5</Value>
+    </GameDBSatisfactionModifier>
+    
+        <GameDBSatisfactionModifier ID="DLC_HAD_VISITOR">
+        <Value>10</Value>
+    </GameDBSatisfactionModifier>
+    
+</Database>
+
+
+

@@ -1,0 +1,920 @@
+<Database>
+    <GameDBNotification ID="NOTIF_HOSPITAL_OPEN">
+        <TextLocID>NOTIF_HOSPITAL_OPEN_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_OPEN_INSURANCE</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+    
+    <GameDBNotification ID="NOTIF_WRONG_DIAGNOSIS">
+        <TextLocID>NOTIF_WRONG_DIAGNOSIS_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_WRONG_DIAGNOSIS_RETURNS">
+        <TextLocID>NOTIF_WRONG_DIAGNOSIS_RETURNS_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_NO_WAITING_ROOM">
+        <TextLocID>NOTIF_NO_WAITING_ROOM_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_RED</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_DEPARTMENT_NOT_WORKING">
+        <TextLocID>NOTIF_DEPARTMENT_NOT_WORKING_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_NO_WAITING_ROOM_LAB">
+        <TextLocID>NOTIF_NO_WAITING_ROOM_LAB_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_NO_WAITING_ROOM_RADIOLOGY">
+        <TextLocID>NOTIF_NO_WAITING_ROOM_RADIOLOGY_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_AMBIGUOUS_DIAGNOSIS">
+        <TextLocID>NOTIF_AMBIGUOUS_DIAGNOSIS_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_NO_TREATMENT">
+        <TextLocID>NOTIF_NO_TREATMENT_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_NO_HOSPITALIZATION">
+        <TextLocID>NOTIF_NO_HOSPITALIZATION_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_NO_HOSPITALIZATION_ON_DEPARTMENT">
+        <TextLocID>NOTIF_NO_HOSPITALIZATION_ON_DEPARTMENT_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>  
+    
+    <GameDBNotification ID="NOTIF_RELEASE_NO_CLINIC_ON_DEPARTMENT">
+        <TextLocID>NOTIF_RELEASE_NO_CLINIC_ON_DEPARTMENT_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_COMPLICATED_DIAGNOSIS">
+        <TextLocID>NOTIF_COMPLICATED_DIAGNOSIS_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_TRY</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_EMPLOYEE_GOT_DRUNK">
+        <TextLocID>NOTIF_EMPLOYEE_GOT_DRUNK_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_CHARACTER_LEVELED_UP">
+        <TextLocID>NOTIF_CHARACTER_LEVELED_UP_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <SoundEventRef>SFX_UI_XP</SoundEventRef>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_CHARACTER_LEVELED_UP_FIRST_SPECIALIZATION">
+        <TextLocID>NOTIF_CHARACTER_LEVELED_UP_FIRST_SPECIALIZATION_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <SoundEventRef>SFX_UI_XP</SoundEventRef>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_CHARACTER_LEVELED_UP_SECOND_SPECIALIZATION">
+        <TextLocID>NOTIF_CHARACTER_LEVELED_UP_SECOND_SPECIALIZATION_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <SoundEventRef>SFX_UI_XP</SoundEventRef>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <!-- Deprecated -->
+    <GameDBNotification ID="NOTIF_SKILL_LEVELED_UP">
+        <TextLocID>NOTIF_SKILL_LEVELED_UP_TEXT</TextLocID>
+        <DefaultMessageLevel>LOG</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_INSUR_COMPANY_NOW_AVLBL">
+        <TextLocID>NOTIF_INSUR_COMPANY_NOW_AVLBL_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_OPEN_INSURANCE</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <SoundEventRef>SFX_UI_UNLOCK</SoundEventRef>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+    
+    <!--GameDBNotification ID="NOTIF_INSUR_COMPANY_NOT_AVLBL">
+        <TextLocID>NOTIF_INSUR_COMPANY_NOT_AVLBL_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_OPEN_INSURANCE</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+    </GameDBNotification-->
+
+    <GameDBNotification ID="NOTIF_NO_WORKSPACE">
+        <TextLocID>NOTIF_NO_WORKSPACE_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_MISSING_SKILL">
+        <TextLocID>NOTIF_MISSING_SKILL_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_ROOM_FULL">
+        <TextLocID>NOTIF_ROOM_FULL_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_CHARACTER_FIRED">
+        <TextLocID>NOTIF_CHARACTER_FIRED_TEXT</TextLocID>
+        <DefaultMessageLevel>LOG</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_WAITING_FOR_PLAYER_DIAGNOSIS">
+        <TextLocID>NOTIF_WAITING_FOR_PLAYER_DIAGNOSIS_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_WAITING_FOR_PLAYER_TREATMENT">
+        <TextLocID>NOTIF_WAITING_FOR_PLAYER_TREATMENT_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_WAITING_FOR_PLAYER">
+        <TextLocID>NOTIF_WAITING_FOR_PLAYER_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_DIAGNOSIS_SELECTED">
+        <TextLocID>NOTIF_DIAGNOSIS_SELECTED_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+    
+    <GameDBNotification ID="NOTIF_PATIENT_DIED">
+        <TextLocID>NOTIF_PATIENT_DIED_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_RED</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_LOST_CASE">
+        <TextLocID>NOTIF_LOST_CASE_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_RED</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_FAVORITE_PATIENT_DIAGNOSED">
+        <TextLocID>NOTIF_FAVORITE_PATIENT_DIAGNOSED_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_FAVORITE_PATIENT_TREATED">
+        <TextLocID>NOTIF_FAVORITE_PATIENT_TREATED_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_FAVORITE_PATIENT_LAB_UNCOVERED">
+        <TextLocID>NOTIF_FAVORITE_PATIENT_LAB_UNCOVERED_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_MONITORED_PATIENT_NEW_SYMPTOM_APPEARED">
+        <TextLocID>NOTIF_FAVORITE_PATIENT_NEW_SYMPTOM_APPEARED_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_FAVORITE_PATIENT_NEW_SYMPTOM_APPEARED">
+        <TextLocID>NOTIF_FAVORITE_PATIENT_NEW_SYMPTOM_APPEARED_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_PATIENT_COLLAPSING">
+        <TextLocID>NOTIF_PATIENT_COLLAPSING_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_RED</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_MONITORED_PATIENT_COLLAPSING">
+        <TextLocID>NOTIF_MONITORED_PATIENT_COLLAPSING_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_RED</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_FAVORITE_PATIENT_COLLAPSING">
+        <TextLocID>NOTIF_FAVORITE_PATIENT_COLLAPSING_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_RED</DefaultColorRef>
+    </GameDBNotification>    
+
+    <!--GameDBNotification ID="NOTIF_FAVORITE_PATIENT_HIDDEN_SYMPTOM_FOUND">
+        <TextLocID>NOTIF_FAVORITE_PATIENT_HIDDEN_SYMPTOM_FOUND_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+    </GameDBNotification-->
+
+    <!--GameDBNotification ID="NOTIF_PLAYERS_PATIENT_HIDDEN_SYMPTOM_FOUND">
+        <TextLocID>NOTIF_PLAYERS_PATIENT_HIDDEN_SYMPTOM_FOUND_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+    </GameDBNotification-->
+    
+    <GameDBNotification ID="NOTIF_OBJECTIVE_PASSED">
+        <TextLocID>NOTIF_OBJECTIVE_PASSED_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <SoundEventRef>SFX_UI_UNLOCK</SoundEventRef>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_PERK_REVEALED">
+        <TextLocID>NOTIF_PERK_REVEALED_TEXT</TextLocID>
+        <DefaultMessageLevel>LOG</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_OPEN_FOR_PATIENTS">
+        <TextLocID>NOTIF_OPEN_FOR_PATIENTS_TEXT</TextLocID>
+        <DefaultMessageLevel>LOG</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_CLOSED_FOR_PATIENTS">
+        <TextLocID>NOTIF_CLOSED_FOR_PATIENTS_TEXT</TextLocID>
+        <DefaultMessageLevel>LOG</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+    
+    <!--GameDBNotification ID="NOTIF_FINISHED_DEMO">
+        <TextLocID>NOTIF_FINISHED_DEMO_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+    </GameDBNotification-->
+
+    <GameDBNotification ID="NOTIF_LONG_WAIT_FOR_BED">
+        <TextLocID>NOTIF_LONG_WAIT_FOR_BED_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_LONG_WAIT_FOR_EXAMINATION">
+        <TextLocID>NOTIF_LONG_WAIT_FOR_EXAMINATION_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_LONG_WAIT_FOR_TREATMENT">
+        <TextLocID>NOTIF_LONG_WAIT_FOR_TREATMENT_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_LONG_WAIT_COLLAPSE">
+        <TextLocID>NOTIF_LONG_WAIT_COLLAPSE_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_NO_HOSPITALIZATION_COLLAPSE">
+        <TextLocID>NOTIF_NO_HOSPITALIZATION_COLLAPSE_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_LONG_WAIT_FOR_TRANSPORT">
+        <TextLocID>NOTIF_LONG_WAIT_FOR_TRANSPORT_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_NO_TREATMENT_LEAVING">
+        <TextLocID>NOTIF_NO_TREATMENT_LEAVING_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+    
+    <GameDBNotification ID="NOTIF_NO_TREATMENT_TAKEN_AWAY">
+        <TextLocID>NOTIF_NO_TREATMENT_TAKEN_AWAY_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_COLLAPSE_TAKEN_AWAY">
+        <TextLocID>NOTIF_COLLAPSE_TAKEN_AWAY_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_SURGERY_ONLY_HOSPITALIZED">
+        <TextLocID>NOTIF_SURGERY_ONLY_HOSPITALIZED_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_EVENT_START">
+        <TextLocID>NOTIF_EVENT_START_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_TAKE_OVER_EVENT_PATIENTS</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_EVENT_SUCCESSFUL">
+        <TextLocID>NOTIF_EVENT_SUCCESSFUL_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <SoundEventRef>SFX_UI_UNLOCK</SoundEventRef>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_EVENT_FAILED">
+        <TextLocID>NOTIF_EVENT_FAILED_TEXT_V2</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <SoundEventRef>SFX_UI_FAIL_CHALLENGE</SoundEventRef>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_ICU_HOSPITALIZATION_OVER">
+        <TextLocID>NOTIF_ICU_HOSPITALIZATION_OVER_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_CONTROLLED_HOSPITALIZATION_OVER">
+        <TextLocID>NOTIF_CONTROLLED_HOSPITALIZATION_OVER_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_HOSPITALIZED_PATIENT_BROKEN_ROOM">
+        <TextLocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_ROOM_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_HOSPITALIZED_PATIENT_NO_ROOM">
+        <TextLocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>       
+    
+    <GameDBNotification ID="NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER">
+        <TextLocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>      
+    
+    <GameDBNotification ID="NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_BED_WAIT">
+        <TextLocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_BED_WAIT_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_HOSPITALIZED_PATIENT_NO_ROOM_TAKEN_AWAY">
+        <TextLocID>NOTIF_HOSPITALIZED_PATIENT_NO_ROOM_TAKEN_AWAY_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>   
+    
+    <GameDBNotification ID="NOTIF_LONG_WAIT_FOR_DEFIBRILATION_STAFF">
+        <TextLocID>NOTIF_LONG_WAIT_FOR_DEFIBRILATION_STAFF_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_LONG_WAIT_FOR_DEFIBRILATION_NURSE">
+        <TextLocID>NOTIF_LONG_WAIT_FOR_DEFIBRILATION_NURSE_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_LONG_WAIT_FOR_TRANSPORT_DOCTOR">
+        <TextLocID>NOTIF_LONG_WAIT_FOR_TRANSPORT_DOCTOR_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_ACHIEVEMENT_UNLOCKED">
+        <TextLocID>NOTIF_ACHIEVEMENT_UNLOCKED_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <SoundEventRef>SFX_UI_UNLOCK</SoundEventRef>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_STAFF_EXHAUSTED">
+        <TextLocID>NOTIF_STAFF_EXHAUSTED_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_UNNECESSARY_SURGERY">
+        <TextLocID>NOTIF_UNNECESSARY_SURGERY_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>
+    
+    <GameDBNotification ID="NOTIF_UNCLEAR_DEPARTMENT">
+        <TextLocID>NOTIF_UNCLEAR_DEPARTMENT_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>      
+    
+    <GameDBNotification ID="NOTIF_UNCLEAR_DEPARTMENT_PATCH_1_1">
+        <TextLocID>NOTIF_UNCLEAR_DEPARTMENT_PATCH_1_1_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_UNCLEAR_DEPARTMENT_TAKEN_AWAY">
+        <TextLocID>NOTIF_UNCLEAR_DEPARTMENT_TAKEN_AWAY_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_NO_ROLES">
+        <TextLocID>NOTIF_NO_ROLES_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_ROOM_USAGE_STATS_DAY">
+        <TextLocID>NOTIF_ROOM_USAGE_STATS_DAY_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_OPEN_DEPARTMENT_STATISTIC</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_ROOM_USAGE_STATS_NIGHT">
+        <TextLocID>NOTIF_ROOM_USAGE_STATS_NIGHT_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_OPEN_DEPARTMENT_STATISTIC</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+    
+    <GameDBNotification ID="NOTIF_HOSPITALIZED_PATIENT_BROKEN_BED">
+        <TextLocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_BED_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_HOSPITALIZED_PATIENT_BED_TRANSFER">
+        <TextLocID>NOTIF_HOSPITALIZED_PATIENT_BED_TRANSFER_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_NEW_BED_WAIT">
+        <TextLocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_TRANSFER_NEW_BED_WAIT_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_HOSPITALIZED_PATIENT_BROKEN_BED_TAKEN_AWAY">
+        <TextLocID>NOTIF_HOSPITALIZED_PATIENT_BROKEN_BED_TAKEN_AWAY_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_HOSPITALIZED_PATIENT_ROOM_NO_TRANSFER_NEW_BED_WAIT">
+        <TextLocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_NO_TRANSFER_NEW_BED_WAIT_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_HOSPITALIZED_PATIENT_ROOM_NO_TRANSFER_BED_WAIT">
+        <TextLocID>NOTIF_HOSPITALIZED_PATIENT_ROOM_NO_TRANSFER_BED_WAIT_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_PATIENT_LEFT_AFTER_LONG_VISIT">
+        <TextLocID>NOTIF_PATIENT_LEFT_AFTER_LONG_VISIT_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_PATIENT_LEFT_AFTER_LONG_WAIT">
+        <TextLocID>NOTIF_PATIENT_LEFT_AFTER_LONG_WAIT_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_PATIENT_LONG_VISIT">
+        <TextLocID>NOTIF_PATIENT_LONG_VISIT_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_PATIENT_LONG_WAIT">
+        <TextLocID>NOTIF_PATIENT_LONG_WAIT_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_CLOSED_FOR_PATIENTS_STATISTICS">
+        <TextLocID>NOTIF_CLOSED_FOR_PATIENTS_STATISTICS_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_NIGHT_CLINIC_OPEN">
+        <TextLocID>NOTIF_NIGHT_CLINIC_OPEN_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_OPEN_INSURANCE</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_NIGHT_CLINIC_CLOSED">
+        <TextLocID>NOTIF_NIGHT_CLINIC_CLOSED_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_OPEN_INSURANCE</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_NOT_ENOUGH_STRETCHERS">
+        <TextLocID>NOTIF_NOT_ENOUGH_STRETCHERS_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_RANDOM_EVENT_START">
+        <TextLocID>NOTIF_RANDOM_EVENT_START_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_ACCEPT_EVENT</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_ACCEPT_EVENT_TAKE_OVER_EVENT_PATIENTS</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_DECLINE_EVENT</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+        <UnClosable>true</UnClosable>
+        <MenuInvisible>true</MenuInvisible>
+    </GameDBNotification>   
+    
+    <!--GameDBNotification ID="NOTIF_NO_PATH">
+        <TextLocID>NOTIF_NO_PATH_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification-->    
+    
+    <GameDBNotification ID="NOTIF_NO_AVAILABLE_DOCTOR">
+        <TextLocID>NOTIF_NO_AVAILABLE_DOCTOR_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_YELLOW</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_RANDOM_EVENT_FAILED_START">
+        <TextLocID>NOTIF_RANDOM_EVENT_FAILED_START_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+    
+    <GameDBNotification ID="NOTIF_SURGERY_TRAUMA_NURSE_CHANGE">
+        <TextLocID>NOTIF_SURGERY_TRAUMA_NURSE_CHANGE_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_RED</DefaultColorRef>
+        <MenuInvisible>true</MenuInvisible>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_SURGERY_INTERNAL_MEDICINE_CHANGE">
+        <TextLocID>NOTIF_SURGERY_INTERNAL_MEDICINE_CHANGE_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_RED</DefaultColorRef>
+        <MenuInvisible>true</MenuInvisible>
+    </GameDBNotification>
+    
+    <GameDBNotification ID="NOTIF_BLOCKED_ELEVATOR">
+        <TextLocID>NOTIF_BLOCKED_ELEVATOR_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>    
+    
+    <GameDBNotification ID="NOTIF_NO_ASSIST_ROLE_DPT_NOT_WORKING">
+        <TextLocID>NOTIF_NO_ASSIST_ROLE_DPT_NOT_WORKING_TEXT</TextLocID>
+        <DefaultMessageLevel>POPUP</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_GOTO</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_RED</DefaultColorRef>
+    </GameDBNotification>
+
+    <GameDBNotification ID="NOTIF_AUTOSAVE_IN_PROGRESS">
+        <TextLocID>NOTIF_AUTOSAVE_IN_PROGRESS_TEXT</TextLocID>
+        <DefaultMessageLevel>LOG</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+    
+    <GameDBNotification ID="NOTIF_AUTOSAVE_CREATED">
+        <TextLocID>NOTIF_AUTOSAVE_CREATED_TEXT</TextLocID>
+        <DefaultMessageLevel>LOG</DefaultMessageLevel>
+        <PopupButtonActionA>POPUP_HIDDEN_BUTTON</PopupButtonActionA>
+        <PopupButtonActionB>POPUP_HIDDEN_BUTTON</PopupButtonActionB>
+        <PopupButtonActionC>POPUP_OK</PopupButtonActionC>
+        <DefaultColorRef>NOTIF_COLOR_DEFAULT</DefaultColorRef>
+    </GameDBNotification>
+
+</Database>

@@ -1,0 +1,8 @@
+﻿<Database>
+    <GameDBBodyType ID="BODYTYPE_SLIM"> 
+    </GameDBBodyType>
+    <GameDBBodyType ID="BODYTYPE_MEDIUM"> 
+    </GameDBBodyType>
+    <GameDBBodyType ID="BODYTYPE_BIG"> 
+    </GameDBBodyType>
+</Database>

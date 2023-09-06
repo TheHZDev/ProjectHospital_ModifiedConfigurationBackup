@@ -1,0 +1,531 @@
+<Database>
+	<GameDBDoor ID="WINDOW_FLAT">      	
+     	<AbbreviationLocID>WINDOW_FLAT</AbbreviationLocID>
+        <TextureIDSW>74</TextureIDSW>
+        <TextureIDBackSW>74</TextureIDBackSW>
+        <FrameTextureID>10</FrameTextureID>
+        <FrameCrossSectionTextureID>0</FrameCrossSectionTextureID>
+        <Passable>false</Passable>
+        <AnimationFrames>1</AnimationFrames>
+        <Cost>30</Cost>
+        <IconIndex>1010</IconIndex>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_DEFAULT</ColorSetRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="WINDOW_DEFAULT">       	
+    	<AbbreviationLocID>WINDOW_DEFAULT</AbbreviationLocID>
+        <TextureIDSW>64</TextureIDSW>
+        <TextureIDBackSW>66</TextureIDBackSW>
+        <FrameTextureID>7</FrameTextureID>
+        <FrameCrossSectionTextureID>0</FrameCrossSectionTextureID>
+        <Passable>false</Passable>
+        <AnimationFrames>1</AnimationFrames>
+        <Cost>30</Cost>
+        <IconIndex>1009</IconIndex>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_DEFAULT</ColorSetRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="WINDOW_TALL">       
+    	<AbbreviationLocID>WINDOW_TALL</AbbreviationLocID>
+        <TextureIDSW>68</TextureIDSW>
+        <TextureIDBackSW>70</TextureIDBackSW>
+        <FrameTextureID>8</FrameTextureID>
+        <FrameCrossSectionTextureID>0</FrameCrossSectionTextureID>
+        <Passable>false</Passable>
+        <AnimationFrames>1</AnimationFrames>
+        <Cost>50</Cost>
+        <IconIndex>1007</IconIndex>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_DEFAULT</ColorSetRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="GLASS_WALL_DOUBLELINES">     
+      	<AbbreviationLocID>GLASS_WALL_DOUBLELINES</AbbreviationLocID>
+        <TextureIDSW>72</TextureIDSW>
+        <TextureIDBackSW>72</TextureIDBackSW>
+        <FrameTextureID>9</FrameTextureID>
+        <FrameCrossSectionTextureID>7</FrameCrossSectionTextureID>
+        <Passable>false</Passable>
+        <AnimationFrames>1</AnimationFrames>
+        <Cost>30</Cost>
+        <IconIndex>1008</IconIndex>
+        <ColorSetRef>COLOR_SET_DOOR_GLASS</ColorSetRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="GLASS_WALL_COLOR">     
+      	<AbbreviationLocID>GLASS_WALL_COLOR</AbbreviationLocID>
+        <TextureIDSW>76</TextureIDSW>
+        <TextureIDBackSW>76</TextureIDBackSW>
+        <FrameTextureID>9</FrameTextureID>
+        <FrameCrossSectionTextureID>7</FrameCrossSectionTextureID>
+        <Passable>false</Passable>
+        <AnimationFrames>1</AnimationFrames>
+        <Cost>50</Cost>
+        <IconIndex>924</IconIndex>
+        <ColorSetRef>COLOR_SET_DOOR_GLASS</ColorSetRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="WINDOW_GLASS_TALL">       
+    	<AbbreviationLocID>WINDOW_GLASS_TALL</AbbreviationLocID>
+        <TextureIDSW>112</TextureIDSW>
+        <TextureIDBackSW>112</TextureIDBackSW>
+        <FrameTextureID>11</FrameTextureID>
+        <FrameCrossSectionTextureID>7</FrameCrossSectionTextureID>
+        <Passable>false</Passable>
+        <AnimationFrames>1</AnimationFrames>
+        <Cost>50</Cost>
+        <IconIndex>754</IconIndex>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_DEFAULT</ColorSetRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="WINDOW_GLASS_SMALL">       	
+    	<AbbreviationLocID>WINDOW_GLASS_SMALL</AbbreviationLocID>
+        <TextureIDSW>114</TextureIDSW>
+        <TextureIDBackSW>114</TextureIDBackSW>
+        <FrameTextureID>7</FrameTextureID>
+        <FrameCrossSectionTextureID>0</FrameCrossSectionTextureID>
+        <Passable>false</Passable>
+        <AnimationFrames>1</AnimationFrames>
+        <Cost>30</Cost>
+        <IconIndex>755</IconIndex>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_DEFAULT</ColorSetRef>
+    </GameDBDoor>
+
+    <!-- //DOORS//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <GameDBDoor ID="DOOR_DEFAULT"> 
+        <AbbreviationLocID>DOOR_DEFAULT</AbbreviationLocID>
+        <TextureIDSW>0</TextureIDSW>
+        <TextureIDBackSW>0</TextureIDBackSW> <!-- for windows -->
+        <FrameTextureID>1</FrameTextureID>
+        <FrameCrossSectionTextureID>1</FrameCrossSectionTextureID>
+        <Passable>true</Passable>
+        <AnimationFrames>4</AnimationFrames>
+        <OpeningZOffsetSW>1.0</OpeningZOffsetSW>
+        <OpeningZOffsetSE>1.0</OpeningZOffsetSE>
+        <Cost>30</Cost>
+        <SoundEventOpen>SFX_ENV_DOOR_A_OPEN</SoundEventOpen>
+        <SoundEventClose>SFX_ENV_DOOR_A_CLOSE</SoundEventClose>
+        <IconIndex>1005</IconIndex>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_DEFAULT</ColorSetRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="DOOR_WINDOW">      
+    	<AbbreviationLocID>DOOR_WINDOW</AbbreviationLocID>
+        <TextureIDSW>80</TextureIDSW>
+        <TextureIDBackSW>80</TextureIDBackSW>
+        <TextureIDSE>92</TextureIDSE>
+        <TextureIDBackSE>92</TextureIDBackSE>
+        <FrameTextureID>2</FrameTextureID>
+        <FrameCrossSectionTextureID>2</FrameCrossSectionTextureID>
+        <Passable>true</Passable>
+        <AnimationFrames>4</AnimationFrames>
+        <OpeningZOffsetSW>1.0</OpeningZOffsetSW>
+        <OpeningZOffsetSE>1.0</OpeningZOffsetSE>
+        <Cost>50</Cost>
+        <SoundEventOpen>SFX_ENV_DOOR_A_OPEN</SoundEventOpen>
+        <SoundEventClose>SFX_ENV_DOOR_A_CLOSE</SoundEventClose>
+        <IconIndex>1003</IconIndex>
+        <ColorSetRef>COLOR_SET_DOOR_LINE</ColorSetRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="DOOR_TALL_WINDOW_SINGLE">      
+    	<AbbreviationLocID>DOOR_TALL_WINDOW_SINGLE</AbbreviationLocID>
+        <TextureIDSW>16</TextureIDSW>
+        <TextureIDBackSW>16</TextureIDBackSW>
+        <TextureIDSE>28</TextureIDSE>
+        <TextureIDBackSE>28</TextureIDBackSE>
+        <FrameTextureID>2</FrameTextureID>
+        <FrameCrossSectionTextureID>2</FrameCrossSectionTextureID>
+        <Passable>true</Passable>
+        <AnimationFrames>4</AnimationFrames>
+        <OpeningZOffsetSW>1.0</OpeningZOffsetSW>
+        <OpeningZOffsetSE>1.0</OpeningZOffsetSE>
+        <Cost>50</Cost>
+        <SoundEventOpen>SFX_ENV_DOOR_A_OPEN</SoundEventOpen>
+        <SoundEventClose>SFX_ENV_DOOR_A_CLOSE</SoundEventClose>
+        <IconIndex>997</IconIndex>
+        <ColorSetRef>COLOR_SET_DOOR_FULL</ColorSetRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="DOOR_GLASS">      
+    	<AbbreviationLocID>DOOR_GLASS</AbbreviationLocID>
+        <TextureIDSW>96</TextureIDSW>
+        <TextureIDBackSW>96</TextureIDBackSW>
+        <TextureIDSE>108</TextureIDSE>
+        <TextureIDBackSE>108</TextureIDBackSE>
+        <FrameTextureID>2</FrameTextureID>
+        <FrameCrossSectionTextureID>2</FrameCrossSectionTextureID>
+        <Passable>true</Passable>
+        <AnimationFrames>4</AnimationFrames>
+        <OpeningZOffsetSW>1.0</OpeningZOffsetSW>
+        <OpeningZOffsetSE>1.0</OpeningZOffsetSE>
+        <Cost>70</Cost>
+        <SoundEventOpen>SFX_ENV_DOOR_A_OPEN</SoundEventOpen>
+        <SoundEventClose>SFX_ENV_DOOR_A_CLOSE</SoundEventClose>
+        <IconIndex>710</IconIndex>
+        <ColorSetRef>COLOR_SET_DOOR_GLASS</ColorSetRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="DOOR_XRAY">   
+       	<AbbreviationLocID>DOOR_XRAY</AbbreviationLocID>
+        <TextureIDSW>32</TextureIDSW>
+        <TextureIDBackSW>32</TextureIDBackSW>
+        <TextureIDSE>44</TextureIDSE>
+        <TextureIDBackSE>44</TextureIDBackSE>
+        <FrameTextureID>2</FrameTextureID>
+        <FrameCrossSectionTextureID>2</FrameCrossSectionTextureID>
+        <Passable>true</Passable>
+        <AnimationFrames>4</AnimationFrames>
+        <OpeningZOffsetSW>1.0</OpeningZOffsetSW>
+        <OpeningZOffsetSE>1.0</OpeningZOffsetSE>
+        <Cost>100</Cost>
+        <SoundEventOpen>SFX_ENV_DOOR_B_OPEN</SoundEventOpen>
+        <SoundEventClose>SFX_ENV_DOOR_B_CLOSE</SoundEventClose>
+        <IconIndex>741</IconIndex>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_DEFAULT</ColorSetRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="DOOR_WC">    
+    	<AbbreviationLocID>DOOR_WC</AbbreviationLocID>
+        <TextureIDSW>8</TextureIDSW>
+        <TextureIDBackSW>8</TextureIDBackSW>
+        <FrameTextureID>6</FrameTextureID>
+        <FrameCrossSectionTextureID>6</FrameCrossSectionTextureID>
+        <Passable>true</Passable>
+        <AnimationFrames>4</AnimationFrames>
+        <OpeningZOffsetSW>1.0</OpeningZOffsetSW>
+        <OpeningZOffsetSE>1.0</OpeningZOffsetSE>
+        <Cost>30</Cost>
+		<SoundEventOpen>SFX_ENV_DOOR_C_OPEN</SoundEventOpen>
+        <SoundEventClose>SFX_ENV_DOOR_C_CLOSE</SoundEventClose>
+        <IconIndex>1006</IconIndex>
+        <ColorSetRef>COLOR_SET_WC</ColorSetRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="DOOR_RESTRICTED">   
+       	<AbbreviationLocID>DOOR_RESTRICTED</AbbreviationLocID>
+        <TextureIDSW>48</TextureIDSW>
+        <TextureIDBackSW>48</TextureIDBackSW>
+        <TextureIDSE>60</TextureIDSE>
+        <TextureIDBackSE>60</TextureIDBackSE>
+        <FrameTextureID>2</FrameTextureID>
+        <FrameCrossSectionTextureID>2</FrameCrossSectionTextureID>
+        <Passable>true</Passable>
+        <AnimationFrames>4</AnimationFrames>
+        <OpeningZOffsetSW>1.0</OpeningZOffsetSW>
+        <OpeningZOffsetSE>1.0</OpeningZOffsetSE>
+        <Cost>100</Cost>
+        <SoundEventOpen>SFX_ENV_DOOR_B_OPEN</SoundEventOpen>
+        <SoundEventClose>SFX_ENV_DOOR_B_CLOSE</SoundEventClose>
+        <IconIndex>743</IconIndex>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_DEFAULT</ColorSetRef>
+    </GameDBDoor>
+
+    <!-- //PREFABS//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <GameDBDoor ID="DOOR_SLIDING_GLASS">    	
+    	<AbbreviationLocID>DOOR_SLIDING_GLASS</AbbreviationLocID>
+        <TextureIDSW>78</TextureIDSW>
+        <TextureIDBackSW>78</TextureIDBackSW>
+        <FrameTextureID>9</FrameTextureID>
+        <FrameCrossSectionTextureID>7</FrameCrossSectionTextureID> 
+        <Passable>true</Passable>
+        <AnimationFrames>1</AnimationFrames>
+        <SlideDirection>1</SlideDirection>
+        <Cost>100</Cost>
+        <SoundEventOpen>SFX_ENV_SLIDING_DOOR_A_OPEN</SoundEventOpen>
+        <SoundEventClose>SFX_ENV_SLIDING_DOOR_A_CLOSE</SoundEventClose>
+        <IconIndex>1002</IconIndex>
+        <HiddenInUI>true</HiddenInUI>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_DEFAULT</ColorSetRef>
+        
+        <InverseDoorType>DOOR_SLIDING_GLASS_R</InverseDoorType>
+        <PrefabParentRef>DOOR_DOUBLE_SLIDING</PrefabParentRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="DOOR_SLIDING_GLASS_R">    	
+    	<AbbreviationLocID>DOOR_SLIDING_GLASS_R</AbbreviationLocID>
+        <TextureIDSW>78</TextureIDSW>
+        <TextureIDBackSW>78</TextureIDBackSW>
+        <FrameTextureID>9</FrameTextureID>
+        <FrameCrossSectionTextureID>7</FrameCrossSectionTextureID>
+        <Passable>true</Passable>
+        <AnimationFrames>1</AnimationFrames>
+        <SlideDirection>-1</SlideDirection>
+        <Cost>100</Cost>
+        <SoundEventOpen>SFX_ENV_SLIDING_DOOR_A_OPEN</SoundEventOpen>
+        <SoundEventClose>SFX_ENV_SLIDING_DOOR_A_CLOSE</SoundEventClose>
+        <IconIndex>1002</IconIndex>
+        <HiddenInUI>true</HiddenInUI>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_DEFAULT</ColorSetRef>
+
+        <InverseDoorType>DOOR_SLIDING_GLASS</InverseDoorType>
+        <PrefabParentRef>DOOR_DOUBLE_SLIDING</PrefabParentRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="DOOR_TALL_WINDOW">
+       	<AbbreviationLocID>DOOR_TALL_WINDOW</AbbreviationLocID>
+        <TextureIDSW>16</TextureIDSW>
+        <TextureIDBackSW>16</TextureIDBackSW>
+        <FrameTextureID>3</FrameTextureID>
+        <FrameCrossSectionTextureID>3</FrameCrossSectionTextureID>
+        <Passable>true</Passable>
+        <AnimationFrames>4</AnimationFrames>
+        <OpeningZOffsetSW>1.0</OpeningZOffsetSW>
+        <OpeningZOffsetSE>0</OpeningZOffsetSE>
+        <Cost>50</Cost>
+        <SoundEventOpen>SFX_ENV_DOOR_A_OPEN</SoundEventOpen>
+        <SoundEventClose>SFX_ENV_DOOR_A_CLOSE</SoundEventClose>
+        <IconIndex>1001</IconIndex>
+        <HiddenInUI>true</HiddenInUI>
+        <ColorSetRef>COLOR_SET_DOOR_FULL</ColorSetRef><!-- Needs to be set also in DoorPrefabs.xml -->
+        
+        <InverseDoorType>DOOR_TALL_WINDOW_R</InverseDoorType>
+        <PrefabParentRef>DOOR_DOUBLE</PrefabParentRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="DOOR_TALL_WINDOW_R">    
+       	<AbbreviationLocID>DOOR_TALL_WINDOW_R</AbbreviationLocID>
+        <TextureIDSW>24</TextureIDSW>
+        <TextureIDBackSW>24</TextureIDBackSW>
+        <FrameTextureID>4</FrameTextureID>
+        <FrameCrossSectionTextureID>4</FrameCrossSectionTextureID>
+        <Passable>true</Passable>
+        <AnimationFrames>4</AnimationFrames>
+        <OpeningZOffsetSW>0</OpeningZOffsetSW>
+        <OpeningZOffsetSE>1.0</OpeningZOffsetSE>
+        <Cost>50</Cost>
+        <SoundEventOpen>SFX_ENV_DOOR_A_OPEN</SoundEventOpen>
+        <SoundEventClose>SFX_ENV_DOOR_A_CLOSE</SoundEventClose>
+        <IconIndex>1001</IconIndex>
+        <HiddenInUI>true</HiddenInUI>
+        <ColorSetRef>COLOR_SET_DOOR_FULL</ColorSetRef><!-- Needs to be set also in DoorPrefabs.xml -->
+
+        <InverseDoorType>DOOR_TALL_WINDOW</InverseDoorType>
+        <PrefabParentRef>DOOR_DOUBLE</PrefabParentRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="DOOR__WINDOW_L">
+       	<AbbreviationLocID>DOOR_TALL_WINDOW</AbbreviationLocID>
+        <TextureIDSW>80</TextureIDSW>
+        <TextureIDBackSW>80</TextureIDBackSW>
+        <FrameTextureID>3</FrameTextureID>
+        <FrameCrossSectionTextureID>3</FrameCrossSectionTextureID>
+        <Passable>true</Passable>
+        <AnimationFrames>4</AnimationFrames>
+        <OpeningZOffsetSW>1.0</OpeningZOffsetSW>
+        <OpeningZOffsetSE>0</OpeningZOffsetSE>
+        <Cost>50</Cost>
+        <SoundEventOpen>SFX_ENV_DOOR_A_OPEN</SoundEventOpen>
+        <SoundEventClose>SFX_ENV_DOOR_A_CLOSE</SoundEventClose>
+        <IconIndex>1001</IconIndex>
+        <HiddenInUI>true</HiddenInUI>
+        <ColorSetRef>COLOR_SET_DOOR_LINE</ColorSetRef><!-- Needs to be set also in DoorPrefabs.xml -->
+
+        <InverseDoorType>DOOR__WINDOW_R</InverseDoorType>
+        <PrefabParentRef>DOOR_DOUBLE_WINDOW</PrefabParentRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="DOOR__WINDOW_R">    
+       	<AbbreviationLocID>DOOR_TALL_WINDOW_R</AbbreviationLocID>
+        <TextureIDSW>88</TextureIDSW>
+        <TextureIDBackSW>88</TextureIDBackSW>
+        <FrameTextureID>4</FrameTextureID>
+        <FrameCrossSectionTextureID>4</FrameCrossSectionTextureID>
+        <Passable>true</Passable>
+        <AnimationFrames>4</AnimationFrames>
+        <OpeningZOffsetSW>0</OpeningZOffsetSW>
+        <OpeningZOffsetSE>1.0</OpeningZOffsetSE>
+        <Cost>50</Cost>
+        <SoundEventOpen>SFX_ENV_DOOR_A_OPEN</SoundEventOpen>
+        <SoundEventClose>SFX_ENV_DOOR_A_CLOSE</SoundEventClose>
+        <IconIndex>1001</IconIndex>
+        <HiddenInUI>true</HiddenInUI>
+        <ColorSetRef>COLOR_SET_DOOR_LINE</ColorSetRef><!-- Needs to be set also in DoorPrefabs.xml -->
+        
+        <InverseDoorType>DOOR__WINDOW_L</InverseDoorType>
+        <PrefabParentRef>DOOR_DOUBLE_WINDOW</PrefabParentRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="DOOR__GLASS_L">
+       	<AbbreviationLocID>DOOR__GLASS_L</AbbreviationLocID>
+        <TextureIDSW>96</TextureIDSW>
+        <TextureIDBackSW>96</TextureIDBackSW>
+        <FrameTextureID>3</FrameTextureID>
+        <FrameCrossSectionTextureID>3</FrameCrossSectionTextureID>
+        <Passable>true</Passable>
+        <AnimationFrames>4</AnimationFrames>
+        <OpeningZOffsetSW>1.0</OpeningZOffsetSW>
+        <OpeningZOffsetSE>0</OpeningZOffsetSE>
+        <Cost>50</Cost>
+        <SoundEventOpen>SFX_ENV_DOOR_A_OPEN</SoundEventOpen>
+        <SoundEventClose>SFX_ENV_DOOR_A_CLOSE</SoundEventClose>
+        <IconIndex>1001</IconIndex>
+        <HiddenInUI>true</HiddenInUI>
+        <ColorSetRef>COLOR_SET_DOOR_GLASS</ColorSetRef><!-- Needs to be set also in DoorPrefabs.xml -->
+
+        <InverseDoorType>DOOR__GLASS_R</InverseDoorType>
+        <PrefabParentRef>DOOR_DOUBLE_GLASS</PrefabParentRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="DOOR__GLASS_R">    
+       	<AbbreviationLocID>DOOR__GLASS_R</AbbreviationLocID>
+        <TextureIDSW>104</TextureIDSW>
+        <TextureIDBackSW>104</TextureIDBackSW>
+        <FrameTextureID>4</FrameTextureID>
+        <FrameCrossSectionTextureID>4</FrameCrossSectionTextureID>
+        <Passable>true</Passable>
+        <AnimationFrames>4</AnimationFrames>
+        <OpeningZOffsetSW>0</OpeningZOffsetSW>
+        <OpeningZOffsetSE>1.0</OpeningZOffsetSE>
+        <Cost>50</Cost>
+        <SoundEventOpen>SFX_ENV_DOOR_A_OPEN</SoundEventOpen>
+        <SoundEventClose>SFX_ENV_DOOR_A_CLOSE</SoundEventClose>
+        <IconIndex>1001</IconIndex>
+        <HiddenInUI>true</HiddenInUI>
+        <ColorSetRef>COLOR_SET_DOOR_GLASS</ColorSetRef><!-- Needs to be set also in DoorPrefabs.xml -->
+
+        <InverseDoorType>DOOR__GLASS_L</InverseDoorType>
+        <PrefabParentRef>DOOR_DOUBLE_GLASS</PrefabParentRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="DOOR_XRAY_L">
+       	<AbbreviationLocID>DOOR_XRAY_L</AbbreviationLocID>
+        <TextureIDSW>32</TextureIDSW>
+        <TextureIDBackSW>32</TextureIDBackSW>
+        <FrameTextureID>3</FrameTextureID>
+        <FrameCrossSectionTextureID>3</FrameCrossSectionTextureID>
+        <Passable>true</Passable>
+        <AnimationFrames>4</AnimationFrames>
+        <OpeningZOffsetSW>1.0</OpeningZOffsetSW>
+        <OpeningZOffsetSE>0</OpeningZOffsetSE>
+        <Cost>50</Cost>
+        <SoundEventOpen>SFX_ENV_DOOR_B_OPEN</SoundEventOpen>
+        <SoundEventClose>SFX_ENV_DOOR_B_CLOSE</SoundEventClose>
+        <IconIndex>742</IconIndex>
+        <HiddenInUI>true</HiddenInUI>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_DEFAULT</ColorSetRef>
+
+        <InverseDoorType>DOOR_XRAY_R</InverseDoorType>
+        <PrefabParentRef>DOOR_DOUBLE_XRAY</PrefabParentRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="DOOR_XRAY_R">    
+       	<AbbreviationLocID>DOOR_XRAY_R</AbbreviationLocID>
+        <TextureIDSW>40</TextureIDSW>
+        <TextureIDBackSW>40</TextureIDBackSW>
+        <FrameTextureID>4</FrameTextureID>
+        <FrameCrossSectionTextureID>4</FrameCrossSectionTextureID>
+        <Passable>true</Passable>
+        <AnimationFrames>4</AnimationFrames>
+        <OpeningZOffsetSW>0</OpeningZOffsetSW>
+        <OpeningZOffsetSE>1.0</OpeningZOffsetSE>
+        <Cost>50</Cost>
+        <SoundEventOpen>SFX_ENV_DOOR_B_OPEN</SoundEventOpen>
+        <SoundEventClose>SFX_ENV_DOOR_B_CLOSE</SoundEventClose>
+        <IconIndex>742</IconIndex>
+        <HiddenInUI>true</HiddenInUI>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_DEFAULT</ColorSetRef>
+
+        <InverseDoorType>DOOR_XRAY_L</InverseDoorType>
+        <PrefabParentRef>DOOR_DOUBLE_XRAY</PrefabParentRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="DOOR_RESTRICTED_L">
+       	<AbbreviationLocID>DOOR_RESTRICTED_L</AbbreviationLocID>
+        <TextureIDSW>48</TextureIDSW>
+        <TextureIDBackSW>48</TextureIDBackSW>
+        <FrameTextureID>3</FrameTextureID>
+        <FrameCrossSectionTextureID>3</FrameCrossSectionTextureID>
+        <Passable>true</Passable>
+        <AnimationFrames>4</AnimationFrames>
+        <OpeningZOffsetSW>1.0</OpeningZOffsetSW>
+        <OpeningZOffsetSE>0</OpeningZOffsetSE>
+        <Cost>50</Cost>
+        <SoundEventOpen>SFX_ENV_DOOR_B_OPEN</SoundEventOpen>
+        <SoundEventClose>SFX_ENV_DOOR_B_CLOSE</SoundEventClose>
+        <IconIndex>744</IconIndex>
+        <HiddenInUI>true</HiddenInUI>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_DEFAULT</ColorSetRef>
+
+        <InverseDoorType>DOOR_RESTRICTED_R</InverseDoorType>
+        <PrefabParentRef>DOOR_RESTRICTED_DOUBLE</PrefabParentRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="DOOR_RESTRICTED_R">    
+       	<AbbreviationLocID>DOOR_RESTRICTED_R</AbbreviationLocID>
+        <TextureIDSW>56</TextureIDSW>
+        <TextureIDBackSW>56</TextureIDBackSW>
+        <FrameTextureID>4</FrameTextureID>
+        <FrameCrossSectionTextureID>4</FrameCrossSectionTextureID>
+        <Passable>true</Passable>
+        <AnimationFrames>4</AnimationFrames>
+        <OpeningZOffsetSW>0</OpeningZOffsetSW>
+        <OpeningZOffsetSE>1.0</OpeningZOffsetSE>
+        <Cost>50</Cost>
+        <SoundEventOpen>SFX_ENV_DOOR_B_OPEN</SoundEventOpen>
+        <SoundEventClose>SFX_ENV_DOOR_B_CLOSE</SoundEventClose>
+        <IconIndex>744</IconIndex>
+        <HiddenInUI>true</HiddenInUI>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_DEFAULT</ColorSetRef>
+
+        <InverseDoorType>DOOR_RESTRICTED_L</InverseDoorType>
+        <PrefabParentRef>DOOR_RESTRICTED_DOUBLE</PrefabParentRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="DOOR_ELEVATOR_L">    	
+    	<AbbreviationLocID>DOOR_ELEVATOR</AbbreviationLocID>
+        <TextureIDSW>116</TextureIDSW>
+        <TextureIDBackSW>116</TextureIDBackSW>
+        <FrameTextureID>9</FrameTextureID>
+        <FrameCrossSectionTextureID>7</FrameCrossSectionTextureID> 
+        <Passable>true</Passable>
+        <AnimationFrames>1</AnimationFrames>
+        <SlideDirection>1</SlideDirection>
+        <Cost>50</Cost>
+        <SoundEventOpen>SFX_ENV_SLIDING_DOOR_B_OPEN</SoundEventOpen>
+        <SoundEventClose>SFX_ENV_SLIDING_DOOR_B_CLOSE</SoundEventClose>
+        <IconIndex>1002</IconIndex>
+        <HiddenInUI>true</HiddenInUI>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_DEFAULT</ColorSetRef>
+        
+        <InverseDoorType>DOOR_ELEVATOR_R</InverseDoorType>
+        <PrefabParentRef>DOOR_DOUBLE_ELEVATOR</PrefabParentRef>
+    </GameDBDoor>
+
+    <GameDBDoor ID="DOOR_ELEVATOR_R">    	
+    	<AbbreviationLocID>DOOR_ELEVATOR</AbbreviationLocID>
+        <TextureIDSW>116</TextureIDSW>
+        <TextureIDBackSW>116</TextureIDBackSW>
+        <FrameTextureID>9</FrameTextureID>
+        <FrameCrossSectionTextureID>7</FrameCrossSectionTextureID>
+        <Passable>true</Passable>
+        <AnimationFrames>1</AnimationFrames>
+        <SlideDirection>-1</SlideDirection>
+        <Cost>50</Cost>
+        <SoundEventOpen>SFX_ENV_SLIDING_DOOR_B_OPEN</SoundEventOpen>
+        <SoundEventClose>SFX_ENV_SLIDING_DOOR_B_CLOSE</SoundEventClose>
+        <IconIndex>1002</IconIndex>
+        <HiddenInUI>true</HiddenInUI>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECTS_DEFAULT</ColorSetRef>
+
+        <InverseDoorType>DOOR_ELEVATOR_L</InverseDoorType>
+        <PrefabParentRef>DOOR_DOUBLE_ELEVATOR</PrefabParentRef>
+    </GameDBDoor>
+
+    <!-- //REMOVE//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <GameDBDoor ID="WINDOW_VARIATION"> <!-- remove -->
+       	<AbbreviationLocID>WINDOW_VARIATION</AbbreviationLocID>
+        <TextureIDSW>126</TextureIDSW>
+        <TextureIDBackSW>126</TextureIDBackSW>
+        <FrameTextureID>7</FrameTextureID>
+        <FrameCrossSectionTextureID>0</FrameCrossSectionTextureID>
+        <Passable>false</Passable>
+        <AnimationFrames>1</AnimationFrames>
+        <Cost>50</Cost>
+        <IconIndex>1018</IconIndex>
+        <HiddenInUI>true</HiddenInUI>
+    </GameDBDoor>
+     
+</Database>

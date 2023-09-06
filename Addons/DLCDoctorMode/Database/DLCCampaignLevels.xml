@@ -1,0 +1,45 @@
+﻿<Database>
+    <!-- 
+     HIDDEN,
+    CAMPAIGN,
+    SANDBOX,
+    SCENARIO
+    -->
+
+    <!-- Tutorial in UI -->
+    <GameDBCampaignLevel ID="DOC_MODE_LEVEL_TUTORIAL_01">
+        <DescriptionLocID>DOC_MODE_LEVEL_TUTORIAL_01_DESCRIPTION</DescriptionLocID>
+        <LevelCategory>DLC_CAMPAIGN</LevelCategory>
+        <MapFile>dlctutorial_01.xml</MapFile>
+        <AddonFolder>DLCDoctorMode</AddonFolder>
+        <LevelScript>DLCLevelScriptTutorial</LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <PreviewTexture>tutorial_1</PreviewTexture><!--TODO DLC  new preview-->
+        <Dlc>true</Dlc>
+
+        <PatientCount>8</PatientCount>
+        <MedicalConditions>
+            <MedicalConditionRef>DIA_HFV</MedicalConditionRef>
+            <MedicalConditionRef>DIA_ACD</MedicalConditionRef>
+            <MedicalConditionRef>DIA_CKX</MedicalConditionRef>
+            <MedicalConditionRef>DIA_HRZ</MedicalConditionRef>
+            <MedicalConditionRef>DIA_RYS</MedicalConditionRef>
+            <MedicalConditionRef>DIA_CFS</MedicalConditionRef>
+            <MedicalConditionRef>DIA_INS</MedicalConditionRef>
+            <MedicalConditionRef>DIA_HRZ</MedicalConditionRef>
+        </MedicalConditions>
+    </GameDBCampaignLevel>
+
+    <!-- Campaign 1 in UI -->
+    <GameDBCampaignLevel ID="DOC_MODE_LEVEL_CAMPAIGN_01">
+        <DescriptionLocID>DOC_MODE_LEVEL_CAMPAIGN_01_DESCRIPTION</DescriptionLocID>
+        <LevelCategory>DLC_CAMPAIGN</LevelCategory>
+        <MapFile>dlccampaign_01.xml</MapFile>
+        <AddonFolder>DLCDoctorMode</AddonFolder>
+        <LevelScript>DLCLevelScriptCampaign01</LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <PreviewTexture>hospital_G</PreviewTexture>
+        <Dlc>true</Dlc>
+    </GameDBCampaignLevel> 
+    
+</Database>

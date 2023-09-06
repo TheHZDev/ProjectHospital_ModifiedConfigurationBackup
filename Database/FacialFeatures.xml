@@ -1,0 +1,947 @@
+﻿<Database>
+    <GameDBFacialFeature ID="HEAD_SHAPE_MALE_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>head</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+
+    <GameDBFacialFeature ID="HAIR_STYLE_MALE_MEDIUM_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_OLDER</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_MALE_SHORT_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_OLDER</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_MALE_BALDING_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_YOUNG</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_MID</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_MALE_NEW_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_YOUNG</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_MALE_NEW_02">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_MALE_NEW_03">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_MALE_NEW_04">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>6</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_OLDER</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_MALE_NEW_05">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>7</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_OLDER</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_MALE_NEW_06">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>8</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_MALE_NEW_07">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>9</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_OLDER</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_MALE_NEW_08">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>10</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_MALE_NEW_09">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>11</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_YOUNG</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_MALE_NEW_10">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>12</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_OLDER</IncompatibleAgeCategory>>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_MALE_NEW_11">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>-1</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+        	<IncompatibleAgeCategory>AGE_YOUNG</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+
+    <GameDBFacialFeature ID="BEARD_STYLE_MALE_FULL_SHORT">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>beard</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_YOUNG</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="BEARD_STYLE_MALE_MOUSTACHE">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>beard</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_YOUNG</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="BEARD_STYLE_MALE_GOATEE">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>beard</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="BEARD_STYLE_MALE_SHAVED">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>beard</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="BEARD_STYLE_MALE_HIPSTER">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>beard</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="BEARD_STYLE_MALE_NEW_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>beard</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="BEARD_STYLE_MALE_NEW_02">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>beard</SliceID><TextureID>6</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="BEARD_STYLE_MALE_NEW_03">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>beard</SliceID><TextureID>7</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+
+    <GameDBFacialFeature ID="EYES_MALE_ROUND_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_MALE_ASIAN_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_CAUCASSIAN</IncompatibleRace>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_MALE_ROUND_02">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_MALE_ROUND_03">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_MALE_ROUND_04">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_MALE_ASIAN_02">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>6</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_CAUCASSIAN</IncompatibleRace>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_MALE_ROUND_05">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>7</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_MALE_ROUND_06">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>8</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_MALE_ROUND_07">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>9</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_MALE_ROUND_08">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>10</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_MALE_ROUND_09">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>11</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_MALE_ROUND_10">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>12</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_MALE_ROUND_11">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>13</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_MALE_ROUND_12">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>14</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_MALE_ROUND_13">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>15</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_MALE_ROUND_14">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>16</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_MALE_ROUND_15">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>17</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_MALE_ROUND_16">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>18</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+
+    <GameDBFacialFeature ID="GLASSES_MALE_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>glasses</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="GLASSES_MALE_02">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>glasses</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="GLASSES_MALE_03">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>glasses</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="GLASSES_MALE_04">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>glasses</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="GLASSES_MALE_05">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>glasses</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="GLASSES_MALE_06">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>glasses</SliceID><TextureID>6</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+
+    <GameDBFacialFeature ID="NOSE_MALE_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>nose</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="NOSE_MALE_02">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>nose</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="NOSE_MALE_03">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>nose</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="NOSE_MALE_04">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>nose</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+
+    <GameDBFacialFeature ID="MOUTH_MALE_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>mouth</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="MOUTH_MALE_02">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>mouth</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="MOUTH_MALE_03">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>mouth</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+
+    <GameDBFacialFeature ID="WRINKLES_MALE_NONE">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>wrinkles</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_MID</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_OLDER</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="WRINKLES_MALE_MID_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>wrinkles</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_YOUNG</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="WRINKLES_MALE_MID_02">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>wrinkles</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_YOUNG</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="WRINKLES_MALE_SENIOR_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>wrinkles</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_YOUNG</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_MID</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="WRINKLES_MALE_SENIOR_02">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>wrinkles</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_YOUNG</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_MID</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <GameDBFacialFeature ID="HEAD_SHAPE_FEMALE_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>head</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+
+    <GameDBFacialFeature ID="HAIR_STYLE_FEMALE_LONG_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hair_back</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>ear</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_OLDER</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_FEMALE_PONY_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hair_back</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>ear</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_OLDER</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_FEMALE_SHORT_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hair_back</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>ear</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_FEMALE_PUFFY_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hair_back</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>ear</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_YOUNG</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_MID</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_FEMALE_NEW_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hair_back</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>ear</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_OLDER</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_FEMALE_NEW_02">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hair_back</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>ear</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_OLDER</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_FEMALE_NEW_03">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>6</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hair_back</SliceID><TextureID>6</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>ear</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_FEMALE_NEW_04">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>7</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hair_back</SliceID><TextureID>7</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>ear</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_FEMALE_NEW_05">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>8</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hair_back</SliceID><TextureID>8</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>ear</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_FEMALE_NEW_06">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>9</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hair_back</SliceID><TextureID>9</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>ear</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_OLDER</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_FEMALE_NEW_07">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>10</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hair_back</SliceID><TextureID>10</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>ear</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_OLDER</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="HAIR_STYLE_FEMALE_NEW_08">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>hair</SliceID><TextureID>11</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>hair_back</SliceID><TextureID>11</TextureID></GameDBTextureOffset>
+            <GameDBTextureOffset><SliceID>ear</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+
+    <GameDBFacialFeature ID="EYES_FEMALE_ROUND_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_FEMALE_ASIAN_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_CAUCASSIAN</IncompatibleRace>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_FEMALE_ROUND_02">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_FEMALE_ROUND_03">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_FEMALE_ROUND_04">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_FEMALE_ASIAN_02">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>10</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_CAUCASSIAN</IncompatibleRace>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+        </IncompatibleRaces>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_MID</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_OLDER</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_FEMALE_ROUND_05">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>6</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_FEMALE_ROUND_06">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>7</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_FEMALE_ROUND_07">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>8</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_FEMALE_ROUND_08">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>9</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_FEMALE_ROUND_09">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>11</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_MID</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_OLDER</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_FEMALE_ROUND_10">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>12</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_MID</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_OLDER</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_FEMALE_ROUND_11">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>13</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_MID</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_OLDER</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_FEMALE_ROUND_12">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>14</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_MID</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_OLDER</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_FEMALE_ROUND_13">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>15</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_FEMALE_ROUND_14">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>16</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_FEMALE_ROUND_15">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>17</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_FEMALE_ROUND_16">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>18</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_FEMALE_ROUND_17">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>19</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_FEMALE_ROUND_18">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>20</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_FEMALE_ROUND_19">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>21</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="EYES_FEMALE_ROUND_20">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>eyes</SliceID><TextureID>22</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleRaces>
+            <IncompatibleRace>RACE_BLACK</IncompatibleRace>
+            <IncompatibleRace>RACE_ASIAN</IncompatibleRace>
+        </IncompatibleRaces>
+    </GameDBFacialFeature>
+
+    <GameDBFacialFeature ID="NOSE_FEMALE_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>nose</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="NOSE_FEMALE_02">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>nose</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="NOSE_FEMALE_03">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>nose</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="NOSE_FEMALE_04">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>nose</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+
+    <GameDBFacialFeature ID="MOUTH_FEMALE_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>mouth</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="MOUTH_FEMALE_02">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>mouth</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="MOUTH_FEMALE_03">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>mouth</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="MOUTH_FEMALE_04">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>mouth</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="MOUTH_FEMALE_05">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>mouth</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="MOUTH_FEMALE_06">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>mouth</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="MOUTH_FEMALE_07">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>mouth</SliceID><TextureID>6</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="MOUTH_FEMALE_08">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>mouth</SliceID><TextureID>7</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="MOUTH_FEMALE_09">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>mouth</SliceID><TextureID>8</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+
+    <GameDBFacialFeature ID="GLASSES_FEMALE_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>glasses</SliceID><TextureID>1</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="GLASSES_FEMALE_02">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>glasses</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="GLASSES_FEMALE_03">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>glasses</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="GLASSES_FEMALE_04">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>glasses</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="GLASSES_FEMALE_05">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>glasses</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="GLASSES_FEMALE_06">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>glasses</SliceID><TextureID>6</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="GLASSES_FEMALE_07">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>glasses</SliceID><TextureID>7</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+    </GameDBFacialFeature>
+
+    <GameDBFacialFeature ID="WRINKLES_FEMALE_NONE">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>wrinkles</SliceID><TextureID>0</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_MID</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_OLDER</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>            
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="WRINKLES_FEMALE_MID_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>wrinkles</SliceID><TextureID>2</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_YOUNG</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="WRINKLES_FEMALE_MID_02">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>wrinkles</SliceID><TextureID>3</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_YOUNG</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_SENIOR</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="WRINKLES_FEMALE_SENIOR_01">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>wrinkles</SliceID><TextureID>4</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_YOUNG</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_MID</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+    <GameDBFacialFeature ID="WRINKLES_FEMALE_SENIOR_02">
+        <TextureOffsets>
+            <GameDBTextureOffset><SliceID>wrinkles</SliceID><TextureID>5</TextureID></GameDBTextureOffset>
+        </TextureOffsets>
+        <IncompatibleAgeCategories>
+            <IncompatibleAgeCategory>AGE_YOUNG</IncompatibleAgeCategory>
+            <IncompatibleAgeCategory>AGE_MID</IncompatibleAgeCategory>
+        </IncompatibleAgeCategories>
+    </GameDBFacialFeature>
+</Database>

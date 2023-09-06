@@ -1,0 +1,124 @@
+﻿<Database>
+    <GameDBProcedure ID="CONTROL_PROCEDURE_CALL_PATIENT_NURSE">
+        <RequiredNurseQualificationList>    
+            <SkillRef>SKILL_NURSE_QUALIF_PATIENT_CARE</SkillRef>
+        </RequiredNurseQualificationList>
+        <ProcedureScript>ProcedureScriptControlNurseCallsPatient</ProcedureScript>
+    </GameDBProcedure>
+
+    <GameDBProcedure ID="CONTROL_PROCEDURE_FOOD_DELIVERY_NURSE">
+        <RequiredEquipmentA>
+            <RequiredTag>hospitalization</RequiredTag>
+        </RequiredEquipmentA>
+        <RequiredNurseQualificationList>    
+            <SkillRef>SKILL_NURSE_QUALIF_PATIENT_CARE</SkillRef>
+        </RequiredNurseQualificationList>
+        <ProcedureScript>ProcedureScriptControlNurseDeliveringFood</ProcedureScript>
+    </GameDBProcedure>
+
+    <GameDBProcedure ID="CONTROL_PROCEDURE_MEDICINE_DELIVERY_NURSE">
+        <RequiredNurseQualificationList>
+            <SkillRef>SKILL_NURSE_QUALIF_PATIENT_CARE</SkillRef>
+        </RequiredNurseQualificationList>
+        <ProcedureScript>ProcedureScriptControlNurseDeliveringMedicine</ProcedureScript>
+    </GameDBProcedure>
+
+    <GameDBProcedure ID="CONTROL_PROCEDURE_PATIENT_CARE_NURSE">
+        <RequiredNurseQualificationList>
+            <SkillRef>SKILL_NURSE_QUALIF_PATIENT_CARE</SkillRef>
+        </RequiredNurseQualificationList>
+        <ProcedureScript>ProcedureScriptControlNursePatientCare</ProcedureScript>
+    </GameDBProcedure>
+
+    <GameDBProcedure ID="CONTROL_PROCEDURE_PATIENT_DELIVER_SAMPLE">
+        <RequiredStatLabQualificationRef>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION</RequiredStatLabQualificationRef>
+        <ProcedureScript>ProcedureScriptStatLabSample</ProcedureScript>
+    </GameDBProcedure>    
+    
+    <GameDBProcedure ID="CONTROL_PROCEDURE_DOCTORS_ROUNDS">
+        <RequiredStatLabQualificationRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</RequiredStatLabQualificationRef>
+        <ProcedureScript>ProcedureScriptControlDoctorsRounds</ProcedureScript>
+    </GameDBProcedure>
+
+    <GameDBProcedure ID="CONTROL_PROCEDURE_PATIENT_STAT_LAB_RESULTS">
+        <RequiredStatLabQualificationRef>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION</RequiredStatLabQualificationRef>
+        <ProcedureScript>ProcedureScriptStatLabResult</ProcedureScript>
+    </GameDBProcedure>
+
+    <GameDBProcedure ID="CONTROL_PROCEDURE_CALL_PATIENT_DOCTOR">
+        <RequiredDoctorQualificationList>
+            <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+        </RequiredDoctorQualificationList>
+        <ProcedureScript>ProcedureScriptControlDoctorCallsPatient</ProcedureScript>
+    </GameDBProcedure>
+
+    <GameDBProcedure ID="CONTROL_PROCEDURE_CALL_PATIENT">
+        <RequiredEquipmentA>
+            <RequiredTag>queue</RequiredTag>
+        </RequiredEquipmentA>
+        <ProcedureScript>ProcedureScriptControlCallPatient</ProcedureScript>
+    </GameDBProcedure>
+
+    <GameDBProcedure ID="CONTROL_PROCEDURE_HOSPITALZED_FREE_TIME">
+        <ProcedureScript>ProcedureScriptControlHopitalizedFreeTime</ProcedureScript>
+    </GameDBProcedure>
+
+    <GameDBProcedure ID="CONTROL_PROCEDURE_HOSPITALZED_LYING_FREE_TIME">
+        <ProcedureScript>ProcedureScriptControlHopitalizedLyingFreeTime</ProcedureScript>
+    </GameDBProcedure>
+
+    <GameDBProcedure ID="CONTROL_PROCEDURE_NURSE_FREE_TIME">
+        <RequiredEquipmentA>
+            <RequiredTag>rest</RequiredTag>
+        </RequiredEquipmentA>
+        <ProcedureScript>ProcedureScriptControlNurseFreeTime</ProcedureScript>
+    </GameDBProcedure>
+
+    <GameDBProcedure ID="CONTROL_PROCEDURE_STAFF_LUNCH">
+        <RequiredEquipmentList>
+            <RequiredEquipment>
+                <Tag>staff_lunch</Tag>
+            </RequiredEquipment>
+        </RequiredEquipmentList>
+
+        <RequiredRoomTags>
+            <Tag>lunch_room</Tag>
+        </RequiredRoomTags>
+
+        <IgnoreDepratmentForRoom>cafeteria</IgnoreDepratmentForRoom>
+        
+        <ProcedureScript>ProcedureScriptStaffLunch</ProcedureScript>
+    </GameDBProcedure>   
+    
+    <GameDBProcedure ID="CONTROL_PROCEDURE_DOCTOR_FILING_REPORTS">
+        <!--Special case triggered from doctors script, no need for the required qualification -->
+        <ProcedureScript>ProcedureScriptDoctorFilingReports</ProcedureScript>
+    </GameDBProcedure>
+    
+    <GameDBProcedure ID="CONTROL_PROCEDURE_TRAUMA_STABILIZATION">
+        <StaffSelectionRules>DEFAULT_ROOMS</StaffSelectionRules>
+        <RequiredDoctorQualificationList>
+            <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+        </RequiredDoctorQualificationList>
+
+        <RequiredRoomTags>
+            <Tag>trauma_center</Tag>
+        </RequiredRoomTags>
+
+        <ProcedureScript>ProcedureScriptTreatmentStabilization</ProcedureScript>
+    </GameDBProcedure>
+
+    <GameDBProcedure ID="CONTROL_PROCEDURE_ICU_STABILIZATION">
+        <RequiredDoctorQualificationList>
+            <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+        </RequiredDoctorQualificationList>
+
+        <RequiredRoomTags>
+            <Tag>icu</Tag>
+        </RequiredRoomTags>
+        
+        <ProcedureScript>ProcedureScriptTreatmentStabilizationICU</ProcedureScript>
+    </GameDBProcedure>
+
+</Database>
+

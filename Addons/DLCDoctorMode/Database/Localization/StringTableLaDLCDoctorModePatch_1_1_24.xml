@@ -1,0 +1,17 @@
+<Database>
+    <GameDBStringTable ID="LOC_LA_DLC_DOCTOR_MODE_PATCH_1_1_24">
+    
+        <LanguageCode>la</LanguageCode>
+        <LanguageNameLocalized>Español Latino</LanguageNameLocalized>
+    
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+    
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSURANCE_OBJ_RESET</LocID>            <Text>Restablecimiento del objetivo de la compañía de seguros</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSURANCE_OBJ_RESET_TEXT</LocID>       <Text>Debido al cambio en el ajuste de dificultad del modo Médico, los objetivos de la compañía de seguros se restablecen.</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

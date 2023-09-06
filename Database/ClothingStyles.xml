@@ -1,0 +1,595 @@
+﻿<Database>
+    <GameDBClothingStyle ID="CLTHSTL_MALE_DOCTOR"> 
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_MALE</GameDBGenderRef>
+        </CompatibleGenders>  
+
+        <!-- The game can control which index in the list is used by an
+        individual employee of a department -->
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_TSHIRT</GameDBClothesRef>
+        </AllowedTops>  
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_PANTS</GameDBClothesRef>
+        </AllowedBottoms> 
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_SLIPPERS</GameDBClothesRef>
+        </AllowedShoes>   
+        <ColorRangeSettingsA>CLRRNGSTTNGS_DOCTOR_WHITE</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_DOCTOR_TOP</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+    
+    <GameDBClothingStyle ID="CLTHSTL_MALE_SURGEON"> 
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_MALE</GameDBGenderRef>
+        </CompatibleGenders>  
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_MALE_SURGEON</GameDBClothesRef>
+        </AllowedTops>  
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_PANTS</GameDBClothesRef>
+        </AllowedBottoms> 
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_SLIPPERS</GameDBClothesRef>
+        </AllowedShoes>   
+        <ColorRangeSettingsA>CLRRNGSTTNGS_SURGEON</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_SURGEON</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    <GameDBClothingStyle ID="CLTHSTL_MALE_SCRUBS">
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_MALE</GameDBGenderRef>
+        </CompatibleGenders>
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_MALE_SCRUBS</GameDBClothesRef>
+        </AllowedTops>
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_PANTS</GameDBClothesRef>
+        </AllowedBottoms>
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_SLIPPERS</GameDBClothesRef>
+        </AllowedShoes>
+        <ColorRangeSettingsA>CLRRNGSTTNGS_SURGEON</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_SURGEON</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    <GameDBClothingStyle ID="CLTHSTL_FEMALE_DOCTOR"> 
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_FEMALE</GameDBGenderRef>
+        </CompatibleGenders>
+          
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_FEMALE_TSHIRT_DOCTOR</GameDBClothesRef>
+        </AllowedTops>  
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_FEMALE_PANTS_DEFAULT</GameDBClothesRef>
+        </AllowedBottoms> 
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_FEMALE_SHOES_DEFAULT</GameDBClothesRef>
+        </AllowedShoes>  
+        <ColorRangeSettingsA>CLRRNGSTTNGS_DOCTOR_WHITE</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_DOCTOR_TOP</ColorRangeSettingsB> 
+    </GameDBClothingStyle>
+
+    <GameDBClothingStyle ID="CLTHSTL_FEMALE_SURGEON">
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_FEMALE</GameDBGenderRef>
+        </CompatibleGenders>
+
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_FEMALE_SURGEON</GameDBClothesRef>
+        </AllowedTops>
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_FEMALE_PANTS_DEFAULT</GameDBClothesRef>
+        </AllowedBottoms>
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_FEMALE_SHOES_DEFAULT</GameDBClothesRef>
+        </AllowedShoes>
+        <ColorRangeSettingsA>CLRRNGSTTNGS_SURGEON</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_SURGEON</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    <GameDBClothingStyle ID="CLTHSTL_FEMALE_SCRUBS">
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_FEMALE</GameDBGenderRef>
+        </CompatibleGenders>
+
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_FEMALE_SCRUBS</GameDBClothesRef>
+        </AllowedTops>
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_FEMALE_PANTS_DEFAULT</GameDBClothesRef>
+        </AllowedBottoms>
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_FEMALE_SHOES_DEFAULT</GameDBClothesRef>
+        </AllowedShoes>
+        <ColorRangeSettingsA>CLRRNGSTTNGS_SURGEON</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_SURGEON</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    <GameDBClothingStyle ID="CLTHSTL_MALE_NURSE"> 
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_MALE</GameDBGenderRef>
+        </CompatibleGenders> 
+         
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_MALE_MEDICAL_TSHIRT</GameDBClothesRef>
+        </AllowedTops>  
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_PANTS</GameDBClothesRef>
+        </AllowedBottoms> 
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_SLIPPERS</GameDBClothesRef>
+        </AllowedShoes>   
+        <ColorRangeSettingsA>CLRRNGSTTNGS_NURSE_BLUE</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_NURSE_TOP</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    <GameDBClothingStyle ID="CLTHSTL_FEMALE_NURSE"> 
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_FEMALE</GameDBGenderRef>
+        </CompatibleGenders>  
+
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_FEMALE_TSHIRT_MEDICAL</GameDBClothesRef>
+        </AllowedTops>  
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_FEMALE_PANTS_DEFAULT</GameDBClothesRef>
+        </AllowedBottoms> 
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_FEMALE_SHOES_DEFAULT</GameDBClothesRef>
+        </AllowedShoes>  
+        <ColorRangeSettingsA>CLRRNGSTTNGS_NURSE_BLUE</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_NURSE_TOP</ColorRangeSettingsB>  
+    </GameDBClothingStyle>
+
+    <GameDBClothingStyle ID="CLTHSTL_MALE_CASUAL"> 
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_MALE</GameDBGenderRef>
+        </CompatibleGenders>  
+
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_MALE_TSHIRT_001</GameDBClothesRef>
+            <GameDBClothesRef>CLOTHES_MALE_SHIRT_POCKET</GameDBClothesRef>
+            <GameDBClothesRef>CLOTHES_MALE_TSHIRT_VNECK</GameDBClothesRef>
+            <GameDBClothesRef>CLOTHES_MALE_TSHIRT_BUTTONS</GameDBClothesRef>
+            <GameDBClothesRef>CLOTHES_MALE_TSHIRT_NECKLINE</GameDBClothesRef>
+            <!--GameDBClothesRef>CLOTHES_MALE_SHIRT_001</GameDBClothesRef-->
+        </AllowedTops>  
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_MALE_JEANS_001</GameDBClothesRef>
+            <GameDBClothesRef>CLOTHES_MALE_SHORTS</GameDBClothesRef>
+            <!--GameDBClothesRef>CLOTHES_MALE_PANTS_001</GameDBClothesRef-->
+        </AllowedBottoms>  
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_MALE_SNEAKERS_002</GameDBClothesRef>
+            <GameDBClothesRef>CLOTHES_MALE_SNEAKERS_003</GameDBClothesRef>
+            <GameDBClothesRef>CLOTHES_MALE_SHOES_OUTDOOR</GameDBClothesRef>
+        </AllowedShoes> 
+        <ColorRangeSettingsA>CLRRNGSTTNGS_JEANS</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_CASUAL_CLOTHES</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    <GameDBClothingStyle ID="CLTHSTL_FEMALE_CASUAL"> 
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_FEMALE</GameDBGenderRef>
+        </CompatibleGenders>  
+
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_FEMALE_TSHIRT</GameDBClothesRef>
+            <GameDBClothesRef>CLOTHES_FEMALE_TOP_DEFAULT</GameDBClothesRef>
+            <GameDBClothesRef>CLOTHES_FEMALE_TOP_SHIRT</GameDBClothesRef>
+        </AllowedTops>  
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_FEMALE_PANTS_DEFAULT</GameDBClothesRef>
+            <GameDBClothesRef>CLOTHES_FEMALE_SHORTS</GameDBClothesRef>
+        </AllowedBottoms> 
+        <AllowedShoes>
+           <GameDBClothesRef>CLOTHES_FEMALE_SHOES_OUTDOOR</GameDBClothesRef>
+            <GameDBClothesRef>CLOTHES_FEMALE_BALLERINES</GameDBClothesRef>
+            <GameDBClothesRef>CLOTHES_FEMALE_SNEAKERS_002</GameDBClothesRef>
+            <GameDBClothesRef>CLOTHES_FEMALE_SNEAKERS_003</GameDBClothesRef>
+        </AllowedShoes>  
+        <ColorRangeSettingsA>CLRRNGSTTNGS_JEANS</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_CASUAL_CLOTHES</ColorRangeSettingsB> 
+    </GameDBClothingStyle> 
+
+     <GameDBClothingStyle ID="CLTHSTL_MALE_BUSINESS"> 
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_MALE</GameDBGenderRef>
+        </CompatibleGenders>  
+
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_MALE_SUIT_JACKET_001</GameDBClothesRef>
+        </AllowedTops>  
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_MALE_SUIT_PANTS_001</GameDBClothesRef>
+        </AllowedBottoms>  
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_MALE_SHOES_01</GameDBClothesRef>
+        </AllowedShoes> 
+        <ColorRangeSettingsA>CLRRNGSTTNGS_BUSINESS_CLOTHES_ACCESSORIES</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_BUSINESS_CLOTHES</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    <GameDBClothingStyle ID="CLTHSTL_FEMALE_BUSINESS"> 
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_FEMALE</GameDBGenderRef>
+        </CompatibleGenders>  
+
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_FEMALE_SUIT_JACKET_001</GameDBClothesRef>
+        </AllowedTops>  
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_FEMALE_SUIT_PANTS_001</GameDBClothesRef>
+        </AllowedBottoms> 
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_FEMALE_BALLERINES</GameDBClothesRef>
+        </AllowedShoes>  
+        <ColorRangeSettingsA>CLRRNGSTTNGS_BUSINESS_CLOTHES_ACCESSORIES</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_BUSINESS_CLOTHES</ColorRangeSettingsB> 
+    </GameDBClothingStyle>
+
+    
+    <GameDBClothingStyle ID="CLTHSTL_MALE_PAJAMAS">
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_MALE</GameDBGenderRef>
+        </CompatibleGenders>
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_MALE_SHIRT_001</GameDBClothesRef>
+        </AllowedTops>
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_MALE_PANTS_001</GameDBClothesRef>
+        </AllowedBottoms>
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_SLIPPERS</GameDBClothesRef>
+        </AllowedShoes>
+        <ColorRangeSettingsA>CLRRNGSTTNGS_PAJAMAS</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_PAJAMAS</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    <GameDBClothingStyle ID="CLTHSTL_FEMALE_PAJAMAS">
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_FEMALE</GameDBGenderRef>
+        </CompatibleGenders>
+
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_FEMALE_TOP_DEFAULT</GameDBClothesRef>
+        </AllowedTops>
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_FEMALE_PANTS_DEFAULT</GameDBClothesRef>
+        </AllowedBottoms>
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_FEMALE_SHOES_DEFAULT</GameDBClothesRef>
+        </AllowedShoes>
+        <ColorRangeSettingsA>CLRRNGSTTNGS_PAJAMAS</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_PAJAMAS</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    
+    <GameDBClothingStyle ID="CLTHSTL_MALE_JANITOR">
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_MALE</GameDBGenderRef>
+        </CompatibleGenders>
+
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_MALE_SHIRT_POCKET_JANITOR</GameDBClothesRef>
+        </AllowedTops>
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_MALE_JEANS_001</GameDBClothesRef>
+        </AllowedBottoms>
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_MALE_SNEAKERS_001</GameDBClothesRef>
+        </AllowedShoes>
+        <ColorRangeSettingsA>CLRRNGSTTNGS_JANITOR</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_JANITOR</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    <GameDBClothingStyle ID="CLTHSTL_FEMALE_JANITOR">
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_FEMALE</GameDBGenderRef>
+        </CompatibleGenders>
+
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_FEMALE_TOP_SHIRT_JANITOR</GameDBClothesRef>
+        </AllowedTops>
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_FEMALE_PANTS_DEFAULT</GameDBClothesRef>
+        </AllowedBottoms>
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_FEMALE_SHOES_DEFAULT</GameDBClothesRef>
+        </AllowedShoes>
+        <ColorRangeSettingsA>CLRRNGSTTNGS_JANITOR</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_JANITOR</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    <GameDBClothingStyle ID="CLTHSTL_MALE_LAB"> 
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_MALE</GameDBGenderRef>
+        </CompatibleGenders>  
+
+        <!-- The game can control which index in the list is used by an
+        individual employee of a department -->
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_MALE_MEDICAL_TSHIRT</GameDBClothesRef>
+        </AllowedTops>  
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_PANTS</GameDBClothesRef>
+        </AllowedBottoms> 
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_SLIPPERS</GameDBClothesRef>
+        </AllowedShoes>   
+        <ColorRangeSettingsA>CLRRNGSTTNGS_LAB_TROUSERS</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_LAB_TOP</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    <GameDBClothingStyle ID="CLTHSTL_FEMALE_LAB"> 
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_FEMALE</GameDBGenderRef>
+        </CompatibleGenders>
+          
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_FEMALE_TSHIRT_MEDICAL</GameDBClothesRef>
+        </AllowedTops>  
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_FEMALE_PANTS_DEFAULT</GameDBClothesRef>
+        </AllowedBottoms> 
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_FEMALE_SHOES_DEFAULT</GameDBClothesRef>
+        </AllowedShoes>  
+        <ColorRangeSettingsA>CLRRNGSTTNGS_LAB_TROUSERS</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_LAB_TOP</ColorRangeSettingsB> 
+    </GameDBClothingStyle>
+
+
+    <GameDBClothingStyle ID="CLTHSTL_MALE_PARAMEDIC">
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_MALE</GameDBGenderRef>
+        </CompatibleGenders>
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_MALE_PARAMEDIC_SHIRT</GameDBClothesRef>
+        </AllowedTops>
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_PANTS</GameDBClothesRef>
+        </AllowedBottoms>
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_SLIPPERS</GameDBClothesRef>
+        </AllowedShoes>
+        <ColorRangeSettingsA>CLRRNGSTTNGS_PARAMEDIC</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_PARAMEDIC</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    
+    <GameDBClothingStyle ID="CLTHSTL_FEMALE_PARAMEDIC">
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_FEMALE</GameDBGenderRef>
+        </CompatibleGenders>
+
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_FEMALE_PARAMEDIC_SHIRT</GameDBClothesRef>
+        </AllowedTops>
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_FEMALE_PANTS_DEFAULT</GameDBClothesRef>
+        </AllowedBottoms>
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_FEMALE_SHOES_DEFAULT</GameDBClothesRef>
+        </AllowedShoes>
+        <ColorRangeSettingsA>CLRRNGSTTNGS_PARAMEDIC</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_PARAMEDIC</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    <!-- //DLC HS///////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <GameDBClothingStyle ID="CLTHSTL_FEMALE_PATHOLOGIST">
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_FEMALE</GameDBGenderRef>
+        </CompatibleGenders>
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_FEMALE_DOCTOR_GLOVES</GameDBClothesRef>
+        </AllowedTops>
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_FEMALE_PANTS_DEFAULT</GameDBClothesRef>
+        </AllowedBottoms>
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_FEMALE_SHOES_DEFAULT</GameDBClothesRef>
+        </AllowedShoes>
+        <ColorRangeSettingsA>CLRRNGSTTNGS_DOCTOR_TOP</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_DOCTOR_TOP</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    <GameDBClothingStyle ID="CLTHSTL_MALE_PATHOLOGIST">
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_MALE</GameDBGenderRef>
+        </CompatibleGenders>
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_GLOVES</GameDBClothesRef>
+        </AllowedTops>
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_PANTS</GameDBClothesRef>
+        </AllowedBottoms>
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_SLIPPERS</GameDBClothesRef>
+        </AllowedShoes>
+        <ColorRangeSettingsA>CLRRNGSTTNGS_DOCTOR_TOP</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_DOCTOR_TOP</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    <!-- //DLC ID///////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <GameDBClothingStyle ID="CLTHSTL_FEMALE_QUARANTINE_DOC">
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_FEMALE</GameDBGenderRef>
+        </CompatibleGenders>
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_FEMALE_QUARANTINE_DOC</GameDBClothesRef>
+        </AllowedTops>
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_FEMALE_PANTS_DEFAULT</GameDBClothesRef>
+        </AllowedBottoms>
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_FEMALE_SHOES_DEFAULT</GameDBClothesRef>
+        </AllowedShoes>
+        <ColorRangeSettingsA>CLRRNGSTTNGS_SURGEON</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_SURGEON</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    <GameDBClothingStyle ID="CLTHSTL_FEMALE_QUARANTINE_NURSE_LAB">
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_FEMALE</GameDBGenderRef>
+        </CompatibleGenders>
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_FEMALE_QUARANTINE_NURSE_LAB</GameDBClothesRef>
+        </AllowedTops>
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_FEMALE_PANTS_DEFAULT</GameDBClothesRef>
+        </AllowedBottoms>
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_FEMALE_SHOES_DEFAULT</GameDBClothesRef>
+        </AllowedShoes>
+        <ColorRangeSettingsA>CLRRNGSTTNGS_SURGEON</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_SURGEON</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    <GameDBClothingStyle ID="CLOTHES_FEMALE_QUARANTINE_JANITOR">
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_FEMALE</GameDBGenderRef>
+        </CompatibleGenders>
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_FEMALE_QUARANTINE_JANITOR</GameDBClothesRef>
+        </AllowedTops>
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_FEMALE_PANTS_DEFAULT</GameDBClothesRef>
+        </AllowedBottoms>
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_FEMALE_SHOES_DEFAULT</GameDBClothesRef>
+        </AllowedShoes>
+        <ColorRangeSettingsA>CLRRNGSTTNGS_SURGEON</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_SURGEON</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    <GameDBClothingStyle ID="CLTHSTL_MALE_QUARANTINE_DOC">
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_MALE</GameDBGenderRef>
+        </CompatibleGenders>
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_MALE_QUARANTINE_DOC</GameDBClothesRef>
+        </AllowedTops>
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_PANTS</GameDBClothesRef>
+        </AllowedBottoms>
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_SLIPPERS</GameDBClothesRef>
+        </AllowedShoes>
+        <ColorRangeSettingsA>CLRRNGSTTNGS_SURGEON</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_SURGEON</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    <GameDBClothingStyle ID="CLTHSTL_MALE_QUARANTINE_NURSE_LAB">
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_MALE</GameDBGenderRef>
+        </CompatibleGenders>
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_MALE_QUARANTINE_NURSE_LAB</GameDBClothesRef>
+        </AllowedTops>
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_PANTS</GameDBClothesRef>
+        </AllowedBottoms>
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_SLIPPERS</GameDBClothesRef>
+        </AllowedShoes>
+        <ColorRangeSettingsA>CLRRNGSTTNGS_SURGEON</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_SURGEON</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    <GameDBClothingStyle ID="CLTHSTL_MALE_QUARANTINE_JANITOR">
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_MALE</GameDBGenderRef>
+        </CompatibleGenders>
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_MALE_QUARANTINE_JANITOR</GameDBClothesRef>
+        </AllowedTops>
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_PANTS</GameDBClothesRef>
+        </AllowedBottoms>
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_MALE_DOCTORS_SLIPPERS</GameDBClothesRef>
+        </AllowedShoes>
+        <ColorRangeSettingsA>CLRRNGSTTNGS_SURGEON</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_SURGEON</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    <!-- //DLC TD///////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <GameDBClothingStyle ID="CLTHSTL_MALE_POLICE">
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_MALE</GameDBGenderRef>
+        </CompatibleGenders>
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_MALE_TSHIRT_POLICE</GameDBClothesRef>
+        </AllowedTops>
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_MALE_PANTS_POLICE</GameDBClothesRef>
+        </AllowedBottoms>
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_MALE_SHOES_OUTDOOR</GameDBClothesRef>
+        </AllowedShoes>
+        <ColorRangeSettingsA>CLRRNGSTTNGS_POLICE</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_POLICE</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    
+    <GameDBClothingStyle ID="CLTHSTL_FEMALE_POLICE">
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_FEMALE</GameDBGenderRef>
+        </CompatibleGenders>
+
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_FEMALE_TSHIRT_POLICE</GameDBClothesRef>
+        </AllowedTops>
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_FEMALE_PANTS_POLICE</GameDBClothesRef>
+        </AllowedBottoms>
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_FEMALE_SHOES_DEFAULT</GameDBClothesRef>
+        </AllowedShoes>
+        <ColorRangeSettingsA>CLRRNGSTTNGS_POLICE</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_POLICE</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    <GameDBClothingStyle ID="CLTHSTL_MALE_FIREFIGHTER">
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_MALE</GameDBGenderRef>
+        </CompatibleGenders>
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_MALE_SHIRT_FIREFIGHTER</GameDBClothesRef>
+        </AllowedTops>
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_MALE_PANTS_FIREFIGHTER</GameDBClothesRef>
+        </AllowedBottoms>
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_FEMALE_SHOES_OUTDOOR</GameDBClothesRef>
+        </AllowedShoes>
+        <ColorRangeSettingsA>CLRRNGSTTNGS_FIREFIGHTER</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_FIREFIGHTER</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+    
+    <GameDBClothingStyle ID="CLTHSTL_FEMALE_FIREFIGHTER">
+        <CompatibleGenders>
+            <GameDBGenderRef>GENDER_FEMALE</GameDBGenderRef>
+        </CompatibleGenders>
+
+        <AllowedTops>
+            <GameDBClothesRef>CLOTHES_FEMALE_SHIRT_FIREFIGHTER</GameDBClothesRef>
+        </AllowedTops>
+        <AllowedBottoms>
+            <GameDBClothesRef>CLOTHES_FEMALE_PANTS_FIREFIGHTER</GameDBClothesRef>
+        </AllowedBottoms>
+        <AllowedShoes>
+            <GameDBClothesRef>CLOTHES_FEMALE_SHOES_OUTDOOR</GameDBClothesRef>
+        </AllowedShoes>
+        <ColorRangeSettingsA>CLRRNGSTTNGS_FIREFIGHTER</ColorRangeSettingsA>
+        <ColorRangeSettingsB>CLRRNGSTTNGS_FIREFIGHTER</ColorRangeSettingsB>
+    </GameDBClothingStyle>
+
+</Database>

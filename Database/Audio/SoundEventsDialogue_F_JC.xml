@@ -1,0 +1,122 @@
+﻿<Database>
+    <!--===============  Fake dialogue ===================-->
+
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_QUESTION_FEMALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_question_female_01.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_question_female_02.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_question_female_03.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_STATEMENT_FEMALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_statement_doctor_female_01.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_statement_doctor_female_02.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_statement_doctor_female_03.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_statement_doctor_female_04.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_statement_doctor_female_05.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_STATEMENT_URGENT_FEMALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_statement_doctor_female_01.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_NEXT_FEMALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_statement_doctor_female_01.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_ORDER_PATIENT_FEMALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_statement_doctor_female_01.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+    
+    <GameDBSoundEvent ID="DIALOGUE_STAFF_SURGEON_TOOL_FEMALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_statement_doctor_female_01.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_STATEMENT_FEMALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_statement_patient_female_01.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_statement_patient_female_02.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_statement_patient_female_03.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_statement_patient_female_04.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_statement_patient_female_05.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>    
+    
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_STATEMENT_BARELY_AUDIBLE_FEMALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_statement_patient_female_01.wav</AudioClip>
+
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-12</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_ANGRY_FEMALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_angry_female_01.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_angry_female_02.wav</AudioClip>
+            <AudioClip>Audio/Dialogue/dialogue_angry_female_03.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_OUCH_FEMALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_statement_patient_female_01.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+    
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_AAA_FEMALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_statement_patient_female_01.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_GOODBYE_FEMALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_statement_patient_female_01.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="DIALOGUE_PATIENT_CHATTING_FEMALE_JC">
+        <AudioClips>
+            <AudioClip>Audio/Dialogue/dialogue_statement_patient_female_01.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+    
+ </Database>
+

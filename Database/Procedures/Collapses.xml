@@ -1,0 +1,84 @@
+﻿<Database>
+    <GameDBProcedure ID="CONTROL_PROCEDURE_COLLAPSE_LOW">
+        <!-- One nurse pre-reserved for stretchering -->
+        <RequiredNurseQualificationList>
+            <SkillRef>SKILL_NURSE_QUALIF_PATIENT_CARE</SkillRef>
+        </RequiredNurseQualificationList>
+        
+        <RequiredIndistinctEmployeeCount>1</RequiredIndistinctEmployeeCount>
+        
+        <ProcedureScript>ProcedureScriptCollapse</ProcedureScript>
+        
+        <AnimationSetupLying>
+            <AnimationNameIn>collapse_support_in</AnimationNameIn>
+            <AnimationNameIdle>collapse_support_idle</AnimationNameIdle>
+            <AnimationNameOut>collapse_support_out</AnimationNameOut>
+        </AnimationSetupLying>
+        <AnimationSetupSitting>
+            <AnimationNameIn>stand_treatment_in</AnimationNameIn>
+            <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
+            <AnimationNameOut>stand_treatment_out</AnimationNameOut>
+        </AnimationSetupSitting>
+
+        <CollapseTreatment>
+            <Treatments></Treatments>
+        </CollapseTreatment>
+        
+        <IgnoreRoles>true</IgnoreRoles>
+    </GameDBProcedure>
+
+    <GameDBProcedure ID="CONTROL_PROCEDURE_COLLAPSE_MEDIUM">
+        <!-- One nurse pre-reserved for stretchering -->
+        <RequiredNurseQualificationList>
+            <SkillRef>SKILL_NURSE_QUALIF_PATIENT_CARE</SkillRef>
+        </RequiredNurseQualificationList>
+        
+        <RequiredIndistinctEmployeeCount>1</RequiredIndistinctEmployeeCount>
+        
+        <ProcedureScript>ProcedureScriptCollapse</ProcedureScript>
+        
+        <AnimationSetupLying>
+            <AnimationNameIn>collapse_support_in</AnimationNameIn>
+            <AnimationNameIdle>collapse_support_idle</AnimationNameIdle>
+            <AnimationNameOut>collapse_support_out</AnimationNameOut>
+        </AnimationSetupLying>
+        <AnimationSetupSitting>
+            <AnimationNameIn>stand_treatment_in</AnimationNameIn>
+            <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
+            <AnimationNameOut>stand_treatment_out</AnimationNameOut>
+        </AnimationSetupSitting>
+        
+        <CollapseTreatment>
+            <Treatments></Treatments>
+        </CollapseTreatment>
+
+        <IgnoreRoles>true</IgnoreRoles>
+    </GameDBProcedure>
+
+    <GameDBProcedure ID="CONTROL_PROCEDURE_COLLAPSE_HIGH">
+        <!-- One nurse pre-reserved for stretchering -->
+        <RequiredNurseQualificationList>
+            <SkillRef>SKILL_NURSE_QUALIF_PATIENT_CARE</SkillRef>
+        </RequiredNurseQualificationList>
+        
+        <RequiredIndistinctEmployeeCount>2</RequiredIndistinctEmployeeCount>
+        
+        <ProcedureScript>ProcedureScriptCollapse</ProcedureScript>
+
+        <AnimationSetupSitting>
+            <AnimationNameIn>stand_treatment_in</AnimationNameIn> <!--TODO chest compressions?-->
+            <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
+            <AnimationNameOut>stand_treatment_out</AnimationNameOut>
+        </AnimationSetupSitting>
+
+        <CollapseTreatment>
+            <Treatments>
+                <TreatmentRef>TRT_DEFIBRILLATION</TreatmentRef> <!-- resuscitation -->
+            </Treatments>
+        </CollapseTreatment>
+
+        <IgnoreRoles>true</IgnoreRoles>
+    </GameDBProcedure>
+</Database>
+
+

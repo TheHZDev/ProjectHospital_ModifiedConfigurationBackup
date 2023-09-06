@@ -1,0 +1,232 @@
+﻿<Database>
+    <!--
+    Objectives
+    ==========
+    TREATED_PATIENTS,
+    TODO TREATED_IMMOBILE_PATIENTS
+    TREATED_PATIENTS_PER_DAY,
+    TREATMENT_SUCCESS_RATE,
+    TREATED_PATIENTS_PER_DAY_AT_DEPARTMENT,
+    WORKING_ROOMS,
+    WORKING_CLINIC_AT_DEPARTMENT,
+    WORKING_HOSPITALIZATION_AT_DEPARTMENT,
+    PRESTIGE (in percent)
+    PRESTIGE_AT_DEPARTMENT (in percent)
+    NUMBER_OF_AMBULANCES
+    BALANCE
+    BANK_BALANCE
+    PROFITABLE_DAYS
+    PROFIT_PER_DAY_AT_DEPARTMENT (in dollars)
+    
+    (Patch 1.1)
+    SAVE_PATIENT_AFTER_COLLAPSES,
+    WORKING_CLINIC_AT_ANY_SPECIALIZED_DEPARTMENT,
+    WORKING_HOSPITALIZATION_AT_ANY_SPECIALIZED_DEPARTMENT,
+    PRESTIGE_AT_ANY_SPECIALIZED_DEPARTMENT,
+    TREATED_PATIENTS_PER_DAY_AT_ANY_SPECIALIZED_DEPARTMENT,
+    PERFORM_SURGERY,
+    SUCCESSFUL_EVENTS_OF_TYPE,
+    SUCCESSFUL_EVENTS_IN_ROW,
+    NUMBER_OF_FULLY_WORKING_DEPARTMENTS,
+    NO_PATIENTS_SENT_AWAY_OR_WENT_AWAY_DAYS,
+    NO_DEAD_PATIENTS_DAYS
+    
+    (DLC Doc mode)
+    CREATED_DOCTORS,
+    CREATED_DOCTORS_AT_DEPARTMENT,
+    TREATED_PATIENTS_WITH_INTERN_MODE_AT_DEPARTMENT,
+    TREATED_PATIENTS_WITH_RESIDENT_MODE_AT_DEPARTMENT,
+    TREATED_PATIENTS_WITH_SPECIALIST_MODE_AT_DEPARTMENT,
+    TREATED_CONTROLLED_PATIENTS_AT_DEPARTMENT,
+    REACHED_CERTAIN_LEVEL_WITH_CREATED_CHARACTER => DOCTOR 3-5, NURSE 2-3, LAB_SPECIALIST 2-3, JANITOR 2-3
+    NO_DEAD_CONTROLLED_PATIENTS_DAYS - Can be used only for one insurance company also not as first objective (DO NOT DOUBLE),
+
+    // Don't mix with TREATED_PATIENTS_WITH_INTERN_MODE_AT_DEPARTMENT etc.
+    TREATED_CONTROLLED_DOCTORS_PATIENTS ==> ConditionDatabaseID EASY_MODE/MEDIUM_MODE/HARDCORE_MODE
+    CORRECTLY_DIAGNOSED_CONTROLLED_DOCTORS_PATIENTS ==> ConditionDatabaseID EASY_MODE/MEDIUM_MODE/HARDCORE_MODE
+    REACHED_DOCTORS_RATING
+    
+    
+    Rewards
+    ==========
+    NONE,
+    UNLOCK_ROOM,
+    UNLOCK_DEPARTMENT,
+    UNLOCK_DEPARTMENT_HOSPITALIZATION,
+    MONEY_GRANT,
+    MORE_MOBILE_PATIENTS,
+    MORE_IMMOBILE_PATIENTS,
+    UNLOCK_AMBULANCES
+    GET_GREAT_INTERNS,
+    
+    (Patch 1.1)
+    PRESTIGE_BONUS (use RewardParam as percent and RewardDuration as days)
+    UNLOCK_ALL_HOSPITALIZATIONS,
+    SET_MOBILE_PATIENT_COUNT,
+    SET_IMMOBILE_PATIENT_COUNT,
+    UNLOCK_EVENTS,
+    UNLOCK_RANDOM_EVENTS
+    
+    (DLC Doc mode)
+    EXPERIENCE_POINTS_FOR_CREATED_CHARACTERS
+    EXPERIENCE_POINTS_FOR_CONTROLLED_DOCTORS
+     -->
+    
+    <GameDBInsuranceCompany ID="IN_COM_TD"> 
+        <NameLocID>IN_COM_TD_NAME</NameLocID>
+        <IconIndex>2879</IconIndex>
+        
+        <Requirements>
+            <Requirement>
+                <ConditionType>WORKING_CLINIC_AT_DEPARTMENT</ConditionType>
+                <ConditionDatabaseID>DPT_TRAUMATOLOGY_DEPARTMENT</ConditionDatabaseID>
+				<ConditionValue>0</ConditionValue>
+				<Hidden>true</Hidden>
+            </Requirement>
+        </Requirements>
+					
+
+        <Objectives>
+        	<Objective>
+                <Requirement>
+                    <ConditionType>TREATED_PATIENTS_PER_DAY_AT_DEPARTMENT</ConditionType>
+                    <ConditionDatabaseID>DPT_TRAUMATOLOGY_DEPARTMENT</ConditionDatabaseID>
+					<ConditionValue>5</ConditionValue>
+                </Requirement>
+                <Reward>
+                    <RewardType>MONEY_GRANT</RewardType>
+                    <RewardParam>5000</RewardParam>
+                </Reward>
+            </Objective>
+            <Objective>
+                <Requirement>
+					<ConditionType>WORKING_HOSPITALIZATION_AT_DEPARTMENT</ConditionType>
+					<ConditionDatabaseID>DPT_TRAUMATOLOGY_DEPARTMENT</ConditionDatabaseID>
+				</Requirement>
+                <Reward>
+                    <RewardType>MONEY_GRANT</RewardType>
+                    <RewardParam>10000</RewardParam>
+                </Reward>
+            </Objective>
+            <Objective>
+                <Requirement>
+                    <ConditionType>SUCCESSFUL_EVENTS_OF_TYPE</ConditionType>
+                    <ConditionDatabaseID>EVENT_CRASH</ConditionDatabaseID>
+                	<ConditionValue>3</ConditionValue>
+                </Requirement>
+                <Reward>
+                    <RewardType>MONEY_GRANT</RewardType>
+                    <RewardParam>15000</RewardParam>
+                </Reward>
+            </Objective>
+            <Objective>
+                <Requirement>
+                    <ConditionType>PRESTIGE_AT_DEPARTMENT</ConditionType>
+                    <ConditionDatabaseID>DPT_TRAUMATOLOGY_DEPARTMENT</ConditionDatabaseID>
+                    <ConditionValue>85</ConditionValue>
+                </Requirement>
+                <Reward>
+                    <RewardType>SET_MOBILE_PATIENT_COUNT</RewardType>
+                    <RewardParam>15</RewardParam>
+                </Reward>
+            </Objective>
+			<Objective>
+                <Requirement>
+                    <ConditionType>PERFORM_SURGERY_AT_DEPARTMENT</ConditionType>
+                    <ConditionDatabaseID>DPT_TRAUMATOLOGY_DEPARTMENT</ConditionDatabaseID>
+                    <ConditionValue>5</ConditionValue>
+                </Requirement>
+                <Reward>
+                    <RewardType>MONEY_GRANT</RewardType>
+                    <RewardParam>60000</RewardParam>
+                </Reward>
+			</Objective>
+			<Objective>
+                <Requirement>
+                    <ConditionType>SUCCESSFUL_EVENTS_IN_ROW_OF_TYPE</ConditionType>
+                    <ConditionDatabaseID>EVENT_CRASH</ConditionDatabaseID>
+                    <ConditionValue>2</ConditionValue>
+                </Requirement>
+                <Reward>
+                    <RewardType>PRESTIGE_BONUS</RewardType>
+                    <RewardParam>15</RewardParam>
+                    <RewardDuration>1</RewardDuration>
+                </Reward>
+            </Objective>
+            <Objective>
+                <Requirement>
+                    <ConditionType>NO_DEAD_PATIENTS_DAYS</ConditionType>
+                	<ConditionValue>5</ConditionValue>
+                </Requirement>
+                <Reward>
+                    <RewardType>SET_IMMOBILE_PATIENT_COUNT</RewardType>
+                    <RewardParam>5</RewardParam>
+                </Reward>
+            </Objective>
+			<Objective>
+                <Requirement>
+                    <ConditionType>SUCCESSFUL_EVENTS_OF_TYPE</ConditionType>
+                    <ConditionDatabaseID>EVENT_CRASH</ConditionDatabaseID>
+                	<ConditionValue>6</ConditionValue>
+                </Requirement>
+                <Reward>
+                    <RewardType>MONEY_GRANT</RewardType>
+                    <RewardParam>50000</RewardParam>
+                </Reward>
+            </Objective>
+            <Objective>
+                <Requirement>
+                    <ConditionType>NO_PATIENTS_SENT_AWAY_OR_WENT_AWAY_DAYS</ConditionType>
+                	<ConditionValue>8</ConditionValue>
+                </Requirement>
+                <Reward>
+                    <RewardType>SET_MOBILE_PATIENT_COUNT</RewardType>
+                    <RewardParam>20</RewardParam>
+                </Reward>
+            </Objective>
+			<Objective>
+                <Requirement>
+                    <ConditionType>PERFORM_SURGERY_AT_DEPARTMENT</ConditionType>
+                    <ConditionDatabaseID>DPT_TRAUMATOLOGY_DEPARTMENT</ConditionDatabaseID>
+                    <ConditionValue>20</ConditionValue>
+                </Requirement>
+                <Reward>
+                    <RewardType>MONEY_GRANT</RewardType>
+                    <RewardParam>100000</RewardParam>
+                </Reward>
+			</Objective>
+			<Objective>
+                <Requirement>
+                    <ConditionType>SUCCESSFUL_EVENTS_IN_ROW_OF_TYPE</ConditionType>
+                    <ConditionDatabaseID>EVENT_CRASH</ConditionDatabaseID>
+                    <ConditionValue>10</ConditionValue>
+                </Requirement>
+                <Reward>
+                    <RewardType>SET_IMMOBILE_PATIENT_COUNT</RewardType>
+                    <RewardParam>10</RewardParam>
+                </Reward>
+            </Objective>
+			<Objective>
+                <Requirement>
+                    <ConditionType>PRESTIGE_AT_DEPARTMENT</ConditionType>
+                    <ConditionDatabaseID>DPT_TRAUMATOLOGY_DEPARTMENT</ConditionDatabaseID>
+                    <ConditionValue>95</ConditionValue>
+                </Requirement>
+                <Reward>
+                    <RewardType>MONEY_GRANT</RewardType>
+                    <RewardParam>200000</RewardParam>
+                </Reward>
+            </Objective>
+        </Objectives>
+
+        <PatientsPerDay>10</PatientsPerDay>
+        <ImmobilePerDay>0</ImmobilePerDay>
+        
+        <CoverCostPercent>10</CoverCostPercent>
+        <UnlockCompany>UNLOCK_FED_MED</UnlockCompany>
+        <!-- TODO
+        <Deprecated>true</Deprecated>
+        -->
+    </GameDBInsuranceCompany>
+
+</Database>

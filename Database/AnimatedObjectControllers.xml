@@ -1,0 +1,94 @@
+<Database>
+    <GameDBAnimatedModel8DirController ID="OBJECT_X_RAY_ARM_CONTROLLER">
+        <AnimationFilenamePrefix>object_x_ray_</AnimationFilenamePrefix>
+        <Scale>30</Scale>
+    
+        <ModelSW>object_x_ray_sw_model.xml</ModelSW>
+        <ModelNW>object_x_ray_nw_model.xml</ModelNW>
+        <ModelNE>object_x_ray_ne_model.xml</ModelNE>
+        <ModelSE>object_x_ray_se_model.xml</ModelSE>
+    
+        <MirrorS>false</MirrorS>
+        <MirrorSW>false</MirrorSW>
+        <MirrorW>false</MirrorW>
+        <MirrorNW>false</MirrorNW>
+        <MirrorN>false</MirrorN>
+        <MirrorNE>false</MirrorNE>
+        <MirrorE>false</MirrorE>
+        <MirrorSE>false</MirrorSE>
+    
+        <AnimationSets>
+            <AnimationSet>
+                <Configuration>FOUR_DIR</Configuration><!--Not mirrored -->
+                <Name>move_start_upper_limb</Name>
+                <Folder>anim_objects</Folder>
+            </AnimationSet>
+    
+            <AnimationSet>
+                <Configuration>FOUR_DIR</Configuration><!--Not mirrored -->
+                <Name>move_start_lower_limb</Name>
+                <Folder>anim_objects</Folder>
+            </AnimationSet>
+    
+            <AnimationSet>
+                <Configuration>FOUR_DIR</Configuration><!--Not mirrored -->
+                <Name>move_start_torso</Name>
+                <Folder>anim_objects</Folder>
+            </AnimationSet>
+    
+            <AnimationSet>
+                <Configuration>FOUR_DIR</Configuration><!--Not mirrored -->
+                <Name>move_end_upper_limb</Name>
+                <Folder>anim_objects</Folder>
+            </AnimationSet>
+    
+            <AnimationSet>
+                <Configuration>FOUR_DIR</Configuration><!--Not mirrored -->
+                <Name>move_end_lower_limb</Name>
+                <Folder>anim_objects</Folder>
+            </AnimationSet>
+    
+            <AnimationSet>
+                <Configuration>FOUR_DIR</Configuration><!--Not mirrored -->
+                <Name>move_end_torso</Name>
+                <Folder>anim_objects</Folder>
+            </AnimationSet>
+        </AnimationSets>
+    
+    </GameDBAnimatedModel8DirController>
+    
+    <GameDBAnimatedModel8DirController ID="OBJECT_ANGIOGRAPH_ARM_CONTROLLER">
+        <AnimationFilenamePrefix>object_angio_</AnimationFilenamePrefix>
+        <Scale>30</Scale>
+        
+        <ModelSW>object_angiograph_sw_model.xml</ModelSW>
+        <ModelNW>object_angiograph_nw_model.xml</ModelNW>
+        <ModelNE>object_angiograph_ne_model.xml</ModelNE>
+        <ModelSE>object_angiograph_se_model.xml</ModelSE>
+        
+        <MirrorS>false</MirrorS>
+        <MirrorSW>false</MirrorSW>
+        <MirrorW>false</MirrorW>
+        <MirrorNW>false</MirrorNW>
+        <MirrorN>false</MirrorN>
+        <MirrorNE>false</MirrorNE>
+        <MirrorE>false</MirrorE>
+        <MirrorSE>false</MirrorSE>
+        
+        <AnimationSets>!--Not mirrored -->
+            <AnimationSet>
+                <Configuration>FOUR_DIR</Configuration><!--Not mirrored -->
+                <Name>move_start</Name>
+                <Folder>anim_objects</Folder>
+            </AnimationSet>
+
+            <AnimationSet>
+                <Configuration>FOUR_DIR</Configuration><!--Not mirrored -->
+                <Name>move_end</Name>
+                <Folder>anim_objects</Folder>
+            </AnimationSet>
+
+        </AnimationSets>
+        
+    </GameDBAnimatedModel8DirController>
+</Database>

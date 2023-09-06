@@ -1,0 +1,1072 @@
+﻿<Database>
+    <!-- PREFABS ////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <GameDBObject ID="OBJECT_CT_1">
+        <AbbreviationLocID>OBJECT_CT_1_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>186</TextureIDNW>
+        <TextureIDNE>189</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>195</TextureIDSW>
+        <IconIndex>721</IconIndex>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>0</m_x>
+                <m_y>-1</m_y>
+            </AccessPosition>
+        </AccessPositions>
+        
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <!--NotInteractable>true</NotInteractable-->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <Placement>INDOORS</Placement>
+
+        <OffsetZNW>-0.12</OffsetZNW>
+        <OffsetZNE>0.0</OffsetZNE>
+        <OffsetZSE>0.0</OffsetZSE>
+        <OffsetZSW>-0.12</OffsetZSW>
+        
+        <Tags>
+            <Tag>ct_scan</Tag>
+            <Tag>ui_ct</Tag>
+        </Tags>
+
+        <Cost>28999</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_CT_2">
+        <AbbreviationLocID>OBJECT_CT_1_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>187</TextureIDNW>
+        <TextureIDNE>190</TextureIDNE>
+        <TextureIDSE>193</TextureIDSE>
+        <TextureIDSW>194</TextureIDSW>
+        <IconIndex>721</IconIndex>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+        </AccessPositions>
+        
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <!--NotInteractable>true</NotInteractable-->
+        <Placement>INDOORS</Placement>
+
+        <AttachmentSlot>
+            <AllowedTags>
+                <Tag>ct_attachment</Tag>
+            </AllowedTags>
+        </AttachmentSlot>
+
+        <OffsetZNW>-0.25</OffsetZNW>
+        <OffsetZNE>-0.25</OffsetZNE>
+        <OffsetZSE>0.25</OffsetZSE>
+        <OffsetZSW>0.25</OffsetZSW>
+
+        <Tags>
+            <Tag>ui_hidden</Tag>
+        </Tags>
+
+        <Cost>0</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_CT_3">
+        <AbbreviationLocID>OBJECT_CT_1_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>188</TextureIDNW>
+        <TextureIDNE>191</TextureIDNE>
+        <TextureIDSE>192</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>721</IconIndex>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>0</m_x>
+                <m_y>1</m_y>
+            </AccessPosition>
+        </AccessPositions>
+
+        <OffsetZNW>0.0</OffsetZNW>
+        <OffsetZNE>-0.12</OffsetZNE>
+        <OffsetZSE>-0.12</OffsetZSE>
+        <OffsetZSW>0.0</OffsetZSW>
+        
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <!--NotInteractable>true</NotInteractable-->
+        <Placement>INDOORS</Placement>
+
+        <Tags>
+            <Tag>ui_hidden</Tag>
+        </Tags>
+
+        <Cost>0</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_CT_ATTACHMENT">
+        <AbbreviationLocID>OBJECT_CT_1_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>196</TextureIDNW>
+        <TextureIDNE>197</TextureIDNE>
+        <TextureIDSE>198</TextureIDSE>
+        <TextureIDSW>199</TextureIDSW>
+        <IconIndex>721</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>true</AttachedToObject>
+        <NotInteractable>true</NotInteractable>
+        <Placement>INDOORS</Placement>
+
+        <AttachedToCeiling>false</AttachedToCeiling>
+
+        <OffsetZNW>-0.62</OffsetZNW>
+        <OffsetZNE>-0.62</OffsetZNE>
+        <OffsetZSE>-0.62</OffsetZSE>
+        <OffsetZSW>-0.62</OffsetZSW>
+
+        <Tags>
+            <Tag>ct_attachment</Tag>
+            <Tag>ui_hidden</Tag>
+        </Tags>
+        <Cost>0</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_MRI_1">
+        <AbbreviationLocID>OBJECT_MRI_1_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>201</TextureIDNW>
+        <TextureIDNE>204</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>215</TextureIDSW>
+        <IconIndex>722</IconIndex>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>0</m_x>
+                <m_y>-1</m_y>
+            </AccessPosition>
+        </AccessPositions>
+        
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <!--NotInteractable>true</NotInteractable-->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <Placement>INDOORS</Placement>
+
+        <Tags>
+            <Tag>mri_scan</Tag>
+            <Tag>ui_mri</Tag>
+            <Tag>ui_hidden</Tag>
+        </Tags>
+
+        <OffsetZNW>-0.6</OffsetZNW>
+        <OffsetZSW>-0.6</OffsetZSW>
+        <OffsetZNE>0.5</OffsetZNE>
+        <OffsetZSE>0.5</OffsetZSE>
+
+        <Cost>28999</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_MRI_2">
+        <AbbreviationLocID>OBJECT_MRI_1_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>202</TextureIDNW>
+        <TextureIDNE>205</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>722</IconIndex>
+
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <AttachedToWall>false</AttachedToWall>
+        <NotInteractable>true</NotInteractable>
+        <Placement>INDOORS</Placement>
+
+        <AttachmentSlot>
+            <AllowedTags>
+                <Tag>mri_attachment</Tag>
+            </AllowedTags>
+        </AttachmentSlot>
+
+        <Tags>
+            <Tag>ui_hidden</Tag>
+        </Tags>
+
+        <!-- Always behind -->
+        <OffsetZNW>0.5</OffsetZNW>
+        <OffsetZSW>0.5</OffsetZSW>
+        <OffsetZNE>0.5</OffsetZNE>
+        <OffsetZSE>0.5</OffsetZSE>
+
+        <Cost>0</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_MRI_3">
+        <AbbreviationLocID>OBJECT_MRI_1_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>203</TextureIDNW>
+        <TextureIDNE>206</TextureIDNE>
+        <TextureIDSE>208</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>722</IconIndex>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>0</m_x>
+                <m_y>1</m_y>
+            </AccessPosition>
+        </AccessPositions>
+        
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <!--NotInteractable>true</NotInteractable-->
+        <Placement>INDOORS</Placement>
+
+        <Tags>
+            <Tag>ui_hidden</Tag>
+        </Tags>
+
+        <OffsetZNE>-0.6</OffsetZNE>
+        <OffsetZSE>-0.6</OffsetZSE>
+
+        <Cost>0</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_MRI_4">
+        <AbbreviationLocID>OBJECT_MRI_1_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>200</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>211</TextureIDSE>
+        <TextureIDSW>214</TextureIDSW>
+        <IconIndex>722</IconIndex>
+
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <NotInteractable>true</NotInteractable>
+        <Placement>INDOORS</Placement>
+
+        <Tags>
+            <Tag>ui_hidden</Tag>
+        </Tags>
+
+        <OffsetZNW>-0.6</OffsetZNW>
+        <OffsetZSW>-0.6</OffsetZSW>
+        <OffsetZNE>0.5</OffsetZNE>
+        <OffsetZSE>0.5</OffsetZSE>
+
+        <Cost>0</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_MRI_5">
+        <AbbreviationLocID>OBJECT_MRI_1_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>210</TextureIDSE>
+        <TextureIDSW>213</TextureIDSW>
+        <IconIndex>722</IconIndex>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+        </AccessPositions>
+        
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <!--NotInteractable>true</NotInteractable-->
+        <Placement>INDOORS</Placement>
+
+        <AttachmentSlot>
+            <AllowedTags>
+                <Tag>mri_attachment</Tag>
+            </AllowedTags>
+        </AttachmentSlot>
+
+        <Tags>
+            <Tag>ui_hidden</Tag>
+        </Tags>
+
+        <OffsetZSW>-0.75</OffsetZSW>
+        <OffsetZSE>-0.75</OffsetZSE>
+        <OffsetZNE>0.5</OffsetZNE>
+        <OffsetZNW>0.5</OffsetZNW>
+
+        <Cost>0</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_MRI_6">
+        <AbbreviationLocID>OBJECT_MRI_1_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>207</TextureIDNE>
+        <TextureIDSE>209</TextureIDSE>
+        <TextureIDSW>212</TextureIDSW>
+        <IconIndex>722</IconIndex>
+
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <NotInteractable>true</NotInteractable>
+        <Placement>INDOORS</Placement>
+
+        <OffsetZSE>-0.6</OffsetZSE>
+
+        <Tags>
+            <Tag>ui_hidden</Tag>
+        </Tags>
+
+        <Cost>0</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_MRI_ATTACHMENT">
+        <AbbreviationLocID>OBJECT_CT_1_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>216</TextureIDNW>
+        <TextureIDNE>217</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>722</IconIndex>
+
+        <OffsetZNW>-1</OffsetZNW>
+        <OffsetZNE>-1</OffsetZNE>
+        <OffsetZSE>-1</OffsetZSE>
+        <OffsetZSW>-1</OffsetZSW>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>true</AttachedToObject>
+        <NotInteractable>true</NotInteractable>
+        <Placement>INDOORS</Placement>
+
+        <AttachedToCeiling>false</AttachedToCeiling>
+
+        <Tags>
+            <Tag>mri_attachment</Tag>
+            <Tag>ui_hidden</Tag>
+        </Tags>
+
+        <NeverChunked>true</NeverChunked>
+
+        <Cost>0</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+    <!-- HEAD -->
+    <GameDBObject ID="OBJECT_RADIOLOGY_PLATFORM_1">
+        <AbbreviationLocID>OBJECT_RADIOLOGY_PLATFORM_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>389</TextureIDNW>
+        <TextureIDNE>391</TextureIDNE>
+        <TextureIDSE>392</TextureIDSE>
+        <TextureIDSW>386</TextureIDSW>
+        <IconIndex>722</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <Placement>INDOORS</Placement>
+
+
+        <AttachmentSlot>
+            <AllowedTags>
+                <Tag>platform_attachment</Tag>
+            </AllowedTags>
+        </AttachmentSlot>
+
+        <NeverChunked>true</NeverChunked>
+
+        <!-- Always behind -->
+        <OffsetZNW>0.5</OffsetZNW>
+        <OffsetZSW>0.5</OffsetZSW>
+        <OffsetZNE>0.5</OffsetZNE>
+        <OffsetZSE>0.5</OffsetZSE>
+
+        <Tags>
+            <Tag>ui_hidden</Tag>
+        </Tags>
+        <Cost>0</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+    <!-- LEGS -->
+    <GameDBObject ID="OBJECT_RADIOLOGY_PLATFORM_2">
+        <AbbreviationLocID>OBJECT_RADIOLOGY_PLATFORM_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>388</TextureIDNW>
+        <TextureIDNE>390</TextureIDNE>
+        <TextureIDSE>393</TextureIDSE>
+        <TextureIDSW>387</TextureIDSW>
+        <IconIndex>722</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <Placement>INDOORS</Placement>
+
+        <AttachmentSlot>
+            <AllowedTags>
+                <Tag>platform_attachment</Tag>
+            </AllowedTags>
+        </AttachmentSlot>
+
+        <!-- Always behind -->
+        <OffsetZNW>0.5</OffsetZNW>
+        <OffsetZSW>0.5</OffsetZSW>
+        <OffsetZNE>0.5</OffsetZNE>
+        <OffsetZSE>0.5</OffsetZSE>
+
+        <Tags>
+            <Tag>ui_hidden</Tag>
+        </Tags>
+
+        <NeverChunked>true</NeverChunked>
+
+        <Cost>0</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+    <!-- HEAD -->
+    <GameDBObject ID="OBJECT_RADIOLOGY_PLATFORM_ATTCH_1">
+        <AbbreviationLocID>OBJECT_RADIOLOGY_TABLE_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>381</TextureIDNW>
+        <TextureIDNE>383</TextureIDNE>
+        <TextureIDSE>384</TextureIDSE>
+        <TextureIDSW>378</TextureIDSW>
+        <IconIndex>722</IconIndex>
+
+        <UseDirection>SE</UseDirection>
+        <UseOffsetXNW>1</UseOffsetXNW>
+        <UseOffsetYNW>-0.5</UseOffsetYNW>
+
+        <!-- Always a bit in front -->
+        <OffsetZNW>-0.25</OffsetZNW>
+        <OffsetZSW>-0.25</OffsetZSW>
+        <OffsetZNE>-0.25</OffsetZNE>
+        <OffsetZSE>-0.25</OffsetZSE>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>true</AttachedToObject>
+        <NotInteractable>false</NotInteractable>
+        <Placement>INDOORS</Placement>
+
+        <Sliding>true</Sliding>
+
+        <!-- TODO actual orientation -->
+        <AttachedCharacterDirection>NE</AttachedCharacterDirection>
+        <AttachedToCharacterDirection>SW</AttachedToCharacterDirection>
+
+        <AttachedCharacterOffsetXNW>0</AttachedCharacterOffsetXNW>
+        <AttachedCharacterOffsetYNW>-0.5</AttachedCharacterOffsetYNW>
+
+        <AttachedCharacterOffsetXNE>0.5</AttachedCharacterOffsetXNE>
+        <AttachedCharacterOffsetYNE>0.0</AttachedCharacterOffsetYNE>
+
+        <AttachedCharacterOffsetXSE>0</AttachedCharacterOffsetXSE>
+        <AttachedCharacterOffsetYSE>0.5</AttachedCharacterOffsetYSE>
+
+        <AttachedCharacterOffsetXSW>-0.5</AttachedCharacterOffsetXSW>
+        <AttachedCharacterOffsetYSW>0</AttachedCharacterOffsetYSW>
+
+        <UseAnimationsStart>
+            <Animation>sit_exam_bed_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>sit_exam_bed_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>sit_exam_bed_out</Animation>
+        </UseAnimationsEnd>
+
+        <Tags>
+            <Tag>ui_hidden</Tag>
+            <Tag>transport_point</Tag>
+            <Tag>slide_head</Tag>
+            <Tag>platform_attachment</Tag>
+            <Tag>radiology_bed</Tag>
+            <Tag>radiology_bed_head</Tag>
+        </Tags>
+
+        <NeverChunked>true</NeverChunked>
+
+        <Cost>0</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+    <!-- LEGS -->
+    <GameDBObject ID="OBJECT_RADIOLOGY_PLATFORM_ATTCH_2">
+        <AbbreviationLocID>OBJECT_RADIOLOGY_TABLE_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>380</TextureIDNW>
+        <TextureIDNE>382</TextureIDNE>
+        <TextureIDSE>385</TextureIDSE>
+        <TextureIDSW>379</TextureIDSW>
+
+        <TextureIDNW>379</TextureIDNW>
+        <TextureIDNE>380</TextureIDNE>
+        <TextureIDSE>382</TextureIDSE>
+        <TextureIDSW>385</TextureIDSW>
+        <IconIndex>722</IconIndex>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+        </AccessPositions>
+
+        <AccessPositionsHaveToBeFree>true</AccessPositionsHaveToBeFree>
+
+        <!-- Always a bit in front -->
+        <OffsetZNW>-0.25</OffsetZNW>
+        <OffsetZSW>-0.25</OffsetZSW>
+        <OffsetZNE>-0.25</OffsetZNE>
+        <OffsetZSE>-0.25</OffsetZSE>
+
+        <Sliding>true</Sliding>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>true</AttachedToObject>
+        <NotInteractable>true</NotInteractable>
+        <Placement>INDOORS</Placement>
+
+        <!-- TODO actual orientation -->
+        <AttachedCharacterDirection>NE</AttachedCharacterDirection>
+        <AttachedToCharacterDirection>SW</AttachedToCharacterDirection>
+
+        <UseAnimationsStart>
+            <Animation>lay_bed_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>lay_bed_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>lay_bed_out</Animation>
+        </UseAnimationsEnd>
+
+        <Tags>
+            <Tag>ui_hidden</Tag>
+            <Tag>slide_legs</Tag>
+            <Tag>platform_attachment</Tag>
+            <Tag>radiology_bed</Tag>
+            <Tag>radiology_bed_legs</Tag>
+        </Tags>
+
+        <NeverChunked>true</NeverChunked>
+
+        <Cost>0</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_ANGIO_TABLE_1">
+        <AbbreviationLocID>OBJECT_ANGIO_TABLE_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>402</TextureIDNW>
+        <TextureIDNE>405</TextureIDNE>
+        <TextureIDSE>394</TextureIDSE>
+        <TextureIDSW>397</TextureIDSW>
+        <IconIndex>723</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <Placement>INDOORS</Placement>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <AccessPositions></AccessPositions><!-- No limit -->
+
+        <UseDirection>SE</UseDirection>
+        <UseOffsetXNW>1</UseOffsetXNW>
+        <UseOffsetYNW>-0.5</UseOffsetYNW>
+
+        <!-- TODO actual orientation -->
+        <AttachedCharacterDirection>NE</AttachedCharacterDirection>
+        <AttachedToCharacterDirection>SW</AttachedToCharacterDirection>
+
+        <AttachedCharacterOffsetXNW>0</AttachedCharacterOffsetXNW>
+        <AttachedCharacterOffsetYNW>-0.5</AttachedCharacterOffsetYNW>
+
+        <AttachedCharacterOffsetXNE>0.5</AttachedCharacterOffsetXNE>
+        <AttachedCharacterOffsetYNE>0.0</AttachedCharacterOffsetYNE>
+
+        <AttachedCharacterOffsetXSE>0</AttachedCharacterOffsetXSE>
+        <AttachedCharacterOffsetYSE>0.5</AttachedCharacterOffsetYSE>
+
+        <AttachedCharacterOffsetXSW>-0.5</AttachedCharacterOffsetXSW>
+        <AttachedCharacterOffsetYSW>0</AttachedCharacterOffsetYSW>
+
+        <Tags>
+            <Tag>ui_angiography</Tag>
+            <Tag>ui_hidden</Tag>
+            
+            <Tag>angio_bed</Tag><!--for outpatients-->
+            <Tag>radiology_bed_head</Tag>
+            <Tag>transport_point</Tag>
+        </Tags>
+        <Cost>0</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_ANGIO_TABLE_2">
+        <AbbreviationLocID>OBJECT_ANGIO_TABLE_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>395</TextureIDNW>
+        <TextureIDNE>398</TextureIDNE>
+        <TextureIDSE>401</TextureIDSE>
+        <TextureIDSW>404</TextureIDSW>
+        <IconIndex>723</IconIndex>
+        <UseDirection>SE</UseDirection>
+        <UseOffsetXNW>-0.33</UseOffsetXNW>
+
+        <!-- A bit in back -->
+        <OffsetZNW>0.15</OffsetZNW>
+        <OffsetZSW>0.15</OffsetZSW>
+        <OffsetZNE>0.15</OffsetZNE>
+        <OffsetZSE>0.15</OffsetZSE>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <Placement>INDOORS</Placement>
+        
+        <NeverChunked>true</NeverChunked>
+
+        <UseAnimationsStart>
+            <Animation>sit_exam_bed_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>sit_exam_bed_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>sit_exam_bed_out</Animation>
+        </UseAnimationsEnd>
+
+        <Tags>
+            <Tag>ui_hidden</Tag>
+            <Tag>radiology_bed_legs</Tag>
+        </Tags>
+        <Cost>0</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_ANGIO_TABLE_3">
+        <AbbreviationLocID>OBJECT_ANGIO_TABLE_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>396</TextureIDNW>
+        <TextureIDNE>399</TextureIDNE>
+        <TextureIDSE>400</TextureIDSE>
+        <TextureIDSW>403</TextureIDSW>
+        <IconIndex>723</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <Placement>INDOORS</Placement>
+
+        <AccessPositions></AccessPositions><!-- No limit -->
+        
+        <Tags>
+            <Tag>ui_hidden</Tag>
+        </Tags>
+        <Cost>0</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_ANGIO_TRAILS_1">
+        <AbbreviationLocID>OBJECT_ANGIO_TRAILS_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_ANIMATED</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_16</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>0</TextureIDNW>
+        <TextureIDNE>2</TextureIDNE>
+        <TextureIDSE>5</TextureIDSE>
+        <TextureIDSW>7</TextureIDSW>
+        <IconIndex>723</IconIndex>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+        </AccessPositions>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <Placement>INDOORS</Placement>
+
+        <Tags>
+            <Tag>ui_hidden</Tag>
+        </Tags>
+        <Cost>0</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_ANGIO_TRAILS_2">
+        <AbbreviationLocID>OBJECT_ANGIO_TRAILS_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_ANIMATED</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_16</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>1</TextureIDNW>
+        <TextureIDNE>3</TextureIDNE>
+        <TextureIDSE>4</TextureIDSE>
+        <TextureIDSW>6</TextureIDSW>
+        <IconIndex>723</IconIndex>
+
+        <AccessPositions></AccessPositions><!-- No limit -->
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <Placement>INDOORS</Placement>
+
+        <Tags>
+            <Tag>ui_hidden</Tag>
+        </Tags>
+        <Cost>0</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_RADIOLOGY</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_ELEVATOR_1">    <!-- buttons -->
+     	<AbbreviationLocID>OBJECT_ELEVATOR_1</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>543</TextureIDNW>
+        <TextureIDNE>544</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>1023</IconIndex>
+
+        <PlacedToEdge>true</PlacedToEdge>
+        <AttachedToWall>true</AttachedToWall>
+        <Placement>INDOORS</Placement>
+        <HeightOffset>1.0</HeightOffset>
+        <UseOffsetXNW>0.0</UseOffsetXNW>
+        <UseOffsetYNW>0.0</UseOffsetYNW>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <Cost>3299</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_ELEVATOR_2">    <!-- arrows -->
+     	<AbbreviationLocID>OBJECT_ELEVATOR_1</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>541</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>1023</IconIndex>
+
+        <PlacedToEdge>true</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToCeiling>true</AttachedToCeiling>
+        <NonBlocking>true</NonBlocking>
+        <Placement>INDOORS</Placement>
+        <HeightOffset>2.6</HeightOffset>
+        <UseOffsetXNW>0.0</UseOffsetXNW>
+        <UseOffsetYNW>0.0</UseOffsetYNW>
+        <AccessPositions></AccessPositions><!-- No limit -->
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <Cost>0</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_ELEVATOR_3">    <!-- arrows -->
+     	<AbbreviationLocID>OBJECT_ELEVATOR_1</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>542</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>1023</IconIndex>
+
+        <PlacedToEdge>true</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToCeiling>true</AttachedToCeiling>
+        <NonBlocking>true</NonBlocking>
+        <Placement>INDOORS</Placement>
+        <HeightOffset>2.6</HeightOffset>
+        <UseOffsetXNW>0.0</UseOffsetXNW>
+        <UseOffsetYNW>0.0</UseOffsetYNW>
+        <AccessPositions></AccessPositions><!-- No limit -->
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <Cost>0</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_ELEVATOR_4">    <!-- space -->
+     	<AbbreviationLocID>OBJECT_ELEVATOR_1</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>545</TextureIDNW>
+        <TextureIDNE>546</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>1023</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToCeiling>false</AttachedToCeiling>
+        <NonBlocking>true</NonBlocking>
+        <Placement>INDOORS</Placement>
+        <UseOffsetXNW>0.0</UseOffsetXNW>
+        <UseOffsetYNW>0.0</UseOffsetYNW>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <NonInteractive>true</NonInteractive>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+            <Tag>elevator</Tag>
+            <Tag>elevator_stretcher</Tag>
+        </Tags>
+
+        <Cost>0</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_ELEVATOR_5">	<!-- cabin -->
+        <AbbreviationLocID>OBJECT_ELEVATOR_1</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>312</TextureIDNW>
+        <TextureIDNE>313</TextureIDNE>
+        <TextureIDSE>314</TextureIDSE>
+        <TextureIDSW>315</TextureIDSW>
+        <IconIndex>1023</IconIndex>
+
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AllowsObjectsOnWallsAbove>false</AllowsObjectsOnWallsAbove>
+
+        <RequiresMaintenance>false</RequiresMaintenance>
+        <Durability>20</Durability>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <Cost>0</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_ELEVATOR_6">	<!-- cabin -->
+        <AbbreviationLocID>OBJECT_ELEVATOR_1</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>316</TextureIDNW>
+        <TextureIDNE>317</TextureIDNE>
+        <TextureIDSE>318</TextureIDSE>
+        <TextureIDSW>319</TextureIDSW>
+        <IconIndex>1023</IconIndex>
+
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AllowsObjectsOnWallsAbove>false</AllowsObjectsOnWallsAbove>
+
+        <RequiresMaintenance>false</RequiresMaintenance>
+        <Durability>20</Durability>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <Cost>0</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_ELEVATOR_7">	<!-- cabin -->
+        <AbbreviationLocID>OBJECT_ELEVATOR_1</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>312</TextureIDNW>
+        <TextureIDNE>313</TextureIDNE>
+        <TextureIDSE>320</TextureIDSE>
+        <TextureIDSW>321</TextureIDSW>
+        <IconIndex>1023</IconIndex>
+
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AllowsObjectsOnWallsAbove>false</AllowsObjectsOnWallsAbove>
+
+        <RequiresMaintenance>false</RequiresMaintenance>
+        <Durability>20</Durability>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <Cost>0</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_ELEVATOR_8">	<!-- cabin -->
+        <AbbreviationLocID>OBJECT_ELEVATOR_1</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>322</TextureIDNW>
+        <TextureIDNE>323</TextureIDNE>
+        <TextureIDSE>324</TextureIDSE>
+        <TextureIDSW>325</TextureIDSW>
+        <IconIndex>1023</IconIndex>
+
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AllowsObjectsOnWallsAbove>false</AllowsObjectsOnWallsAbove>
+
+        <RequiresMaintenance>false</RequiresMaintenance>
+        <Durability>20</Durability>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <Cost>0</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_ELEVATOR_9">	<!-- cabin -->
+        <AbbreviationLocID>OBJECT_ELEVATOR_1</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>326</TextureIDNW>
+        <TextureIDNE>327</TextureIDNE>
+        <TextureIDSE>324</TextureIDSE>
+        <TextureIDSW>325</TextureIDSW>
+        <IconIndex>1023</IconIndex>
+
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AllowsObjectsOnWallsAbove>false</AllowsObjectsOnWallsAbove>
+
+        <RequiresMaintenance>false</RequiresMaintenance>
+        <Durability>20</Durability>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <Cost>0</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_ELEVATOR_10">	<!-- cabin -->
+        <AbbreviationLocID>OBJECT_ELEVATOR_1</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>312</TextureIDNW>
+        <TextureIDNE>313</TextureIDNE>
+        <TextureIDSE>328</TextureIDSE>
+        <TextureIDSW>329</TextureIDSW>
+        <IconIndex>1023</IconIndex>
+
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AllowsObjectsOnWallsAbove>false</AllowsObjectsOnWallsAbove>
+
+        <RequiresMaintenance>false</RequiresMaintenance>
+        <Durability>20</Durability>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <Cost>0</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_ELEVATOR_11"> <!-- elevator marker -->
+        <AbbreviationLocID>OBJECT_ELEVATOR_1</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>1023</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <NonBlocking>true</NonBlocking>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <RequiresMaintenance>false</RequiresMaintenance>
+        <Cost>0</Cost>
+    </GameDBObject>
+</Database>

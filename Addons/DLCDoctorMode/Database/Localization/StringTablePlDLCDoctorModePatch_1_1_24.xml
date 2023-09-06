@@ -1,0 +1,17 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_PL_DLC_DOCTOR_MODE_PATCH_1_1_24">
+    
+        <LanguageCode>pl</LanguageCode>
+        <LanguageNameLocalized>Polski</LanguageNameLocalized>
+    
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+    
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSURANCE_OBJ_RESET</LocID>            <Text>Zresetuj zadanie dla firmy ubezpieczeniowej.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSURANCE_OBJ_RESET_TEXT</LocID>       <Text>Z powodu zmiany poziomu trudności w trybie lekarza zresetowano zadanie dla firmy ubezpieczeniowej.</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

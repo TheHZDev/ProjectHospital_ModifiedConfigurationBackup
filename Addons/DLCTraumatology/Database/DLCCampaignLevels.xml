@@ -1,0 +1,14 @@
+﻿<Database>
+    <GameDBCampaignLevel ID="LEVEL_SANDBOX_HOSPITAL_J">
+        <DescriptionLocID>LEVEL_SANDBOX_HOSPITAL_F_DESCRIPTION</DescriptionLocID>
+        <LevelCategory>DLC_CAMPAIGN</LevelCategory>
+        <MapFile>sandbox_hospital_J_96x96.xml</MapFile>
+        <AddonFolder>DLCTraumatology</AddonFolder>
+        <LevelScript></LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <UseScenarioConfiguration>true</UseScenarioConfiguration>
+        <DisplayedSize>96 x 96</DisplayedSize>
+        <PreviewTexture>hospital_J</PreviewTexture>
+    </GameDBCampaignLevel>
+    
+</Database>

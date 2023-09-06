@@ -1,0 +1,794 @@
+<Database>
+<!--new objects that are part of the Doctor mode free DLC-->
+
+    <GameDBObject ID="OBJECT_DLC_LAPTOP">
+        <AbbreviationLocID>OBJECT_PC_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>632</TextureIDNW>
+        <TextureIDNE>637</TextureIDNE>
+        <TextureIDSE>642</TextureIDSE>
+        <TextureIDSW>644</TextureIDSW>
+        <UseOffsetXNW>-0.7</UseOffsetXNW>
+
+        <AnimationFramesNW>5</AnimationFramesNW>
+        <AnimationFramesNE>5</AnimationFramesNE>
+        <AnimationFramesSE>2</AnimationFramesSE>
+        <AnimationFramesSW>2</AnimationFramesSW>
+
+        <IconIndex>687</IconIndex>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>true</AttachedToObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+
+        <LightLevelRed>100</LightLevelRed>
+        <LightLevelGreen>100</LightLevelGreen>
+        <LightLevelBlue>100</LightLevelBlue>
+        <LightRange>3</LightRange>
+        <LightIsDirectional>true</LightIsDirectional>
+        <LightAutomatic>false</LightAutomatic>
+
+        <Tags>
+            <Tag>pc</Tag>
+            <Tag>equipment</Tag>
+            <Tag>ui_equipment</Tag>
+            <Tag>ui_pc</Tag>
+            <Tag>pc_work</Tag>
+            <Tag>laptop</Tag>
+        </Tags>
+
+        <RequiredObjectsInRoom>
+            <RequiredObject>
+                <Tag>office_chair</Tag>
+                <MaxDistance>1</MaxDistance>
+            </RequiredObject>
+        </RequiredObjectsInRoom>
+
+        <UseAnimationsStart>
+            <Animation>sit_type_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>sit_type_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>sit_type_out</Animation>
+        </UseAnimationsEnd>
+
+        <SoundEventUseStartRef>SFX_ENV_COMPUTER_TYPE</SoundEventUseStartRef>
+        
+        <Durability>20</Durability>
+        <Cost>599</Cost>
+    </GameDBObject> 
+    
+    <GameDBObject ID="OBJECT_DLC_PRINTER">
+        <AbbreviationLocID>OBJECT_PRINTER_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>624</TextureIDNW>
+        <TextureIDNE>625</TextureIDNE>
+        <TextureIDSE>626</TextureIDSE>
+        <TextureIDSW>627</TextureIDSW>
+        <IconIndex>696</IconIndex>
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>-1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+        </AccessPositions>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>true</AttachedToObject>
+        <AllowsObjectsOnWallsAbove>false</AllowsObjectsOnWallsAbove>
+
+        <!--In front: position characters exactly-->
+        <UseOffsetXNW>-0.55</UseOffsetXNW>
+        <UseOffsetYNW>0.2</UseOffsetYNW>
+        <UseOffsetXNE>0.2</UseOffsetXNE>
+        <UseOffsetYNE>-0.55</UseOffsetYNE>
+        <!--Behind: move a bit further so prop in hand is visible-->
+        <UseOffsetXSE>0.75</UseOffsetXSE>
+        <UseOffsetYSE>0.0</UseOffsetYSE>
+        <UseOffsetXSW>0.0</UseOffsetXSW>
+        <UseOffsetYSW>0.75</UseOffsetYSW>
+
+        <UseAnimations>
+            <Animation>stand_print_receipt</Animation>
+        </UseAnimations>
+        <Tags>
+            <Tag>big_printer</Tag>
+            <Tag>printer_use</Tag>
+            <Tag>receipt</Tag>
+            <Tag>equipment</Tag>
+            <Tag>ui_equipment</Tag>
+            <Tag>ui_print</Tag>
+            <Tag>decoration</Tag>
+        </Tags>
+
+        <SoundEventUseStartRef>SFX_ENV_PRINTER_SEQUENCE</SoundEventUseStartRef>
+
+        <Cost>399</Cost>
+    </GameDBObject>
+
+        
+        
+     <GameDBObject ID="OBJECT_DLC_GROUND_PLANT_DRACENA">
+        <AbbreviationLocID>OBJECT_GROUND_PLANT_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>410</TextureIDNW>
+        <TextureIDNE>411</TextureIDNE>
+        <TextureIDSE>410</TextureIDSE>
+        <TextureIDSW>411</TextureIDSW>
+        <IconIndex>686</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+        <NotInteractable>true</NotInteractable>
+        <Placement>INDOORS</Placement>
+        <AccessPositions></AccessPositions> <!--No limit-->
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+
+        <Cost>49</Cost>
+
+        <Tags>
+            <Tag>decoration</Tag>
+            <Tag>ui_decorations</Tag>
+            <Tag>ui_plants</Tag>
+        </Tags>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_FLOWERPOT</ColorSetRef>
+    </GameDBObject>
+        
+   
+    <GameDBObject ID="OBJECT_DLC_TABLE_SQUARE">
+        <AbbreviationLocID>OBJECT_TABLE_SQUERE_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>622</TextureIDNW>
+        <TextureIDNE>623</TextureIDNE>
+        <TextureIDSE>622</TextureIDSE>
+        <TextureIDSW>623</TextureIDSW>
+        <IconIndex>692</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+
+        <AttachmentSlot>
+            <HeightOffset>0.9</HeightOffset>
+            <AllowedTags>
+                <Tag>square_objects</Tag>
+                <Tag>ui_plants</Tag>
+                <Tag>pc</Tag>
+                <Tag>tv</Tag>
+                <Tag>radio</Tag>
+                <Tag>printer</Tag>
+                <Tag>lab_eq</Tag>
+                <Tag>lab_eq_small</Tag>
+                <Tag>microscope</Tag>
+                <Tag>hematoanalyzer</Tag>
+                <Tag>defibrillator</Tag>
+                <Tag>surgery_instruments</Tag>
+                <Tag>electrocautery_machine</Tag>
+                <Tag>fast_usg</Tag>
+                <Tag>RIA</Tag>
+                <Tag>tonometer</Tag>
+                <Tag>audiometer</Tag>
+                <Tag>crp_scan</Tag>
+                <Tag>spirometer</Tag>
+                <Tag>shockwave</Tag>
+                <Tag>electromyograph</Tag>
+                <Tag>lab_analyzer</Tag>
+                <Tag>stool_analyzer</Tag>
+                <Tag>thermal_cycler</Tag>
+                <Tag>electrocardiograph</Tag>
+                <Tag>campimeter</Tag>
+                <Tag>ui_coffee_machine</Tag>
+                <Tag>big_printer</Tag>
+                <Tag>ui_cutlery</Tag>
+				<Tag>ui_juice</Tag>
+				<Tag>ui_fruit_snack</Tag>
+				<Tag>ui_donut_snack</Tag>
+				<Tag>ui_sandwich</Tag>
+				<Tag>ui_pathology_instruments</Tag>
+            </AllowedTags>
+            <ForcesAttachmentOrientation>true</ForcesAttachmentOrientation>
+        </AttachmentSlot>
+
+        <ConnectedSlots>
+            <ConnectedSlot>
+                <PositionX>-1</PositionX>
+                <PositionY>0</PositionY>
+                <AllowedTags>
+                    <Tag>office_chair</Tag>
+                </AllowedTags>
+                <ForcedDirection>SE</ForcedDirection>
+            </ConnectedSlot>
+        </ConnectedSlots>
+
+        <AttachedToObject>false</AttachedToObject>
+        <Placement>INDOORS</Placement>
+
+        <Tags>
+            <Tag>ui_furniture</Tag>
+            <Tag>table_equipment</Tag>
+            <Tag>ui_equipment_table</Tag>
+            <Tag>glass_square_table</Tag>
+        </Tags>
+        
+
+        <Cost>119</Cost>
+    </GameDBObject>
+
+    
+
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_DLC_OFFICE_DESK">
+        <AbbreviationLocID>COMPOSITE_OBJECT_OFFICE_DESK_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_DLC_OFFICE_DESK_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_DLC_OFFICE_DESK_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+
+        <Tags>
+            <Tag>ui_furniture</Tag>
+            <Tag>ui_office_desk</Tag>
+            <Tag>desk</Tag>
+            <Tag>glass_desk</Tag>
+        </Tags>
+
+        <Cost>349</Cost>
+        <IconIndex>691</IconIndex>
+    </GameDBCompositeObject>
+
+    <GameDBObject ID="OBJECT_DLC_OFFICE_DESK_A">
+        <AbbreviationLocID>OBJECT_DLC_OFFICE_DESK_A</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>618</TextureIDNW>
+        <TextureIDNE>620</TextureIDNE>
+        <TextureIDSE>619</TextureIDSE>
+        <TextureIDSW>621</TextureIDSW>
+        <IconIndex>958</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+
+        <AttachmentSlot>
+            <HeightOffset>0.9</HeightOffset>
+            <AllowedTags>
+                <Tag>square_objects</Tag>
+                <Tag>ui_plants</Tag>
+                <Tag>ui_decorations</Tag>
+                <Tag>pc</Tag>
+                <Tag>tv</Tag>
+                <Tag>radio</Tag>
+                <Tag>printer</Tag>
+                <Tag>lab_eq</Tag>
+                <Tag>lab_eq_small</Tag>
+                <Tag>microscope</Tag>
+                <Tag>hematoanalyzer</Tag>
+                <Tag>defibrillator</Tag>
+                <Tag>surgery_instruments</Tag>
+                <Tag>electrocautery_machine</Tag>
+                <Tag>fast_usg</Tag>
+                <Tag>RIA</Tag>
+                <Tag>audiometer</Tag>
+                <Tag>crp_scan</Tag>
+                <Tag>spirometer</Tag>
+                <Tag>shockwave</Tag>
+                <Tag>electromyograph</Tag>
+                <Tag>lab_analyzer</Tag>
+                <Tag>stool_analyzer</Tag>
+                <Tag>thermal_cycler</Tag>
+                <Tag>electrocardiograph</Tag>
+                <Tag>ui_coffee_machine</Tag>
+                <Tag>laptop</Tag>
+                <Tag>big_printer</Tag>
+                <Tag>ui_cutlery</Tag>
+				<Tag>ui_juice</Tag>
+				<Tag>ui_fruit_snack</Tag>
+				<Tag>ui_donut_snack</Tag>
+				<Tag>ui_sandwich</Tag>
+				<Tag>ui_pathology_instruments</Tag>
+            </AllowedTags>
+            <ForcesAttachmentOrientation>true</ForcesAttachmentOrientation>
+        </AttachmentSlot>
+
+        <ConnectedSlots>
+            <ConnectedSlot>
+                <PositionX>-1</PositionX>
+                <PositionY>0</PositionY>
+                <AllowedTags>
+                    <Tag>office_chair</Tag>
+                </AllowedTags>
+                <ForcedDirection>SE</ForcedDirection>
+            </ConnectedSlot>
+        </ConnectedSlots>
+
+        <AttachedToObject>false</AttachedToObject>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <ForcesAttachmentOrientation>true</ForcesAttachmentOrientation>
+        <Placement>INDOORS</Placement>
+
+        <Tags>
+            <Tag>desk</Tag>
+            <Tag>ui_office_desk</Tag>
+        </Tags>
+        
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_DLC_OFFICE_DESK_B">
+        <AbbreviationLocID>OBJECT_DLC_OFFICE_DESK_B</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>619</TextureIDNW>
+        <TextureIDNE>621</TextureIDNE>
+        <TextureIDSE>618</TextureIDSE>
+        <TextureIDSW>620</TextureIDSW>
+        <IconIndex>958</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+
+        <AttachmentSlot>
+            <HeightOffset>0.9</HeightOffset>
+            <AllowedTags>
+                <Tag>square_objects</Tag>
+                <Tag>ui_plants</Tag>
+                <Tag>ui_decorations</Tag>
+                <Tag>pc</Tag>
+                <Tag>tv</Tag>
+                <Tag>radio</Tag>
+                <Tag>printer</Tag>
+                <Tag>lab_eq</Tag>
+                <Tag>lab_eq_small</Tag>
+                <Tag>microscope</Tag>
+                <Tag>hematoanalyzer</Tag>
+                <Tag>defibrillator</Tag>
+                <Tag>surgery_instruments</Tag>
+                <Tag>electrocautery_machine</Tag>
+                <Tag>fast_usg</Tag>
+                <Tag>RIA</Tag>
+                <Tag>audiometer</Tag>
+                <Tag>crp_scan</Tag>
+                <Tag>spirometer</Tag>
+                <Tag>shockwave</Tag>
+                <Tag>electromyograph</Tag>
+                <Tag>lab_analyzer</Tag>
+                <Tag>stool_analyzer</Tag>
+                <Tag>thermal_cycler</Tag>
+                <Tag>electrocardiograph</Tag>
+                <Tag>ui_coffee_machine</Tag>
+                <Tag>laptop</Tag>
+                <Tag>big_printer</Tag>
+                <Tag>ui_sandwich</Tag>
+                <Tag>ui_cutlery</Tag>
+				<Tag>ui_juice</Tag>
+				<Tag>ui_fruit_snack</Tag>
+				<Tag>ui_donut_snack</Tag>
+				<Tag>ui_pathology_instruments</Tag>
+            </AllowedTags>
+            <ForcesAttachmentOrientation>true</ForcesAttachmentOrientation>
+        </AttachmentSlot>
+
+        <ConnectedSlots>
+            <ConnectedSlot>
+                <PositionX>-1</PositionX>
+                <PositionY>0</PositionY>
+                <AllowedTags>
+                    <Tag>office_chair</Tag>
+                </AllowedTags>
+                <ForcedDirection>SE</ForcedDirection>
+            </ConnectedSlot>
+        </ConnectedSlots>
+
+        <AttachedToObject>false</AttachedToObject>
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <Placement>INDOORS</Placement>
+        
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_DLC_BOOKSHELF">
+        <AbbreviationLocID>OBJECT_BOOKCASE_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>655</TextureIDNW>
+        <TextureIDNE>656</TextureIDNE>
+        <TextureIDSE>657</TextureIDSE>
+        <TextureIDSW>658</TextureIDSW>
+        <IconIndex>690</IconIndex>
+
+        <UseOffsetXNW>-0.4</UseOffsetXNW>
+        <PlacedToEdge>true</PlacedToEdge>
+        <AttachedToWall>true</AttachedToWall>
+        <HeightOffset>1.5</HeightOffset>
+        <CallbackMessageName>CABINET_USED</CallbackMessageName>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>-1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+        </AccessPositions>
+
+        <AccessPositionsHaveToBeFree>true</AccessPositionsHaveToBeFree>
+
+        <UseOffsetXNW>-0.25</UseOffsetXNW>
+        <UseAnimations>
+            <Animation>stand_bookcase_take</Animation>
+        </UseAnimations>
+
+        <Tags>
+            <Tag>education</Tag>
+            <Tag>distraction</Tag>
+            <Tag>ui_furniture</Tag>
+            <Tag>ui_bookcase</Tag>
+            <Tag>hospitalized_patient</Tag>
+            <Tag>bookshelf</Tag>
+        </Tags>
+        <Cost>199</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_DLC_CERTIFICATE">
+        <AbbreviationLocID>OBJECT_CLOCK_WALL_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>650</TextureIDNW>
+        <TextureIDNE>651</TextureIDNE>
+        <TextureIDSE>652</TextureIDSE>
+        <TextureIDSW>653</TextureIDSW>
+        <IconIndex>689</IconIndex>
+
+        <PlacedToEdge>true</PlacedToEdge>
+        <AttachedToWall>true</AttachedToWall>
+        <BlockedAboveOtherObjects>true</BlockedAboveOtherObjects>
+        <NonBlocking>true</NonBlocking>
+        <Placement>INDOORS</Placement>
+        <HeightOffset>1.7</HeightOffset>
+
+        <Tags>
+            <Tag>decoration</Tag>
+            <Tag>ui_decorations</Tag>
+        </Tags>
+        <Cost>99</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_DLC_CHARTBOARD">
+        <AbbreviationLocID>OBJECT_DLC_CHARTBOARD_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>396</TextureIDNW>
+        <TextureIDNE>397</TextureIDNE>
+        <TextureIDSE>398</TextureIDSE>
+        <TextureIDSW>399</TextureIDSW>
+        <IconIndex>697</IconIndex>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>-1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+        </AccessPositions>
+                       
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <NonBlocking>false</NonBlocking>
+        <Placement>INDOORS</Placement>
+        <NotInteractable>false</NotInteractable>
+        <AllowsObjectsOnWallsAbove>false</AllowsObjectsOnWallsAbove>
+
+        <UseOffsetXNW>-0.5</UseOffsetXNW>
+        <UseOffsetYNW>0.0</UseOffsetYNW>
+        
+        <UseAnimationsStart>
+            <Animation>stand_look_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>stand_look_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>stand_look_out</Animation>
+        </UseAnimationsEnd>
+
+        <Tags>
+            <Tag>ui_furniture</Tag>
+            <Tag>ui_equipment</Tag>
+            <Tag>ui_whiteboard</Tag>
+            <Tag>whiteboard</Tag>
+        </Tags>
+        <Cost>149</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_DLC_SKULL">
+        <AbbreviationLocID>OBJECT_CLOCK_WALL_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>646</TextureIDNW>
+        <TextureIDNE>647</TextureIDNE>
+        <TextureIDSE>648</TextureIDSE>
+        <TextureIDSW>649</TextureIDSW>
+        <IconIndex>688</IconIndex>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>true</AttachedToObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+        <NotInteractable>true</NotInteractable>
+        <Tags>
+            <Tag>decoration</Tag>
+            <Tag>ui_decorations</Tag>
+            <Tag>ui_plants</Tag>
+        </Tags>
+        <Cost>99</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_DLC_VENDING_MACHINE">
+        <AbbreviationLocID>OBJECT_DLC_VENDING_MACHINE_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>400</TextureIDNW>
+        <TextureIDNE>401</TextureIDNE>
+        <TextureIDSE>402</TextureIDSE>
+        <TextureIDSW>403</TextureIDSW>
+        <IconIndex>699</IconIndex>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <Placement>INDOORS</Placement>
+        <CallbackMessageName>CABINET_USED</CallbackMessageName>
+        <UseOffsetXNW>-1.0</UseOffsetXNW>
+        <UseOffsetYNW>0.0</UseOffsetYNW>
+        <UseAnimationsStart>
+            <Animation>take_vending_machine_coffee_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>take_vending_machine_coffee_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>take_vending_machine_coffee_out</Animation>
+        </UseAnimationsEnd>
+
+        <Tags>
+            <Tag>inventory</Tag>
+            <Tag>food</Tag>
+            <Tag>vending</Tag>
+            <Tag>coffee_machine</Tag>
+            <Tag>ui_furniture</Tag>
+            <Tag>ui_refreshments</Tag>
+        </Tags>
+
+        <LightLevelRed>50</LightLevelRed>
+        <LightLevelGreen>50</LightLevelGreen>
+        <LightLevelBlue>100</LightLevelBlue>
+        <LightRange>6</LightRange>
+        <LightIsDirectional>true</LightIsDirectional>
+        <LightAutomatic>true</LightAutomatic>
+
+        <SoundEventUseStartRef>SFX_ENV_VENDING_MACHINE_SEQUENCE</SoundEventUseStartRef>
+
+        <Durability>20</Durability>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_DLC_COFFEE_MACHINE</ColorSetRef>
+        <Cost>599</Cost>
+
+        <BubbleHeightOffset>0.38</BubbleHeightOffset>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_DLC_CHAIR_OFFICE">
+        <AbbreviationLocID>OBJECT_CHAIR_OFFICE_01_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_TALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_32</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_2</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>406</TextureIDSE>
+        <TextureIDSW>409</TextureIDSW>
+
+        <TextureIDBackNW>404</TextureIDBackNW>
+        <TextureIDBackNE>405</TextureIDBackNE>
+        <TextureIDBackSE>407</TextureIDBackSE>
+        <TextureIDBackSW>408</TextureIDBackSW>
+        <IconIndex>698</IconIndex>
+
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>false</AttachedToObject>
+
+        <NonBlocking>true</NonBlocking>
+        <Placement>INDOORS</Placement>
+
+        <PartOfCompositeObject>false</PartOfCompositeObject>
+
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>-1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+            <AccessPosition>
+                <m_x>0</m_x>
+                <m_y>-1</m_y>
+            </AccessPosition>
+            <AccessPosition>
+                <m_x>0</m_x>
+                <m_y>1</m_y>
+            </AccessPosition>
+            <AccessPosition>
+                <m_x>1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+        </AccessPositions>
+
+        <UseDirection>SE</UseDirection>
+
+        <UseOffsetXNW>-0.55</UseOffsetXNW>
+        <UseOffsetYNW>0.1</UseOffsetYNW>
+
+        <UseOffsetXNE>0.1</UseOffsetXNE>
+        <UseOffsetYNE>-0.5</UseOffsetYNE>
+
+        <UseOffsetXSE>0.6</UseOffsetXSE>
+        <UseOffsetYSE>-0.0</UseOffsetYSE>
+
+        <UseOffsetXSW>-0.0</UseOffsetXSW>
+        <UseOffsetYSW>0.59</UseOffsetYSW>
+
+        <UseAnimationsStart>
+            <Animation>sit_in</Animation>
+        </UseAnimationsStart>
+        <UseAnimations>
+            <Animation>sit_idle</Animation>
+        </UseAnimations>
+        <UseAnimationsEnd>
+            <Animation>sit_out</Animation>
+        </UseAnimationsEnd>
+
+        <Tags>
+            <Tag>office_chair</Tag>
+            <Tag>dlc_office_chair</Tag>
+            <Tag>ui_furniture</Tag>
+            <Tag>ui_chair_office</Tag>
+            <Tag>tall_equipment_chair</Tag>
+        </Tags>
+        <Cost>249</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_DLC_OFFICE_CHAIR</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_DLC_FIRST_AID">
+        <AbbreviationLocID>OBJECT_CLOCK_WALL_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>628</TextureIDNW>
+        <TextureIDNE>629</TextureIDNE>
+        <TextureIDSE>630</TextureIDSE>
+        <TextureIDSW>631</TextureIDSW>
+        <IconIndex>694</IconIndex>
+        
+        <PlacedToEdge>true</PlacedToEdge>
+        <AttachedToWall>true</AttachedToWall>
+        <Placement>INDOORS</Placement>
+        <HeightOffset>1.7</HeightOffset>
+        
+        <Tags>
+            <Tag>furniture</Tag>
+            <Tag>decoration</Tag>
+            <Tag>ui_decorations</Tag>
+        </Tags>
+        
+        <Cost>100</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_DLC_TABLE_MUG">
+        <AbbreviationLocID>OBJECT_CLOCK_WALL_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>654</TextureIDNW>
+        <TextureIDNE>654</TextureIDNE>
+        <TextureIDSE>654</TextureIDSE>
+        <TextureIDSW>654</TextureIDSW>
+        <IconIndex>685</IconIndex>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>true</AttachedToObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+        <NotInteractable>true</NotInteractable>
+
+        <Tags>
+            <Tag>decoration</Tag>
+            <Tag>ui_decorations</Tag>
+            <Tag>square_objects</Tag>
+        </Tags>
+        
+        <Cost>29</Cost>
+        <ColorSetRef>COLOR_SET_BUILDING_OBJECT_DLC_MUG</ColorSetRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_DLC_TABLE_MESS">
+        <AbbreviationLocID>OBJECT_CLOCK_WALL_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>660</TextureIDNW>
+        <TextureIDNE>659</TextureIDNE>
+        <TextureIDSE>662</TextureIDSE>
+        <TextureIDSW>661</TextureIDSW>
+        <IconIndex>695</IconIndex>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AttachedToWall>false</AttachedToWall>
+        <AttachedToObject>true</AttachedToObject>
+        <AllowsObjectsOnWallsAbove>true</AllowsObjectsOnWallsAbove>
+        <NotInteractable>true</NotInteractable>
+
+        <Tags>
+            <Tag>decoration</Tag>
+            <Tag>ui_decorations</Tag>
+            <Tag>square_objects</Tag>
+        </Tags>
+        
+        <Cost>49</Cost>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_DLC_WALL_LAMP">
+        <AbbreviationLocID>OBJECT_CLOCK_WALL_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>663</TextureIDNW>
+        <TextureIDNE>664</TextureIDNE>
+        <TextureIDSE>665</TextureIDSE>
+        <TextureIDSW>666</TextureIDSW>
+        <IconIndex>693</IconIndex>
+
+        <PlacedToEdge>true</PlacedToEdge>
+        <AttachedToWall>true</AttachedToWall>
+        <HeightOffset>2.0</HeightOffset>
+        <NonBlocking>true</NonBlocking>
+       
+        <AttachedToObject>false</AttachedToObject>
+        <AllowsObjectsOnWallsAbove>false</AllowsObjectsOnWallsAbove>
+        <NotInteractable>true</NotInteractable>
+        <Placement>INDOORS</Placement>
+
+        <Tags>
+            <Tag>ui_decorations</Tag>
+            <Tag>decoration</Tag>
+            <Tag>wall_lamp</Tag>
+        </Tags>
+
+        <LightLevelRed>125</LightLevelRed>
+        <LightLevelGreen>125</LightLevelGreen>
+        <LightLevelBlue>100</LightLevelBlue>
+        <LightRange>5</LightRange>
+        <LightIsDirectional>true</LightIsDirectional>
+        <LightAutomatic>true</LightAutomatic>
+        
+        <Cost>99</Cost>
+    </GameDBObject>
+
+</Database>

@@ -1,0 +1,13 @@
+﻿<Database>
+    <!-- For 4x time step, values are relative to sample duration -->
+    <GameDBSoundEnvelope ID="ENVELOPE_TIME_STEP_FAST">
+        <Sustain>0.3</Sustain>
+        <Release>0.2</Release>
+    </GameDBSoundEnvelope>
+
+    <!-- For faster time steps -->
+    <GameDBSoundEnvelope ID="ENVELOPE_TIME_STEP_FASTEST">
+        <Sustain>0.15</Sustain>
+        <Release>0.1</Release>
+    </GameDBSoundEnvelope>
+</Database>

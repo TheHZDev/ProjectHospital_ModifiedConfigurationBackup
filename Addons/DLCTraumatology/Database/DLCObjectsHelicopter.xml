@@ -1,0 +1,779 @@
+﻿<Database>
+
+    <GameDBObject ID="OBJECT_HELICOPTER_1_1">
+        <AbbreviationLocID>OBJECT_HELICOPTER_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>90</TextureIDNW>
+        <TextureIDNE>93</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>133</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <ColorSetRef>COLOR_SET_AMBULANCES</ColorSetRef>
+        
+        <NeverChunked>true</NeverChunked>
+
+        <SoundEventUseStartRef>SFX_HELICOPTER_TAKEOFF</SoundEventUseStartRef>
+        <SoundEventUseEndRef>SFX_HELICOPTER_LAND</SoundEventUseEndRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_HELICOPTER_1_2">
+        <AbbreviationLocID>OBJECT_HELICOPTER_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>91</TextureIDNW>
+        <TextureIDNE>94</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <!-- Rotor using lensflares -->
+        <LensflareHeightOffsetNW>4.13</LensflareHeightOffsetNW>
+        <LensflareXOffsetNW>-1.57</LensflareXOffsetNW>
+        <LensflareIDNW>100</LensflareIDNW>
+
+        <LensflareHeightOffsetNE>4.13</LensflareHeightOffsetNE>
+        <LensflareXOffsetNE>1.57</LensflareXOffsetNE>
+        <LensflareIDNE>100</LensflareIDNE>
+
+        <LensflareHeightOffsetSE>2.6</LensflareHeightOffsetSE>
+        <LensflareXOffsetSE>1.6</LensflareXOffsetSE>
+        <LensflareIDSE>100</LensflareIDSE>
+
+        <LensflareHeightOffsetSW>2.6</LensflareHeightOffsetSW>
+        <LensflareXOffsetSW>-1.6</LensflareXOffsetSW>
+        <LensflareIDSW>100</LensflareIDSW>
+        
+        <NeverChunked>true</NeverChunked>
+
+        <!-- In separate object to be able to control volumes -->
+        <SoundEventUseLoopRef>SFX_HELICOPTER_LOOP</SoundEventUseLoopRef>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_HELICOPTER_1_3">
+        <AbbreviationLocID>OBJECT_HELICOPTER_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>92</TextureIDNW>
+        <TextureIDNE>95</TextureIDNE>
+        <TextureIDSE>106</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <NeverChunked>true</NeverChunked>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_HELICOPTER_2_1">
+        <AbbreviationLocID>OBJECT_HELICOPTER_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>89</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>132</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <NeverChunked>true</NeverChunked>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_HELICOPTER_2_3">
+        <AbbreviationLocID>OBJECT_HELICOPTER_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>96</TextureIDNE>
+        <TextureIDSE>107</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <NeverChunked>true</NeverChunked>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_HELICOPTER_3_1">
+        <AbbreviationLocID>OBJECT_HELICOPTER_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>88</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>131</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <LensflareHeightOffset>2.4</LensflareHeightOffset>
+        <LensflareID>240</LensflareID>
+
+        <NeverChunked>true</NeverChunked>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_HELICOPTER_3_3">
+        <AbbreviationLocID>OBJECT_HELICOPTER_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>97</TextureIDNE>
+        <TextureIDSE>108</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <LensflareHeightOffset>2.4</LensflareHeightOffset>
+        <LensflareID>241</LensflareID>
+
+        <NeverChunked>true</NeverChunked>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_HELICOPTER_4_1">
+        <AbbreviationLocID>OBJECT_HELICOPTER_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>87</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>130</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+        
+        <NeverChunked>true</NeverChunked>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_HELICOPTER_4_3">
+        <AbbreviationLocID>OBJECT_HELICOPTER_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>98</TextureIDNE>
+        <TextureIDSE>109</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+        <NeverChunked>true</NeverChunked>
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <NeverChunked>true</NeverChunked>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_HELICOPTER_5_1">
+        <AbbreviationLocID>OBJECT_HELICOPTER_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>86</TextureIDNW><!-- Far door -->
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>129</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <NeverChunked>true</NeverChunked>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_HELICOPTER_5_3">
+        <AbbreviationLocID>OBJECT_HELICOPTER_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>99</TextureIDNE>
+        <TextureIDSE>110</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <AnimationFramesNW>1</AnimationFramesNW>
+        <AnimationFramesNE>1</AnimationFramesNE> <!-- this was animated -->
+        <AnimationFramesSE>1</AnimationFramesSE>
+        <AnimationFramesSW>1</AnimationFramesSW>
+        <AnimationOnlyForceFrame>true</AnimationOnlyForceFrame>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <NeverChunked>true</NeverChunked>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_HELICOPTER_6_1">
+        <AbbreviationLocID>OBJECT_HELICOPTER_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>85</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>128</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <NeverChunked>true</NeverChunked>
+    </GameDBObject>
+    <GameDBObject ID="OBJECT_HELICOPTER_6_3">
+        <AbbreviationLocID>OBJECT_HELICOPTER_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>100</TextureIDNE>
+        <TextureIDSE>111</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <AnimationFramesNW>1</AnimationFramesNW>
+        <AnimationFramesNE>1</AnimationFramesNE>
+        <AnimationFramesSE>1</AnimationFramesSE>
+        <AnimationFramesSW>1</AnimationFramesSW>
+        <AnimationOnlyForceFrame>true</AnimationOnlyForceFrame>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <NeverChunked>true</NeverChunked>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_HELICOPTER_7_1">
+        <AbbreviationLocID>OBJECT_HELICOPTER_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>84</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>127</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <NeverChunked>true</NeverChunked>
+    </GameDBObject>
+    <GameDBObject ID="OBJECT_HELICOPTER_7_3">
+        <AbbreviationLocID>OBJECT_HELICOPTER_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>101</TextureIDNE>
+        <TextureIDSE>112</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <AnimationFramesNW>1</AnimationFramesNW>
+        <AnimationFramesNE>1</AnimationFramesNE>
+        <AnimationFramesSE>1</AnimationFramesSE>
+        <AnimationFramesSW>1</AnimationFramesSW>
+        <AnimationOnlyForceFrame>true</AnimationOnlyForceFrame>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <NeverChunked>true</NeverChunked>
+    </GameDBObject>
+
+    <GameDBObject ID="OBJECT_HELICOPTER_8_1">
+        <AbbreviationLocID>OBJECT_HELICOPTER_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>82</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>-1</TextureIDSE>
+        <TextureIDSW>126</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <AnimationFramesNW>2</AnimationFramesNW>
+        <AnimationFramesNE>1</AnimationFramesNE>
+        <AnimationFramesSE>1</AnimationFramesSE>
+        <AnimationFramesSW>1</AnimationFramesSW>
+        <AnimationOnlyForceFrame>true</AnimationOnlyForceFrame>
+        
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <NeverChunked>true</NeverChunked>
+    </GameDBObject>
+    <GameDBObject ID="OBJECT_HELICOPTER_8_3">
+        <AbbreviationLocID>OBJECT_HELICOPTER_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>102</TextureIDNE>
+        <TextureIDSE>113</TextureIDSE>
+        <TextureIDSW>-1</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <AnimationFramesNW>1</AnimationFramesNW>
+        <AnimationFramesNE>2</AnimationFramesNE>
+        <AnimationFramesSE>1</AnimationFramesSE>
+        <AnimationFramesSW>1</AnimationFramesSW>
+        <AnimationOnlyForceFrame>true</AnimationOnlyForceFrame>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <NeverChunked>true</NeverChunked>
+    </GameDBObject>
+
+
+    <GameDBObject ID="OBJECT_HELICOPTER_9_1">
+        <AbbreviationLocID>OBJECT_HELICOPTER_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>80</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>118</TextureIDSE>
+        <TextureIDSW>124</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <AnimationFramesNW>2</AnimationFramesNW>
+        <AnimationFramesNE>1</AnimationFramesNE>
+        <AnimationFramesSE>2</AnimationFramesSE>
+        <AnimationFramesSW>2</AnimationFramesSW>
+        <AnimationOnlyForceFrame>true</AnimationOnlyForceFrame>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <NeverChunked>true</NeverChunked>
+    </GameDBObject>
+    <GameDBObject ID="OBJECT_HELICOPTER_9_2">
+        <AbbreviationLocID>OBJECT_HELICOPTER_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>-1</TextureIDNE>
+        <TextureIDSE>116</TextureIDSE>
+        <TextureIDSW>122</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <AnimationFramesNW>1</AnimationFramesNW>
+        <AnimationFramesNE>1</AnimationFramesNE>
+        <AnimationFramesSE>2</AnimationFramesSE>
+        <AnimationFramesSW>2</AnimationFramesSW>
+        <AnimationOnlyForceFrame>true</AnimationOnlyForceFrame>
+        
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <NeverChunked>true</NeverChunked>
+    </GameDBObject>
+    <GameDBObject ID="OBJECT_HELICOPTER_9_3">
+        <AbbreviationLocID>OBJECT_HELICOPTER_1_1_DESC</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VEHICLES</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_9</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_4</SpriteShape>
+        <TextureIDNW>-1</TextureIDNW>
+        <TextureIDNE>104</TextureIDNE>
+        <TextureIDSE>114</TextureIDSE>
+        <TextureIDSW>120</TextureIDSW>
+        <IconIndex>-1</IconIndex>
+
+        <AnimationFramesNW>1</AnimationFramesNW>
+        <AnimationFramesNE>2</AnimationFramesNE>
+        <AnimationFramesSE>2</AnimationFramesSE>
+        <AnimationFramesSW>2</AnimationFramesSW>
+        <AnimationOnlyForceFrame>true</AnimationOnlyForceFrame>
+
+        <Placement>OUTDOORS</Placement>
+        <PlacedToEdge>false</PlacedToEdge>
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PartOfCompositeObject>true</PartOfCompositeObject>
+
+        <Tags>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <NeverChunked>true</NeverChunked>
+    </GameDBObject>
+
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_DLC_HELICOPTER_01">
+        <AbbreviationLocID>COMPOSITE_OBJECT_DLC_HELICOPTER_01_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_HELICOPTER_1_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_HELICOPTER_1_2</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>2</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_HELICOPTER_1_3</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>1</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_HELICOPTER_2_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>1</m_x>
+                    <m_y>2</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_HELICOPTER_2_3</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>2</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_HELICOPTER_3_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>2</m_x>
+                    <m_y>2</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_HELICOPTER_3_3</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>3</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_HELICOPTER_4_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>3</m_x>
+                    <m_y>2</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_HELICOPTER_4_3</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>4</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_HELICOPTER_5_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>4</m_x>
+                    <m_y>2</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_HELICOPTER_5_3</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>5</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_HELICOPTER_6_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>5</m_x>
+                    <m_y>2</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_HELICOPTER_6_3</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>6</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_HELICOPTER_7_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>6</m_x>
+                    <m_y>2</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_HELICOPTER_7_3</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>7</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_HELICOPTER_8_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>7</m_x>
+                    <m_y>2</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_HELICOPTER_8_3</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>8</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_HELICOPTER_9_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>8</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_HELICOPTER_9_2</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>8</m_x>
+                    <m_y>2</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_HELICOPTER_9_3</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+
+        <Tags>
+            <Tag>ui_developer</Tag>
+            <Tag>helicopter</Tag>
+            <Tag>automatic_transparency</Tag>
+        </Tags>
+
+        <Cost>86999</Cost>
+        <IconIndex>2857</IconIndex>
+    </GameDBCompositeObject>
+
+    <GameDBPrefabObject ID="PREFAB_OBJECT_DLC_HELIPORT">
+        <AbbreviationLocID>PREFAB_OBJECT_DLC_HELIPORT_DESCRIPTION</AbbreviationLocID>
+
+        <PrefabAssetRef>ASSET_PREFAB_DLC_HELIPORT</PrefabAssetRef>
+
+        <Cost>86999</Cost>
+        <IconIndex>2857</IconIndex>
+
+        <Tags>
+            <Tag>ui_ambulances</Tag>
+            <Tag>heliport</Tag>
+        </Tags>
+
+        <Placement>ANY</Placement>
+        <NoRoofAbove>true</NoRoofAbove>
+        <SpecialMessageRoof>true</SpecialMessageRoof>
+        <LayerFloors>false</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+
+        <ColorSetRef>COLOR_SET_AMBULANCES</ColorSetRef>
+    </GameDBPrefabObject>
+
+    <GameDBObject ID="OBJECT_DLC_MARKER_HELIPORT">
+        <AbbreviationLocID>OBJECT_DLC_MARKER_HELIPORT_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>1022</TextureIDNW>
+        <TextureIDNE>1022</TextureIDNE>
+        <TextureIDSE>1022</TextureIDSE>
+        <TextureIDSW>1022</TextureIDSW>
+        <IconIndex>77</IconIndex>
+
+        <Placement>OUTDOORS</Placement>
+        <AccessPositions></AccessPositions><!-- No limit -->
+
+        <LightLevelRed>70</LightLevelRed>
+        <LightLevelGreen>50</LightLevelGreen>
+        <LightLevelBlue>50</LightLevelBlue>
+        <LightRange>4</LightRange>
+        <LightIsDirectional>false</LightIsDirectional>
+        <LightAutomatic>true</LightAutomatic>
+
+        <Tags>
+            <Tag>ui_developer</Tag>
+            <Tag>marker_ambulance_parking_bottom</Tag>
+            <!--Tag>hidden_in_build</Tag-->
+        </Tags>
+    </GameDBObject>
+    
+</Database>

@@ -1,0 +1,334 @@
+﻿<Database>
+    <!-- 
+     HIDDEN,
+    CAMPAIGN,
+    SANDBOX,
+    SCENARIO
+    -->
+    
+    <GameDBCampaignLevel ID="LEVEL_TUTORIAL_01">
+        <DescriptionLocID>LEVEL_TUTORIAL_01_DESCRIPTION</DescriptionLocID>
+        <LevelCategory>CAMPAIGN</LevelCategory>
+        <MapFile>tutorial_01.xml</MapFile>
+        <LevelScript>LevelScriptTutorial01</LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <PreviewTexture>tutorial_1</PreviewTexture>
+    </GameDBCampaignLevel>
+
+    <GameDBCampaignLevel ID="LEVEL_TUTORIAL_01a">
+        <DescriptionLocID>LEVEL_TUTORIAL_01_DESCRIPTION</DescriptionLocID>
+        <LevelCategory>HIDDEN</LevelCategory>
+        <MapFile>tutorial_01a.xml</MapFile>
+        <LevelScript>LevelScriptTutorial01a</LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+    </GameDBCampaignLevel>    
+    
+    <GameDBCampaignLevel ID="LEVEL_TUTORIAL_01b">
+        <DescriptionLocID>LEVEL_TUTORIAL_01_DESCRIPTION</DescriptionLocID>
+        <LevelCategory>HIDDEN</LevelCategory>
+        <MapFile>tutorial_01b.xml</MapFile>
+        <LevelScript>LevelScriptTutorial01b</LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        
+        <PatientCount>8</PatientCount>
+        <MedicalConditions>
+            <MedicalConditionRef>DIA_HFV</MedicalConditionRef>
+            <MedicalConditionRef>DIA_ACD</MedicalConditionRef>
+            <MedicalConditionRef>DIA_CKX</MedicalConditionRef>
+            <MedicalConditionRef>DIA_HRZ</MedicalConditionRef>
+            <MedicalConditionRef>DIA_RYS</MedicalConditionRef>
+            <MedicalConditionRef>DIA_CFS</MedicalConditionRef>
+            <MedicalConditionRef>DIA_INS</MedicalConditionRef>
+            <MedicalConditionRef>DIA_HRZ</MedicalConditionRef>
+        </MedicalConditions>
+        
+    </GameDBCampaignLevel>
+    
+    <GameDBCampaignLevel ID="LEVEL_TUTORIAL_02">
+        <DescriptionLocID>LEVEL_TUTORIAL_02_DESCRIPTION_V2</DescriptionLocID>
+        <LevelCategory>CAMPAIGN</LevelCategory>
+        <MapFile>tutorial_02.xml</MapFile>
+        <LevelScript>LevelScriptTutorial02</LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <PreviewTexture>tutorial_2</PreviewTexture>
+        
+        <PatientCount>12</PatientCount>
+        <MedicalConditions>
+            <MedicalConditionRef>DIA_CLD</MedicalConditionRef>
+            <MedicalConditionRef>DIA_GEW</MedicalConditionRef>           
+            <MedicalConditionRef>TRM_HCT</MedicalConditionRef>
+            <MedicalConditionRef>DIA_INS</MedicalConditionRef>
+            <MedicalConditionRef>DIA_HRZ</MedicalConditionRef>
+            <MedicalConditionRef>TRM_FCT</MedicalConditionRef>
+            <MedicalConditionRef>DIA_CKX</MedicalConditionRef>
+            <MedicalConditionRef>DIA_APH</MedicalConditionRef>
+            <MedicalConditionRef>DIA_SCS</MedicalConditionRef>
+            <MedicalConditionRef>DIA_ASN</MedicalConditionRef>
+            <MedicalConditionRef>DIA_LAR</MedicalConditionRef>
+            <MedicalConditionRef>DIA_HRZ</MedicalConditionRef>
+        </MedicalConditions>
+    </GameDBCampaignLevel>
+    
+    <GameDBCampaignLevel ID="LEVEL_TUTORIAL_03">
+        <DescriptionLocID>LEVEL_TUTORIAL_03_DESCRIPTION_V2</DescriptionLocID>
+        <LevelCategory>CAMPAIGN</LevelCategory>
+        <MapFile>tutorial_03.xml</MapFile>
+        <LevelScript>LevelScriptTutorial03v3</LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <PreviewTexture>tutorial_3</PreviewTexture>
+
+        <PatientCount>2</PatientCount>
+        <MedicalConditions>
+            <MedicalConditionRef>TRM_SRP</MedicalConditionRef>
+            <MedicalConditionRef>TRM_KLP</MedicalConditionRef>
+        </MedicalConditions>
+    </GameDBCampaignLevel>    
+    
+    <GameDBCampaignLevel ID="LEVEL_TUTORIAL_04">
+        <LevelCategory>HIDDEN</LevelCategory>
+        <MapFile>tutorial_04.xml</MapFile>
+        <LevelScript>LevelScriptTutorial04</LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+    </GameDBCampaignLevel>
+
+    <!-- Campaign 1 in UI -->
+    <GameDBCampaignLevel ID="LEVEL_CAMPAIGN_02">
+        <DescriptionLocID>LEVEL_CAMPAIGN_02_DESCRIPTION_V2</DescriptionLocID>
+        <LevelCategory>CAMPAIGN</LevelCategory>
+        <MapFile>campaign_02.xml</MapFile>
+        <LevelScript>LevelScriptCampaign02</LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <PreviewTexture>campaing_2</PreviewTexture>
+    </GameDBCampaignLevel>
+
+    <!-- Campaign 2 in UI -->
+    <GameDBCampaignLevel ID="LEVEL_CAMPAIGN_01">
+        <DescriptionLocID>LEVEL_CAMPAIGN_01_DESCRIPTION_V2</DescriptionLocID>
+        <LevelCategory>CAMPAIGN</LevelCategory>
+        <MapFile>campaign_01.xml</MapFile>
+        <LevelScript>LevelScriptCampaign01</LevelScript>
+        <UnlockedByDefault>false</UnlockedByDefault>
+        <PreviewTexture>campaing_1</PreviewTexture>
+    </GameDBCampaignLevel>
+    
+    <GameDBCampaignLevel ID="LEVEL_CAMPAIGN_03">
+        <DescriptionLocID>LEVEL_CAMPAIGN_03_DESCRIPTION_V2</DescriptionLocID>
+        <LevelCategory>CAMPAIGN</LevelCategory>
+        <MapFile>campaign_03.xml</MapFile>
+        <LevelScript>LevelScriptCampaign03</LevelScript>
+        <UnlockedByDefault>false</UnlockedByDefault>
+        <PreviewTexture>campaing_3</PreviewTexture>
+    </GameDBCampaignLevel>    
+    
+    <GameDBCampaignLevel ID="LEVEL_CHALLENGE_01">
+        <DescriptionLocID>LEVEL_CHALLENGE_01_DESCRIPTION_V2</DescriptionLocID>
+        <LevelCategory>CAMPAIGN</LevelCategory>
+        <MapFile>challenge_01.xml</MapFile>
+        <LevelScript>LevelScriptChallenge</LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <DepartmentType>DPT_EMERGENCY</DepartmentType>
+        <AchievementToUnlock>ACHIEVEMENT_CHALLENGE_LEVEL_1</AchievementToUnlock>
+        <PercentageToKeep>90</PercentageToKeep>
+        <PreviewTexture>ER</PreviewTexture>
+    </GameDBCampaignLevel>
+
+    <GameDBCampaignLevel ID="LEVEL_CHALLENGE_02">
+        <DescriptionLocID>LEVEL_CHALLENGE_02_DESCRIPTION_V2</DescriptionLocID>
+        <LevelCategory>CAMPAIGN</LevelCategory>
+        <MapFile>challenge_02.xml</MapFile>
+        <LevelScript>LevelScriptChallenge</LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <DepartmentType>DPT_GENERAL_SURGERY_DEPARTMENT</DepartmentType>
+        <AchievementToUnlock>ACHIEVEMENT_CHALLENGE_LEVEL_2</AchievementToUnlock>
+        <PercentageToKeep>90</PercentageToKeep>
+        <PreviewTexture>GS</PreviewTexture>
+    </GameDBCampaignLevel>    
+    
+    <GameDBCampaignLevel ID="LEVEL_CHALLENGE_03">
+        <DescriptionLocID>LEVEL_CHALLENGE_03_DESCRIPTION_V2</DescriptionLocID>
+        <LevelCategory>CAMPAIGN</LevelCategory>
+        <MapFile>challenge_03.xml</MapFile>
+        <LevelScript>LevelScriptChallenge</LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <DepartmentType>DPT_INTERNAL_MEDICINE_DEPARTMENT</DepartmentType>
+        <AchievementToUnlock>ACHIEVEMENT_CHALLENGE_LEVEL_3</AchievementToUnlock>
+        <PercentageToKeep>90</PercentageToKeep>
+        <PreviewTexture>IM</PreviewTexture>
+    </GameDBCampaignLevel>    
+    
+    <GameDBCampaignLevel ID="LEVEL_CHALLENGE_04">
+        <DescriptionLocID>LEVEL_CHALLENGE_04_DESCRIPTION_V2</DescriptionLocID>
+        <LevelCategory>CAMPAIGN</LevelCategory>
+        <MapFile>challenge_04.xml</MapFile>
+        <LevelScript>LevelScriptChallenge</LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <DepartmentType>DPT_ORTHOPAEDICS_AND_TRAUMATOLOGY</DepartmentType>
+        <AchievementToUnlock>ACHIEVEMENT_CHALLENGE_LEVEL_4</AchievementToUnlock>
+        <PercentageToKeep>90</PercentageToKeep>
+        <PreviewTexture>OT</PreviewTexture>
+    </GameDBCampaignLevel>    
+    
+    <GameDBCampaignLevel ID="LEVEL_CHALLENGE_05">
+        <DescriptionLocID>LEVEL_CHALLENGE_05_DESCRIPTION_V2</DescriptionLocID>
+        <LevelCategory>CAMPAIGN</LevelCategory>
+        <MapFile>challenge_05.xml</MapFile>
+        <LevelScript>LevelScriptChallenge</LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <DepartmentType>DPT_CARDIOLOGY</DepartmentType>
+        <AchievementToUnlock>ACHIEVEMENT_CHALLENGE_LEVEL_5</AchievementToUnlock>
+        <PercentageToKeep>90</PercentageToKeep>
+        <PreviewTexture>CR</PreviewTexture>
+    </GameDBCampaignLevel>   
+    
+    <GameDBCampaignLevel ID="LEVEL_CHALLENGE_06">
+        <DescriptionLocID>LEVEL_CHALLENGE_06_DESCRIPTION_V2</DescriptionLocID>
+        <LevelCategory>CAMPAIGN</LevelCategory>
+        <MapFile>challenge_06.xml</MapFile>
+        <LevelScript>LevelScriptChallenge</LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <DepartmentType>DPT_NEUROLOGY</DepartmentType>
+        <AchievementToUnlock>ACHIEVEMENT_CHALLENGE_LEVEL_6</AchievementToUnlock>
+        <PercentageToKeep>90</PercentageToKeep>
+        <PreviewTexture>NR</PreviewTexture>
+    </GameDBCampaignLevel>
+
+    <GameDBCampaignLevel ID="LEVEL_BENCHMARK">
+        <LevelCategory>HIDDEN</LevelCategory>
+        <MapFile>benchmark2020.xml</MapFile>
+        <LevelScript>LevelScriptBenchmark</LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+    </GameDBCampaignLevel>
+
+    <!-- Sandbox -->
+    <GameDBCampaignLevel ID="LEVEL_SANDBOX_A_64">
+        <DescriptionLocID>LEVEL_SANDBOX_A_64_DESCRIPTION</DescriptionLocID>
+        <LevelCategory>SANDBOX</LevelCategory>
+        <MapFile>sandbox_empty_A_64x64.xml</MapFile>
+        <LevelScript></LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <UseScenarioConfiguration>true</UseScenarioConfiguration>
+        <DisplayedSize>64 x 64</DisplayedSize>
+        <PreviewTexture>empty_A_64</PreviewTexture>
+    </GameDBCampaignLevel>
+
+    <GameDBCampaignLevel ID="LEVEL_SANDBOX_A_96">
+        <DescriptionLocID>LEVEL_SANDBOX_A_96_DESCRIPTION</DescriptionLocID>
+        <LevelCategory>SANDBOX</LevelCategory>
+        <MapFile>sandbox_empty_A_96x96.xml</MapFile>
+        <LevelScript></LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <UseScenarioConfiguration>true</UseScenarioConfiguration>
+        <DisplayedSize>96 x 96</DisplayedSize>
+        <PreviewTexture>empty_A_96</PreviewTexture>
+    </GameDBCampaignLevel>
+    <!--
+    <GameDBCampaignLevel ID="LEVEL_SANDBOX_B_64">
+        <DescriptionLocID>LEVEL_SANDBOX_B_64_DESCRIPTION</DescriptionLocID>
+        <LevelCategory>SANDBOX</LevelCategory>
+        <MapFile>sandbox_empty_B_64x64.xml</MapFile>
+        <LevelScript></LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <UseScenarioConfiguration>true</UseScenarioConfiguration>
+        <DisplayedSize>64 x 64</DisplayedSize>
+        <PreviewTexture>empty_B_64</PreviewTexture>
+    </GameDBCampaignLevel>
+
+    <GameDBCampaignLevel ID="LEVEL_SANDBOX_B_96">
+        <DescriptionLocID>LEVEL_SANDBOX_B_96_DESCRIPTION</DescriptionLocID>
+        <LevelCategory>SANDBOX</LevelCategory>
+        <MapFile>sandbox_empty_B_96x96.xml</MapFile>
+        <LevelScript></LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <UseScenarioConfiguration>true</UseScenarioConfiguration>
+        <DisplayedSize>96 x 96</DisplayedSize>
+        <PreviewTexture>empty_B_96</PreviewTexture>
+    </GameDBCampaignLevel>
+
+    <GameDBCampaignLevel ID="LEVEL_SANDBOX_C_64">
+        <DescriptionLocID>LEVEL_SANDBOX_C_64_DESCRIPTION</DescriptionLocID>
+        <LevelCategory>SANDBOX</LevelCategory>
+        <MapFile>sandbox_empty_C_64x64.xml</MapFile>
+        <LevelScript></LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <UseScenarioConfiguration>true</UseScenarioConfiguration>
+        <DisplayedSize>64 x 64</DisplayedSize>
+        <PreviewTexture>empty_C_64</PreviewTexture>
+    </GameDBCampaignLevel>
+
+    <GameDBCampaignLevel ID="LEVEL_SANDBOX_C_96">
+        <DescriptionLocID>LEVEL_SANDBOX_C_96_DESCRIPTION</DescriptionLocID>
+        <LevelCategory>SANDBOX</LevelCategory>
+        <MapFile>sandbox_empty_C_96x96.xml</MapFile>
+        <LevelScript></LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <UseScenarioConfiguration>true</UseScenarioConfiguration>
+        <DisplayedSize>96 x 96</DisplayedSize>
+        <PreviewTexture>empty_C_96</PreviewTexture>
+    </GameDBCampaignLevel>
+    -->
+    <GameDBCampaignLevel ID="LEVEL_SANDBOX_HOSPITAL_A">
+        <DescriptionLocID>LEVEL_SANDBOX_HOSPITAL_A_DESCRIPTION</DescriptionLocID>
+        <LevelCategory>SANDBOX</LevelCategory>
+        <MapFile>sandbox_hospital_A_64x64.xml</MapFile>
+        <LevelScript></LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <UseScenarioConfiguration>true</UseScenarioConfiguration>
+        <DisplayedSize>64 x 64</DisplayedSize>
+        <PreviewTexture>hospital_A</PreviewTexture>
+    </GameDBCampaignLevel>
+
+    <GameDBCampaignLevel ID="LEVEL_SANDBOX_HOSPITAL_B">
+        <DescriptionLocID>LEVEL_SANDBOX_HOSPITAL_B_DESCRIPTION</DescriptionLocID>
+        <LevelCategory>SANDBOX</LevelCategory>
+        <MapFile>sandbox_hospital_B_64x64.xml</MapFile>
+        <LevelScript></LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <UseScenarioConfiguration>true</UseScenarioConfiguration>
+        <DisplayedSize>64 x 64</DisplayedSize>
+        <PreviewTexture>hospital_B</PreviewTexture>
+    </GameDBCampaignLevel>
+    
+    <GameDBCampaignLevel ID="LEVEL_SANDBOX_HOSPITAL_C">
+        <DescriptionLocID>LEVEL_SANDBOX_HOSPITAL_C_DESCRIPTION</DescriptionLocID>
+        <LevelCategory>SANDBOX</LevelCategory>
+        <MapFile>sandbox_hospital_C_64x64.xml</MapFile>
+        <LevelScript></LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <UseScenarioConfiguration>true</UseScenarioConfiguration>
+        <DisplayedSize>64 x 64</DisplayedSize>
+        <PreviewTexture>hospital_C</PreviewTexture>
+    </GameDBCampaignLevel>
+
+    <GameDBCampaignLevel ID="LEVEL_SANDBOX_HOSPITAL_E">
+        <DescriptionLocID>LEVEL_SANDBOX_HOSPITAL_E_DESCRIPTION</DescriptionLocID>
+        <LevelCategory>SANDBOX</LevelCategory>
+        <MapFile>sandbox_hospital_E_96x96.xml</MapFile>
+        <LevelScript></LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <UseScenarioConfiguration>true</UseScenarioConfiguration>
+        <DisplayedSize>96 x 96</DisplayedSize>
+        <PreviewTexture>hospital_E</PreviewTexture>
+    </GameDBCampaignLevel>
+
+    <GameDBCampaignLevel ID="LEVEL_SANDBOX_HOSPITAL_F">
+        <DescriptionLocID>LEVEL_SANDBOX_HOSPITAL_F_DESCRIPTION</DescriptionLocID>
+        <LevelCategory>SANDBOX</LevelCategory>
+        <MapFile>sandbox_hospital_F_96x96.xml</MapFile>
+        <LevelScript></LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <UseScenarioConfiguration>true</UseScenarioConfiguration>
+        <DisplayedSize>96 x 96</DisplayedSize>
+        <PreviewTexture>hospital_F</PreviewTexture>
+    </GameDBCampaignLevel>
+
+    <GameDBCampaignLevel ID="LEVEL_SANDBOX_HOSPITAL_D">
+        <DescriptionLocID>LEVEL_SANDBOX_HOSPITAL_F_DESCRIPTION</DescriptionLocID>
+        <LevelCategory>SANDBOX</LevelCategory>
+        <MapFile>sandbox_hospital_G_96x96.xml</MapFile>
+        <LevelScript></LevelScript>
+        <UnlockedByDefault>true</UnlockedByDefault>
+        <UseScenarioConfiguration>true</UseScenarioConfiguration>
+        <DisplayedSize>96 x 96</DisplayedSize>
+        <PreviewTexture>hospital_G</PreviewTexture>
+    </GameDBCampaignLevel>
+</Database>

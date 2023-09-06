@@ -1,0 +1,17 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_DE_DLC_DOCTOR_MODE_PATCH_1_1_24">
+    
+        <LanguageCode>de</LanguageCode>
+        <LanguageNameLocalized>Deutsch</LanguageNameLocalized>
+    
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+    
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSURANCE_OBJ_RESET</LocID>            <Text>Aufgabenzurücksetzung der Versicherungsfirma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSURANCE_OBJ_RESET_TEXT</LocID>       <Text>Aufgrund der Änderung der Arzt-Modus-Schwierigkeit wurden die Aufgaben der Versicherungsfirma zurückgesetzt.</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

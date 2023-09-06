@@ -1,0 +1,17 @@
+<Database>
+    <GameDBStringTable ID="LOC_TR_DLC_DOCTOR_MODE_PATCH_1_1_24">
+    
+        <LanguageCode>tr</LanguageCode>
+        <LanguageNameLocalized>Türkçe</LanguageNameLocalized>
+    
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+    
+        <LocalizedStrings>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSURANCE_OBJ_RESET</LocID>            <Text>Sigorta şirketi hedefi sıfırlandı</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_INSURANCE_OBJ_RESET_TEXT</LocID>       <Text>Doktor modu zorluk ayarı değişikliği nedeniyle sigorta şirketi hedefleri sıfırlandı.</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
+    

@@ -1,0 +1,86 @@
+﻿<Database>
+    <GameDBNeed ID="NEED_HUNGER"> <!-- Deprecated -->
+    </GameDBNeed>
+    
+    <GameDBNeed ID="NEED_HUNGER_PATIENT"> 
+        <Procedure>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>food</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            
+            <AllowedOutsideOfRoom>true</AllowedOutsideOfRoom>
+
+            <ProcedureScript>ProcedureScriptNeedHunger</ProcedureScript>
+        </Procedure>
+        <SatisfactionModifierSatisfied>SAT_MOD_FOOD_EATEN</SatisfactionModifierSatisfied>
+        <SatisfactionModifierCritical>SAT_MOD_FOOD_NOT_EATEN</SatisfactionModifierCritical>
+        <ChangePerSecondPercent>0.04</ChangePerSecondPercent>
+    </GameDBNeed>
+
+    <GameDBNeed ID="NEED_HUNGER_STAFF">
+        <Procedure>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>food</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <ProcedureScript>ProcedureScriptNeedHunger</ProcedureScript>
+            <IgnoreDepratmentForRoom>cafeteria</IgnoreDepratmentForRoom>
+        </Procedure>
+        
+        <SatisfactionModifierSatisfied>SAT_MOD_FOOD_EATEN</SatisfactionModifierSatisfied>
+        <SatisfactionModifierCritical>SAT_MOD_FOOD_NOT_EATEN</SatisfactionModifierCritical>
+        <ChangePerSecondPercent>0.09</ChangePerSecondPercent>
+    </GameDBNeed>
+
+    <GameDBNeed ID="NEED_BLADDER"> 
+        <Procedure>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>wc</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            
+            <RequiredRoomTags>
+                <Tag>wc</Tag>
+                <Tag>ward</Tag> <!-- To be sure, some players will have wcs in wards -->
+                <Tag>any_office</Tag> <!-- To be sure, we saw wcs in a walled-off section of offices -->
+            </RequiredRoomTags>
+            
+            <ProcedureScript>ProcedureScriptNeedBladder</ProcedureScript>
+        </Procedure>
+        <SatisfactionModifierSatisfied>SAT_MOD_TOILET_USED</SatisfactionModifierSatisfied>
+        <SatisfactionModifierCritical>SAT_MOD_TOILET_NOT_USED</SatisfactionModifierCritical>
+        <ChangePerSecondPercent>0.11</ChangePerSecondPercent>
+    </GameDBNeed>
+
+    <GameDBNeed ID="NEED_BOREDOM"> 
+        <Procedure>
+            <SatisfactionModifierSatisfied>SAT_MOD_BOREDOM_REDUCED</SatisfactionModifierSatisfied>
+            <SatisfactionModifierCritical>SAT_MOD_BORED</SatisfactionModifierCritical>
+            
+            <ProcedureScript>ProcedureScriptNeedBoredom</ProcedureScript>
+        </Procedure>
+
+        <!-- Fastest, patients shouldn't keep sitting for too long -->
+        <ChangePerSecondPercent>0.15</ChangePerSecondPercent>
+    </GameDBNeed>
+
+    <GameDBNeed ID="NEED_DISCOMFORT">
+        <ChangePerSecondPercent>0</ChangePerSecondPercent>
+    </GameDBNeed>
+
+    <GameDBNeed ID="NEED_REST">
+        <SatisfactionModifierSatisfied>SAT_MOD_RESTED</SatisfactionModifierSatisfied>
+        <SatisfactionModifierCritical>SAT_MOD_TIRED</SatisfactionModifierCritical>
+        <ChangePerSecondPercent>0.05</ChangePerSecondPercent>
+    </GameDBNeed>
+
+    <GameDBNeed ID="NEED_SATISFACTION">
+        <ChangePerSecondPercent>0</ChangePerSecondPercent> 
+    </GameDBNeed>
+</Database>
+

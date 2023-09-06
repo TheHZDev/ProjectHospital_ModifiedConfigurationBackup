@@ -1,0 +1,36 @@
+<Database>
+    <GameDBAsset ID="ASSET_TEX_DLC_TRM_OBJECTS">                        <Type>TEXTURE_OBJECTS</Type>       <File>MOD_ROOT/DLC_trm_objects_tall_atlas.png</File> </GameDBAsset>
+    
+    <GameDBAsset ID="ASSET_TEX_DLC_HELICOPTER_ROTORS">                  <Type>TEXTURE</Type>      <File>MOD_ROOT/helicopter_rotors.png</File> </GameDBAsset>
+
+    <GameDBAsset ID="ASSET_PREFAB_DLC_HELIPORT">                        <Type>PREFAB</Type>       <File>MOD_ROOT/heliport.xml</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_OUTPATIENT_TRM_OFFICE_SMALL">         <Type>PREFAB</Type>       <File>MOD_ROOT/room_outpatient_trm_office_small.xml</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_OUTPATIENT_TRM_OFFICE_LARGE">         <Type>PREFAB</Type>       <File>MOD_ROOT/room_outpatient_trm_office_large.xml</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_INPATIENT_TRM_OFFICE">                <Type>PREFAB</Type>       <File>MOD_ROOT/room_inpatient_trm_office_large.xml</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_INPATIENT_TRM_OFFICE_SMALL">          <Type>PREFAB</Type>       <File>MOD_ROOT/room_inpatient_trm_office_small.xml</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ON_CALL_ROOM_LARGE_TRM">              <Type>PREFAB</Type>       <File>MOD_ROOT/room_on_call_room_large_trm.xml</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ON_CALL_ROOM_SMALL_TRM">              <Type>PREFAB</Type>       <File>MOD_ROOT/room_on_call_room_small_trm.xml</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_NURSES_STATION_SMALL_TRM">            <Type>PREFAB</Type>       <File>MOD_ROOT/room_nurses_station_small_trm.xml</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_NURSES_STATION_LARGE_TRM">            <Type>PREFAB</Type>       <File>MOD_ROOT/room_nurses_station_large_trm.xml</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_BURN_UNIT_SMALL">                     <Type>PREFAB</Type>       <File>MOD_ROOT/room_burn_unit_small.xml</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_BURN_UNIT_LARGE">                     <Type>PREFAB</Type>       <File>MOD_ROOT/room_burn_unit_large.xml</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_HDU_TRM_LARGE">                       <Type>PREFAB</Type>       <File>MOD_ROOT/room_hdu_trm_large.xml</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_HDU_TRM_SMALL">                       <Type>PREFAB</Type>       <File>MOD_ROOT/room_hdu_trm_small.xml</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_CARDIOVASCULAR_UNIT_TRM">             <Type>PREFAB</Type>       <File>MOD_ROOT/room_cardiovascular_unit_trm.xml</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_OPERATING_THEATRE_TRM">               <Type>PREFAB</Type>       <File>MOD_ROOT/room_operating_theatre_trm.xml</File> </GameDBAsset>
+
+    <GameDBAsset ID="ASSET_PREFAB_ICON_OUTPATIENT_TRM_OFFICE_SMALL">    <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>MOD_ROOT/trm_gp_office_small.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_OUTPATIENT_TRM_OFFICE_LARGE">    <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>MOD_ROOT/trm_gp_office_large.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_INPATIENT_TRM_OFFICE">           <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>MOD_ROOT/trm_inpatient_office_large.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_INPATIENT_TRM_OFFICE_SMALL">     <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>MOD_ROOT/trm_inpatient_office_small.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_ON_CALL_ROOM_LARGE_TRM">         <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>MOD_ROOT/on_call_room_large_trm.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_ON_CALL_ROOM_SMALL_TRM">         <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>MOD_ROOT/on_call_room_small_trm.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_NURSES_STATION_SMALL_TRM">       <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>MOD_ROOT/nurses_station_small_trm.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_NURSES_STATION_LARGE_TRM">       <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>MOD_ROOT/nurses_station_large_trm.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_BURN_UNIT_SMALL">                <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>MOD_ROOT/trm_burn_unit_small.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_BURN_UNIT_LARGE">                <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>MOD_ROOT/trm_burn_unit_large.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_HDU_TRM_LARGE">                  <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>MOD_ROOT/trm_hdu_large.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_HDU_TRM_SMALL">                  <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>MOD_ROOT/trm_hdu_small.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_CARDIOVASCULAR_UNIT_TRM">        <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>MOD_ROOT/trm_cardio_unit.png</File> </GameDBAsset>
+    <GameDBAsset ID="ASSET_PREFAB_ICON_OPERATING_THEATRE_TRM">          <Type>TEXTURE_CUSTOM_PREFAB_SPRITE</Type>       <File>MOD_ROOT/trm_operating_theatre.png</File> </GameDBAsset>
+</Database>

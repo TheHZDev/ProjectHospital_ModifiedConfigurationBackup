@@ -1,0 +1,55 @@
+﻿<Database>
+    <GameDBRace ID="RACE_CAUCASSIAN"> 
+        <SkinHueMin>0.025</SkinHueMin>
+        <SkinHueMax>0.05</SkinHueMax>
+        <SkinSaturationMin>0.25</SkinSaturationMin>  
+        <SkinSaturationMax>0.25</SkinSaturationMax>  
+        <SkinValueMin>0.6</SkinValueMin>  
+        <SkinValueMax>0.8</SkinValueMax>  
+        <HairHueMin>0.05</HairHueMin>
+        <HairHueMax>0.15</HairHueMax>
+        <HairSaturationMin>0.3</HairSaturationMin>  
+        <HairSaturationMax>0.7</HairSaturationMax>  
+        <HairValueMin>0.3</HairValueMin>  
+        <HairValueMax>0.9</HairValueMax> 
+        <HairIndexMin>0</HairIndexMin>
+        <HairIndexMax>0</HairIndexMax>
+        <EyeIndexMin>0</EyeIndexMin>
+        <EyeIndexMax>0</EyeIndexMax>
+    </GameDBRace>
+
+    <GameDBRace ID="RACE_BLACK"> 
+        <SkinHueMin>0.025</SkinHueMin>
+        <SkinHueMax>0.075</SkinHueMax>
+        <SkinSaturationMin>0.30</SkinSaturationMin>  
+        <SkinSaturationMax>0.30</SkinSaturationMax>  
+        <SkinValueMin>0.3</SkinValueMin>  
+        <SkinValueMax>0.5</SkinValueMax>  
+        <HairHueMin>0.01</HairHueMin>
+        <HairHueMax>0.05</HairHueMax>
+        <HairSaturationMin>0.1</HairSaturationMin>  
+        <HairSaturationMax>0.2</HairSaturationMax>  
+        <HairValueMin>0.02</HairValueMin>  
+        <HairValueMax>0.1</HairValueMax> 
+        <EyeIndexMin>0</EyeIndexMin>
+        <EyeIndexMax>0</EyeIndexMax>
+    </GameDBRace>
+
+    <GameDBRace ID="RACE_ASIAN"> 
+        <SkinHueMin>0.075</SkinHueMin>
+        <SkinHueMax>0.085</SkinHueMax>
+        <SkinSaturationMin>0.25</SkinSaturationMin>  
+        <SkinSaturationMax>0.25</SkinSaturationMax>  
+        <SkinValueMin>0.6</SkinValueMin>  
+        <SkinValueMax>0.9</SkinValueMax>
+        <HairHueMin>0.01</HairHueMin>
+        <HairHueMax>0.05</HairHueMax>
+        <HairSaturationMin>0.1</HairSaturationMin>
+        <HairSaturationMax>0.2</HairSaturationMax>
+        <HairValueMin>0.02</HairValueMin>
+        <HairValueMax>0.1</HairValueMax>
+        <EyeIndexMin>0</EyeIndexMin>
+        <EyeIndexMax>0</EyeIndexMax>
+    </GameDBRace>
+</Database>
+

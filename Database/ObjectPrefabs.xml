@@ -1,0 +1,156 @@
+<Database>
+    <GameDBPrefabObject ID="PREFAB_OBJECT_XRAY">
+       	<AbbreviationLocID>PREFAB_OBJECT_XRAY_DESCRIPTION</AbbreviationLocID>
+        <PrefabNW>xray_nw.xml</PrefabNW>
+        <Cost>9499</Cost>
+        <IconIndex>967</IconIndex>
+        <Placement>INDOORS</Placement>
+
+        <Tags>
+            <Tag>ui_hidden</Tag>
+        </Tags>
+
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_OBJECT_ANGIOGRAPH">
+        <AbbreviationLocID>PREFAB_OBJECT_ANGIOGRAPH_DESCRIPTION</AbbreviationLocID>
+        <PrefabNW>angiograph_nw.xml</PrefabNW>
+        <Cost>24999</Cost>
+        <IconIndex>723</IconIndex>
+        <Placement>INDOORS</Placement>
+
+        <Tags>
+            <Tag>ui_hidden</Tag>
+        </Tags>
+
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_OBJECT_CT">
+        <AbbreviationLocID>PREFAB_OBJECT_CT_DESCRIPTION</AbbreviationLocID>
+        <PrefabNW>ct_nw.xml</PrefabNW>
+
+        <Cost>34999</Cost>
+        
+        <IconIndex>721</IconIndex>
+        <Placement>INDOORS</Placement>
+
+        <Tags>
+            <Tag>ui_hidden</Tag>
+        </Tags>
+
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_OBJECT_MRI">
+        <AbbreviationLocID>PREFAB_OBJECT_MRI_DESCRIPTION</AbbreviationLocID>
+        <PrefabNW>mri_nw.xml</PrefabNW>
+
+        <Cost>48999</Cost>
+        <IconIndex>722</IconIndex>
+        <Placement>INDOORS</Placement>
+
+        <Tags>
+            <Tag>ui_hidden</Tag>
+        </Tags>
+
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>
+    
+    <GameDBPrefabObject ID="PREFAB_OBJECT_ELEVATOR">
+        <AbbreviationLocID>PREFAB_OBJECT_ELEVATOR_DESCRIPTION</AbbreviationLocID>
+        <PrefabNW>elevator_nw.xml</PrefabNW>
+
+        <Cost>1999</Cost>
+        <IconIndex>902</IconIndex>
+
+        <Tags>
+            <Tag>ui_elevators</Tag>
+            <Tag>elevators_prefab</Tag>
+        </Tags>
+        
+        <Placement>INDOORS</Placement>
+        <AllFloors>true</AllFloors>
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>true</LayerWalls>
+        <LayerDoors>true</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+    </GameDBPrefabObject>    
+    
+    <GameDBPrefabObject ID="PREFAB_OBJECT_AMBULANCE_PARKING">
+        <AbbreviationLocID>PREFAB_OBJECT_AMBULANCE_PARKING_DESCRIPTION</AbbreviationLocID>
+        <PrefabNW>ambulance_parking.xml</PrefabNW>
+
+        <Cost>-1</Cost>
+        <IconIndex>563</IconIndex>
+
+        <Tags>
+            <Tag>ui_ambulances</Tag>
+            <Tag>ambulance_parking</Tag>
+        </Tags>
+        
+        <Placement>OUTDOORS</Placement>
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>false</LayerWalls>
+        <LayerDoors>false</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+
+        <NoRotation>true</NoRotation>
+
+        <MinX>14</MinX>
+        <MinY>14</MinY>
+        
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_OBJECT_AMBULANCE_PARKING_STRIPES">
+        <AbbreviationLocID>PREFAB_OBJECT_AMBULANCE_PARKING_DESCRIPTION</AbbreviationLocID><!-- same as parking -->
+        <PrefabNW>ambulance_parking_stripes.xml</PrefabNW>
+
+        <Cost>-1</Cost>
+        <IconIndex>564</IconIndex>
+
+        <Tags>
+            <Tag>ui_ambulances</Tag>
+            <Tag>ambulance_parking</Tag>
+        </Tags>
+
+        <Placement>OUTDOORS</Placement>
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>false</LayerWalls>
+        <LayerDoors>false</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+
+        <NoRotation>true</NoRotation>
+
+        <MinX>14</MinX>
+        <MinY>14</MinY>
+
+    </GameDBPrefabObject>
+
+    <GameDBPrefabObject ID="PREFAB_OBJECT_AMBULANCE_UNLOADING">
+        <AbbreviationLocID>PREFAB_OBJECT_AMBULANCE_UNLOADING</AbbreviationLocID>
+        <PrefabNW>ambulance_unloading.xml</PrefabNW>
+
+        <Cost>-1</Cost>
+        <IconIndex>565</IconIndex>
+
+        <Tags>
+            <Tag>ui_ambulances</Tag>
+            <Tag>ambulance_unloading</Tag>
+        </Tags>
+
+        <Placement>OUTDOORS</Placement>
+        <LayerFloors>true</LayerFloors>
+        <LayerWalls>false</LayerWalls>
+        <LayerDoors>false</LayerDoors>
+        <LayerObjects>true</LayerObjects>
+
+        <NoRotation>true</NoRotation>
+        
+        <ForcedX>7</ForcedX>
+        <MinYFromTopEdge>20</MinYFromTopEdge>
+        
+    </GameDBPrefabObject>
+    
+</Database>

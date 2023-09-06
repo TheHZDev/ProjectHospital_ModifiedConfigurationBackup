@@ -1,0 +1,821 @@
+﻿<Database>
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_SOFA">       
+		<AbbreviationLocID>COMPOSITE_OBJECT_SOFA_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_SOFA_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+             <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_SOFA_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+
+        <Tags>
+            <Tag>ui_furniture</Tag>
+            <Tag>ui_sofa</Tag>
+        </Tags>
+
+        <Cost>299</Cost>
+        <IconIndex>983</IconIndex>
+    </GameDBCompositeObject>
+
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_BENCH">       
+		<AbbreviationLocID>COMPOSITE_OBJECT_BENCH_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_BENCH_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+             <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_BENCH_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+
+        <Tags>
+            <Tag>ui_furniture</Tag>
+            <Tag>ui_chair_waiting</Tag>
+        </Tags>
+
+        <Cost>99</Cost>
+        <IconIndex>932</IconIndex>
+    </GameDBCompositeObject>
+
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_CAMP_BED">       
+		<AbbreviationLocID>COMPOSITE_OBJECT_CAMP_BED_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_CAMP_BED_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+             <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_CAMP_BED_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+        <Cost>299</Cost>
+
+        <Tags>
+            <Tag>ui_equipment</Tag>
+            <Tag>ui_exam_table</Tag>
+            <Tag>exam_table</Tag>
+        </Tags>
+
+        <IconIndex>933</IconIndex>
+    </GameDBCompositeObject>
+
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_BASIC_BED">
+        <AbbreviationLocID>COMPOSITE_OBJECT_BASIC_BED_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_BASIC_BED_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_BASIC_BED_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_FLUID_STAND</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+        <Cost>599</Cost>
+
+        <Tags>
+            <Tag>ui_equipment</Tag>
+            <Tag>ui_beds</Tag>
+            <Tag>hospital_bed</Tag>
+            <Tag>ui_bed_standard</Tag>
+            <Tag>standard_hospital_bed</Tag>
+        </Tags>
+
+        <IconIndex>910</IconIndex>
+    </GameDBCompositeObject>
+
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_MODERN_BED">
+        <AbbreviationLocID>COMPOSITE_OBJECT_MODERN_BED_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_MODERN_BED_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_MODERN_BED_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_FLUID_STAND</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+        <Cost>2999</Cost>
+
+        <Tags>
+            <Tag>ui_equipment</Tag>
+            <Tag>ui_beds</Tag>
+            <Tag>ui_modern_bed</Tag>
+            <Tag>hospital_bed</Tag>
+            <Tag>modern_hospital_bed</Tag>
+        </Tags>
+
+        <IconIndex>709</IconIndex>
+    </GameDBCompositeObject>
+
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_OPERATING_TABLE">
+        <AbbreviationLocID>COMPOSITE_OBJECT_OPERATING_TABLE_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_OPERATING_TABLE_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_OPERATING_TABLE_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+        <Cost>4999</Cost>
+
+        <Tags>
+            <Tag>ui_equipment</Tag>
+            <Tag>ui_op_table</Tag>
+            <Tag>operating_table</Tag>
+        </Tags>
+
+        <IconIndex>727</IconIndex>
+    </GameDBCompositeObject>
+
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_STRETCHER">
+        <AbbreviationLocID>COMPOSITE_OBJECT_STRETCHER_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_STRETCHER_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_STRETCHER_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+        <Cost>199</Cost>
+
+        <Tags>
+        	<Tag>ui_equipment</Tag>
+            <Tag>ui_stretcher</Tag>
+            <Tag>stretcher</Tag>
+        </Tags>
+
+        <IconIndex>911</IconIndex>
+    </GameDBCompositeObject>
+    
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_OFFICE_DESK">       
+		<AbbreviationLocID>COMPOSITE_OBJECT_OFFICE_DESK_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_OFFICE_DESK_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+             <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_OFFICE_DESK_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+
+        <Tags>
+            <Tag>big_printer</Tag>
+            <Tag>ui_furniture</Tag>
+            <Tag>ui_office_desk</Tag>
+            <Tag>desk</Tag>
+        </Tags>
+
+        <Cost>99</Cost>
+        <IconIndex>958</IconIndex>
+    </GameDBCompositeObject>
+
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_OFFICE_DESK2">       
+		<AbbreviationLocID>COMPOSITE_OBJECT_OFFICE_DESK2_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_OFFICE_DESK2_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+             <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_OFFICE_DESK2_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+
+        <Tags>
+            <Tag>big_printer</Tag>
+            <Tag>ui_furniture</Tag>
+            <Tag>ui_office_desk</Tag>
+            <Tag>desk</Tag>
+        </Tags>
+
+        <Cost>199</Cost>
+        <IconIndex>717</IconIndex>
+    </GameDBCompositeObject>
+
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_LAB_DESK">       
+		<AbbreviationLocID>COMPOSITE_OBJECT_LAB_DESK_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_LAB_DESK_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+             <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_LAB_DESK_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+
+        <Tags>
+            <Tag>big_printer</Tag>
+            <Tag>ui_furniture</Tag>
+            <Tag>ui_stainless_desk</Tag>
+            <Tag>lab_desk</Tag>
+            <Tag>ui_lab_desk</Tag>
+        </Tags>
+
+        <Cost>299</Cost>
+        <IconIndex>966</IconIndex>
+    </GameDBCompositeObject>
+
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_DINING_TABLE">     		
+    	<AbbreviationLocID>COMPOSITE_OBJECT_DINING_TABLE_DESCRIPTION</AbbreviationLocID>         
+        <Parts>
+            <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_DINING_TABLE_L</ObjectRef>
+            </GameDBCompositeObjectPart>
+             <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_DINING_TABLE_R</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+
+        <Tags>
+            <Tag>ui_furniture</Tag>
+            <Tag>ui_dining_tables</Tag>
+        </Tags>
+
+        <Cost>59</Cost>
+        <IconIndex>959</IconIndex>
+    </GameDBCompositeObject>
+
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_XRAY_BED">       
+    	<AbbreviationLocID>COMPOSITE_OBJECT_XRAY_BED_DESCRIPTION</AbbreviationLocID>         
+        <Parts>
+            <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_XRAY_BED_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+             <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_XRAY_BED_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+
+        <Tags>
+            <Tag>ui_hidden</Tag>
+            <Tag>hospitalization</Tag>
+        </Tags>
+
+        <Cost>0</Cost>
+        <IconIndex>967</IconIndex>
+    </GameDBCompositeObject>
+
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_OUTSIDE_BENCH">       
+		<AbbreviationLocID>COMPOSITE_OBJECT_OUTSIDE_BENCH_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_OUTSIDE_BENCH_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+             <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_OUTSIDE_BENCH_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+
+        <Tags>
+            <Tag>ui_outside</Tag>
+        </Tags>
+
+        <Cost>39</Cost>
+        <IconIndex>746</IconIndex>
+    </GameDBCompositeObject>
+    
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_ANGIOGRAPH">
+        <AbbreviationLocID>COMPOSITE_OBJECT_ANGIOGRAPH_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <!-- For correct preview the object at 0, 0 needs to be first -->
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>SE</Orientation>
+                <ObjectRef>OBJECT_ANGIO_TABLE_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>1</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_ANGIOGRAPH_ANIMATED</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>1</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_ANGIO_TRAILS_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>2</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_ANGIO_TABLE_3</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_ANGIO_TABLE_2</ObjectRef>
+            </GameDBCompositeObjectPart>
+          
+        </Parts>
+
+        <Tags>
+            <Tag>ui_equipment</Tag>
+            <Tag>ui_angiography</Tag>
+            <Tag>angiography_scan</Tag>
+        </Tags>
+
+        <Cost>24999</Cost>
+        <IconIndex>723</IconIndex>
+    </GameDBCompositeObject>
+
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_X_RAY">
+        <AbbreviationLocID>COMPOSITE_OBJECT_X_RAY_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>SW</Orientation>
+                <ObjectRef>OBJECT_XRAY_BED_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>1</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>SW</Orientation>
+                <ObjectRef>OBJECT_XRAY_BED_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+            
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>NE</Orientation>
+                <ObjectRef>OBJECT_XRAY_ANIM_TEST</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>1</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>NE</Orientation>
+                <ObjectRef>OBJECT_XRAY_RAILS</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>3</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>NW</Orientation>
+                <ObjectRef>OBJECT_XRAY_BOARD</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+        </Parts>
+
+        <Tags>
+            <Tag>ui_equipment</Tag>
+            <Tag>ui_xray_machine</Tag>
+            <Tag>x_ray_machine</Tag>
+        </Tags>
+
+        <Cost>9499</Cost>
+        <IconIndex>967</IconIndex>
+    </GameDBCompositeObject>
+
+
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_CT">
+        <AbbreviationLocID>COMPOSITE_OBJECT_CT_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>SW</Orientation>
+                <ObjectRef>OBJECT_RADIOLOGY_PLATFORM_2</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>SW</Orientation>
+                <ObjectRef>OBJECT_RADIOLOGY_PLATFORM_ATTCH_2</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>1</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>SW</Orientation>
+                <ObjectRef>OBJECT_RADIOLOGY_PLATFORM_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>1</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>SW</Orientation>
+                <ObjectRef>OBJECT_RADIOLOGY_PLATFORM_ATTCH_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>2</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>NW</Orientation>
+                <ObjectRef>OBJECT_CT_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>2</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>NW</Orientation>
+                <ObjectRef>OBJECT_CT_2</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>2</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>NW</Orientation>
+                <ObjectRef>OBJECT_CT_ATTACHMENT</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>2</m_x>
+                    <m_y>2</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>NW</Orientation>
+                <ObjectRef>OBJECT_CT_3</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+
+        <Tags>
+            <Tag>ui_equipment</Tag>
+            <Tag>ui_ct</Tag>
+            <Tag>ct_scan</Tag>
+        </Tags>
+
+        <Cost>34999</Cost>
+        <IconIndex>721</IconIndex>
+    </GameDBCompositeObject>
+
+
+    <GameDBCompositeObject ID="COMPOSITE_OBJECT_MRI">
+        <AbbreviationLocID>COMPOSITE_OBJECT_MRI_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>SW</Orientation>
+                <ObjectRef>OBJECT_RADIOLOGY_PLATFORM_2</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>SW</Orientation>
+                <ObjectRef>OBJECT_RADIOLOGY_PLATFORM_ATTCH_2</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>1</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>SW</Orientation>
+                <ObjectRef>OBJECT_RADIOLOGY_PLATFORM_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>1</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>SW</Orientation>
+                <ObjectRef>OBJECT_RADIOLOGY_PLATFORM_ATTCH_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>2</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>NW</Orientation>
+                <ObjectRef>OBJECT_MRI_1</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>2</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>NW</Orientation>
+                <ObjectRef>OBJECT_MRI_2</ObjectRef>
+            </GameDBCompositeObjectPart>
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>2</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>NW</Orientation>
+                <ObjectRef>OBJECT_MRI_ATTACHMENT</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>2</m_x>
+                    <m_y>2</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>NW</Orientation>
+                <ObjectRef>OBJECT_MRI_3</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>3</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>NW</Orientation>
+                <ObjectRef>OBJECT_MRI_4</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>3</m_x>
+                    <m_y>1</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>NW</Orientation>
+                <ObjectRef>OBJECT_MRI_5</ObjectRef>
+            </GameDBCompositeObjectPart>
+
+            <GameDBCompositeObjectPart>
+                <TileOffset>
+                    <m_x>3</m_x>
+                    <m_y>2</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <Orientation>NW</Orientation>
+                <ObjectRef>OBJECT_MRI_6</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+
+        <Tags>
+            <Tag>ui_equipment</Tag>
+            <Tag>ui_mri</Tag>
+            <Tag>mri_scan</Tag>
+        </Tags>
+
+        <Cost>48999</Cost>
+        <IconIndex>722</IconIndex>
+    </GameDBCompositeObject>
+
+    <GameDBCompositeObject ID="OBJECT_LAB_HALF_DESK">       
+		<AbbreviationLocID>OBJECT_LAB_HALF_DESK_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_LAB_HALF_DESK_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+             <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_LAB_HALF_DESK_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+        </Parts>
+
+        <Tags>
+            <Tag>ui_furniture</Tag>
+            <Tag>table_equipment</Tag>
+            <Tag>ui_lab_equipment</Tag>
+            <Tag>ui_lab_desk</Tag>
+        </Tags>
+
+        <Cost>369</Cost>
+        <IconIndex>673</IconIndex>
+    </GameDBCompositeObject>
+
+    <GameDBCompositeObject ID="OBJECT_LAB_CABINET">       
+		<AbbreviationLocID>OBJECT_LAB_CABINET_DESCRIPTION</AbbreviationLocID>
+        <Parts>
+            <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_LAB_CABINET_A</ObjectRef>
+            </GameDBCompositeObjectPart>
+             <GameDBCompositeObjectPart>       
+                <TileOffset>
+                    <m_x>0</m_x>
+                    <m_y>0</m_y>
+                </TileOffset>
+                <ZOffset>0</ZOffset>
+                <ObjectRef>OBJECT_LAB_CABINET_B</ObjectRef>
+            </GameDBCompositeObjectPart>
+       </Parts>
+
+       <Tags>
+            <Tag>ui_furniture</Tag>
+            <Tag>table_equipment</Tag>
+            <Tag>ui_lab_equipment</Tag>
+            <Tag>ui_lab_desk</Tag>
+        </Tags>
+
+        <Cost>369</Cost>
+        <IconIndex>674</IconIndex>
+    </GameDBCompositeObject>
+
+</Database>

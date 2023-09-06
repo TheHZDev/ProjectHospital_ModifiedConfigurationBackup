@@ -1,0 +1,34 @@
+<Database>
+    <GameDBLoadingTip ID="LOADING_TIP_ICU">             <TexturePath>UI/loading_tips/TIP1 - ICU</TexturePath> </GameDBLoadingTip> 
+    <GameDBLoadingTip ID="LOADING_TIP_NURSES">          <TexturePath>UI/loading_tips/TIP2 - nurses</TexturePath> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_HDU">             <TexturePath>UI/loading_tips/TIP3 - HDU</TexturePath> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_OP_V2">           <TexturePath>UI/loading_tips/TIP4 - OP</TexturePath> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_MANAGEMENT">      <TexturePath>UI/loading_tips/TIP5 - mngmnt</TexturePath> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_BUILDING">        <TexturePath>UI/loading_tips/TIP6 - building</TexturePath> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_JANITORS">        <TexturePath>UI/loading_tips/TIP7 - janitors</TexturePath> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_MOVING_OBJ">      <TexturePath>UI/loading_tips/TIP8 - moving obj</TexturePath> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_RECEPTION">       <TexturePath>UI/loading_tips/TIP9 - reception</TexturePath> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_COFFEE_MAKER">    <TexturePath>UI/loading_tips/TIP10 - coffee maker</TexturePath> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_ROLES_CARD">      <TexturePath>UI/loading_tips/TIP11 - roles card</TexturePath> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_OBSERVATION">     <TexturePath>UI/loading_tips/TIP12 - Observation</TexturePath> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_HIRING_PERKS">    <TexturePath>UI/loading_tips/TIP13 - hiring perks</TexturePath> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_DECORATIONS">     <TexturePath>UI/loading_tips/TIP14 - decorations</TexturePath> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_BUDGET_LOANS">    <TexturePath>UI/loading_tips/TIP15 - budget loans</TexturePath> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_UNAVAILABLE_EXM"> <TexturePath>UI/loading_tips/TIP16 - unavailable exm</TexturePath> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_GOOD_BOSS">       <TexturePath>UI/loading_tips/TIP17 - good boss</TexturePath> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_PRESTIGE">        <TexturePath>UI/loading_tips/TIP18 - Prestige payments</TexturePath> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_STAFF">           <TexturePath>UI/loading_tips/TIP19 - Staff + patients cards</TexturePath> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_BLUED_OBJ">       <TexturePath>UI/loading_tips/TIP20 - Blued objects</TexturePath> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_DIA_TABLE">       <TexturePath>UI/loading_tips/TIP21 - Diagnosis table</TexturePath> </GameDBLoadingTip>
+    
+    <GameDBLoadingTip ID="LOADING_TIP_SURGERY_PRIORITY">        <TexturePath>UI/loading_tips/TIP22 - Surgery priority</TexturePath> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_SELECTING_OBJ">           <TexturePath>UI/loading_tips/TIP23 - Selecting obj</TexturePath> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_TAKING_OVER_PATIENTS">    <TexturePath>UI/loading_tips/TIP24 - Taking over patients</TexturePath> </GameDBLoadingTip>
+    
+    <GameDBLoadingTip ID="LOADING_TIP_EDUCATION">               <TexturePath>UI/loading_tips/TIP25 - Education</TexturePath>            <DLCName>DLC_ADMIN_PATHOLOGY</DLCName> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_AUTOPSY">                 <TexturePath>UI/loading_tips/TIP26 - Autopsy</TexturePath>              <DLCName>DLC_ADMIN_PATHOLOGY</DLCName> <HideWithHiddenBlood>true</HideWithHiddenBlood> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_JANITORS_ASSIGNMENT">     <TexturePath>UI/loading_tips/TIP27 - Janitor assignment</TexturePath>   <DLCName>DLC_ADMIN_PATHOLOGY</DLCName> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_PHARMACY">                <TexturePath>UI/loading_tips/TIP28 - Pharmacy</TexturePath>             <DLCName>DLC_ADMIN_PATHOLOGY</DLCName> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_CONTAGIOUSNESS">          <TexturePath>UI/loading_tips/TIP29 - Contagiousness</TexturePath>       <DLCName>DLC_INFECTIOUS_DISEASES</DLCName> </GameDBLoadingTip>
+    <GameDBLoadingTip ID="LOADING_TIP_HELICOPTER">              <TexturePath>UI/loading_tips/TIP30 - Helicopter</TexturePath>           <DLCName>DLC_TRAUMATOLOGY</DLCName> </GameDBLoadingTip>
+</Database>

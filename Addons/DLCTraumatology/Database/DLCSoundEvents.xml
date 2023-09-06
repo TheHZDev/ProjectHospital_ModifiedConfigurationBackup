@@ -1,0 +1,50 @@
+<Database>
+    <GameDBSoundEvent ID="SFX_HELICOPTER_TAKEOFF">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/helicopter_takeoff.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>0</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_HELICOPTER_LOOP">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/helicopter_loop.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>0</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_HELICOPTER_LAND">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/helicopter_land.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>0</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_HELICOPTER_DISTANT">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/helicopter_distant.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+        <VolumeDB>-3</VolumeDB>
+    </GameDBSoundEvent>
+
+    <GameDBSoundEvent ID="SFX_HELICOPTER_TAKEOFF_UI">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/helicopter_takeoff_ui.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_UI</SoundBusRef>
+        <VolumeDB>0</VolumeDB>
+    </GameDBSoundEvent>
+    
+    <GameDBSoundEvent ID="SFX_ENV_WHEELCHAIR_LOOP">
+        <AudioClips>
+            <AudioClip>Audio/Ingame/wheelchair_loop_01.wav</AudioClip>
+            <AudioClip>Audio/Ingame/wheelchair_loop_02.wav</AudioClip>
+        </AudioClips>
+        <SoundBusRef>SOUND_BUS_ENVIRONMENT</SoundBusRef>
+        <VolumeDB>-12</VolumeDB>
+    </GameDBSoundEvent>
+</Database>

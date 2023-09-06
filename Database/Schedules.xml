@@ -1,0 +1,89 @@
+<Database>
+    <GameDBSchedule ID="SCHEDULE_OPENING_HOURS_STAFF">
+        <StartTime>7</StartTime>
+        <EndTime>20</EndTime>
+    </GameDBSchedule>
+
+    <GameDBSchedule ID="SCHEDULE_OPENING_HOURS_STAFF_NIGHT">
+        <StartTime>20</StartTime>
+        <EndTime>7</EndTime>
+    </GameDBSchedule>
+    
+    <GameDBSchedule ID="SCHEDULE_OPENING_HOURS_PATIENTS">
+        <StartTime>8</StartTime>
+        <EndTime>18</EndTime>
+        <HideIfNightClinic>true</HideIfNightClinic>
+    </GameDBSchedule>
+
+    <GameDBSchedule ID="SCHEDULE_OPENING_HOURS_PATIENTS_NONSTOP">
+        <StartTime>0</StartTime>
+        <EndTime>24</EndTime>
+        <FunctionalNightClinic>true</FunctionalNightClinic>
+    </GameDBSchedule>
+
+    <GameDBSchedule ID="SCHEDULE_HOSPITALIZED_PATIENTS_BREAKFAST">
+        <StartTime>8</StartTime>
+        <EndTime>9</EndTime>
+        <FunctionalHospitalization>true</FunctionalHospitalization>
+    </GameDBSchedule>    
+    
+    <GameDBSchedule ID="SCHEDULE_HOSPITALIZED_PATIENTS_LUNCH">
+        <StartTime>12</StartTime>
+        <EndTime>13</EndTime>
+        <FunctionalHospitalization>true</FunctionalHospitalization>
+    </GameDBSchedule>
+    
+    <GameDBSchedule ID="SCHEDULE_HOSPITALIZED_PATIENTS_DINNER">
+        <StartTime>18</StartTime>
+        <EndTime>19</EndTime>
+        <FunctionalHospitalization>true</FunctionalHospitalization>
+    </GameDBSchedule>
+
+    <GameDBSchedule ID="SCHEDULE_STAFF_LUNCH">
+        <StartTime>13</StartTime>
+        <EndTime>14</EndTime>
+    </GameDBSchedule>
+
+    <GameDBSchedule ID="SCHEDULE_DOCTORS_ROUNDS">
+        <StartTime>9</StartTime>
+        <EndTime>11</EndTime>
+        <FunctionalHospitalization>true</FunctionalHospitalization>
+    </GameDBSchedule>
+
+    <GameDBSchedule ID="SCHEDULE_NURSE_PILLS_MORNING">
+        <StartTime>11</StartTime>
+        <EndTime>12</EndTime>
+        <FunctionalHospitalization>true</FunctionalHospitalization>
+    </GameDBSchedule>
+
+    <GameDBSchedule ID="SCHEDULE_NURSE_PILLS_EVENING">
+        <StartTime>16</StartTime>
+        <EndTime>17</EndTime>
+        <FunctionalHospitalization>true</FunctionalHospitalization>
+    </GameDBSchedule>    
+    
+    <GameDBSchedule ID="SCHEDULE_PATIENTS_PILLS_MORNING">
+        <StartTime>10.5</StartTime>
+        <EndTime>12</EndTime>
+        <HiddenInUI>true</HiddenInUI>
+    </GameDBSchedule>
+
+    <GameDBSchedule ID="SCHEDULE_PATIENTS_PILLS_EVENING">
+        <StartTime>15.5</StartTime>
+        <EndTime>17</EndTime>
+        <HiddenInUI>true</HiddenInUI>
+    </GameDBSchedule>
+
+    <GameDBSchedule ID="SCHEDULE_SHIFT_CHANGE_MORNING">
+        <StartTime>7</StartTime>
+        <EndTime>7.5</EndTime>
+        <HiddenInUI>true</HiddenInUI>
+    </GameDBSchedule>    
+    
+    <GameDBSchedule ID="SCHEDULE_SHIFT_CHANGE_EVENING">
+        <StartTime>19</StartTime>
+        <EndTime>19.5</EndTime>
+        <HiddenInUI>true</HiddenInUI>
+    </GameDBSchedule>
+    
+</Database>
