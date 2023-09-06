@@ -42,8 +42,8 @@
 
         <AcceptsOutpatients>false</AcceptsOutpatients>
         
-        <MinWidth>3</MinWidth>
-        <MinHeight>2</MinHeight>
+        <MinWidth>1</MinWidth>
+        <MinHeight>1</MinHeight>
 
         <StatisticsMultiplier>1.75</StatisticsMultiplier>
 
@@ -81,8 +81,8 @@
             <Tag>janitor_admin_workplace</Tag>
         </Tags>
 
-        <MinWidth>3</MinWidth>
-        <MinHeight>2</MinHeight>
+        <MinWidth>1</MinWidth>
+        <MinHeight>1</MinHeight>
         
         <MaxNumberInHospital>1</MaxNumberInHospital>
     </GameDBRoomType>
@@ -112,8 +112,8 @@
             <Tag>lounge</Tag><!--TODO DLCADM delete if not needed -->
         </Tags>
 
-        <MinWidth>3</MinWidth>
-        <MinHeight>2</MinHeight>
+        <MinWidth>1</MinWidth>
+        <MinHeight>1</MinHeight>
     </GameDBRoomType>    
     
     <GameDBRoomType ID="DLC_ROOM_TYPE_GIFT_SHOP">
@@ -147,8 +147,8 @@
             <Tag>gift_shop</Tag>
         </Tags>
 
-        <MinWidth>3</MinWidth>
-        <MinHeight>2</MinHeight>
+        <MinWidth>1</MinWidth>
+        <MinHeight>1</MinHeight>
 
         <StatisticsMultiplier>1.75</StatisticsMultiplier>
 
@@ -190,8 +190,8 @@
             <Tag>cafeteria</Tag>
         </Tags>
 
-        <MinWidth>4</MinWidth>
-        <MinHeight>2</MinHeight>
+        <MinWidth>1</MinWidth>
+        <MinHeight>1</MinHeight>
     </GameDBRoomType>
 
     <GameDBRoomType ID="DLC_ROOM_TYPE_CLASSROOM">
@@ -228,8 +228,8 @@
             <Tag>classroom</Tag>            
         </Tags>
 
-        <MinWidth>4</MinWidth>
-        <MinHeight>3</MinHeight>
+        <MinWidth>1</MinWidth>
+        <MinHeight>1</MinHeight>
     </GameDBRoomType>
 
 
@@ -280,8 +280,8 @@
 
         <NoBiohazardClothes>true</NoBiohazardClothes>
 
-        <MinWidth>6</MinWidth>
-        <MinHeight>4</MinHeight>
+        <MinWidth>1</MinWidth>
+        <MinHeight>1</MinHeight>
     </GameDBRoomType>
 
     <GameDBRoomType ID="DLC_ROOM_TYPE_PATHOLOGY_WARD">
@@ -310,8 +310,8 @@
             <Tag>receipt</Tag>
         </Tags>
 
-        <MinWidth>4</MinWidth>
-        <MinHeight>4</MinHeight>
+        <MinWidth>1</MinWidth>
+        <MinHeight>1</MinHeight>
     </GameDBRoomType>
 
 

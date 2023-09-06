@@ -38,8 +38,8 @@
             <Tag>receipt</Tag>
         </Tags>
 
-        <MinWidth>3</MinWidth>
-        <MinHeight>3</MinHeight>
+        <MinWidth>1</MinWidth>
+        <MinHeight>1</MinHeight>
     </GameDBRoomType>
 
     <GameDBRoomType ID="ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE">
@@ -93,8 +93,8 @@
 
         <RequiredSkill>SKILL_DOC_SPEC_EPIDEMIOLOGY</RequiredSkill>
         
-        <MinWidth>4</MinWidth>
-        <MinHeight>4</MinHeight>
+        <MinWidth>1</MinWidth>
+        <MinHeight>1</MinHeight>
 
         <StatisticsMultiplier>1.75</StatisticsMultiplier>
     </GameDBRoomType>
@@ -146,8 +146,8 @@
             <Tag>receipt</Tag>
         </Tags>
 
-        <MinWidth>4</MinWidth>
-        <MinHeight>4</MinHeight>
+        <MinWidth>1</MinWidth>
+        <MinHeight>1</MinHeight>
 
         <StatisticsMultiplier>1.2</StatisticsMultiplier>
     </GameDBRoomType>
@@ -198,8 +198,8 @@
         
         <RequiredSkill>SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY</RequiredSkill>
 
-        <MinWidth>5</MinWidth>
-        <MinHeight>4</MinHeight>
+        <MinWidth>1</MinWidth>
+        <MinHeight>1</MinHeight>
         <StatisticsMultiplier>2.0</StatisticsMultiplier>
     </GameDBRoomType>
 
@@ -244,8 +244,8 @@
         
         <RequiredSkill>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION</RequiredSkill>
         
-        <MinWidth>4</MinWidth>
-        <MinHeight>4</MinHeight>
+        <MinWidth>1</MinWidth>
+        <MinHeight>1</MinHeight>
     </GameDBRoomType>
 
 </Database>    
