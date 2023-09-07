@@ -654,14 +654,14 @@
                 </Requirement>
                 <Reward>
                     <RewardType>MONEY_GRANT</RewardType>
-                    <RewardParam>50000</RewardParam>
+                    <RewardParam>1000</RewardParam>
                 </Reward>
             </Objective>
             <Objective>
                 <Requirement>
                     <ConditionType>TREATED_CONTROLLED_DOCTORS_PATIENTS</ConditionType>
                     <ConditionDatabaseID>EASY_MODE</ConditionDatabaseID>
-                	<ConditionValue>20</ConditionValue>
+                	<ConditionValue>10</ConditionValue>
                 </Requirement>
                 <Reward>
                     <RewardType>SET_MOBILE_PATIENT_COUNT</RewardType>
@@ -676,25 +676,25 @@
                 </Requirement>
                 <Reward>
                     <RewardType>MONEY_GRANT</RewardType>
-                    <RewardParam>20000</RewardParam>
+                    <RewardParam>1000</RewardParam>
                 </Reward>
             </Objective>
             <Objective>
                 <Requirement>
                     <ConditionType>CORRECTLY_DIAGNOSED_CONTROLLED_DOCTORS_PATIENTS</ConditionType>
                     <ConditionDatabaseID>MEDIUM_MODE</ConditionDatabaseID>
-                	<ConditionValue>30</ConditionValue>
+                	<ConditionValue>10</ConditionValue>
                 </Requirement>
                 <Reward>
                     <RewardType>MONEY_GRANT</RewardType>
-                    <RewardParam>20000</RewardParam>
+                    <RewardParam>1000</RewardParam>
                 </Reward>
             </Objective>
             <Objective>
                 <Requirement>
                     <ConditionType>TREATED_CONTROLLED_DOCTORS_PATIENTS</ConditionType>
                     <ConditionDatabaseID>MEDIUM_MODE</ConditionDatabaseID>
-                	<ConditionValue>40</ConditionValue>
+                	<ConditionValue>10</ConditionValue>
                 </Requirement>
                 <Reward>
                     <RewardType>SET_MOBILE_PATIENT_COUNT</RewardType>
@@ -719,25 +719,25 @@
                 </Requirement>
                 <Reward>
                     <RewardType>MONEY_GRANT</RewardType>
-                    <RewardParam>50000</RewardParam>
+                    <RewardParam>1000</RewardParam>
                 </Reward>
             </Objective>
             <Objective>
                 <Requirement>
                     <ConditionType>CORRECTLY_DIAGNOSED_CONTROLLED_DOCTORS_PATIENTS</ConditionType>
                     <ConditionDatabaseID>HARDCORE_MODE</ConditionDatabaseID>
-                	<ConditionValue>50</ConditionValue>
+                	<ConditionValue>10</ConditionValue>
                 </Requirement>
                 <Reward>
                     <RewardType>MONEY_GRANT</RewardType>
-                    <RewardParam>50000</RewardParam>
+                    <RewardParam>1000</RewardParam>
                 </Reward>
             </Objective>
             <Objective>
                 <Requirement>
                     <ConditionType>TREATED_CONTROLLED_DOCTORS_PATIENTS</ConditionType>
                     <ConditionDatabaseID>HARDCORE_MODE</ConditionDatabaseID>
-                	<ConditionValue>60</ConditionValue>
+                	<ConditionValue>10</ConditionValue>
                 </Requirement>
                 <Reward>
                     <RewardType>SET_IMMOBILE_PATIENT_COUNT</RewardType>
@@ -752,7 +752,7 @@
                 </Requirement>
                 <Reward>
                     <RewardType>MONEY_GRANT</RewardType>
-                    <RewardParam>300000</RewardParam>
+                    <RewardParam>1000</RewardParam>
                 </Reward>
             </Objective>
         </Objectives>
