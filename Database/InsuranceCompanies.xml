@@ -688,7 +688,7 @@
         <Requirements>
             <Requirement>
                  <ConditionType>NUMBER_OF_FULLY_WORKING_DEPARTMENTS</ConditionType>
-                <ConditionValue>9</ConditionValue>
+                <ConditionValue>5</ConditionValue>
                 <Hidden>true</Hidden>
             </Requirement>
         </Requirements>
