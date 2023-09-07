@@ -807,7 +807,7 @@
 
         <RequiredEquipment>
             <GameDBRequiredEquipment>    <Tag>ui_pc</Tag>              					<MinCount>1</MinCount>    </GameDBRequiredEquipment>
-            <GameDBRequiredEquipment>    <Tag>ui_print</Tag>         					<MinCount>1</MinCount>    </GameDBRequiredEquipment>
+<!--            <GameDBRequiredEquipment>    <Tag>ui_print</Tag>         					<MinCount>1</MinCount>    </GameDBRequiredEquipment>-->
             <GameDBRequiredEquipment>    <Tag>ui_exam_table</Tag>      					<MinCount>1</MinCount>  </GameDBRequiredEquipment>
             <GameDBRequiredEquipment>    <Tag>ui_exam_lamp_def</Tag>   					<MinCount>1</MinCount>  </GameDBRequiredEquipment>
             <GameDBRequiredEquipment>    <Tag>ui_biohazard_bin</Tag> 					<MinCount>1</MinCount>  </GameDBRequiredEquipment>
@@ -1325,7 +1325,7 @@
 
         <RequiredEquipment>
             <GameDBRequiredEquipment>    <Tag>ui_pc</Tag>              					<MinCount>1</MinCount>    </GameDBRequiredEquipment>
-            <GameDBRequiredEquipment>    <Tag>ui_print</Tag>         					<MinCount>1</MinCount>    </GameDBRequiredEquipment>
+<!--            <GameDBRequiredEquipment>    <Tag>ui_print</Tag>         					<MinCount>1</MinCount>    </GameDBRequiredEquipment>-->
             <GameDBRequiredEquipment>    <Tag>ui_exam_table</Tag>      					<MinCount>1</MinCount>  </GameDBRequiredEquipment>
             <GameDBRequiredEquipment>    <Tag>ui_exam_lamp_def</Tag>   					<MinCount>1</MinCount>  </GameDBRequiredEquipment>
             <GameDBRequiredEquipment>    <Tag>ui_biohazard_bin</Tag> 					<MinCount>1</MinCount>  </GameDBRequiredEquipment>
@@ -1571,7 +1571,7 @@
 
         <RequiredEquipment>
             <GameDBRequiredEquipment>    <Tag>ui_pc</Tag>              					<MinCount>1</MinCount>    	</GameDBRequiredEquipment>
-            <GameDBRequiredEquipment>    <Tag>ui_print</Tag>         					<MinCount>1</MinCount>    	</GameDBRequiredEquipment>
+<!--            <GameDBRequiredEquipment>    <Tag>ui_print</Tag>         					<MinCount>1</MinCount>    	</GameDBRequiredEquipment>-->
             <GameDBRequiredEquipment>    <Tag>ui_exam_table</Tag>      					<MinCount>1</MinCount>  	</GameDBRequiredEquipment>
             <GameDBRequiredEquipment>    <Tag>ui_exam_lamp_def</Tag>   					<MinCount>1</MinCount>  	</GameDBRequiredEquipment>
             <GameDBRequiredEquipment>    <Tag>ui_biohazard_bin</Tag> 					<MinCount>1</MinCount>  	</GameDBRequiredEquipment>
@@ -2129,7 +2129,7 @@
             <GameDBRequiredEquipment>    <Tag>ui_cabinets_equipment</Tag>   			<MinCount>1</MinCount>  </GameDBRequiredEquipment>
             <GameDBRequiredEquipment>    <Tag>ui_usg</Tag>  							<MinCount>1</MinCount>  </GameDBRequiredEquipment>
             <GameDBRequiredEquipment>    <Tag>ui_elastograph</Tag>     					<MinCount>1</MinCount>  </GameDBRequiredEquipment>
-            <GameDBRequiredEquipment>    <Tag>ui_shockwave</Tag>       					<MinCount>1</MinCount>  </GameDBRequiredEquipment>
+<!--            <GameDBRequiredEquipment>    <Tag>ui_shockwave</Tag>       					<MinCount>1</MinCount>  </GameDBRequiredEquipment>-->
             <GameDBRequiredEquipment>    <Tag>ui_office_desk</Tag>    			    <MinCount>0</MinCount>     </GameDBRequiredEquipment>
             <GameDBRequiredEquipment>    <Tag>ui_chair_office</Tag>    			    <MinCount>0</MinCount>     </GameDBRequiredEquipment>
             <GameDBRequiredEquipment>    <Tag>ui_equipment_table</Tag>          	<MinCount>0</MinCount>    </GameDBRequiredEquipment>
