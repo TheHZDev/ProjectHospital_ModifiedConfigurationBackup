@@ -1,4 +1,4 @@
 ﻿<Database>
     <!-- Set to 1 to allow special characters and non-english glyphs in save and prefab names. Should still prevent entering invalid filenames, but please be careful especially if you share saves between different operating systems. -->
-    <GameDBTweakableInt ID="TWEAKABLE_SKIP_STRICT_FILENAME_CHECK"> <Value>0</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_SKIP_STRICT_FILENAME_CHECK"> <Value>1</Value>   </GameDBTweakableInt>
 </Database>

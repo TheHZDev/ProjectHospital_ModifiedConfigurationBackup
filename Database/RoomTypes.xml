@@ -2149,8 +2149,8 @@
         <Tags>
             <Tag>lab_specialist_workspace</Tag>
             <Tag>ultrasonograph</Tag>
-            <Tag>shockwave</Tag>
-            <Tag>shockwave_mandatory</Tag>
+<!--            <Tag>shockwave</Tag>-->
+<!--            <Tag>shockwave_mandatory</Tag>-->
             <Tag>elastograph</Tag>
             <Tag>elastograph_mandatory</Tag>
             <Tag>sonography_unit</Tag>
