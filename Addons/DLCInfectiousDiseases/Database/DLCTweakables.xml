@@ -1,8 +1,8 @@
 ﻿<Database>
     <GameDBTweakableInt ID="DLC_INFECTIOUS_DISEASES_ENABLED">   <Value>1</Value>   </GameDBTweakableInt>
 
-    <GameDBTweakableFloat ID="TWEAKABLE_INFECTIOUS_PATIENT_OUTBREAK_HOURS">   <Value>2.0</Value>   </GameDBTweakableFloat>
-    <GameDBTweakableFloat ID="TWEAKABLE_INFECTIOUS_PATIENT_OUTBREAK_HOURS_TC_OBSERVATION">   <Value>5.0</Value>   </GameDBTweakableFloat>
+    <GameDBTweakableFloat ID="TWEAKABLE_INFECTIOUS_PATIENT_OUTBREAK_HOURS">   <Value>12.0</Value>   </GameDBTweakableFloat>
+    <GameDBTweakableFloat ID="TWEAKABLE_INFECTIOUS_PATIENT_OUTBREAK_HOURS_TC_OBSERVATION">   <Value>24.0</Value>   </GameDBTweakableFloat>
     <GameDBTweakableInt ID="TWEAKABLE_EXTENDED_OUTBREAK_DAYS">   <Value>1</Value>   </GameDBTweakableInt>
     
     <!-- Increased in all DLCs the same -->
