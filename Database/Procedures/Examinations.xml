@@ -654,7 +654,7 @@
         <LabTestingExaminationRef>EXM_BLOOD_TEST_TESTING</LabTestingExaminationRef>
     </GameDBExamination>
 
-    <GameDBExamination ID="EXM_BLOOD_TEST_TESTING">
+    <GameDBExamination ID="EXM_BLOOD_TEST_TESTING"><!--血检-->
         <AbbreviationLocID>EXM_BLOOD_TEST_TESTING_DESCRIPTION_1_1</AbbreviationLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <Procedure>
@@ -706,7 +706,7 @@
         </Procedure>
         <Cost>50</Cost>
         <IconIndex>1641</IconIndex>
-        <DurationHours>2</DurationHours>
+        <DurationHours>1</DurationHours>
     </GameDBExamination>
 
     <GameDBExamination ID="EXM_CBC_SAMPLING">
@@ -776,7 +776,7 @@
         <LabTestingExaminationRef>EXM_CBC_TESTING</LabTestingExaminationRef>
     </GameDBExamination>
 
-    <GameDBExamination ID="EXM_CBC_TESTING">
+    <GameDBExamination ID="EXM_CBC_TESTING"><!--血常规 测试-->
         <AbbreviationLocID>EXM_CBC_TESTING_DESCRIPTION_1_1</AbbreviationLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <Procedure>
@@ -827,7 +827,7 @@
         </Procedure>
         <Cost>50</Cost>
         <IconIndex>1715</IconIndex>
-        <DurationHours>2</DurationHours>
+        <DurationHours>1</DurationHours>
     </GameDBExamination>
 
     <GameDBExamination ID="EXM_CC_BLOOD_ANALYSIS">
@@ -2332,7 +2332,7 @@
         <LabTestingExaminationRef>EXM_PCR_TESTING</LabTestingExaminationRef>
     </GameDBExamination>
 
-    <GameDBExamination ID="EXM_PCR_TESTING">
+    <GameDBExamination ID="EXM_PCR_TESTING"><!--聚合酶链式反应 - 测试-->
         <AbbreviationLocID>EXM_PCR_TESTING_DESCRIPTION_1_1</AbbreviationLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <Procedure>
@@ -2380,7 +2380,7 @@
         </Procedure>
         <Cost>50</Cost>
         <IconIndex>1727</IconIndex>
-        <DurationHours>2</DurationHours>
+        <DurationHours>1</DurationHours>
     </GameDBExamination>
 
     <GameDBExamination ID="EXM_PERIMETRY">
@@ -2747,7 +2747,7 @@
         <LabTestingExaminationRef>EXM_SEROLOGY_TESTING_TESTING</LabTestingExaminationRef>
     </GameDBExamination>
 
-    <GameDBExamination ID="EXM_SEROLOGY_TESTING_TESTING">
+    <GameDBExamination ID="EXM_SEROLOGY_TESTING_TESTING"><!--血清测试-->
         <AbbreviationLocID>EXM_SEROLOGY_TESTING_TESTING_DESCRIPTION_1_1</AbbreviationLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <Procedure>
@@ -2802,7 +2802,7 @@
         </Procedure>
         <Cost>50</Cost>
         <IconIndex>1665</IconIndex>
-        <DurationHours>2</DurationHours>
+        <DurationHours>1</DurationHours>
     </GameDBExamination>
 
     <GameDBExamination ID="EXM_SKIN_INJECTION_TEST">
@@ -4028,7 +4028,7 @@
         <LabTestingExaminationRef>EXM_RT_PCR_TESTING</LabTestingExaminationRef>
     </GameDBExamination>
 
-    <GameDBExamination ID="EXM_RT_PCR_TESTING">
+    <GameDBExamination ID="EXM_RT_PCR_TESTING"><!--RT-PCR 测试-->
         <AbbreviationLocID>EXM_RT_PCR_TESTING_DESCRIPTION</AbbreviationLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <Procedure>
@@ -4076,7 +4076,7 @@
         </Procedure>
         <Cost>50</Cost>
         <IconIndex>2278</IconIndex>
-        <DurationHours>2</DurationHours>
+        <DurationHours>1</DurationHours>
     </GameDBExamination>
 
     <GameDBExamination ID="EXM_ELISA_SAMPLING">
@@ -4133,7 +4133,7 @@
         <LabTestingExaminationRef>EXM_ELISA_TESTING</LabTestingExaminationRef>
     </GameDBExamination>
 
-    <GameDBExamination ID="EXM_ELISA_TESTING">
+    <GameDBExamination ID="EXM_ELISA_TESTING"><!--酶联免疫吸附测定 - 测试-->
         <AbbreviationLocID>EXM_ELISA_TESTING_DESCRIPTION</AbbreviationLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <Procedure>
@@ -4188,7 +4188,7 @@
         </Procedure>
         <Cost>50</Cost>
         <IconIndex>2280</IconIndex>
-        <DurationHours>2</DurationHours>
+        <DurationHours>1</DurationHours>
     </GameDBExamination>
 
     <GameDBExamination ID="EXM_PULSE_OXYMETRY">
