@@ -10,7 +10,7 @@
 
         <MinDoctorLevel>1</MinDoctorLevel>
 
-        <PatientGenerationWeight>100</PatientGenerationWeight>
+        <PatientGenerationWeight>1</PatientGenerationWeight>
 
         <FirstDoctorSpecialization>SKILL_DOC_SPEC_ACUTE_MEDICINE</FirstDoctorSpecialization>
 
