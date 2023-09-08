@@ -160,7 +160,7 @@
 
         <RequiredEquipment>
             <GameDBRequiredEquipment>    <Tag>ui_pc</Tag>                   			<MinCount>1</MinCount>    </GameDBRequiredEquipment>
-            <GameDBRequiredEquipment>    <Tag>ui_print</Tag>              				<MinCount>1</MinCount>    </GameDBRequiredEquipment>
+<!--            <GameDBRequiredEquipment>    <Tag>ui_print</Tag>              				<MinCount>1</MinCount>    </GameDBRequiredEquipment>-->
             <GameDBRequiredEquipment>    <Tag>ui_cabinets_equipment</Tag>        		<MinCount>1</MinCount>    </GameDBRequiredEquipment>
             <GameDBRequiredEquipment>    <Tag>ui_exam_table</Tag>           			<MinCount>1</MinCount>    </GameDBRequiredEquipment>
             <GameDBRequiredEquipment>    <Tag>ui_exam_lamp_def</Tag>        			<MinCount>1</MinCount>    </GameDBRequiredEquipment>
@@ -211,7 +211,7 @@
 
         <RequiredEquipment>
             <GameDBRequiredEquipment>  <Tag>ui_pc</Tag>                        		<MinCount>1</MinCount>  </GameDBRequiredEquipment>
-            <GameDBRequiredEquipment>  <Tag>ui_print</Tag>                        	<MinCount>1</MinCount>  </GameDBRequiredEquipment>
+<!--            <GameDBRequiredEquipment>  <Tag>ui_print</Tag>                        	<MinCount>1</MinCount>  </GameDBRequiredEquipment>-->
             <GameDBRequiredEquipment>  <Tag>ui_glassware</Tag>             			<MinCount>1</MinCount>  </GameDBRequiredEquipment>
             <GameDBRequiredEquipment>  <Tag>ui_hematoanalyzer</Tag>            		<MinCount>1</MinCount>  </GameDBRequiredEquipment>
             <GameDBRequiredEquipment>  <Tag>ui_biohazard_bin</Tag>           		<MinCount>1</MinCount>  </GameDBRequiredEquipment>
