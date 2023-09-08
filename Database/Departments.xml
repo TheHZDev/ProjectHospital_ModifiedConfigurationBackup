@@ -49,6 +49,16 @@
                 <MinCount>0</MinCount>
                 <MaxCount>2</MaxCount>
             </GameDBDepartmentRoomRequirement-->
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_CT_ROOM</RoomDatabaseEntryRef><!--CT房间-->
+                <MinCount>0</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_MRI_ROOM</RoomDatabaseEntryRef><!--核磁共振房间-->
+                <MinCount>0</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
         </RequiredRoomsClinic>
 
         <SharedRoomsClinic>
@@ -148,7 +158,7 @@
 
         <LabQualification>SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY</LabQualification>
 
-        <RequiredRoomsClinic>
+        <RequiredRoomsClinic><!--门诊房间-->
             <!-- Requiered rooms -->
             <GameDBDepartmentRoomRequirement>
                 <RoomDatabaseEntryRef>ROOM_TYPE_WAITING</RoomDatabaseEntryRef>
@@ -156,7 +166,7 @@
                 <MaxCount>1</MaxCount>
             </GameDBDepartmentRoomRequirement>
             <GameDBDepartmentRoomRequirement>
-                <RoomDatabaseEntryRef>ROOM_TYPE_X_RAY_ROOM</RoomDatabaseEntryRef>
+                <RoomDatabaseEntryRef>ROOM_TYPE_X_RAY_ROOM</RoomDatabaseEntryRef><!--X光室-->
                 <MinCount>1</MinCount>
                 <MaxCount>1</MaxCount>
             </GameDBDepartmentRoomRequirement>
@@ -168,34 +178,34 @@
                 <MaxCount>1</MaxCount>
             </GameDBDepartmentRoomRequirement>
             <GameDBDepartmentRoomRequirement>
-                <RoomDatabaseEntryRef>ROOM_TYPE_ANGIOGRAPHY_ROOM</RoomDatabaseEntryRef>
+                <RoomDatabaseEntryRef>ROOM_TYPE_ANGIOGRAPHY_ROOM</RoomDatabaseEntryRef><!--CAG室-->
                 <MinCount>0</MinCount>
                 <MaxCount>1</MaxCount>
             </GameDBDepartmentRoomRequirement>
             <GameDBDepartmentRoomRequirement>
-                <RoomDatabaseEntryRef>ROOM_TYPE_CT_ROOM</RoomDatabaseEntryRef>
+                <RoomDatabaseEntryRef>ROOM_TYPE_CT_ROOM</RoomDatabaseEntryRef><!--CT房间-->
                 <MinCount>0</MinCount>
                 <MaxCount>1</MaxCount>
             </GameDBDepartmentRoomRequirement>
             <GameDBDepartmentRoomRequirement>
-                <RoomDatabaseEntryRef>ROOM_TYPE_MRI_ROOM</RoomDatabaseEntryRef>
+                <RoomDatabaseEntryRef>ROOM_TYPE_MRI_ROOM</RoomDatabaseEntryRef><!--核磁共振房间-->
                 <MinCount>0</MinCount>
                 <MaxCount>1</MaxCount>
             </GameDBDepartmentRoomRequirement>
             
             <GameDBDepartmentRoomRequirement>
-                <RoomDatabaseEntryRef>ROOM_TYPE_RADIO_CARDIO_UNIT</RoomDatabaseEntryRef>
+                <RoomDatabaseEntryRef>ROOM_TYPE_RADIO_CARDIO_UNIT</RoomDatabaseEntryRef><!--心血管检查室-->
                 <MinCount>0</MinCount>
                 <MaxCount>1</MaxCount>
             </GameDBDepartmentRoomRequirement>
             <GameDBDepartmentRoomRequirement>
-                <RoomDatabaseEntryRef>ROOM_TYPE_RADIO_SONO_UNIT</RoomDatabaseEntryRef>
+                <RoomDatabaseEntryRef>ROOM_TYPE_RADIO_SONO_UNIT</RoomDatabaseEntryRef><!--超声波室-->
                 <MinCount>0</MinCount>
                 <MaxCount>1</MaxCount>
             </GameDBDepartmentRoomRequirement>
         </RequiredRoomsClinic>
 
-        <SharedRoomsClinic>
+        <SharedRoomsClinic><!--共享房间-->
             <GameDBDepartmentRoomRequirement>
                 <RoomDatabaseEntryRef>ROOM_TYPE_WC</RoomDatabaseEntryRef>
                 <MinCount>0</MinCount>
@@ -966,6 +976,11 @@
                 <MinCount>0</MinCount>
                 <MaxCount>1</MaxCount>
             </GameDBDepartmentRoomRequirement-->
+            <GameDBDepartmentRoomRequirement>
+                <RoomDatabaseEntryRef>ROOM_TYPE_ANGIOGRAPHY_ROOM</RoomDatabaseEntryRef><!--CAG室-->
+                <MinCount>0</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
         </RequiredRoomsClinic>
 
         <SharedRoomsClinic>
@@ -1130,6 +1145,11 @@
             </GameDBDepartmentRoomRequirement-->
             <GameDBDepartmentRoomRequirement>
                 <RoomDatabaseEntryRef>ROOM_TYPE_RECEPTION</RoomDatabaseEntryRef>
+                <MinCount>0</MinCount>
+                <MaxCount>1</MaxCount>
+            </GameDBDepartmentRoomRequirement>
+            <GameDBDepartmentRoomRequirement><!--向神经内科增加CT房间，但人员需要从其他科室调度-->
+                <RoomDatabaseEntryRef>ROOM_TYPE_CT_ROOM</RoomDatabaseEntryRef><!--CT房间-->
                 <MinCount>0</MinCount>
                 <MaxCount>1</MaxCount>
             </GameDBDepartmentRoomRequirement>
