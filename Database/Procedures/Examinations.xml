@@ -104,7 +104,7 @@
             <DressLevel>HALF</DressLevel>
             <Biohazard>false</Biohazard>
             <Priority>0</Priority>
-            <DetachedDepartmentRef>DPT_RADIOLOGY</DetachedDepartmentRef>
+            <FallbackLabDepartmentRef>DPT_RADIOLOGY</FallbackLabDepartmentRef>
         </Procedure>
         <ExaminationType>EXAMINATION</ExaminationType>
         <Cost>50</Cost>
@@ -350,7 +350,7 @@
             <Biohazard>false</Biohazard>
             <Priority>0</Priority>
             <AnimationFrame>4</AnimationFrame>
-            <DetachedDepartmentRef>DPT_RADIOLOGY</DetachedDepartmentRef>
+            <FallbackLabDepartmentRef>DPT_RADIOLOGY</FallbackLabDepartmentRef>
         </Procedure>
         <ExaminationType>EXAMINATION</ExaminationType>
         <Cost>50</Cost>
@@ -1079,7 +1079,7 @@
             <DressLevel>HALF</DressLevel>
             <Biohazard>false</Biohazard>
             <Priority>0</Priority>
-            <DetachedDepartmentRef>DPT_RADIOLOGY</DetachedDepartmentRef>
+            <FallbackLabDepartmentRef>DPT_RADIOLOGY</FallbackLabDepartmentRef>
         </Procedure>
         <ExaminationType>EXAMINATION</ExaminationType>
         <Cost>50</Cost>
@@ -1129,7 +1129,7 @@
             <DressLevel>HALF</DressLevel>
             <Biohazard>false</Biohazard>
             <Priority>0</Priority>
-            <DetachedDepartmentRef>DPT_RADIOLOGY</DetachedDepartmentRef>
+            <FallbackLabDepartmentRef>DPT_RADIOLOGY</FallbackLabDepartmentRef>
         </Procedure>
         <ExaminationType>EXAMINATION</ExaminationType>
         <Cost>50</Cost>
@@ -1973,7 +1973,7 @@
             <DressLevel>HALF</DressLevel>
             <Biohazard>false</Biohazard>
             <Priority>0</Priority>
-            <DetachedDepartmentRef>DPT_RADIOLOGY</DetachedDepartmentRef>
+            <FallbackLabDepartmentRef>DPT_RADIOLOGY</FallbackLabDepartmentRef>
         </Procedure>
         <ExaminationType>EXAMINATION</ExaminationType>
         <Cost>50</Cost>
@@ -3686,7 +3686,7 @@
             <DressLevel>HALF</DressLevel>
             <Priority>0</Priority>
             <AnimationFrame>4</AnimationFrame>
-            <DetachedDepartmentRef>DPT_RADIOLOGY</DetachedDepartmentRef>
+            <FallbackLabDepartmentRef>DPT_RADIOLOGY</FallbackLabDepartmentRef>
         </Procedure>
         <Cost>50</Cost>
         <IconIndex>1669</IconIndex>
@@ -3740,7 +3740,7 @@
             <DressLevel>FULL</DressLevel>
             <Priority>0</Priority>
             <AnimationFrame>3</AnimationFrame>
-            <DetachedDepartmentRef>DPT_RADIOLOGY</DetachedDepartmentRef>
+            <FallbackLabDepartmentRef>DPT_RADIOLOGY</FallbackLabDepartmentRef>
         </Procedure>
         <Cost>50</Cost>
         <IconIndex>1681</IconIndex>
@@ -3794,7 +3794,7 @@
             <DressLevel>HALF_TOP</DressLevel>
             <Priority>0</Priority>
             <AnimationFrame>2</AnimationFrame>
-            <DetachedDepartmentRef>DPT_RADIOLOGY</DetachedDepartmentRef>
+            <FallbackLabDepartmentRef>DPT_RADIOLOGY</FallbackLabDepartmentRef>
         </Procedure>
         <Cost>50</Cost>
         <IconIndex>1679</IconIndex>
@@ -3848,7 +3848,7 @@
             <DressLevel>HALF</DressLevel>
             <Priority>0</Priority>
             <AnimationFrame>4</AnimationFrame>
-            <DetachedDepartmentRef>DPT_RADIOLOGY</DetachedDepartmentRef>
+            <FallbackLabDepartmentRef>DPT_RADIOLOGY</FallbackLabDepartmentRef>
         </Procedure>
         <Cost>50</Cost>
         <IconIndex>1669</IconIndex>
@@ -3902,7 +3902,7 @@
             <DressLevel>HALF</DressLevel>
             <Priority>0</Priority>
             <AnimationFrame>1</AnimationFrame>
-            <DetachedDepartmentRef>DPT_RADIOLOGY</DetachedDepartmentRef>
+            <FallbackLabDepartmentRef>DPT_RADIOLOGY</FallbackLabDepartmentRef>
         </Procedure>
         <Cost>50</Cost>
         <IconIndex>1677</IconIndex>
