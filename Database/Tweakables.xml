@@ -25,10 +25,10 @@
 
     <!-- How many patients get spawned after a bad-prestige day -->
     <GameDBTweakableInt ID="TWEAKABLE_BAD_PRESTIGE_PATIENT_COUNT_PERCENT"> <Value>50</Value>   </GameDBTweakableInt>
-    <GameDBTweakableInt ID="TWEAKABLE_GOOD_PRESTIGE_PAYMENT_PERCENT"> <Value>20</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_GOOD_PRESTIGE_PAYMENT_PERCENT"> <Value>35</Value>   </GameDBTweakableInt>
 
     <!-- How many extra patients get spawned if prestige is above TWEAKABLE_GOOD_PRESTIGE -->
-    <GameDBTweakableInt ID="TWEAKABLE_GOOD_PRESTIGE_PATIENT_BONUS_PERCENT"> <Value>5</Value>   </GameDBTweakableInt>
+    <GameDBTweakableInt ID="TWEAKABLE_GOOD_PRESTIGE_PATIENT_BONUS_PERCENT"> <Value>-40</Value>   </GameDBTweakableInt>
     
     <GameDBTweakableInt ID="TWEAKABLE_AMBULANCE_MAINENANCE_COST"> <Value>500</Value>   </GameDBTweakableInt>
     
