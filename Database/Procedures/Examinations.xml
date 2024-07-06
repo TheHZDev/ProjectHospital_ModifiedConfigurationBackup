@@ -3967,7 +3967,7 @@
             </AnimationSetupSitting>
             <DressLevel>FULL</DressLevel>
             <Biohazard>false</Biohazard>
-            <Priority>15</Priority>
+            <Priority>22</Priority>
             <OptionalEquipment>whiteboard</OptionalEquipment>
         </Procedure>
         <Cost>50</Cost>
