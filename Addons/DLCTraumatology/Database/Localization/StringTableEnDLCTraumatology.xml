@@ -331,7 +331,7 @@
             <GameDBLocalizedString>      <LocID>TRT_PROTECTIVE_DRESSING</LocID>                             <Text>Protective dressing</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_PROTECTIVE_DRESSING_DESCRIPTION</LocID>                 <Text>Bandage protective dressing. \n\nRequired room: Office/Diagnostic unit / Burn unit at Traumatology dpt. / ICU / Trauma center at Emergency</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_DEBRIDEMENT</LocID>                                     <Text>Debridement</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_DEBRIDEMENT_DESCRIPTION</LocID>                         <Text>Medical removal of death tissue. \n\nRequired room: Office/Diagnostic unit / Burn unit at Traumatology dpt. / ICU / Trauma center at Emergency</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_DEBRIDEMENT_DESCRIPTION</LocID>                         <Text>Medical removal of dead tissue. \n\nRequired room: Office/Diagnostic unit / Burn unit at Traumatology dpt. / ICU / Trauma center at Emergency</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_BURN_MANAGEMENT</LocID>                                 <Text>Burn management</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_BURN_MANAGEMENT_DESCRIPTION</LocID>                     <Text>Medical procedure to cure various types of burns. \n\nRequired room: Office/Diagnostic unit/ Burn unit at Traumatology dpt. / ICU / Trauma center at Emergency</Text>	</GameDBLocalizedString>
 

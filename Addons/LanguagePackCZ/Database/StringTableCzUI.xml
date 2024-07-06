@@ -339,7 +339,7 @@
             <GameDBLocalizedString>      <LocID>REQUIRED_SKILL</LocID>        	            <Text>Potřebná specializace: </Text>  </GameDBLocalizedString>
             
             <!-- Patient card -->
-            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_CHARACTER_MODE_CONTROL_PATIENT</LocID>   <Text>Nekontrolovaný / Ovládaný hráčem / Sledovaný</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_CHARACTER_MODE_CONTROL_PATIENT</LocID>   <Text>Výchozí chování / Ovládaný hráčem / Sledovaný</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HOSPITAL_CHARACTER_MODE_CONTROL_EMPLOYEE</LocID>  <Text>Přidat zaměstnance mezi sledované - až 8 zaměstnanců se zobrazí na hlavním panelu.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TOOLTIP_HIDDEN_PERKS</LocID>                              <Text>Skryté vlastnosti</Text>  </GameDBLocalizedString>
             

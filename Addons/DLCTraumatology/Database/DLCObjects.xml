@@ -56,6 +56,8 @@
         <UseOffsetXSW>-0.0</UseOffsetXSW>
         <UseOffsetYSW>0.59</UseOffsetYSW>
 
+        <NeverChunked>true</NeverChunked>
+        
         <UseAnimationsStart>
             <Animation>sit_in</Animation>
         </UseAnimationsStart>

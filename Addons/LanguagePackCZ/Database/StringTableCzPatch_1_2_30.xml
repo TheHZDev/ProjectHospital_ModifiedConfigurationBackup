@@ -18,7 +18,7 @@
             
             <GameDBLocalizedString>    <LocID>EXM_CBC_SAMPLING_DESCRIPTION_V2</LocID>                      <Text>Krevní obraz určuje zvýšení nebo snížení všech krevních buněk. \n\nPotřebná místnost: Hematologie \n\nOdběry: Pohotovost / Chirurgie / Interna / Ortopedie / Neurologie / JIP / Infekční / Traumatologie \n\nPotřebné vybavení: Laboratorní sklo + Krevní analyzér</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>    <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION_V2</LocID>    <Text>Laboratorní biochemická metoda analýzy vzorku moči. \n\nPotřebná místnost: Histologie \n\nOdběry: Pohotovost / Chirurgie / Interna / Kardiologie / JIP / Infekční / Traumatologie \n\nPotřebné vybavení: Laboratórní sklo + Laboratorní analyzátor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>    <LocID>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING_DESCRIPTION_V2</LocID>    <Text>Laboratorní biochemická metoda analýzy vzorku moči. \n\nPotřebná místnost: Histologie \n\nOdběry: Pohotovost / Chirurgie / Interna / Kardiologie / JIP / Infekční / Traumatologie \n\nPotřebné vybavení: laboratorní sklo + Laboratorní analyzátor</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER</LocID>                                <Text>Rohová skříňka</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>    <LocID>OBJECT_CABINET_CORNER_WALL</LocID>                           <Text>Nástěnná rohová skříňka</Text>  </GameDBLocalizedString>

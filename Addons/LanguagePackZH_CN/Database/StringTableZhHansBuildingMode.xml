@@ -2627,7 +2627,7 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>OBJECT_DECAL_INPATIENT_WARD</LocID>
-        <Text>观察使标志</Text>
+        <Text>观察室标志</Text>
         <!-- Observation unit -->
       </GameDBLocalizedString>
       <GameDBLocalizedString>

@@ -578,11 +578,13 @@
             <RequiredSkillsToPrescribe>
                 <SkillRef>SKILL_DOC_SPEC_ORTHOPAEDY</SkillRef>
                 <SkillRef>SKILL_DOC_SPEC_TRAUMATOLOGY</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
             </RequiredSkillsToPrescribe>
 
             <RequiredDoctorQualificationList>
                 <SkillRef>SKILL_DOC_SPEC_ORTHOPAEDY</SkillRef>
                 <SkillRef>SKILL_DOC_SPEC_TRAUMATOLOGY</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
             </RequiredDoctorQualificationList>
 
             <RequiredEquipmentList>
@@ -605,6 +607,7 @@
                 <Tag>orthopaedy_office</Tag>
                 <Tag>traumatology_office</Tag>
                 <Tag>traumatology_inpatient_office</Tag>
+                <Tag>icu</Tag>
             </RequiredRoomTags>
 
             <ProcedureScript>ProcedureScriptTreatmentProcedure</ProcedureScript>
