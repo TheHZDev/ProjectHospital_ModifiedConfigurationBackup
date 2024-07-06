@@ -65,7 +65,7 @@
             <!-- Required rooms -->
             <GameDBDepartmentRoomRequirement>
                 <RoomDatabaseEntryRef>ROOM_TYPE_WC</RoomDatabaseEntryRef>
-                <MinCount>1</MinCount>
+                <MinCount>0</MinCount><!--所有厕所都是行政部的啦！-->
                 <MaxCount>4</MaxCount>
             </GameDBDepartmentRoomRequirement>
 
