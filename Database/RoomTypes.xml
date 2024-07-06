@@ -330,6 +330,7 @@
             <Tag>hospitalization_normal</Tag> <!-- for showing patient counts in low/high in management -->
             <Tag>ward</Tag>
             <Tag>receipt</Tag>
+            <Tag>examinations_basic_equipment</Tag>
         </Tags>
 
         <MinWidth>1</MinWidth>
@@ -372,6 +373,7 @@
             <Tag>hospitalization_high</Tag> <!-- for showing patient counts in low/high in management -->
             <Tag>ward</Tag>
             <Tag>receipt</Tag>
+            <Tag>examinations_basic_equipment</Tag>
         </Tags>
 
         <MinWidth>1</MinWidth>
@@ -2132,7 +2134,7 @@
 <!--            <GameDBRequiredEquipment>    <Tag>ui_shockwave</Tag>       					<MinCount>1</MinCount>  </GameDBRequiredEquipment>-->
             <GameDBRequiredEquipment>    <Tag>ui_office_desk</Tag>    			    <MinCount>0</MinCount>     </GameDBRequiredEquipment>
             <GameDBRequiredEquipment>    <Tag>ui_chair_office</Tag>    			    <MinCount>0</MinCount>     </GameDBRequiredEquipment>
-            <GameDBRequiredEquipment>    <Tag>ui_equipment_table</Tag>          	<MinCount>0</MinCount>    </GameDBRequiredEquipment>
+<!--            <GameDBRequiredEquipment>    <Tag>ui_equipment_table</Tag>          	<MinCount>0</MinCount>    </GameDBRequiredEquipment>-->
         </RequiredEquipment>
 
         <LockedByDefault>false</LockedByDefault>
@@ -2154,7 +2156,7 @@
             <Tag>elastograph</Tag>
             <Tag>elastograph_mandatory</Tag>
             <Tag>sonography_unit</Tag>
-            <Tag>table_equipment</Tag>
+<!--            <Tag>table_equipment</Tag>-->
         </Tags>
 
         <RequiredSkill>SKILL_LAB_SPECIALIST_SPEC_USG</RequiredSkill>
