@@ -15,77 +15,77 @@ Assembly-CSharp.dll 是Unity游戏《Project Hospital》的主要代码部分，
 // Token: 0x06001E11 RID: 7697 RVA: 0x0014EB38 File Offset: 0x0014CF38
 private void RandomizeCharacter(string gender = null)
 {
-	this.DeleteCharacter();
-	this.SetCharacterLevel();
-	GameDBDepartment departmentType = Hospital.Instance.GetActiveDepartment().GetDepartmentType();
-	if (this.m_characterType == LopitalTypes.CharacterDoctor || this.m_characterType == LopitalTypes.CharacterDoctorWithInterns || this.m_characterType == LopitalTypes.CharacterSurgeon || this.m_characterType == LopitalTypes.CharacterAdvancedDiagnoses || this.m_characterType == LopitalTypes.CharacterAnesteziologist)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterDoctor(departmentType, null, Vector2i.ZERO_VECTOR, this.m_characterLevel, this.m_characterLevel, null, gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	else if (this.m_characterType == LopitalTypes.CharacterNurse || this.m_characterType == LopitalTypes.CharacterSurgeryNurse || this.m_characterType == LopitalTypes.CharacterSpecialistNurse)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterNurse(null, Vector2i.ZERO_VECTOR, 1, 1, null, gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	else if (this.m_characterType == LopitalTypes.CharacterReceptionist)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterNurse(null, Vector2i.ZERO_VECTOR, 2, 2, Database.Instance.GetEntry<GameDBSkill>("SKILL_NURSE_SPEC_RECEPTIONIST"), gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	else if (this.m_characterType == LopitalTypes.CharacterLabSpecialist || this.m_characterType == LopitalTypes.CharacterTechnologist || this.m_characterType == LopitalTypes.CharacterAdvancedBiochemist)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, 1, 1, null, gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	else if (this.m_characterType == LopitalTypes.CharacterUSGTechnologist)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, this.m_characterLevel, this.m_characterLevel, Database.Instance.GetEntry<GameDBSkill>("SKILL_LAB_SPECIALIST_SPEC_USG"), gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	else if (this.m_characterType == LopitalTypes.CharacterCardiolog)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, this.m_characterLevel, this.m_characterLevel, Database.Instance.GetEntry<GameDBSkill>("SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY"), gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	else if (this.m_characterType == LopitalTypes.CharacterNeurolog)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, this.m_characterLevel, this.m_characterLevel, Database.Instance.GetEntry<GameDBSkill>("SKILL_LAB_SPECIALIST_SPEC_NEUROLOGY"), gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	else if (this.m_characterType == LopitalTypes.CharacterRadiolog)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, 2, 2, Database.Instance.GetEntry<GameDBSkill>("SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY"), gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	else if (this.m_characterType == LopitalTypes.CharacterJanitor)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterJanitor(null, Vector2i.ZERO_VECTOR, 1, 1, null, gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	else if (this.m_characterType == LopitalTypes.CharacterPharmacologist)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, 2, 2, Database.Instance.GetEntry<GameDBSkill>("DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY"), gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	else if (this.m_characterType == LopitalTypes.CharacterVendorJanitor)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterJanitor(null, Vector2i.ZERO_VECTOR, 2, 2, Database.Instance.GetEntry<GameDBSkill>("DLC_SKILL_JANITOR_SPEC_VENDOR"), gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	else if (this.m_characterType == LopitalTypes.CharacterManagerJanitor)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterJanitor(null, Vector2i.ZERO_VECTOR, 2, 2, Database.Instance.GetEntry<GameDBSkill>("DLC_SKILL_JANITOR_SPEC_MANAGER"), gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	this.CreatePerkSets(this.m_character);
-	this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredLevel = this.m_character.GetComponent<EmployeeComponent>().m_state.m_level;
-	this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredSalaryRandomization = global::UnityEngine.Random.Range(0f, 1f);
-	this.m_character.GetComponent<EmployeeComponent>().m_state.m_employeeType = this.m_characterType;
-	PortraitManager.Instance.CreatePortraitSlot(this.m_character);
-	this.m_negativePerksCount = 0;
-	this.m_positivePerksCount = 0;
-	this.FillCharacterData();
+    this.DeleteCharacter();
+    this.SetCharacterLevel();
+    GameDBDepartment departmentType = Hospital.Instance.GetActiveDepartment().GetDepartmentType();
+    if (this.m_characterType == LopitalTypes.CharacterDoctor || this.m_characterType == LopitalTypes.CharacterDoctorWithInterns || this.m_characterType == LopitalTypes.CharacterSurgeon || this.m_characterType == LopitalTypes.CharacterAdvancedDiagnoses || this.m_characterType == LopitalTypes.CharacterAnesteziologist)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterDoctor(departmentType, null, Vector2i.ZERO_VECTOR, this.m_characterLevel, this.m_characterLevel, null, gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    else if (this.m_characterType == LopitalTypes.CharacterNurse || this.m_characterType == LopitalTypes.CharacterSurgeryNurse || this.m_characterType == LopitalTypes.CharacterSpecialistNurse)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterNurse(null, Vector2i.ZERO_VECTOR, 1, 1, null, gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    else if (this.m_characterType == LopitalTypes.CharacterReceptionist)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterNurse(null, Vector2i.ZERO_VECTOR, 2, 2, Database.Instance.GetEntry<GameDBSkill>("SKILL_NURSE_SPEC_RECEPTIONIST"), gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    else if (this.m_characterType == LopitalTypes.CharacterLabSpecialist || this.m_characterType == LopitalTypes.CharacterTechnologist || this.m_characterType == LopitalTypes.CharacterAdvancedBiochemist)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, 1, 1, null, gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    else if (this.m_characterType == LopitalTypes.CharacterUSGTechnologist)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, this.m_characterLevel, this.m_characterLevel, Database.Instance.GetEntry<GameDBSkill>("SKILL_LAB_SPECIALIST_SPEC_USG"), gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    else if (this.m_characterType == LopitalTypes.CharacterCardiolog)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, this.m_characterLevel, this.m_characterLevel, Database.Instance.GetEntry<GameDBSkill>("SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY"), gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    else if (this.m_characterType == LopitalTypes.CharacterNeurolog)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, this.m_characterLevel, this.m_characterLevel, Database.Instance.GetEntry<GameDBSkill>("SKILL_LAB_SPECIALIST_SPEC_NEUROLOGY"), gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    else if (this.m_characterType == LopitalTypes.CharacterRadiolog)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, 2, 2, Database.Instance.GetEntry<GameDBSkill>("SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY"), gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    else if (this.m_characterType == LopitalTypes.CharacterJanitor)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterJanitor(null, Vector2i.ZERO_VECTOR, 1, 1, null, gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    else if (this.m_characterType == LopitalTypes.CharacterPharmacologist)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, 2, 2, Database.Instance.GetEntry<GameDBSkill>("DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY"), gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    else if (this.m_characterType == LopitalTypes.CharacterVendorJanitor)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterJanitor(null, Vector2i.ZERO_VECTOR, 2, 2, Database.Instance.GetEntry<GameDBSkill>("DLC_SKILL_JANITOR_SPEC_VENDOR"), gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    else if (this.m_characterType == LopitalTypes.CharacterManagerJanitor)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterJanitor(null, Vector2i.ZERO_VECTOR, 2, 2, Database.Instance.GetEntry<GameDBSkill>("DLC_SKILL_JANITOR_SPEC_MANAGER"), gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    this.CreatePerkSets(this.m_character);
+    this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredLevel = this.m_character.GetComponent<EmployeeComponent>().m_state.m_level;
+    this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredSalaryRandomization = global::UnityEngine.Random.Range(0f, 1f);
+    this.m_character.GetComponent<EmployeeComponent>().m_state.m_employeeType = this.m_characterType;
+    PortraitManager.Instance.CreatePortraitSlot(this.m_character);
+    this.m_negativePerksCount = 0;
+    this.m_positivePerksCount = 0;
+    this.FillCharacterData();
 }
 ```
 
@@ -94,84 +94,84 @@ private void RandomizeCharacter(string gender = null)
 // Token: 0x06001EE1 RID: 7905
 private void RandomizeCharacter(string gender = null)
 {
-	this.DeleteCharacter();
-	this.SetCharacterLevel();
-	GameDBDepartment departmentType = Hospital.Instance.GetActiveDepartment().GetDepartmentType();
-	if (this.m_characterType == LopitalTypes.CharacterDoctor || this.m_characterType == LopitalTypes.CharacterDoctorWithInterns || this.m_characterType == LopitalTypes.CharacterSurgeon || this.m_characterType == LopitalTypes.CharacterAdvancedDiagnoses || this.m_characterType == LopitalTypes.CharacterAnesteziologist)
-	{
-		if ((departmentType.DatabaseID.ToString() == "DPT_ICU" || departmentType.DatabaseID.ToString() == "DLC_DPT_PATHOLOGY") && this.m_characterType == LopitalTypes.CharacterDoctor)
-		{
-			this.m_character = LopitalEntityFactory.CreateCharacterDoctor(departmentType, null, Vector2i.ZERO_VECTOR, 2, 2, null, gender);
-		}
-		else
-		{
-			this.m_character = LopitalEntityFactory.CreateCharacterDoctor(departmentType, null, Vector2i.ZERO_VECTOR, 4, 4, null, gender);
-		}
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	else if (this.m_characterType == LopitalTypes.CharacterNurse || this.m_characterType == LopitalTypes.CharacterSurgeryNurse || this.m_characterType == LopitalTypes.CharacterSpecialistNurse)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterNurse(null, Vector2i.ZERO_VECTOR, 2, 2, null, gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	else if (this.m_characterType == LopitalTypes.CharacterReceptionist)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterNurse(null, Vector2i.ZERO_VECTOR, 2, 2, Database.Instance.GetEntry<GameDBSkill>("SKILL_NURSE_SPEC_RECEPTIONIST"), gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	else if (this.m_characterType == LopitalTypes.CharacterLabSpecialist || this.m_characterType == LopitalTypes.CharacterTechnologist || this.m_characterType == LopitalTypes.CharacterAdvancedBiochemist)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, 1, 1, null, gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	else if (this.m_characterType == LopitalTypes.CharacterUSGTechnologist)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, this.m_characterLevel, this.m_characterLevel, Database.Instance.GetEntry<GameDBSkill>("SKILL_LAB_SPECIALIST_SPEC_USG"), gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	else if (this.m_characterType == LopitalTypes.CharacterCardiolog)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, this.m_characterLevel, this.m_characterLevel, Database.Instance.GetEntry<GameDBSkill>("SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY"), gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	else if (this.m_characterType == LopitalTypes.CharacterNeurolog)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, this.m_characterLevel, this.m_characterLevel, Database.Instance.GetEntry<GameDBSkill>("SKILL_LAB_SPECIALIST_SPEC_NEUROLOGY"), gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	else if (this.m_characterType == LopitalTypes.CharacterRadiolog)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, 2, 2, Database.Instance.GetEntry<GameDBSkill>("SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY"), gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	else if (this.m_characterType == LopitalTypes.CharacterJanitor)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterJanitor(null, Vector2i.ZERO_VECTOR, 1, 1, null, gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	else if (this.m_characterType == LopitalTypes.CharacterPharmacologist)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, 2, 2, Database.Instance.GetEntry<GameDBSkill>("DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY"), gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	else if (this.m_characterType == LopitalTypes.CharacterVendorJanitor)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterJanitor(null, Vector2i.ZERO_VECTOR, 2, 2, Database.Instance.GetEntry<GameDBSkill>("DLC_SKILL_JANITOR_SPEC_VENDOR"), gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	else if (this.m_characterType == LopitalTypes.CharacterManagerJanitor)
-	{
-		this.m_character = LopitalEntityFactory.CreateCharacterJanitor(null, Vector2i.ZERO_VECTOR, 2, 2, Database.Instance.GetEntry<GameDBSkill>("DLC_SKILL_JANITOR_SPEC_MANAGER"), gender);
-		this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
-	}
-	this.CreatePerkSets(this.m_character);
-	this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredLevel = this.m_character.GetComponent<EmployeeComponent>().m_state.m_level;
-	this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredSalaryRandomization = global::UnityEngine.Random.Range(0f, 1f);
-	this.m_character.GetComponent<EmployeeComponent>().m_state.m_employeeType = this.m_characterType;
-	PortraitManager.Instance.CreatePortraitSlot(this.m_character);
-	this.m_negativePerksCount = 0;
-	this.m_positivePerksCount = 0;
-	this.FillCharacterData();
+    this.DeleteCharacter();
+    this.SetCharacterLevel();
+    GameDBDepartment departmentType = Hospital.Instance.GetActiveDepartment().GetDepartmentType();
+    if (this.m_characterType == LopitalTypes.CharacterDoctor || this.m_characterType == LopitalTypes.CharacterDoctorWithInterns || this.m_characterType == LopitalTypes.CharacterSurgeon || this.m_characterType == LopitalTypes.CharacterAdvancedDiagnoses || this.m_characterType == LopitalTypes.CharacterAnesteziologist)
+    {
+        if ((departmentType.DatabaseID.ToString() == "DPT_ICU" || departmentType.DatabaseID.ToString() == "DLC_DPT_PATHOLOGY") && this.m_characterType == LopitalTypes.CharacterDoctor)
+        {
+            this.m_character = LopitalEntityFactory.CreateCharacterDoctor(departmentType, null, Vector2i.ZERO_VECTOR, 2, 2, null, gender);
+        }
+        else
+        {
+            this.m_character = LopitalEntityFactory.CreateCharacterDoctor(departmentType, null, Vector2i.ZERO_VECTOR, 4, 4, null, gender);
+        }
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    else if (this.m_characterType == LopitalTypes.CharacterNurse || this.m_characterType == LopitalTypes.CharacterSurgeryNurse || this.m_characterType == LopitalTypes.CharacterSpecialistNurse)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterNurse(null, Vector2i.ZERO_VECTOR, 2, 2, null, gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    else if (this.m_characterType == LopitalTypes.CharacterReceptionist)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterNurse(null, Vector2i.ZERO_VECTOR, 2, 2, Database.Instance.GetEntry<GameDBSkill>("SKILL_NURSE_SPEC_RECEPTIONIST"), gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    else if (this.m_characterType == LopitalTypes.CharacterLabSpecialist || this.m_characterType == LopitalTypes.CharacterTechnologist || this.m_characterType == LopitalTypes.CharacterAdvancedBiochemist)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, 1, 1, null, gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    else if (this.m_characterType == LopitalTypes.CharacterUSGTechnologist)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, this.m_characterLevel, this.m_characterLevel, Database.Instance.GetEntry<GameDBSkill>("SKILL_LAB_SPECIALIST_SPEC_USG"), gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    else if (this.m_characterType == LopitalTypes.CharacterCardiolog)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, this.m_characterLevel, this.m_characterLevel, Database.Instance.GetEntry<GameDBSkill>("SKILL_LAB_SPECIALIST_SPEC_CARDIOLOGY"), gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    else if (this.m_characterType == LopitalTypes.CharacterNeurolog)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, this.m_characterLevel, this.m_characterLevel, Database.Instance.GetEntry<GameDBSkill>("SKILL_LAB_SPECIALIST_SPEC_NEUROLOGY"), gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    else if (this.m_characterType == LopitalTypes.CharacterRadiolog)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, 2, 2, Database.Instance.GetEntry<GameDBSkill>("SKILL_LAB_SPECIALIST_SPEC_RADIOLOGY"), gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    else if (this.m_characterType == LopitalTypes.CharacterJanitor)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterJanitor(null, Vector2i.ZERO_VECTOR, 1, 1, null, gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    else if (this.m_characterType == LopitalTypes.CharacterPharmacologist)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterLabSpecialist(departmentType, null, Vector2i.ZERO_VECTOR, 2, 2, Database.Instance.GetEntry<GameDBSkill>("DLC_SKILL_LAB_SPECIALIST_SPEC_PHARMACOLOGY"), gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    else if (this.m_characterType == LopitalTypes.CharacterVendorJanitor)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterJanitor(null, Vector2i.ZERO_VECTOR, 2, 2, Database.Instance.GetEntry<GameDBSkill>("DLC_SKILL_JANITOR_SPEC_VENDOR"), gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    else if (this.m_characterType == LopitalTypes.CharacterManagerJanitor)
+    {
+        this.m_character = LopitalEntityFactory.CreateCharacterJanitor(null, Vector2i.ZERO_VECTOR, 2, 2, Database.Instance.GetEntry<GameDBSkill>("DLC_SKILL_JANITOR_SPEC_MANAGER"), gender);
+        this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredForDepartment = departmentType;
+    }
+    this.CreatePerkSets(this.m_character);
+    this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredLevel = this.m_character.GetComponent<EmployeeComponent>().m_state.m_level;
+    this.m_character.GetComponent<EmployeeComponent>().m_state.m_hiredSalaryRandomization = global::UnityEngine.Random.Range(0f, 1f);
+    this.m_character.GetComponent<EmployeeComponent>().m_state.m_employeeType = this.m_characterType;
+    PortraitManager.Instance.CreatePortraitSlot(this.m_character);
+    this.m_negativePerksCount = 0;
+    this.m_positivePerksCount = 0;
+    this.FillCharacterData();
 }
 ```
 
@@ -213,28 +213,28 @@ public int ResolveComplainedAboutHazardousSymptoms()
 // Token: 0x060015AE RID: 5550 RVA: 0x000E172C File Offset: 0x000DF92C
 public int ResolveComplainedAboutHazardousSymptoms()
 {
-	int num = 0;
-	BehaviorPatient component = this.m_stateData.m_procedureScene.m_patient.GetEntity().GetComponent<BehaviorPatient>();
-	for (int i = 0; i < component.m_state.m_medicalCondition.GetSpawnedSymptomCount(); i++)
-	{
-		Symptom symptom = component.m_state.m_medicalCondition.m_symptoms[i];
-		if (symptom.m_hidden && symptom.m_symptom.Entry.Hazard >= BehaviorPatient.HAZARD_LEVEL_FOR_RECEPTION && symptom.m_patientKnowsAndComplains)
-		{
-			component.m_state.m_medicalCondition.m_symptoms[i].m_hidden = false;
-			num++;
-		}
-		else if (symptom.m_hidden && symptom.m_symptom.Entry.Hazard == SymptomHazard.Low && global::UnityEngine.Random.Range(0f, 1f) <= 0.8f)
-		{
-			component.m_state.m_medicalCondition.m_symptoms[i].m_hidden = false;
-			num++;
-		}
-		else if (symptom.m_hidden && symptom.m_symptom.Entry.Hazard >= SymptomHazard.High && global::UnityEngine.Random.Range(0f, 1f) <= 0.1f)
-		{
-			component.m_state.m_medicalCondition.m_symptoms[i].m_hidden = false;
-			num++;
-		}
-	}
-	return num;
+    int num = 0;
+    BehaviorPatient component = this.m_stateData.m_procedureScene.m_patient.GetEntity().GetComponent<BehaviorPatient>();
+    for (int i = 0; i < component.m_state.m_medicalCondition.GetSpawnedSymptomCount(); i++)
+    {
+        Symptom symptom = component.m_state.m_medicalCondition.m_symptoms[i];
+        if (symptom.m_hidden && symptom.m_symptom.Entry.Hazard >= BehaviorPatient.HAZARD_LEVEL_FOR_RECEPTION && symptom.m_patientKnowsAndComplains)
+        {
+            component.m_state.m_medicalCondition.m_symptoms[i].m_hidden = false;
+            num++;
+        }
+        else if (symptom.m_hidden && symptom.m_symptom.Entry.Hazard == SymptomHazard.Low && global::UnityEngine.Random.Range(0f, 1f) <= 0.8f)
+        {
+            component.m_state.m_medicalCondition.m_symptoms[i].m_hidden = false;
+            num++;
+        }
+        else if (symptom.m_hidden && symptom.m_symptom.Entry.Hazard >= SymptomHazard.High && global::UnityEngine.Random.Range(0f, 1f) <= 0.1f)
+        {
+            component.m_state.m_medicalCondition.m_symptoms[i].m_hidden = false;
+            num++;
+        }
+    }
+    return num;
 }
 ```
 
@@ -249,17 +249,17 @@ public int ResolveComplainedAboutHazardousSymptoms()
 // Token: 0x0200012F RID: 303
 public enum SymptomHazard
 {
-	// Token: 0x04000B03 RID: 2819
-	Unknown,
-	// Token: 0x04000B04 RID: 2820
-	None,
-	// Token: 0x04000B05 RID: 2821
-	Low,
-	// Token: 0x04000B06 RID: 2822
-	Medium,
-	// Token: 0x04000B07 RID: 2823
-	High,
-	// Token: 0x04000B08 RID: 2824
-	Positive
+    // Token: 0x04000B03 RID: 2819
+    Unknown,
+    // Token: 0x04000B04 RID: 2820
+    None,
+    // Token: 0x04000B05 RID: 2821
+    Low,
+    // Token: 0x04000B06 RID: 2822
+    Medium,
+    // Token: 0x04000B07 RID: 2823
+    High,
+    // Token: 0x04000B08 RID: 2824
+    Positive
 }
 ```
