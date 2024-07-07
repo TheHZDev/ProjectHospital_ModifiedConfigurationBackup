@@ -229,7 +229,7 @@
         <LabTestingExaminationRef>EXM_BACTERIA_CULTIVATION_TESTING</LabTestingExaminationRef>
     </GameDBExamination>
 
-    <GameDBExamination ID="EXM_BACTERIA_CULTIVATION_TESTING">
+    <GameDBExamination ID="EXM_BACTERIA_CULTIVATION_TESTING"><!--微生物培养-->
         <AbbreviationLocID>EXM_BACTERIA_CULTIVATION_TESTING_DESCRIPTION_1_1</AbbreviationLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <Procedure>
@@ -295,7 +295,7 @@
         <ExaminationType>EXAMINATION</ExaminationType>
         <Cost>50</Cost>
         <IconIndex>1663</IconIndex>
-        <DurationHours>0</DurationHours>
+        <DurationHours>1</DurationHours>
     </GameDBExamination>
 
     <GameDBExamination ID="EXM_BARRIUM_SWALLOV_X_RAY">
@@ -464,7 +464,7 @@
         <LabTestingExaminationRef>EXM_BIOPSY_TESTING</LabTestingExaminationRef>
     </GameDBExamination>
 
-    <GameDBExamination ID="EXM_BIOPSY_TESTING">
+    <GameDBExamination ID="EXM_BIOPSY_TESTING"><!--活组织检查 - 测试-->
         <AbbreviationLocID>EXM_BIOPSY_TESTING_DESCRIPTION_1_1</AbbreviationLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <Procedure>
@@ -532,7 +532,7 @@
         <ExaminationType>EXAMINATION</ExaminationType>
         <Cost>50</Cost>
         <IconIndex>1711</IconIndex>
-        <DurationHours>0</DurationHours>
+        <DurationHours>1</DurationHours>
     </GameDBExamination>
 
     <GameDBExamination ID="EXM_BLOOD_PRESSURE_AND_PULSE_MEASUREMENT">
@@ -1546,7 +1546,7 @@
         <LabTestingExaminationRef>EXM_FECAL_ELASTASE_TEST_TESTING</LabTestingExaminationRef>
     </GameDBExamination>
 
-    <GameDBExamination ID="EXM_FECAL_ELASTASE_TEST_TESTING">
+    <GameDBExamination ID="EXM_FECAL_ELASTASE_TEST_TESTING"><!--弹性蛋白酶检查 - 测试-->
         <AbbreviationLocID>EXM_FECAL_ELASTASE_TEST_TESTING_DESCRIPTION_1_1</AbbreviationLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <Procedure>
@@ -1593,7 +1593,7 @@
         </Procedure>
         <Cost>50</Cost>
         <IconIndex>1695</IconIndex>
-        <DurationHours>2</DurationHours>
+        <DurationHours>1</DurationHours>
     </GameDBExamination>
 
     <GameDBExamination ID="EXM_FUNGAL_CULTIVATION_SAMPLING">
@@ -1651,7 +1651,7 @@
         <LabTestingExaminationRef>EXM_FUNGAL_CULTIVATION_TESTING</LabTestingExaminationRef>
     </GameDBExamination>
 
-    <GameDBExamination ID="EXM_FUNGAL_CULTIVATION_TESTING">
+    <GameDBExamination ID="EXM_FUNGAL_CULTIVATION_TESTING"><!--真菌培养-->
         <AbbreviationLocID>EXM_FUNGAL_CULTIVATION_TESTING_DESCRIPTION_1_1</AbbreviationLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <Procedure>
@@ -1707,7 +1707,7 @@
         </Procedure>
         <Cost>50</Cost>
         <IconIndex>1647</IconIndex>
-        <DurationHours>2</DurationHours>
+        <DurationHours>1</DurationHours>
     </GameDBExamination>
 
     <GameDBExamination ID="EXM_GASTROSCOPY">
@@ -2481,7 +2481,7 @@
         <LabTestingExaminationRef>EXM_PERITONEAL_FLUID_ANALYSIS_TESTING</LabTestingExaminationRef>
     </GameDBExamination>
 
-    <GameDBExamination ID="EXM_PERITONEAL_FLUID_ANALYSIS_TESTING">
+    <GameDBExamination ID="EXM_PERITONEAL_FLUID_ANALYSIS_TESTING"><!--腹膜液分析 - 测试-->
         <AbbreviationLocID>EXM_PERITONEAL_FLUID_ANALYSIS_TESTING_DESCRIPTION_1_1</AbbreviationLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <Procedure>
@@ -2532,7 +2532,7 @@
         </Procedure>
         <Cost>50</Cost>
         <IconIndex>1711</IconIndex>
-        <DurationHours>2</DurationHours>
+        <DurationHours>1</DurationHours>
     </GameDBExamination>
 
     <GameDBExamination ID="EXM_PHYSICAL_AND_VISUAL_EXAMINATION">
@@ -2956,7 +2956,7 @@
         <LabTestingExaminationRef>EXM_SPINAL_FLUID_ANALYSIS_TESTING</LabTestingExaminationRef>
     </GameDBExamination>
 
-    <GameDBExamination ID="EXM_SPINAL_FLUID_ANALYSIS_TESTING">
+    <GameDBExamination ID="EXM_SPINAL_FLUID_ANALYSIS_TESTING"><!--脑脊液分析 - 测试-->
         <AbbreviationLocID>EXM_SPINAL_FLUID_ANALYSIS_TESTING_DESCRIPTION_1_1</AbbreviationLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <Procedure>
@@ -3007,7 +3007,7 @@
         </Procedure>
         <Cost>50</Cost>
         <IconIndex>1711</IconIndex>
-        <DurationHours>2</DurationHours>
+        <DurationHours>1</DurationHours>
     </GameDBExamination>
 
     <GameDBExamination ID="EXM_SPIROMETRY">
@@ -3115,7 +3115,7 @@
         <LabTestingExaminationRef>EXM_STOOL_ANALYSIS_TESTING</LabTestingExaminationRef>
     </GameDBExamination>
 
-    <GameDBExamination ID="EXM_STOOL_ANALYSIS_TESTING">
+    <GameDBExamination ID="EXM_STOOL_ANALYSIS_TESTING"><!--粪便分析-->
         <AbbreviationLocID>EXM_STOOL_ANALYSIS_TESTING_DESCRIPTION_1_1</AbbreviationLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <Procedure>
@@ -3163,7 +3163,7 @@
         </Procedure>
         <Cost>50</Cost>
         <IconIndex>1643</IconIndex>
-        <DurationHours>2</DurationHours>
+        <DurationHours>1</DurationHours>
     </GameDBExamination>
 
     <GameDBExamination ID="EXM_SWEAT_CHLORIDE_TEST">
@@ -3536,7 +3536,7 @@
         <LabTestingExaminationRef>EXM_URINE_SAMPLE_ANALYSIS_TESTING</LabTestingExaminationRef>
     </GameDBExamination>
 
-    <GameDBExamination ID="EXM_URINE_SAMPLE_ANALYSIS_TESTING">
+    <GameDBExamination ID="EXM_URINE_SAMPLE_ANALYSIS_TESTING"><!--尿液分析 - 测试-->
         <AbbreviationLocID>EXM_URINE_SAMPLE_ANALYSIS_TESTING_DESCRIPTION_1_1</AbbreviationLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <Procedure>
@@ -3585,7 +3585,7 @@
         </Procedure>
         <Cost>50</Cost>
         <IconIndex>1691</IconIndex>
-        <DurationHours>2</DurationHours>
+        <DurationHours>1</DurationHours>
     </GameDBExamination>
 
     <GameDBExamination ID="EXM_USG">
